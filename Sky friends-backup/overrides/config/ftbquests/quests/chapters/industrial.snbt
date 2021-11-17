@@ -1,0 +1,1160 @@
+{
+	id: "7E45420A91B27B9F"
+	group: ""
+	order_index: 15
+	filename: "industrial"
+	title: "Industrial"
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "industrialforegoing:industrial_foregoing"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["you need the dissolution chamber in many recipes, start early to automate them "]
+			dependencies: ["54739507206C9A18"]
+			id: "12308D6654A75B53"
+			tasks: [{
+				id: "25D98C4C6F9FC877"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [{
+				id: "35829746BE55BD57"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["this machin will kill mobs and produc liquid meat and Pink slime"]
+			dependencies: ["54739507206C9A18"]
+			id: "08A6D13F5BF24F92"
+			tasks: [{
+				id: "64B7CCE83E69DF9B"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [
+				{
+					id: "7B7EBD55CE75F4A6"
+					type: "item"
+					item: {
+						id: "ftblibrary:fluid_container"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "industrialforegoing:meat"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "7114DC4F4EA4F4EE"
+					type: "item"
+					item: {
+						id: "ftblibrary:fluid_container"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "industrialforegoing:pink_slime"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "76DCC5CBD170F923"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 9.350000000000016d
+			y: -0.053273809523815885d
+			dependencies: ["25D98C4C6F9FC877"]
+			id: "5C3F37581466175F"
+			tasks: [{
+				id: "2A8AC0F108721394"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			rewards: [
+				{
+					id: "6DBE404E8A642568"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "15FFF47B4F90AEA9"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: 10.627380952380967d
+			y: 5.1876488095238d
+			dependencies: [
+				"2A8AC0F108721394"
+				"25D98C4C6F9FC877"
+			]
+			id: "5B80EF4AA0134D36"
+			tasks: [{
+				id: "087295D8C3E5852A"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			rewards: [
+				{
+					id: "46DC5EE60F9A6E08"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "6BAD6CB81CBC5506"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["mechanical dirt will spawn mobs as long as you supply in with liquid meat and energy, you can controll this with redstone"]
+			dependencies: [
+				"25D98C4C6F9FC877"
+				"54739507206C9A18"
+			]
+			optional: true
+			id: "4D3BB5D3A29E968A"
+			tasks: [{
+				id: "6405DB1E7B284D45"
+				type: "item"
+				item: "industrialforegoing:mechanical_dirt"
+			}]
+			rewards: [{
+				id: "6656DACF676B16AE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Tier 1 Machinen"
+			x: 1.4880952380952621d
+			y: -0.2485119047619122d
+			dependencies: ["40860B81DCA013D4"]
+			id: "54739507206C9A18"
+			tasks: [{
+				id: "417F07E6BCDBFEF1"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			rewards: [
+				{
+					id: "7CB36495E3D603B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "66B4AA94190BE516"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["54739507206C9A18"]
+			id: "220DADED7B3F5644"
+			tasks: [{
+				id: "0D7EC4993E995DE8"
+				type: "item"
+				item: "industrialforegoing:plant_gatherer"
+			}]
+			rewards: [{
+				id: "1D892E37EC47BA72"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["this machin will plant trees and crops for your"]
+			dependencies: ["54739507206C9A18"]
+			id: "0351976831758F39"
+			tasks: [{
+				id: "638D3424D134AB78"
+				type: "item"
+				item: "industrialforegoing:plant_sower"
+			}]
+			rewards: [{
+				id: "649A820A9AEF9BEF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["54739507206C9A18"]
+			id: "15FE68EDDD0E5D8E"
+			tasks: [{
+				id: "0400788B9DEB353C"
+				type: "item"
+				item: "industrialforegoing:bioreactor"
+			}]
+			rewards: [{
+				id: "43B0A3340A1AF927"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: ["You can make any dye with this machine"]
+			dependencies: ["54739507206C9A18"]
+			optional: true
+			id: "620DB6DD97E26C31"
+			tasks: [{
+				id: "412FCDD02D36EA13"
+				type: "item"
+				item: "industrialforegoing:dye_mixer"
+			}]
+			rewards: [
+				{
+					id: "20611BD255D3E105"
+					type: "item"
+					item: "minecraft:black_dye"
+				}
+				{
+					id: "7A8159A15A831AA4"
+					type: "item"
+					item: "minecraft:brown_dye"
+				}
+				{
+					id: "40995C82B8905A95"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["This furnace can melt items and produce a tiny amount of liquid essence. You can speed this up with energy and efficiency upgrades."]
+			dependencies: ["54739507206C9A18"]
+			optional: true
+			id: "1961BAFC7819F196"
+			tasks: [{
+				id: "7512F03A45C4C854"
+				type: "item"
+				item: "industrialforegoing:resourceful_furnace"
+			}]
+			rewards: [
+				{
+					id: "687709F7DC27C42A"
+					type: "item"
+					item: {
+						id: "ftblibrary:fluid_container"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "industrialforegoing:essence"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "4D6E2C154728284A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["54739507206C9A18"]
+			id: "46F1926B9921C580"
+			tasks: [{
+				id: "0035728F95CB4F4F"
+				type: "item"
+				item: "industrialforegoing:spores_recreator"
+			}]
+			rewards: [
+				{
+					id: "07D2373464B5BF8D"
+					type: "item"
+					item: "minecraft:warped_fungus"
+				}
+				{
+					id: "1A1C51526093D687"
+					type: "item"
+					item: "minecraft:crimson_fungus"
+				}
+				{
+					id: "1E1D236503ACB377"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["54739507206C9A18"]
+			optional: true
+			id: "4BBECE357A228A0A"
+			tasks: [{
+				id: "13FD361A6D1D69B0"
+				type: "item"
+				item: "industrialforegoing:water_condensator"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["54739507206C9A18"]
+			optional: true
+			id: "4CBC7C2F8C2F6E74"
+			tasks: [{
+				id: "59EEFC35D3A2B8CD"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_unit"
+			}]
+			rewards: [{
+				id: "757CF8B153A897AA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			dependencies: ["320F364684775020"]
+			id: "150CE923910D6F7C"
+			tasks: [{
+				id: "40A142B57A30C72E"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "05928EDC5AA5A9B0"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+					}
+				}
+				{
+					id: "55E43B8FD96D0269"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "47867A0E51C74AE3"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: 8.579761904761916d
+			y: -1.002827380952393d
+			dependencies: ["5C3F37581466175F"]
+			id: "518B6F17B8CACCE2"
+			tasks: [{
+				id: "02129E876E5619C3"
+				type: "item"
+				item: "industrialforegoing:laser_drill"
+			}]
+			rewards: [{
+				id: "08BC024AF9BCA35F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.960714285714303d
+			y: 4.75907738095237d
+			dependencies: ["5B80EF4AA0134D36"]
+			id: "0AADE85479B18DD9"
+			tasks: [{
+				id: "09588B1B4FA949B3"
+				type: "item"
+				item: "industrialforegoing:enchantment_factory"
+			}]
+			rewards: [{
+				id: "4436EAAA89BD390D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.484523809523822d
+			y: -2.1456845238095354d
+			id: "6EDEE959B23700EC"
+			tasks: [{
+				id: "6696F14D70D4A808"
+				type: "item"
+				item: "industrialforegoing:biofuel_generator"
+			}]
+			rewards: [{
+				id: "1FBFE059FAF0DFC6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.960714285714296d
+			y: -1.0504464285714405d
+			dependencies: ["5C3F37581466175F"]
+			id: "76B44439A85FE0C4"
+			tasks: [{
+				id: "78A1D26F2815561E"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_tank"
+			}]
+			rewards: [{
+				id: "10F9D014FBECD045"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.24642857142858d
+			y: 0.8543154761904646d
+			dependencies: ["5C3F37581466175F"]
+			id: "051ED0C246354D5B"
+			tasks: [{
+				id: "2765A6D79FBE461C"
+				type: "item"
+				item: "industrialforegoing:marine_fisher"
+			}]
+			rewards: [{
+				id: "068CBC47DDDA2E49"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.722619047619062d
+			y: 0.8543154761904646d
+			dependencies: ["5C3F37581466175F"]
+			id: "2F6DE24D7B911B9B"
+			tasks: [{
+				id: "4073FEDAB04CE99F"
+				type: "item"
+				item: "industrialforegoing:fermentation_station"
+			}]
+			rewards: [{
+				id: "5F12026172407772"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.7690476190476119d
+			y: 8.56577380952379d
+			dependencies: ["2A8AC0F108721394"]
+			id: "522F19D3C15BEA40"
+			tasks: [{
+				id: "1BF8F4707DFF737F"
+				type: "item"
+				item: "industrialforegoing:mycelial_furnace"
+			}]
+		}
+		{
+			x: 3.5797619047619236d
+			y: 8.997172619047618d
+			dependencies: ["087295D8C3E5852A"]
+			id: "6ED54D2E36E16A68"
+			tasks: [{
+				id: "2BEC3F51D9C5DCA0"
+				type: "item"
+				item: "industrialforegoing:mycelial_slimey"
+			}]
+		}
+		{
+			x: -0.5785714285714221d
+			y: 9.3752976190476d
+			dependencies: ["2A8AC0F108721394"]
+			id: "4B6205DE5840E9DD"
+			tasks: [{
+				id: "059AF108C8B934D7"
+				type: "item"
+				item: "industrialforegoing:mycelial_culinary"
+			}]
+		}
+		{
+			x: 1.1833333333333442d
+			y: 6.041964285714265d
+			dependencies: ["087295D8C3E5852A"]
+			id: "7BF481FB3CCAB39A"
+			tasks: [{
+				id: "13B9F1381643E7F8"
+				type: "item"
+				item: "industrialforegoing:mycelial_potion"
+			}]
+		}
+		{
+			x: 0.278571428571432d
+			y: 6.280059523809506d
+			dependencies: ["087295D8C3E5852A"]
+			id: "4C7203B21B343F9E"
+			tasks: [{
+				id: "2944AB90CBC829AB"
+				type: "item"
+				item: "industrialforegoing:mycelial_disenchantment"
+			}]
+		}
+		{
+			x: -0.5309523809523782d
+			y: 6.56577380952379d
+			dependencies: ["087295D8C3E5852A"]
+			id: "4A831A6A8A388A7E"
+			tasks: [{
+				id: "2B7E469326596A57"
+				type: "item"
+				item: "industrialforegoing:mycelial_explosive"
+			}]
+		}
+		{
+			x: 0.08809523809524222d
+			y: 9.94672619047617d
+			dependencies: ["2A8AC0F108721394"]
+			id: "3AB64DD628B0EA98"
+			tasks: [{
+				id: "59A535DCC2FBCEF0"
+				type: "item"
+				item: "industrialforegoing:mycelial_frosty"
+			}]
+		}
+		{
+			x: 2.055952380952398d
+			y: 10.092410714285712d
+			dependencies: ["73221AD11B50E069"]
+			id: "5D295B27B3ACFBCE"
+			tasks: [{
+				id: "595E0183AF0212AD"
+				type: "item"
+				item: "industrialforegoing:mycelial_halitosis"
+			}]
+		}
+		{
+			x: 2.0880952380952422d
+			y: 6.184821428571411d
+			dependencies: ["087295D8C3E5852A"]
+			id: "494A3E68E484BA8A"
+			tasks: [{
+				id: "02CA13C926BB821E"
+				type: "item"
+				item: "industrialforegoing:mycelial_magma"
+			}]
+		}
+		{
+			x: -0.8166666666666558d
+			y: 7.708630952380936d
+			dependencies: ["2A8AC0F108721394"]
+			id: "084714BEEC559E2B"
+			tasks: [{
+				id: "114F6A879580A84F"
+				type: "item"
+				item: "industrialforegoing:mycelial_pink"
+			}]
+		}
+		{
+			x: 3.0404761904761983d
+			y: 6.518154761904746d
+			dependencies: ["087295D8C3E5852A"]
+			id: "5111B154718F937F"
+			tasks: [{
+				id: "5A642AC1868302B6"
+				type: "item"
+				item: "industrialforegoing:mycelial_death"
+			}]
+		}
+		{
+			x: 3.6595238095238116d
+			y: 7.232440476190462d
+			dependencies: ["087295D8C3E5852A"]
+			id: "6F7F3CBC20138B51"
+			tasks: [{
+				id: "610EA677FFD335AB"
+				type: "item"
+				item: "industrialforegoing:mycelial_rocket"
+			}]
+		}
+		{
+			x: 3.8023809523809575d
+			y: 8.18482142857141d
+			dependencies: ["087295D8C3E5852A"]
+			id: "5FE593C1DD0FF5A0"
+			tasks: [{
+				id: "7D2970278F06D43F"
+				type: "item"
+				item: "industrialforegoing:mycelial_crimed"
+			}]
+		}
+		{
+			x: 2.7702380952381134d
+			y: 9.663839285714282d
+			dependencies: ["73221AD11B50E069"]
+			id: "25E5FFAACA91C95C"
+			tasks: [{
+				id: "6C578EB74A9B67AD"
+				type: "item"
+				item: "industrialforegoing:mycelial_meatallurgic"
+			}]
+		}
+		{
+			x: 1.373809523809534d
+			y: 7.946726190476177d
+			description: ["This Reactor Produs 25M RF/t, but your must be run all Mycelial Generator at the sem time"]
+			dependencies: [
+				"5FE593C1DD0FF5A0"
+				"4B6205DE5840E9DD"
+				"5111B154718F937F"
+				"4C7203B21B343F9E"
+				"4A831A6A8A388A7E"
+				"3AB64DD628B0EA98"
+				"522F19D3C15BEA40"
+				"5D295B27B3ACFBCE"
+				"494A3E68E484BA8A"
+				"25E5FFAACA91C95C"
+				"084714BEEC559E2B"
+				"7BF481FB3CCAB39A"
+				"6F7F3CBC20138B51"
+				"6ED54D2E36E16A68"
+				"0ADA9EE0FD568761"
+			]
+			id: "010FD73287F9F19C"
+			tasks: [{
+				id: "23563D202D94F2FF"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+			rewards: [{
+				id: "395D9E18F61C92B4"
+				type: "xp"
+				xp: 10000
+			}]
+		}
+		{
+			x: 10.294047619047639d
+			y: 3.8543154761904646d
+			subtitle: "With the Fluid laser you can creat fluid by use different lenses. see JEI"
+			dependencies: ["5B80EF4AA0134D36"]
+			id: "11622FDFD1A5D99F"
+			tasks: [{
+				id: "47B7274BE706BEC3"
+				type: "item"
+				item: "industrialforegoing:fluid_laser_base"
+			}]
+			rewards: [
+				{
+					id: "2D1EDE22AF075A2B"
+					type: "item"
+					item: "industrialforegoing:laser_lens8"
+				}
+				{
+					id: "0BD7B02B8AB002B0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 11.151190476190493d
+			y: 3.8066964285714207d
+			subtitle: "With the Ore laser you can creat Ores by use different lenses. see JEI"
+			dependencies: ["5B80EF4AA0134D36"]
+			id: "7DFE3F6D13EE613E"
+			tasks: [{
+				id: "0B07D1CC40C5749F"
+				type: "item"
+				item: "industrialforegoing:ore_laser_base"
+			}]
+			rewards: [
+				{
+					id: "560E7D875112D8C1"
+					type: "item"
+					item: "industrialforegoing:laser_lens8"
+				}
+				{
+					id: "5C556DD10ACD0CC9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 11.865476190476201d
+			y: 4.282886904761895d
+			dependencies: ["5B80EF4AA0134D36"]
+			id: "10C4883E35AEB8E5"
+			tasks: [{
+				id: "53B68CB04F6A5790"
+				type: "item"
+				item: "industrialforegoing:enchantment_extractor"
+			}]
+			rewards: [{
+				id: "267AA5F56E858C92"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 12.198809523809544d
+			y: 5.092410714285705d
+			dependencies: ["5B80EF4AA0134D36"]
+			id: "42A7D872332FBB31"
+			tasks: [{
+				id: "4A2E2D1AA3623F0C"
+				type: "item"
+				item: "industrialforegoing:mob_duplicator"
+			}]
+			rewards: [
+				{
+					id: "2F9D717DE27E94DF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4A9C1A6BF7AFADFC"
+					type: "item"
+					item: {
+						id: "ftblibrary:fluid_container"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "industrialforegoing:essence"
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.913095238095252d
+			y: 5.8543154761904646d
+			dependencies: ["5B80EF4AA0134D36"]
+			id: "1F7734A3A6A6C0FF"
+			tasks: [{
+				id: "153EECB5B46BAC65"
+				type: "item"
+				item: "industrialforegoing:stasis_chamber"
+			}]
+			rewards: [{
+				id: "2AE46FCFC65B7204"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.151190476190493d
+			y: 6.37812499999999d
+			dependencies: ["5B80EF4AA0134D36"]
+			id: "5560308F2873F03E"
+			tasks: [{
+				id: "36BA3248C45A716A"
+				type: "item"
+				item: "industrialforegoing:infinity_charger"
+			}]
+			rewards: [{
+				id: "5703D1260B7530C8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.294047619047639d
+			y: 6.616220238095231d
+			dependencies: ["5B80EF4AA0134D36"]
+			id: "3A13D8DCFD61BA99"
+			tasks: [{
+				id: "7064669517E29C91"
+				type: "item"
+				item: "industrialforegoing:material_stonework_factory"
+			}]
+			rewards: [{
+				id: "714C20FDF45054F9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.484523809523829d
+			y: 6.282886904761895d
+			dependencies: ["5B80EF4AA0134D36"]
+			id: "2C031E921BF72AB5"
+			tasks: [{
+				id: "5CE1AE833C387679"
+				type: "item"
+				item: "industrialforegoing:potion_brewer"
+			}]
+			rewards: [{
+				id: "1F4F7376244FC7CD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.055952380952398d
+			y: 5.56860119047618d
+			dependencies: ["5B80EF4AA0134D36"]
+			id: "341BE041667E8E3A"
+			tasks: [{
+				id: "2A09F17790563D70"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+			rewards: [{
+				id: "6DEC5874D0B14A38"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 13.294047619047625d
+			y: 5.187648809523793d
+			dependencies: ["42A7D872332FBB31"]
+			id: "60F8A8C889A79E09"
+			tasks: [{
+				id: "4422BB76959949D4"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+			rewards: [
+				{
+					id: "1AC06EFACE6462FB"
+					type: "item"
+					item: "industrialforegoing:mob_imprisonment_tool"
+				}
+				{
+					id: "471AFF9ADC24BF0D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 9.484523809523829d
+			y: 4.092410714285705d
+			dependencies: ["5B80EF4AA0134D36"]
+			id: "3D852660BB387836"
+			tasks: [{
+				id: "0A8FD3892CFF14E0"
+				type: "item"
+				item: "industrialforegoing:fluid_sieving_machine"
+			}]
+			rewards: [{
+				id: "22326FE1EFEA4134"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.2464285714285879d
+			y: 10.140029761904756d
+			dependencies: ["73221AD11B50E069"]
+			id: "0ADA9EE0FD568761"
+			tasks: [{
+				id: "18D5D0C55830E439"
+				type: "item"
+				item: "industrialforegoing:mycelial_netherstar"
+			}]
+		}
+		{
+			x: 8.913095238095252d
+			y: 9.37812499999999d
+			dependencies: ["087295D8C3E5852A"]
+			id: "0FD26CF82545B256"
+			tasks: [{
+				id: "73221AD11B50E069"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+			rewards: [
+				{
+					id: "572316E2C794006A"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "68BE5F13F6D18A97"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 9.913095238095252d
+			y: 8.854315476190465d
+			dependencies: ["0FD26CF82545B256"]
+			id: "2C8C961E2D91678D"
+			tasks: [{
+				id: "45F05AB56605ED0B"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+			rewards: [
+				{
+					id: "60005549376B7606"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 32
+				}
+				{
+					id: "29B7C15FCB7DFFE9"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 15
+				}
+				{
+					id: "030344667CB6198D"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "08E5D15D33539DCC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 9.62738095238096d
+			y: 10.187648809523793d
+			dependencies: ["0FD26CF82545B256"]
+			id: "4B1A3BA4D3A03388"
+			tasks: [{
+				id: "296E2B8560E08569"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+			rewards: [{
+				id: "0A7176B503487306"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.246428571428588d
+			y: 10.1876488095238d
+			dependencies: ["0FD26CF82545B256"]
+			id: "717D44773EA3FB63"
+			tasks: [{
+				id: "35470617A40797F7"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+			rewards: [{
+				id: "7E812050B8C02742"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 16.48452380952382d
+			y: -2.050446428571444d
+			id: "2B6770A3E39D858D"
+			tasks: [{
+				id: "03F938AF1327450B"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+			rewards: [{
+				id: "3B0AAE91292C6498"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 16.00833333333334d
+			y: -1.1456845238095426d
+			description: ["Ether Gas can your make, just put a Fluid base on top from Wither with a Purple lens, !!!WARNING: the Wither Explodes one time use a Stasis Chamber"]
+			dependencies: ["47B7274BE706BEC3"]
+			id: "54BE989F75A2DA59"
+			tasks: [
+				{
+					id: "7A4CF3634F6B44A4"
+					type: "item"
+					item: "industrialforegoing:ether_gas_bucket"
+				}
+				{
+					id: "51E1BDA98C575891"
+					type: "item"
+					item: "industrialforegoing:laser_lens10"
+				}
+			]
+			rewards: [{
+				id: "52BA8AC37A047C9B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			dependencies: ["25D98C4C6F9FC877"]
+			id: "6B7D5DEA72AFC632"
+			tasks: [{
+				id: "487742B905628C33"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.9f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2B416331BB8F72D4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 16.5d
+			y: 0.0d
+			dependencies: ["25D98C4C6F9FC877"]
+			id: "416A672F60022A2C"
+			tasks: [{
+				id: "6A5348B16F5B987F"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.8f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B04562319E9780A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.5d
+			y: 1.0d
+			dependencies: ["25D98C4C6F9FC877"]
+			id: "36694DF1DED983F4"
+			tasks: [{
+				id: "0CE8C29F1ABF1450"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 2.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "390A925969178261"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 16.5d
+			y: 1.0d
+			dependencies: ["25D98C4C6F9FC877"]
+			id: "7C9522076554264A"
+			tasks: [{
+				id: "02286F35BF81421F"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B443D99A44797A5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.5d
+			y: 2.0d
+			dependencies: ["25D98C4C6F9FC877"]
+			id: "52EED83645CB7215"
+			tasks: [{
+				id: "3461643991DA48FD"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 2.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "19CA4225F6D2C771"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 16.5d
+			y: 2.0d
+			dependencies: ["25D98C4C6F9FC877"]
+			id: "357F8C36B8B4ADBC"
+			tasks: [{
+				id: "693E3391093E2C10"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 3.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5EE707D1A38777C4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

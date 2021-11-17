@@ -1,0 +1,627 @@
+{
+	id: "1CE5758813D7DB88"
+	group: ""
+	order_index: 2
+	filename: "storage"
+	title: "storage"
+	icon: "storagedrawers:oak_full_drawers_1"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -2.5d
+			id: "4245E5DA5FB00E0B"
+			tasks: [{
+				id: "339DFF287FB37A55"
+				type: "item"
+				title: "Any #forge:chests"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0AD0A740AC9505B8"
+				type: "loot"
+				table_id: 7733633901596953089L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			id: "51AEDEB85E886E4C"
+			tasks: [{
+				id: "6A5A36150526BB83"
+				type: "item"
+				title: "Any #forge:barrels/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:barrels/wooden"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["51AEDEB85E886E4C"]
+			id: "594D0D5A57F09F92"
+			tasks: [{
+				id: "5A8C8BBA8D548C46"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["594D0D5A57F09F92"]
+			id: "7DFE235285749AB6"
+			tasks: [{
+				id: "02811B9B24FD2B7A"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["7DFE235285749AB6"]
+			id: "137795FDEFAFF279"
+			tasks: [{
+				id: "7211008C4D31004C"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["137795FDEFAFF279"]
+			id: "190DC1A07314100C"
+			tasks: [{
+				id: "0DC6054B7890C138"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			dependencies: ["190DC1A07314100C"]
+			id: "633FD10F575B202D"
+			tasks: [{
+				id: "4D171AE6F4C4E182"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			dependencies: ["633FD10F575B202D"]
+			id: "409130E14D4BF180"
+			tasks: [{
+				id: "053D7A130A632744"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["51AEDEB85E886E4C"]
+			id: "6C0EA02EF69591D4"
+			tasks: [{
+				id: "2985F5506C68558B"
+				type: "item"
+				item: "metalbarrels:iron_barrel"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["6C0EA02EF69591D4"]
+			id: "68CC45552275D49E"
+			tasks: [{
+				id: "7D240343E894132C"
+				type: "item"
+				item: "metalbarrels:gold_barrel"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["68CC45552275D49E"]
+			id: "575B4FD5B9B99A42"
+			tasks: [{
+				id: "427FB5488F11E872"
+				type: "item"
+				item: "metalbarrels:diamond_barrel"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["575B4FD5B9B99A42"]
+			id: "6A7943368E2E6DE0"
+			tasks: [{
+				id: "7A50D492884810BA"
+				type: "item"
+				item: "metalbarrels:obsidian_barrel"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			dependencies: ["6A7943368E2E6DE0"]
+			id: "10AE87B9BB36A92F"
+			tasks: [{
+				id: "29EE0C0CCF01A473"
+				type: "item"
+				item: "metalbarrels:netherite_barrel"
+			}]
+		}
+		{
+			x: 0.6845238095237889d
+			y: -2.6190476190476204d
+			dependencies: ["4245E5DA5FB00E0B"]
+			id: "68116D817181B15D"
+			tasks: [{
+				id: "30D7BCA795230F39"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [{
+				id: "3BACDF133DD4373D"
+				type: "item"
+				item: "storagedrawers:oak_trim"
+				count: 10
+			}]
+		}
+		{
+			x: 0.06547619047616848d
+			y: -3.4285714285714306d
+			dependencies: ["4245E5DA5FB00E0B"]
+			id: "496203BB82FD3106"
+			tasks: [{
+				id: "6B4FB0E1CA17ED6E"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_2"
+			}]
+		}
+		{
+			x: 1.1607142857142634d
+			y: -3.5714285714285694d
+			dependencies: ["4245E5DA5FB00E0B"]
+			id: "4374A4B8901C0FCE"
+			tasks: [{
+				id: "5CC5066E797FC02B"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_4"
+			}]
+		}
+		{
+			x: 1.8273809523809277d
+			y: -2.3333333333333357d
+			dependencies: ["68116D817181B15D"]
+			id: "20BF1CFB0F8348CC"
+			tasks: [{
+				id: "655C4C83B80ADD20"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			x: 0.7321428571428399d
+			y: -1.3809523809523796d
+			dependencies: ["68116D817181B15D"]
+			id: "467EA2F698657A38"
+			tasks: [{
+				id: "5865217EA398ADF0"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: -3.3214285714285836d
+			y: -3.482142857142854d
+			dependencies: [
+				"4245E5DA5FB00E0B"
+				"30D7BCA795230F39"
+			]
+			id: "00D77CD17A907CFB"
+			tasks: [{
+				id: "14C3091B9A070710"
+				type: "item"
+				item: "framedcompactdrawers:framed_full_one"
+			}]
+			rewards: [{
+				id: "1B3A4A75AB1759AA"
+				type: "item"
+				item: "framedcompactdrawers:framed_trim"
+				count: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			dependencies: ["655C4C83B80ADD20"]
+			id: "21CAA4FF1E1FD685"
+			tasks: [{
+				id: "5D37F9AE33CA6D62"
+				type: "item"
+				item: "framedcompactdrawers:framed_drawer_controller"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			dependencies: ["5CC5066E797FC02B"]
+			id: "3FCE952BB303F3DD"
+			tasks: [{
+				id: "6C6F5B5E7B5981F9"
+				type: "item"
+				item: "framedcompactdrawers:framed_full_four"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			dependencies: ["6B4FB0E1CA17ED6E"]
+			id: "3AEDAC72F8BB5332"
+			tasks: [{
+				id: "1AF85D5A5F6D774F"
+				type: "item"
+				item: "framedcompactdrawers:framed_full_two"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			dependencies: ["5865217EA398ADF0"]
+			id: "2A00557793AE4796"
+			tasks: [{
+				id: "2A9005B085477B9C"
+				type: "item"
+				item: "framedcompactdrawers:framed_compact_drawer"
+			}]
+		}
+		{
+			x: 5.517857142857125d
+			y: -5.071428571428566d
+			id: "23371A901A1ED343"
+			tasks: [{
+				id: "2EA2E87F5840D3AB"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+		}
+		{
+			x: 7.815476190476176d
+			y: -4.988095238095234d
+			id: "7A4C4E0E9E16EE08"
+			tasks: [{
+				id: "38597D61A74556BE"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+		}
+		{
+			x: 7.672619047619037d
+			y: -3.2738095238095184d
+			id: "10E64798DE657BC2"
+			tasks: [{
+				id: "6A9B47C60A8BAAE2"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+		}
+		{
+			x: 6.601190476190467d
+			y: -4.273809523809518d
+			dependencies: [
+				"10E64798DE657BC2"
+				"7A4C4E0E9E16EE08"
+				"343CB1588DB9B5DA"
+				"23371A901A1ED343"
+			]
+			id: "0E006C4FCC2940B2"
+			tasks: [{
+				id: "7C25A712F6B5C57B"
+				type: "item"
+				item: "pipez:universal_pipe"
+			}]
+		}
+		{
+			x: 5.67261904761903d
+			y: -3.2738095238095184d
+			id: "343CB1588DB9B5DA"
+			tasks: [{
+				id: "70BD517F369A1651"
+				type: "item"
+				item: "pipez:gas_pipe"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			id: "2A93F14A68A07E12"
+			tasks: [{
+				id: "796CAEA90D141015"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+			rewards: [{
+				id: "363D326EFC73C8FC"
+				type: "item"
+				item: "pipez:basic_upgrade"
+				count: 3
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			dependencies: ["2A93F14A68A07E12"]
+			id: "57AF87480B239145"
+			tasks: [{
+				id: "3CBE3AD809B21A9C"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["57AF87480B239145"]
+			id: "7CA8B29DE50D54BB"
+			tasks: [{
+				id: "3913413F81ABF9D0"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["7CA8B29DE50D54BB"]
+			id: "049F34080810243F"
+			tasks: [{
+				id: "1B35768426642FEB"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			shape: "circle"
+			dependencies: ["2D3A6F4360CF3170"]
+			id: "7109377C1460CEE1"
+			tasks: [{
+				id: "0CD2B9907D8EE522"
+				type: "item"
+				item: "dimstorage:dimensional_chest"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["2D3A6F4360CF3170"]
+			id: "6DA18FC8EC8492E3"
+			tasks: [{
+				id: "30E282AF184A387E"
+				type: "item"
+				item: "dimstorage:dimensional_tank"
+			}]
+		}
+		{
+			x: -3.6964285714285907d
+			y: -1.3333333333333357d
+			id: "2D3A6F4360CF3170"
+			tasks: [{
+				id: "5F9A5B1DED50C653"
+				type: "checkmark"
+				title: "over all"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			dependencies: ["2D3A6F4360CF3170"]
+			id: "182AD6D51818D5BA"
+			tasks: [{
+				id: "09037259FBA0CCF5"
+				type: "item"
+				item: "dimstorage:dimensional_tablet"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["4245E5DA5FB00E0B"]
+			id: "1528B0406A1E641A"
+			tasks: [{
+				id: "1394BAEFC9DA102F"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["1528B0406A1E641A"]
+			id: "5E661B6473B98CD5"
+			tasks: [{
+				id: "4638E5C67A78BD64"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			dependencies: ["5E661B6473B98CD5"]
+			id: "7FD25F9D1D3F9B91"
+			tasks: [{
+				id: "63B1DDBAC373082E"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+		}
+		{
+			x: -0.22023809523811622d
+			y: -6.190476190476183d
+			dependencies: ["7FD25F9D1D3F9B91"]
+			id: "21D21BB42980B638"
+			tasks: [{
+				id: "21190E88287D7195"
+				type: "item"
+				item: "quantumstorage:chestdiamond"
+			}]
+		}
+		{
+			x: 1.2083333333333144d
+			y: -6.095238095238088d
+			dependencies: ["21D21BB42980B638"]
+			id: "20A937A0EED52A8B"
+			tasks: [{
+				id: "1F01CA2889EDE570"
+				type: "item"
+				item: "quantumstorage:quantum_bag_white"
+			}]
+		}
+		{
+			x: -3.0773809523809703d
+			y: 0.1904761904761898d
+			dependencies: ["4245E5DA5FB00E0B"]
+			id: "47DB3500270BB8CA"
+			tasks: [{
+				id: "571807FBD11D7C84"
+				type: "item"
+				item: {
+					id: "simplybackpacks:commonbackpack"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -3.7440476190476417d
+			y: 1.047619047619051d
+			dependencies: ["47DB3500270BB8CA"]
+			id: "300DA82A89D2BA23"
+			tasks: [{
+				id: "32C170FFB1DB152F"
+				type: "item"
+				item: {
+					id: "simplybackpacks:uncommonbackpack"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -4.458333333333357d
+			y: 2.000000000000007d
+			dependencies: ["300DA82A89D2BA23"]
+			id: "17798AFFBAE6B616"
+			tasks: [{
+				id: "5EEA9087145258B3"
+				type: "item"
+				item: {
+					id: "simplybackpacks:rarebackpack"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -5.125000000000021d
+			y: 2.952380952380956d
+			dependencies: ["17798AFFBAE6B616"]
+			id: "6102247E0A0B0019"
+			tasks: [{
+				id: "581FBE36AB4D97DA"
+				type: "item"
+				item: {
+					id: "simplybackpacks:epicbackpack"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			id: "13422E9A9842D540"
+			tasks: [{
+				id: "14A0E036DBA2B7F0"
+				type: "item"
+				item: "quantumstorage:hammer"
+			}]
+		}
+		{
+			x: 1.3988095238095042d
+			y: 3.8095238095238173d
+			dependencies: ["13422E9A9842D540"]
+			id: "3EEB4E62C5F5D921"
+			tasks: [{
+				id: "73271F9FC5C9ED8D"
+				type: "item"
+				item: "quantumstorage:controller"
+			}]
+		}
+		{
+			x: 2.732142857142833d
+			y: 3.7619047619047663d
+			dependencies: ["3EEB4E62C5F5D921"]
+			id: "497B075F288B35EB"
+			tasks: [{
+				id: "6D16DE05F8CEF1DE"
+				type: "item"
+				item: "quantumstorage:tank"
+			}]
+		}
+		{
+			x: 1.2083333333333144d
+			y: 5.000000000000014d
+			dependencies: ["3EEB4E62C5F5D921"]
+			id: "44957E6F029F185A"
+			tasks: [{
+				id: "798946C27768336E"
+				type: "item"
+				item: "quantumstorage:qsu"
+			}]
+		}
+		{
+			x: 1.9702380952380807d
+			y: 0.5714285714285836d
+			dependencies: ["594D0D5A57F09F92"]
+			id: "48AFA118F34444EF"
+			tasks: [{
+				id: "2157E249AE734A50"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+		}
+	]
+}

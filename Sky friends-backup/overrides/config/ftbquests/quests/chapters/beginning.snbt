@@ -1,0 +1,772 @@
+{
+	id: "06983CB2912ECCE1"
+	group: ""
+	order_index: 0
+	filename: "beginning"
+	title: "Beginning"
+	icon: "minecraft:book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -2.5d
+			id: "73DAD5DC6AB2A677"
+			tasks: [{
+				id: "2C3D79A007B7C651"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "792F6B1C9432A97C"
+					type: "item"
+					item: "pamhc2foodcore:fruitsaladitem"
+					count: 2
+				}
+				{
+					id: "1CBB8233905224DD"
+					type: "item"
+					item: "minecraft:oak_sapling"
+					count: 2
+				}
+				{
+					id: "4E3668FE66859CA3"
+					type: "random"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["73DAD5DC6AB2A677"]
+			id: "7F275F60A5828A14"
+			tasks: [{
+				id: "7E1C0D0FC91E51EA"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 32L
+			}]
+			rewards: [{
+				id: "2D7C13C7DFAEBF36"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+		}
+		{
+			title: "first bucket"
+			x: -4.205357142857146d
+			y: -1.8392857142857117d
+			description: [
+				"First Bucket, use thes for water"
+				"&4Warnig: do not use thes for laver"
+			]
+			dependencies: ["7F275F60A5828A14"]
+			id: "11183129BEFA499B"
+			tasks: [{
+				id: "2D286DAE10FA663B"
+				type: "item"
+				item: {
+					id: "woodenbuckets:wooden_bucket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "46352D3F13C5A8C8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["7F275F60A5828A14"]
+			id: "2DB058F52077AE1D"
+			tasks: [{
+				id: "38731E9956A94CD3"
+				type: "item"
+				item: "improved-stations:crafting_table_slab"
+			}]
+			rewards: [{
+				id: "302403755BBD984D"
+				type: "item"
+				item: "minecraft:stick"
+				count: 10
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["2DB058F52077AE1D"]
+			id: "2D8386FFB3A552E7"
+			tasks: [{
+				id: "4A146B02AF040908"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:crook_wood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.9821428571428612d
+			y: 0.7678571428571388d
+			dependencies: ["2D8386FFB3A552E7"]
+			id: "0189EB26D29C4CB9"
+			tasks: [{
+				id: "58D39FE8F3B7C31E"
+				type: "item"
+				item: {
+					id: "excompressum:compressed_crook"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["2D8386FFB3A552E7"]
+			id: "4B48C47F333A055D"
+			tasks: [
+				{
+					id: "0DC61E9D58204D7A"
+					type: "item"
+					item: "exnihilosequentia:silkworm"
+					count: 10L
+				}
+				{
+					id: "689B3F52124712C9"
+					type: "item"
+					item: "minecraft:string"
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "6A2883F14CFA4C58"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "35F4307B55D05345"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["4B48C47F333A055D"]
+			id: "5A7EF90490AA28B8"
+			tasks: [{
+				id: "5C9AD56BCC9C76FF"
+				type: "item"
+				item: "exnihilosequentia:barrel_wood"
+			}]
+		}
+		{
+			x: -2.1249999999999787d
+			y: 3.1964285714285765d
+			description: [
+				"make water from leaves, saplings"
+				"silkworms and etz"
+			]
+			dependencies: ["4B48C47F333A055D"]
+			id: "260765E7909F4FAE"
+			tasks: [{
+				id: "4856C0C4B86A078A"
+				type: "item"
+				item: "excompressum:oak_crucible"
+			}]
+			rewards: [{
+				id: "010DF34B0C065B31"
+				type: "item"
+				item: "minecraft:oak_sapling"
+				count: 5
+			}]
+		}
+		{
+			x: -0.4910714285714306d
+			y: -0.3035714285714306d
+			dependencies: ["2DB058F52077AE1D"]
+			id: "12EE26A87A240124"
+			tasks: [{
+				id: "515728E27007248D"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:hammer_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1070201AF468ACBE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29C9F4BB8A59DF3E"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: 1.732142857142854d
+			y: -0.3392857142857153d
+			dependencies: ["12EE26A87A240124"]
+			id: "1C19DDE0B15511F3"
+			tasks: [{
+				id: "7F48C0016CBD90E4"
+				type: "item"
+				item: {
+					id: "excompressum:compressed_hammer_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "69BCF02312A3909F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.875d
+			y: 0.4107142857142847d
+			dependencies: ["1C19DDE0B15511F3"]
+			id: "0B92772BCD5C4DA1"
+			tasks: [{
+				id: "244FAFBA20449565"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: 2.267857142857146d
+			y: 0.5178571428571459d
+			dependencies: ["0B92772BCD5C4DA1"]
+			id: "16BE89547034FD7D"
+			tasks: [{
+				id: "3A7DBD084994EE52"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: 1.5178571428571601d
+			y: 1.3035714285714306d
+			dependencies: ["16BE89547034FD7D"]
+			id: "30AA399D9CADBB20"
+			tasks: [{
+				id: "40F116052EF4A056"
+				type: "item"
+				item: "exnihilosequentia:dust"
+			}]
+		}
+		{
+			x: -0.7321428571428399d
+			y: 3.375000000000007d
+			dependencies: ["260765E7909F4FAE"]
+			id: "6E5E37BD70AD48E7"
+			tasks: [{
+				id: "3330E9BB0A476552"
+				type: "item"
+				item: {
+					id: "woodenbuckets:wooden_water_bucket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["2DB058F52077AE1D"]
+			id: "1A0501F277DCEE89"
+			tasks: [{
+				id: "1783546EA93218CC"
+				type: "item"
+				item: "exnihilosequentia:sieve"
+			}]
+		}
+		{
+			title: "better Sieve"
+			x: -4.982142857142847d
+			y: -0.9821428571428541d
+			dependencies: ["1A0501F277DCEE89"]
+			id: "2FB59CFB40ACAAA9"
+			tasks: [{
+				id: "0C032B71190BF8E0"
+				type: "item"
+				item: "excompressum:oak_heavy_sieve"
+			}]
+		}
+		{
+			x: 0.23214285714287541d
+			y: 2.0535714285714306d
+			dependencies: [
+				"6E5E37BD70AD48E7"
+				"5A7EF90490AA28B8"
+				"30AA399D9CADBB20"
+			]
+			id: "4B29C83F6C897D46"
+			tasks: [{
+				id: "4D78E47BCB5490D8"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+		}
+		{
+			x: -3.339285714285694d
+			y: 3.125d
+			description: ["to make bonemehl in vanilla style. your neet this"]
+			dependencies: ["4B48C47F333A055D"]
+			id: "0D413573FB333D1D"
+			tasks: [
+				{
+					id: "0DD8411CDBCADE04"
+					type: "item"
+					item: "minecraft:composter"
+				}
+				{
+					id: "1F6BCE4A3D5C7A98"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "3C28BBBA04129BAD"
+				type: "item"
+				item: "minecraft:bone_block"
+				count: 3
+			}]
+		}
+		{
+			title: "First stap to make lava"
+			x: 1.8750000000000213d
+			y: 2.5892857142857224d
+			dependencies: ["7F088A314B5B8E81"]
+			id: "50A0CC7A6B15F8DD"
+			tasks: [{
+				id: "6F4F8ED014CC4958"
+				type: "item"
+				item: "exnihilosequentia:crucible_fired"
+			}]
+			rewards: [{
+				id: "55CCD073ACF37C69"
+				type: "random"
+				table_id: 7733633901596953089L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["4B29C83F6C897D46"]
+			id: "7F088A314B5B8E81"
+			tasks: [{
+				id: "22D32A3A9E6FF96A"
+				type: "item"
+				item: "exnihilosequentia:porcelain_clay"
+				count: 7L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["4B48C47F333A055D"]
+			id: "4C9CF9279157560F"
+			tasks: [{
+				id: "5B1A3355C9023B6D"
+				type: "item"
+				item: "exnihilosequentia:mesh_string"
+			}]
+			rewards: [{
+				id: "25E44DC0F0D977F3"
+				type: "random"
+				table_id: 7733633901596953089L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			dependencies: ["4C9CF9279157560F"]
+			id: "47C51791BD1CCC71"
+			tasks: [{
+				id: "66F5E47348759066"
+				type: "item"
+				item: "exnihilosequentia:mesh_flint"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["47C51791BD1CCC71"]
+			id: "5DC36F4AC0EBC282"
+			tasks: [{
+				id: "2425BF22573C2409"
+				type: "item"
+				item: "exnihilosequentia:mesh_iron"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -0.5d
+			dependencies: ["5DC36F4AC0EBC282"]
+			id: "2D9DA56331A7CF96"
+			tasks: [{
+				id: "23C1C6143B704777"
+				type: "item"
+				item: "exnihilosequentia:mesh_diamond"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			dependencies: ["3B1FA3A3DFA2019B"]
+			id: "3F7FB3058494B636"
+			tasks: [{
+				id: "694CF1ED156DAAE4"
+				type: "item"
+				item: "exnihilosequentia:mesh_netherite"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			dependencies: ["2D9DA56331A7CF96"]
+			id: "3B1FA3A3DFA2019B"
+			tasks: [{
+				id: "739DEC5BAFA18309"
+				type: "item"
+				item: "exnihilosequentia:mesh_emerald"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["7C83A5492CA4040E"]
+			id: "697EF252BF019EBF"
+			tasks: [{
+				id: "2ADE6D2FBDC8BAED"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "1D15E001D4B91FAB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.7410714285714377d
+			y: -1.2321428571428577d
+			dependencies: ["7F275F60A5828A14"]
+			id: "700361DD28C0DD30"
+			tasks: [{
+				id: "3A52A020CD5061CE"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [
+				{
+					id: "3FBBE6A1E1F16A53"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6631D71F76602BFD"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["700361DD28C0DD30"]
+			id: "7C83A5492CA4040E"
+			tasks: [{
+				id: "6089A76AE83135FB"
+				type: "item"
+				item: "improved-stations:furnace_slab"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["697EF252BF019EBF"]
+			id: "6BBCB6041940109F"
+			tasks: [{
+				id: "1791250F0A2354D0"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["6BBCB6041940109F"]
+			id: "302A5FA87A5603EE"
+			tasks: [{
+				id: "1D503A3C33242012"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			rewards: [{
+				id: "68AB67ADA5E762D7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["302A5FA87A5603EE"]
+			id: "5CA5C939D9FC2163"
+			tasks: [{
+				id: "29FB18D311C3EDFA"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["5CA5C939D9FC2163"]
+			id: "2480B6F276454C38"
+			tasks: [{
+				id: "73C34C5658ED793E"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["2480B6F276454C38"]
+			id: "635A4D1E122C9327"
+			tasks: [{
+				id: "25129AB2169F6D23"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["635A4D1E122C9327"]
+			id: "6A5D5625A82E6235"
+			tasks: [{
+				id: "279F63049A1A6D3E"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+		}
+		{
+			x: 1.437499999999993d
+			y: -4.053571428571427d
+			dependencies: [
+				"5CA5C939D9FC2163"
+				"2480B6F276454C38"
+				"697EF252BF019EBF"
+				"302A5FA87A5603EE"
+				"6BBCB6041940109F"
+				"635A4D1E122C9327"
+			]
+			id: "02F66A1FCE01CEFB"
+			tasks: [{
+				id: "503DDF96C25A32BB"
+				type: "item"
+				item: "ironfurnaces:million_furnace"
+			}]
+		}
+		{
+			x: 3.982142857142847d
+			y: -3.9017857142857153d
+			id: "447763FA69855BDC"
+			tasks: [{
+				id: "09119D1F8E078046"
+				type: "item"
+				item: "ironfurnaces:augment_blasting"
+			}]
+			rewards: [{
+				id: "48185A4D07C7554A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.017857142857139d
+			y: -3.0446428571428577d
+			id: "1B401F9A8F7D2FF3"
+			tasks: [{
+				id: "6A3DC38F4F8C2187"
+				type: "item"
+				item: "ironfurnaces:augment_smoking"
+			}]
+			rewards: [{
+				id: "4234AAF12C66592E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.017857142857132d
+			y: -2.1875d
+			id: "795011652D4692B2"
+			tasks: [{
+				id: "059BA795DB8F6925"
+				type: "item"
+				item: "ironfurnaces:augment_speed"
+			}]
+			rewards: [{
+				id: "077B25180A2F0945"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.017857142857132d
+			y: -1.330357142857146d
+			id: "0AC1108B1D816402"
+			tasks: [{
+				id: "66860A4BE847151C"
+				type: "item"
+				item: "ironfurnaces:augment_fuel"
+			}]
+			rewards: [{
+				id: "782D2FA4F985A868"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			id: "1B1D76FEBE8C00B1"
+			tasks: [{
+				id: "1FC0D4A3BA277353"
+				type: "item"
+				item: "ironfurnaces:heater"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			id: "78C9E200A809A8B6"
+			tasks: [{
+				id: "0FD5C813F23C4C2A"
+				type: "item"
+				item: "ironfurnaces:item_heater"
+			}]
+		}
+		{
+			x: -3.4107142857142847d
+			y: 4.8125d
+			subtitle: "Pedestals is a mod with a lot on options to improve your life in this World"
+			dependencies: ["0D413573FB333D1D"]
+			id: "7129D169C2C29F7E"
+			tasks: [{
+				id: "1DB0B1F7F7C90014"
+				type: "checkmark"
+				title: "Pedestals"
+			}]
+			rewards: [
+				{
+					id: "4E1E9BBDD96B3F82"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18F1795D2A473CD7"
+					type: "item"
+					item: "pedestals:linkingtool"
+				}
+			]
+		}
+		{
+			x: -2.3392857142857224d
+			y: 4.3839285714285765d
+			dependencies: ["7129D169C2C29F7E"]
+			id: "6776EED7BDB89A27"
+			tasks: [{
+				id: "699EC01FCABAB489"
+				type: "item"
+				item: "pedestals:pedestal/stone333"
+			}]
+			rewards: [
+				{
+					id: "194027E2B627F626"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "680C9DBB44683A5A"
+					type: "item"
+					item: "minecraft:stone"
+					count: 10
+				}
+			]
+		}
+		{
+			x: -2.625000000000014d
+			y: 5.455357142857139d
+			dependencies: ["7129D169C2C29F7E"]
+			id: "13D91052113921D4"
+			tasks: [{
+				id: "732C0760104AB221"
+				type: "item"
+				item: "pedestals:coin/default"
+			}]
+			rewards: [
+				{
+					id: "08266D5145E9F976"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1491AD440771A151"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: 3.1607142857142776d
+			y: 2.8482142857142847d
+			description: ["The best cobble gen ever, look in JEI what your can all make "]
+			dependencies: ["50A0CC7A6B15F8DD"]
+			id: "7D49CFA55D0ABA7A"
+			tasks: [{
+				id: "62F20E340A0A6426"
+				type: "item"
+				item: "pedestals:coin/cobble"
+			}]
+			rewards: [{
+				id: "6039410696B2AF77"
+				type: "item"
+				item: "pedestals:pedestal/stone000"
+			}]
+		}
+	]
+}

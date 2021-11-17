@@ -1,0 +1,299 @@
+{
+	id: "4320B16178A1F842"
+	group: ""
+	order_index: 13
+	filename: "silents_mechanisms"
+	title: "Silents Mechanisms"
+	icon: "silents_mechanisms:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.01785714285713169d
+			y: 2.5535714285714306d
+			dependencies: ["4854D373DE8007BE"]
+			id: "4641E65F59617CB8"
+			tasks: [{
+				id: "178CEEFC25835502"
+				type: "item"
+				item: "silents_mechanisms:stone_machine_frame"
+			}]
+			rewards: [{
+				id: "5842068786BBB537"
+				type: "item"
+				item: "mekanism:block_steel"
+			}]
+		}
+		{
+			x: 2.5535714285714164d
+			y: -2.089285714285708d
+			dependencies: ["609889E999CC0036"]
+			id: "26EF1EBA6AAB5B9F"
+			tasks: [{
+				id: "779DACBEBEACE973"
+				type: "item"
+				item: "silents_mechanisms:circuit_board"
+				count: 10L
+			}]
+			rewards: [{
+				id: "01DA9C9F603BAA1E"
+				type: "item"
+				item: "immersiveengineering:circuit_board"
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["4641E65F59617CB8"]
+			id: "1A38117CB4E78111"
+			tasks: [{
+				id: "4CE40F9A4BB1F457"
+				type: "item"
+				item: "silents_mechanisms:basic_alloy_smelter"
+			}]
+			rewards: [{
+				id: "4CDC6A64D281A14A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["4641E65F59617CB8"]
+			id: "54EE413DB8DDEDB5"
+			tasks: [{
+				id: "0F17EF05822F9B1D"
+				type: "item"
+				item: "silents_mechanisms:basic_crusher"
+			}]
+		}
+		{
+			x: 1.5178571428571246d
+			y: -2.089285714285708d
+			dependencies: [
+				"73DD15F5298B67E4"
+				"6BD8ADC171E67D6A"
+			]
+			id: "5ACAC672848BEC78"
+			tasks: [{
+				id: "1365A9F8F22250E8"
+				type: "item"
+				item: "silents_mechanisms:heating_element"
+				count: 32L
+			}]
+			rewards: [{
+				id: "5B0E6DFE19B67530"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.589285714285708d
+			y: -2.1607142857142776d
+			dependencies: [
+				"6BD8ADC171E67D6A"
+				"6E204764A05A444F"
+			]
+			id: "6F5BFCF4D21EB995"
+			tasks: [{
+				id: "33655ACDE6133104"
+				type: "item"
+				item: "silents_mechanisms:upgrade_case"
+				count: 32L
+			}]
+			rewards: [{
+				id: "13DB70C0AD92F9D7"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				count: 5
+			}]
+		}
+		{
+			x: -2.4464285714285765d
+			y: 1.767857142857146d
+			dependencies: ["1A38117CB4E78111"]
+			id: "50CC4328EF274085"
+			tasks: [{
+				id: "1EB56093EBE73AFB"
+				type: "item"
+				item: "silents_mechanisms:bismuth_brass_ingot"
+				count: 10L
+			}]
+			rewards: [{
+				id: "53A9F029B54C4F13"
+				type: "item"
+				item: "create:crushed_brass"
+				count: 3
+			}]
+		}
+		{
+			x: -1.4464285714285765d
+			y: 2.625000000000007d
+			dependencies: ["1A38117CB4E78111"]
+			id: "6F2EE4D875B73A19"
+			tasks: [{
+				id: "269AA96FAC867387"
+				type: "item"
+				item: "silents_mechanisms:bismuth_steel_ingot"
+				count: 10L
+			}]
+			rewards: [{
+				id: "3858843B4ED1C631"
+				type: "item"
+				item: "mekanism:ingot_steel"
+				count: 3
+			}]
+		}
+		{
+			x: -1.4732142857142918d
+			y: 0.0446428571428541d
+			dependencies: ["096EE8DDE8B489DC"]
+			id: "275EB21835BF9785"
+			tasks: [{
+				id: "75ADF343ED28E49C"
+				type: "item"
+				item: "silents_mechanisms:alloy_smelter"
+			}]
+			rewards: [{
+				id: "3946E959BFDAAF2E"
+				type: "item"
+				item: "silents_mechanisms:processing_speed_upgrade"
+			}]
+		}
+		{
+			x: 0.3125d
+			y: -1.5625d
+			dependencies: ["096EE8DDE8B489DC"]
+			id: "67B72D1EE613E607"
+			tasks: [{
+				id: "2903BEA4636E0F91"
+				type: "item"
+				item: "silents_mechanisms:crusher"
+			}]
+			rewards: [{
+				id: "6F0D524F30AB6C31"
+				type: "item"
+				item: "silents_mechanisms:processing_speed_upgrade"
+			}]
+		}
+		{
+			x: -1.2946428571428612d
+			y: -1.2767857142857153d
+			dependencies: ["096EE8DDE8B489DC"]
+			id: "259EF20D64782EE1"
+			tasks: [{
+				id: "0F4F72A30DAA1DCE"
+				type: "item"
+				item: "silents_mechanisms:electric_furnace"
+			}]
+			rewards: [{
+				id: "37BEB530C1BEA4CF"
+				type: "item"
+				item: "silents_mechanisms:processing_speed_upgrade"
+			}]
+		}
+		{
+			x: 2.9107142857142705d
+			y: -1.0535714285714235d
+			dependencies: [
+				"2609528D0C09C52B"
+				"38B60AE0BC0EFAAF"
+				"096EE8DDE8B489DC"
+			]
+			id: "60DC7D0CD35C1E3C"
+			tasks: [{
+				id: "51F20083F9BA0369"
+				type: "item"
+				item: "silents_mechanisms:battery_box"
+			}]
+			rewards: [{
+				id: "03CC8EC9BDF9528B"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["4641E65F59617CB8"]
+			id: "096EE8DDE8B489DC"
+			tasks: [{
+				id: "73DD15F5298B67E4"
+				type: "item"
+				item: "silents_mechanisms:alloy_machine_frame"
+			}]
+			rewards: [
+				{
+					id: "6B5286BACF3E735D"
+					type: "item"
+					item: "silents_mechanisms:redstone_alloy_block"
+				}
+				{
+					id: "11533A70EE75FD45"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: 1.7321428571428399d
+			y: -1.0178571428571388d
+			dependencies: [
+				"4854D373DE8007BE"
+				"4B143DDE259AF976"
+			]
+			id: "2609528D0C09C52B"
+			tasks: [{
+				id: "1E5D6601C715A353"
+				type: "item"
+				item: "silents_mechanisms:wire"
+			}]
+			rewards: [{
+				id: "5E18FB204047A9C7"
+				type: "item"
+				item: "silents_mechanisms:wire"
+				count: 10
+			}]
+		}
+		{
+			x: 2.196428571428555d
+			y: 0.05357142857143771d
+			dependencies: [
+				"4B143DDE259AF976"
+				"4854D373DE8007BE"
+			]
+			id: "38B60AE0BC0EFAAF"
+			tasks: [{
+				id: "5B597C9F4E8DB159"
+				type: "item"
+				item: {
+					id: "silents_mechanisms:battery"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6490A43CC8A841E3"
+					type: "item"
+					item: {
+						id: "silents_mechanisms:battery"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5AC12BAE08651840"
+					type: "item"
+					item: {
+						id: "silents_mechanisms:battery"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+	]
+}

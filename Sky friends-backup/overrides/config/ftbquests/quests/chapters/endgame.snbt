@@ -1,0 +1,334 @@
+{
+	id: "20A9C87037DE14F4"
+	group: ""
+	order_index: 18
+	filename: "endgame"
+	title: "Extended Craft"
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "extendedcrafting:guide"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.863095238095255d
+			y: 0.41071428571429536d
+			id: "15B981A37536E01F"
+			tasks: [{
+				id: "4E1B9FB01A1394B4"
+				type: "item"
+				item: "extendedcrafting:ender_alternator"
+			}]
+		}
+		{
+			x: 2.0416666666666856d
+			y: -0.3035714285714164d
+			id: "201385ED21F42D4B"
+			tasks: [{
+				id: "616EB4A2B1B6ACF8"
+				type: "item"
+				item: "extendedcrafting:ender_crafter"
+			}]
+		}
+		{
+			x: -0.3154761904761685d
+			y: 0.4464285714285836d
+			id: "17548559A4197E2F"
+			tasks: [{
+				id: "4822BC04635E17A1"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+		}
+		{
+			x: -0.4226190476190297d
+			y: 1.5892857142857224d
+			id: "2BA79AD3A62DBB40"
+			tasks: [{
+				id: "3BC6CFB2EF43DCE8"
+				type: "item"
+				item: "extendedcrafting:black_iron_slate"
+			}]
+		}
+		{
+			x: 2.970238095238116d
+			y: -0.7678571428571317d
+			id: "76F2FDAA63335279"
+			tasks: [{
+				id: "3BF7E8AFDA780F40"
+				type: "item"
+				item: "extendedcrafting:ender_ingot"
+			}]
+		}
+		{
+			x: 0.6488095238095397d
+			y: -0.19642857142855874d
+			id: "3A23738A0501EE71"
+			tasks: [{
+				id: "4D526EFC0C318A04"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot"
+			}]
+		}
+		{
+			x: -1.494047619047599d
+			y: 1.0535714285714377d
+			id: "3FA5FD4CF43D7F1E"
+			tasks: [{
+				id: "2D57DAE1FB24BF75"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			id: "54E4ABCC683E678F"
+			tasks: [{
+				id: "6DFF41169E6F3056"
+				type: "item"
+				item: "extendedcrafting:basic_component"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			id: "6134140EFB7B3374"
+			tasks: [{
+				id: "5AF0141979F6C79A"
+				type: "item"
+				item: "extendedcrafting:advanced_component"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			id: "6D120CFDB48A8E24"
+			tasks: [{
+				id: "7DA9716B6D154916"
+				type: "item"
+				item: "extendedcrafting:elite_component"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			id: "266F07748C4C44E8"
+			tasks: [{
+				id: "12C3B8F2DE3470B6"
+				type: "item"
+				item: "extendedcrafting:ultimate_component"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			id: "4331E15B703DE8F6"
+			tasks: [{
+				id: "7094B1417B490219"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_component"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			id: "07C69B073BECECEB"
+			tasks: [{
+				id: "62408401F9430ADF"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_catalyst"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			id: "18FB46EA5CA9DAF1"
+			tasks: [{
+				id: "73E0B3770C3B6D7F"
+				type: "item"
+				item: "extendedcrafting:ultimate_catalyst"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			id: "121D6EAC8F8E2B62"
+			tasks: [{
+				id: "19246F1F2B688A47"
+				type: "item"
+				item: "extendedcrafting:elite_catalyst"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			id: "7E337B1E7EF8FCDE"
+			tasks: [{
+				id: "16C13F7F011979D9"
+				type: "item"
+				item: "extendedcrafting:advanced_catalyst"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "64AE4D97ACFDD861"
+			tasks: [{
+				id: "0BA3D5DAF2FA052B"
+				type: "item"
+				item: "extendedcrafting:basic_catalyst"
+			}]
+		}
+		{
+			x: 1.755952380952401d
+			y: 3.3392857142857224d
+			id: "15D5802FDFF060A6"
+			tasks: [{
+				id: "1E1291E99BC306D7"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+		}
+		{
+			x: 1.8273809523809703d
+			y: 4.5892857142857295d
+			id: "3F0D93C546167460"
+			tasks: [{
+				id: "117A57787EB742A3"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			id: "15B644C747058E89"
+			tasks: [{
+				id: "5964FE0C6DE9BD9F"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			id: "2A1BD4DB7A223119"
+			tasks: [{
+				id: "1E29D87B13B8B481"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			x: 1.9345238095238457d
+			y: 5.803571428571438d
+			id: "7C1F6E0EE0F2C7B0"
+			tasks: [{
+				id: "26087D8736D2B4B8"
+				type: "item"
+				item: "extendedcrafting:crafting_core"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			id: "1E1B4260A7DBE6CD"
+			tasks: [{
+				id: "01ED2A188B7C726F"
+				type: "item"
+				item: "extendedcrafting:crystaltine_component"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			id: "4E13A4CA59373D7C"
+			tasks: [{
+				id: "5E3F9271506B94A0"
+				type: "item"
+				item: "extendedcrafting:redstone_component"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			id: "657353CBF751ABC0"
+			tasks: [{
+				id: "6AA928A761809A70"
+				type: "item"
+				item: "extendedcrafting:basic_auto_table"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			id: "2142699808F902F1"
+			tasks: [{
+				id: "2936750BAD2477AE"
+				type: "item"
+				item: "extendedcrafting:advanced_auto_table"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			id: "7228CBC86F4C559B"
+			tasks: [{
+				id: "6A5156E2BA95C14C"
+				type: "item"
+				item: "extendedcrafting:elite_auto_table"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			id: "56CE66A417A5E3F6"
+			tasks: [{
+				id: "14BA6EB45E56FCF8"
+				type: "item"
+				item: "extendedcrafting:ultimate_auto_table"
+			}]
+		}
+		{
+			x: 3.1845238095238386d
+			y: 5.803571428571445d
+			id: "163EBF9A2BDDFCA9"
+			tasks: [{
+				id: "294217D408B62B2B"
+				type: "item"
+				item: "extendedcrafting:pedestal"
+			}]
+		}
+		{
+			x: 3.863095238095262d
+			y: -0.12499999999998934d
+			id: "313868E09D112514"
+			tasks: [{
+				id: "7D7CA09E2AEF2F18"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "extendedcrafting:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.851190476190453d
+			y: 7.0892857142857295d
+			id: "0A57F5EF7818F155"
+			tasks: [{
+				id: "2072C3D955D9F94A"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{ "type": "eidolon:worktable",
+  "pattern": [ "g g", "wfw", "mdm" ],
+  "reagents": "sbsb ",
+  "key": {
+    "g": { "item": "minecraft:gold_block" },
+    "w": { "item": "minecraft:red_wool" },
+    "f": { "item": "minecraft:furnace"} ,
+    "m": { "item": "ars_nouveau:mana_gem_block"},
+    "d": { "item": "eidolon:goblet"},
+    "s": { "item": "eidolon:shadow_gem"},
+    "b": { "item": "tconstruct:blood_slime_ball"}},
+
+    "result": { "item": "bloodmagic:altar", "count": 1 }
+}

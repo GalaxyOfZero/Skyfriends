@@ -1,0 +1,292 @@
+{
+	id: "1CE3404A0E8EFAC8"
+	group: ""
+	order_index: 4
+	filename: "magic"
+	title: "Ars Nouveau"
+	icon: "ars_nouveau:worn_notebook"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "the new magic"
+			x: 0.0d
+			y: 1.0d
+			id: "4362D5520ED22394"
+			tasks: [{
+				id: "63BF1F34F014D4D3"
+				type: "item"
+				item: "ars_nouveau:mana_gem"
+				count: 64L
+			}]
+			rewards: [{
+				id: "024D0023F8A8FBE1"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["4362D5520ED22394"]
+			id: "2D0641F7FC5AE80C"
+			tasks: [{
+				id: "0E77B8BC11BF646E"
+				type: "item"
+				item: "ars_nouveau:arcane_stone"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "481DA4676AE0D7FC"
+					type: "item"
+					item: "ars_nouveau:glyph_gust"
+				}
+				{
+					id: "6E6D0E63470603E6"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -1.267857142857146d
+			y: -1.7321428571428577d
+			dependencies: ["2D0641F7FC5AE80C"]
+			id: "68360DD6A901121C"
+			tasks: [{
+				id: "2CC3E09A9AFE969A"
+				type: "item"
+				item: "ars_nouveau:mana_jar"
+			}]
+			rewards: [{
+				id: "4CBCD1B175E821A8"
+				type: "item"
+				item: "ars_nouveau:mana_jar"
+			}]
+		}
+		{
+			title: "Mana Production"
+			x: -2.285714285714292d
+			y: -2.7857142857142883d
+			description: [
+				"there are 2 methods to produce mana, via corps and via heat."
+				"Place the mana condenser over a mana jar near a crop field and it will produce mana."
+				"or"
+				"Place the Volcanic Accumulator over a 3x3 lava field and a mana jar next to the lava poul."
+				""
+				""
+			]
+			dependencies: ["68360DD6A901121C"]
+			id: "4136FC6EDE6FC77A"
+			tasks: [
+				{
+					id: "6B5472F3F9D35746"
+					type: "item"
+					item: "ars_nouveau:mana_condenser"
+				}
+				{
+					id: "42F0619771A112CF"
+					type: "item"
+					item: "ars_nouveau:volcanic_accumulator"
+				}
+			]
+			rewards: [
+				{
+					id: "6B825DCC5898278E"
+					type: "item"
+					item: "minecraft:lava_bucket"
+					count: 2
+				}
+				{
+					id: "64DDD746532AA93F"
+					type: "item"
+					item: "ars_nouveau:mana_bloom_crop"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Spell book tier 2"
+			x: 1.7678571428571388d
+			y: -2.571428571428573d
+			dependencies: ["4526D6AF3E8F88ED"]
+			id: "465A729FBF8B00A8"
+			tasks: [{
+				id: "4F2D1691AE1F0A7B"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+			rewards: [{
+				id: "5DB89781AF00BB6F"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			title: "Spell book tier 1"
+			x: 1.124999999999993d
+			y: -1.5892857142857189d
+			dependencies: ["63BF1F34F014D4D3"]
+			id: "4526D6AF3E8F88ED"
+			tasks: [{
+				id: "73CF45539FF1014A"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [{
+				id: "64E299C3ECB34F64"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Spell book tier 3"
+			x: 2.3035714285714235d
+			y: -3.571428571428573d
+			dependencies: ["465A729FBF8B00A8"]
+			id: "50029248D6C31D5A"
+			tasks: [{
+				id: "1E3424BA2806ABC1"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+			rewards: [{
+				id: "616F44095D310BEB"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -0.017857142857153008d
+			y: -2.678571428571427d
+			dependencies: ["2D0641F7FC5AE80C"]
+			id: "55A59754CD16702B"
+			tasks: [{
+				id: "598C90BB886EBCB7"
+				type: "item"
+				item: "ars_nouveau:arcane_core"
+			}]
+			rewards: [{
+				id: "74A229E1342C87D7"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["55A59754CD16702B"]
+			id: "10402973A61BD5CF"
+			tasks: [{
+				id: "46DD1C3ABC709B9B"
+				type: "item"
+				item: "ars_nouveau:arcane_pedestal"
+				count: 8L
+			}]
+			rewards: [{
+				id: "15CC4C01588D17EA"
+				type: "item"
+				item: "minecraft:stone"
+				count: 10
+			}]
+		}
+		{
+			x: -1.0892857142857437d
+			y: -3.8214285714285765d
+			dependencies: ["55A59754CD16702B"]
+			id: "1396CD074F7ACE57"
+			tasks: [{
+				id: "1205C111EFE13773"
+				type: "item"
+				item: "ars_nouveau:enchanting_apparatus"
+			}]
+			rewards: [{
+				id: "4EA50BB0C6BAFA76"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 3
+			}]
+		}
+		{
+			x: 1.4464285714285552d
+			y: 0.1071428571428541d
+			dependencies: ["2D0641F7FC5AE80C"]
+			id: "4AA8738CF7BF5251"
+			tasks: [{
+				id: "23E4E613B43D9A00"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+			rewards: [
+				{
+					id: "7CE65C87B6EFEDC6"
+					type: "item"
+					item: "ars_nouveau:marvelous_clay"
+				}
+				{
+					id: "5C93FC69176D95B5"
+					type: "item"
+					item: "ars_nouveau:magic_clay"
+				}
+				{
+					id: "6A6077F4C2496850"
+					type: "item"
+					item: "ars_nouveau:mythical_clay"
+				}
+			]
+		}
+		{
+			x: 2.803571428571402d
+			y: 0.8214285714285623d
+			dependencies: ["4AA8738CF7BF5251"]
+			id: "49EF7FAC87D5E650"
+			tasks: [
+				{
+					id: "422DD075F1F9C4F3"
+					type: "item"
+					item: "ars_nouveau:marvelous_clay"
+					count: 32L
+				}
+				{
+					id: "09AD7C55CFFA8CDC"
+					type: "item"
+					item: "ars_nouveau:magic_clay"
+					count: 32L
+				}
+				{
+					id: "4D9DD4EF0A215B2C"
+					type: "item"
+					item: "ars_nouveau:mythical_clay"
+					count: 32L
+				}
+			]
+			rewards: [{
+				id: "5654AAE5C9B0A5A7"
+				type: "item"
+				item: "ars_nouveau:glyph_pierce"
+			}]
+		}
+		{
+			x: -0.08928571428574372d
+			y: -5.107142857142865d
+			dependencies: [
+				"10402973A61BD5CF"
+				"1396CD074F7ACE57"
+				"47EC0F714D314911"
+			]
+			id: "32C757633E18CBA2"
+			tasks: [{
+				id: "540E7865CD871527"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "102FFF3AA8401750"
+				type: "item"
+				item: "botania:rune_mana"
+				count: 5
+			}]
+		}
+	]
+}

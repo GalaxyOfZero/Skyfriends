@@ -1,0 +1,117 @@
+{
+	id: "6B53630F179ACA01"
+	order_index: 0
+	title: "food"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "pamhc2foodextended:colasodaitem" }
+		{ item: "pamhc2foodextended:rawtofeakitem" }
+		{ item: "pamhc2foodextended:fishlettucewrapitem" }
+		{ item: "pamhc2foodextended:custarditem" }
+		{ item: "pamhc2foodextended:chickenandwafflesitem" }
+		{ item: "pamhc2foodextended:cornonthecobitem" }
+		{ item: "pamhc2foodextended:baconmushroomburgeritem", count: 2 }
+		{ item: "pamhc2foodextended:sausageitem" }
+		{ item: "pamhc2foodextended:supremepizzaitem" }
+		{ item: "pamhc2foodextended:greenbeancasseroleitem" }
+		{ item: "pamhc2foodextended:melonjellysandwichitem" }
+		{ item: "pamhc2foodextended:loadedbakedpotatoitem" }
+		{ item: "pamhc2foodextended:bbqjackfruititem" }
+		{ item: "pamhc2foodextended:bibimbapitem" }
+		{ item: "pamhc2foodextended:honeylemonlambitem" }
+		{ item: "pamhc2foodextended:salsaitem" }
+		{ item: "pamhc2foodextended:grapesodaitem" }
+		{ item: "pamhc2foodextended:theatreboxitem" }
+		{ item: "pamhc2foodextended:rawtofuttonitem" }
+		{ item: "pamhc2foodextended:honeyglazedcarrotsitem" }
+		{ item: "pamhc2foodextended:celeryandpeanutbutteritem" }
+		{ item: "pamhc2foodextended:cheeseontoastitem" }
+		{ item: "pamhc2foodextended:bolognaitem" }
+		{ item: "pamhc2foodextended:braisedonionsitem" }
+		{ item: "pamhc2foodextended:breakfastburritoitem", count: 2 }
+		{ item: "pamhc2foodextended:biscuititem" }
+		{ item: "pamhc2foodextended:peppermintitem" }
+		{ item: "pamhc2trees:walnutitem" }
+		{ item: "pamhc2trees:plumitem" }
+		{ item: "pamhc2trees:pawpawitem" }
+		{ item: "pamhc2trees:soursopitem" }
+		{ item: "pamhc2trees:almonditem" }
+		{ item: "pamhc2trees:apricotitem" }
+		{ item: "pamhc2trees:cashewitem" }
+		{ item: "pamhc2trees:bananaitem" }
+		{ item: "pamhc2foodextended:dangoitem" }
+		{ item: "pamhc2foodextended:eggplantparmitem" }
+		{ item: "pamhc2foodextended:deluxechickencurryitem" }
+		{ item: "pamhc2foodextended:dhalitem" }
+		{ item: "pamhc2foodextended:charsiuitem", count: 2 }
+		{ item: "pamhc2foodextended:californiarollitem" }
+		{ item: "pamhc2foodextended:chickencurryitem", count: 64 }
+		{ item: "pamhc2foodextended:broccolindipitem" }
+		{ item: "pamhc2foodextended:chickenchowmeinitem" }
+		{ item: "pamhc2foodextended:gingersnapsitem" }
+		{ item: "pamhc2foodextended:oatmealraisincookiesitem" }
+		{ item: "pamhc2foodextended:okrachipsitem" }
+		{ item: "pamhc2foodextended:mochidessertitem" }
+		{ item: "pamhc2foodextended:nopalessaladitem" }
+		{ item: "pamhc2foodextended:jellyrollitem" }
+		{ item: "pamhc2foodextended:hushpuppiesitem" }
+		{ item: "pamhc2foodextended:honeyglazedhamitem" }
+		{ item: "pamhc2foodextended:imitationcrabsticksitem" }
+		{ item: "pamhc2foodextended:imagawayakiitem" }
+		{ item: "pamhc2foodextended:summersquashwithradishitem" }
+		{ item: "pamhc2foodextended:scallionbakedpotatoitem" }
+		{ item: "pamhc2foodextended:swedishmeatballsitem" }
+		{ item: "pamhc2foodextended:beancornmealitem" }
+		{ item: "pamhc2foodextended:zucchinibakeitem" }
+		{ item: "pamhc2foodextended:sweetandsourmeatballsitem" }
+		{ item: "pamhc2foodextended:grapejuiceitem", count: 4 }
+		{ item: "pamhc2foodextended:jackfruityogurtitem", count: 4 }
+		{ item: "pamhc2foodextended:pearsmoothieitem", count: 4 }
+		{ item: "pamhc2foodextended:cactusfruitjuiceitem", count: 2 }
+		{ item: "pamhc2foodextended:garlicbreaditem", count: 3 }
+		{ item: "pamhc2foodextended:porklomeinitem", count: 3 }
+		{ item: "pamhc2foodextended:rainbowcurryitem", count: 3 }
+		{ item: "pamhc2foodextended:splitpeasoupitem", count: 3 }
+		{ item: "pamhc2foodextended:schnitzelitem", count: 3 }
+		{ item: "pamhc2foodextended:chilipoppersitem", count: 7 }
+		{ item: "pamhc2foodextended:chorizoitem", count: 5 }
+		{ item: "pamhc2foodextended:cinnamonbreaditem", count: 3 }
+		{ item: "pamhc2foodextended:bentoboxitem", count: 4 }
+		{ item: "pamhc2foodextended:bbqchickenpizzaitem", count: 2 }
+		{ item: "pamhc2foodextended:strawberryjellysandwichitem", count: 4 }
+		{ item: "pamhc2foodextended:cookedtofuttonitem" }
+		{ item: "pamhc2foodextended:grapefruitjellysandwichitem", count: 6 }
+		{ item: "pamhc2foodextended:mulberryjuiceitem", count: 5 }
+		{ item: "pamhc2foodextended:chickencurryitem", count: 3 }
+		{ item: "pamhc2foodextended:strawberryjuiceitem", count: 5 }
+		{ item: "pamhc2foodextended:jackfruitsmoothieitem", count: 3 }
+		{ item: "pamhc2foodextended:breadfruitsmoothieitem", count: 3 }
+		{ item: "pamhc2foodextended:bananasmoothieitem", count: 3 }
+		{ item: "pamhc2foodextended:starfruitsmoothieitem", count: 3 }
+		{ item: "pamhc2foodextended:grapefruitsmoothieitem", count: 3 }
+		{ item: "pamhc2foodextended:cantaloupejuiceitem", count: 7 }
+		{ item: "pamhc2foodextended:guavasmoothieitem", count: 4 }
+		{ item: "pamhc2foodextended:pawpawpieitem", count: 7 }
+		{ item: "pamhc2foodextended:grapefruityogurtitem", count: 4 }
+		{ item: "pamhc2foodextended:mangoyogurtitem", count: 6 }
+		{ item: "pamhc2foodextended:cactusfruityogurtitem", count: 8 }
+		{ item: "pamhc2foodextended:rambutanjellytoastitem", count: 3 }
+		{ item: "pamhc2foodextended:pearjellytoastitem", count: 4 }
+		{ item: "pamhc2foodextended:starfruitjellytoastitem", count: 2 }
+		{ item: "pamhc2foodextended:peachpieitem", count: 6 }
+		{ item: "pamhc2foodextended:datepieitem", count: 3 }
+		{ item: "pamhc2foodextended:starfruitpieitem", count: 7 }
+		{ item: "pamhc2foodextended:mochiitem", count: 8 }
+		{ item: "pamhc2foodextended:chocolateorangebiscuititem", count: 4 }
+		{ item: "pamhc2foodextended:hotandsoursoupitem", count: 5 }
+		{ item: "pamhc2foodextended:grilledcheesevegemitetoastitem", count: 5 }
+		{ item: "pamhc2foodextended:gingerchickenitem", count: 7 }
+		{ item: "pamhc2foodextended:cactusfruitsmoothieitem", count: 12 }
+		{ item: "pamhc2foodextended:lycheeyogurtitem", count: 2 }
+		{ item: "pamhc2foodextended:blackberryjellysandwichitem", count: 6 }
+		{ item: "pamhc2foodextended:lemonyogurtitem", count: 6 }
+		{ item: "pamhc2foodextended:datesmoothieitem", count: 5 }
+		{ item: "pamhc2foodextended:datejellysandwichitem", count: 4 }
+	]
+}

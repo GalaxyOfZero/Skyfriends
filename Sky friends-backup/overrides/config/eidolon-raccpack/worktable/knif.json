@@ -1,0 +1,10 @@
+{ "type": "eidolon:worktable",
+  "pattern": [ "ggg", " wg", "s g" ],
+  "reagents": "ssss ",
+  "key": {
+    "g": { "item": "minecraft:glass" },
+    "w": { "item": "eidolon:sapping_sword" },
+    "s": { "item": "eidolon:shadow_gem"}},
+
+    "result": { "item": "bloodmagic:sacrificialdagger", "count": 1 }
+}

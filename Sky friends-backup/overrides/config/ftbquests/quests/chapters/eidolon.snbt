@@ -1,0 +1,374 @@
+{
+	id: "213835184C9E63B7"
+	group: ""
+	order_index: 7
+	filename: "eidolon"
+	title: "Eidolon"
+	icon: "eidolon:codex"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -2.0d
+			description: ["This is the beginning of the eclipse, this mod is very fun. make sure you can take on the eclipse though"]
+			id: "20D787640C94AF78"
+			tasks: [{
+				id: "1B8E2618F78AEE27"
+				type: "item"
+				item: "eidolon:codex"
+			}]
+			rewards: [
+				{
+					id: "6E0343B20B479AE9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "387E6959D217503E"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			title: "Base Alter"
+			x: -0.5d
+			y: -0.5d
+			description: [
+				"the Alter symbolises the connection to the Dark Lorde"
+				""
+				"Warning: you can chat with the Dark lord ones after a full Minecraft day"
+			]
+			dependencies: ["20D787640C94AF78"]
+			id: "2AC311ED07714BFF"
+			tasks: [
+				{
+					id: "669307D488209F8E"
+					type: "item"
+					item: "eidolon:wooden_altar"
+					count: 6L
+				}
+				{
+					id: "078D6D3C97336F02"
+					type: "item"
+					item: "eidolon:straw_effigy"
+				}
+			]
+			rewards: [{
+				id: "3777EAD3E1DF175F"
+				type: "item"
+				item: "eidolon:candlestick"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["20D787640C94AF78"]
+			id: "4F98B5FC26E677F3"
+			tasks: [{
+				id: "3E5AFF6F003DB065"
+				type: "item"
+				item: "eidolon:pewter_blend"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "6FA988632549AABD"
+					type: "item"
+					item: "thermal:lead_ingot"
+					count: 5
+				}
+				{
+					id: "4887A889E8D8F309"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -3.374999999999993d
+			y: -0.4464285714285765d
+			dependencies: ["4F98B5FC26E677F3"]
+			id: "3415FD798656AF19"
+			tasks: [{
+				id: "656F718619D084DE"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+			rewards: [{
+				id: "749B6C635C25F8D9"
+				type: "item"
+				item: "eidolon:pewter_blend"
+				count: 10
+			}]
+		}
+		{
+			x: -3.982142857142854d
+			y: 0.375d
+			dependencies: ["3415FD798656AF19"]
+			id: "3BC37EDCE44A2501"
+			tasks: [{
+				id: "6BB2E730D9751894"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+			rewards: [{
+				id: "203B5C8F99075E5A"
+				type: "item"
+				item: "minecraft:magma_block"
+			}]
+		}
+		{
+			x: -2.8392857142857153d
+			y: 0.375d
+			dependencies: ["3415FD798656AF19"]
+			id: "7D45A670669DBB3E"
+			tasks: [{
+				id: "2C6FE0445C657E8C"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+			rewards: [{
+				id: "31A8868BDD61F652"
+				type: "random"
+				table_id: 7733633901596953089L
+			}]
+		}
+		{
+			x: -3.339285714285708d
+			y: 1.2678571428571388d
+			dependencies: ["3BC37EDCE44A2501"]
+			id: "7359ED3439673086"
+			tasks: [{
+				id: "724B09BCB9B1F79B"
+				type: "item"
+				item: "eidolon:arcane_gold_ingot"
+			}]
+		}
+		{
+			title: "First Ritual"
+			x: 1.7321428571428683d
+			y: -0.5535714285714306d
+			description: [
+				"use the Crystallization Ritual to get your first Soul shard"
+				"Just sacrifice mobs did your hates"
+			]
+			dependencies: ["44E40FD5FBBF23FC"]
+			id: "5B66F8A4B8DCAF09"
+			tasks: [
+				{
+					id: "7CC160E237587BB8"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "37E5E77D7BC741AC"
+					type: "item"
+					item: "eidolon:stone_hand"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["2AC311ED07714BFF"]
+			id: "1FDED31BE0665F06"
+			tasks: [{
+				id: "30E60F4CD9250815"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+			rewards: [{
+				id: "10980EE452C98572"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Better Alter of darknis"
+			icon: "eidolon:stone_altar"
+			x: -0.4642857142857082d
+			y: 3.486607142857146d
+			dependencies: ["3CDF32E3DA3173AB"]
+			id: "03B68E11EA0BA960"
+			tasks: [
+				{
+					id: "60DB99821416E252"
+					type: "item"
+					item: "eidolon:stone_altar"
+					count: 6L
+				}
+				{
+					id: "31C745AA77F540D8"
+					type: "item"
+					item: "eidolon:unholy_effigy"
+				}
+			]
+			rewards: [{
+				id: "1E869D7E347293F7"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 2
+			}]
+		}
+		{
+			x: -0.4999999999999929d
+			y: 2.2723214285714306d
+			description: ["a mystical sybol check the Book for more infos"]
+			dependencies: ["1FDED31BE0665F06"]
+			id: "3CDF32E3DA3173AB"
+			tasks: [{
+				id: "2B15AA9711843EE4"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+			rewards: [
+				{
+					id: "02BEB7A79B81C5EF"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "1F15355DB9A846CD"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.919642857142847d
+			y: 1.7611607142857153d
+			description: ["Is the better way to farm souls as the Ridual"]
+			dependencies: [
+				"7D45A670669DBB3E"
+				"3CDF32E3DA3173AB"
+			]
+			id: "4DD76FFB7F87582B"
+			tasks: [{
+				id: "7B48E804EDA7DFDF"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "74B611A2FAF26298"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E2D6BCD4FDDE93B"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.4508928571428612d
+			dependencies: ["5B66F8A4B8DCAF09"]
+			id: "5C037A3FAA6CBF6E"
+			tasks: [{
+				id: "03E8A17A29EE48D0"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+			rewards: [{
+				id: "4148433F964A1DFC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.535714285714299d
+			y: 0.2611607142857153d
+			description: [
+				"your need thes to Summon mobs"
+				"and more"
+			]
+			dependencies: ["5B66F8A4B8DCAF09"]
+			id: "1C668A4A9C06D948"
+			tasks: [{
+				id: "297A719387D12C57"
+				type: "item"
+				item: "eidolon:necrotic_focus"
+			}]
+			rewards: [{
+				id: "4E87743190B1FE98"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.3794642857142918d
+			y: 3.904017857142861d
+			description: [
+				"the best Alter did you can use"
+				"your need a 3x2 Stone Alter with"
+				"2 Candelsticks, 1 Wither Rose 1 Witherhead"
+				"and 1 Goblet"
+			]
+			dependencies: ["03B68E11EA0BA960"]
+			id: "785B58ECF7622178"
+			tasks: [{
+				id: "09364981C1E1F9FA"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5FF4901868E7A566"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.812499999999993d
+			y: 1.1127232142857082d
+			dependencies: [
+				"2C6FE0445C657E8C"
+				"03E8A17A29EE48D0"
+			]
+			id: "2F6ADE5A92C9EADC"
+			tasks: [{
+				id: "0E44DA6DF53C8225"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+			rewards: [{
+				id: "4816EF313419D1F2"
+				type: "item"
+				item: "eidolon:soul_shard"
+				count: 15
+			}]
+		}
+		{
+			x: 0.7500000000000213d
+			y: -1.3872767857142918d
+			description: [
+				"with enchanted Ash can your draw"
+				"a line do keep the mobs away from your"
+			]
+			dependencies: ["20D787640C94AF78"]
+			id: "44E40FD5FBBF23FC"
+			tasks: [{
+				id: "5D488A7052ADB144"
+				type: "item"
+				item: "eidolon:enchanted_ash"
+			}]
+			rewards: [{
+				id: "448CD8BC1BDABE3E"
+				type: "item"
+				item: "minecraft:bone"
+				count: 10
+			}]
+		}
+	]
+}

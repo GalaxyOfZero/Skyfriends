@@ -1,0 +1,859 @@
+{
+	id: "248423E3883F63E9"
+	group: ""
+	order_index: 9
+	filename: "okult"
+	title: "Occultism"
+	icon: "occultism:dictionary_of_spirits"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["59E2D4A3C4B2A8F7"]
+			id: "70689F8E6D481340"
+			tasks: [{
+				id: "247FEC0AB679CDE3"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
+			}]
+			rewards: [{
+				id: "783A12EF558FCCAD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			id: "59E2D4A3C4B2A8F7"
+			tasks: [{
+				id: "187478AE65041AA9"
+				type: "item"
+				item: "occultism:datura_seeds"
+			}]
+			rewards: [{
+				id: "7C23B6B148CDAADF"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 10
+			}]
+		}
+		{
+			icon: "occultism:spirit_fire"
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["70689F8E6D481340"]
+			id: "114A0498AC5461DA"
+			tasks: [
+				{
+					id: "354094DC37DC181A"
+					type: "item"
+					item: "occultism:datura"
+				}
+				{
+					id: "50C136514B161BC9"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16074F05DD5FA7DC"
+					type: "item"
+					item: "minecraft:netherrack"
+				}
+			]
+			rewards: [{
+				id: "1BA6B634F6403F33"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 1.125d
+			y: -0.8392857142857153d
+			dependencies: ["114A0498AC5461DA"]
+			id: "488BFC86EBBA3870"
+			tasks: [{
+				id: "58F965E19017398B"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+			}]
+			rewards: [{
+				id: "7A08528AFF4FF3BF"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["114A0498AC5461DA"]
+			id: "72213ADECD67314C"
+			tasks: [{
+				id: "643C939EA7B36419"
+				type: "item"
+				item: "occultism:chalk_white_impure"
+			}]
+			rewards: [
+				{
+					id: "4FCD74D67E6E33B8"
+					type: "item"
+					item: "occultism:chalk_white_impure"
+				}
+				{
+					id: "72F78F189B673C4A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["72213ADECD67314C"]
+			id: "77BCAF2DC798407E"
+			tasks: [{
+				id: "57B1DC5E600C771A"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["72213ADECD67314C"]
+			id: "7EA31DF56DA94313"
+			tasks: [{
+				id: "76E857BB8DB4BE0B"
+				type: "item"
+				item: "occultism:sacrificial_bowl"
+			}]
+			rewards: [
+				{
+					id: "12DDFDE93931761C"
+					type: "item"
+					item: "occultism:otherstone"
+					count: 5
+				}
+				{
+					id: "7795389F07A917A5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0178571428571388d
+			y: 1.625d
+			dependencies: ["7EA31DF56DA94313"]
+			id: "3F2920B52F4C884A"
+			tasks: [{
+				id: "2BEB99B020369F78"
+				type: "item"
+				item: "occultism:golden_sacrificial_bowl"
+			}]
+			rewards: [
+				{
+					id: "6908B4615FF0ACC8"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "3AAF410B7A66E2B7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "summon your first servants"
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["3F2920B52F4C884A"]
+			id: "1A564F7420068D04"
+			tasks: [{
+				id: "3E92EE0D996568AB"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_foliot"
+					Count: 1b
+					tag: {
+						spiritName: "Azurcloes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "67461BFEE60E013C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			description: ["The Otherworld Sapling Trader will take the Unstable Otherworld Saplings you get from Groves or the Market and give you stable saplings in return."]
+			dependencies: ["3F2920B52F4C884A"]
+			id: "00C1975682826CCF"
+			tasks: [{
+				id: "49A69984171DFFAE"
+				type: "item"
+				item: "occultism:otherworld_sapling"
+			}]
+			rewards: [{
+				id: "07FA7109C24D214B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			dependencies: ["77BCAF2DC798407E"]
+			id: "37EC75F35F7C9AC1"
+			tasks: [{
+				id: "130F540DA846400F"
+				type: "item"
+				item: {
+					id: "occultism:chalk_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2046047E6EC6F75B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1BE8169EB13F4924"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: 1.3392857142857082d
+			y: -1.7321428571428612d
+			dependencies: ["114A0498AC5461DA"]
+			id: "38A15BF810EDB5F4"
+			tasks: [{
+				id: "160D2B16DF0E5FA5"
+				type: "item"
+				item: "occultism:purified_ink"
+			}]
+			rewards: [{
+				id: "0DDE98C06AC26226"
+				type: "item"
+				item: "minecraft:ink_sac"
+				count: 5
+			}]
+		}
+		{
+			x: 2.125d
+			y: -1.4107142857142847d
+			dependencies: ["114A0498AC5461DA"]
+			id: "620CE19C7A0A68F4"
+			tasks: [{
+				id: "6BAEE03552B758F7"
+				type: "item"
+				item: "occultism:otherworld_ashes"
+			}]
+			rewards: [{
+				id: "3746979E237D4688"
+				type: "item"
+				item: "occultism:otherworld_sapling"
+				count: 3
+			}]
+		}
+		{
+			x: 1.982142857142854d
+			y: -0.5892857142857153d
+			dependencies: ["114A0498AC5461DA"]
+			id: "33CDE031744DC544"
+			tasks: [{
+				id: "56C50AD4FB43A430"
+				type: "item"
+				item: "occultism:otherstone"
+			}]
+			rewards: [{
+				id: "07FD3DDB488CFBB7"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 10
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			description: ["This Iteam can remove runes, Mining the runes cost too much time."]
+			dependencies: ["72213ADECD67314C"]
+			id: "734E2428F0D8AD00"
+			tasks: [{
+				id: "4E9BA7672DCB9471"
+				type: "item"
+				item: "occultism:brush"
+			}]
+			rewards: [{
+				id: "0C61EE77BD44A154"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			dependencies: [
+				"260D280B6F25B9F1"
+				"37EC75F35F7C9AC1"
+			]
+			id: "4EE011A8CD69FF45"
+			tasks: [{
+				id: "546C189F2F82F672"
+				type: "item"
+				item: {
+					id: "occultism:familiar_ring"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							hasFamiliar: 0b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5AEBD2FA805BF267"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			description: ["The Soul gem can pick up mobs and spirits"]
+			dependencies: [
+				"260D280B6F25B9F1"
+				"37EC75F35F7C9AC1"
+			]
+			id: "4887C1A58271146A"
+			tasks: [{
+				id: "6C6A5C09E23E9229"
+				type: "item"
+				item: {
+					id: "occultism:soul_gem"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3E64C77C0B3C4D12"
+				type: "item"
+				item: {
+					id: "occultism:soul_gem"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			dependencies: ["37EC75F35F7C9AC1"]
+			id: "260D280B6F25B9F1"
+			tasks: [{
+				id: "19D71D7D6773B685"
+				type: "item"
+				item: {
+					id: "occultism:chalk_purple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A2727EB831EC304"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 10
+				}
+				{
+					id: "21475B1E63B76CC5"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -2.0d
+			description: ["The Djinni Crusher is a more powerful version of the foliot without the limitation of essence decay."]
+			dependencies: ["260D280B6F25B9F1"]
+			id: "26CC133A7BA88BB2"
+			tasks: [{
+				id: "148645D82B0305DD"
+				type: "advancement"
+				title: "Summon a Djinni"
+				icon: "minecraft:diamond_ore"
+				advancement: "occultism:occultism/summon_djinni_crusher"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7C68C9AFCE4DF03E"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			title: "Make it Night"
+			x: -9.5d
+			y: -3.0d
+			dependencies: ["260D280B6F25B9F1"]
+			id: "340C8A71148F2A30"
+			tasks: [{
+				id: "19AACC21F0EC6538"
+				type: "advancement"
+				icon: "minecraft:clock"
+				advancement: "occultism:occultism/summon_djinni_night_time"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "538FC6999506694D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Make clear Weter"
+			icon: "minecraft:grass_block"
+			x: -10.5d
+			y: -3.0d
+			dependencies: ["260D280B6F25B9F1"]
+			id: "714D3C8AF84AEA9D"
+			tasks: [{
+				id: "59EBDB4DB456FA67"
+				type: "advancement"
+				icon: "minecraft:grass_block"
+				advancement: "occultism:occultism/summon_djinni_clear_weather"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "462C1A35D6FE7016"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Wither Hunter"
+			icon: "minecraft:wither_skeleton_skull"
+			x: -8.5d
+			y: -3.0d
+			dependencies: ["260D280B6F25B9F1"]
+			id: "39B45B43EDFA3AD7"
+			tasks: [{
+				id: "7B72C0FF30ADC5AC"
+				type: "advancement"
+				icon: "minecraft:wither_skeleton_skull"
+				advancement: "occultism:occultism/summon_wild_hunt"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "31A9270834077BA7"
+				type: "command"
+				icon: "minecraft:daylight_detector"
+				command: "/time set day"
+				player_command: false
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			dependencies: ["260D280B6F25B9F1"]
+			id: "4B240822D6CAE492"
+			tasks: [{
+				id: "34F00F39D023E6B6"
+				type: "item"
+				item: "occultism:storage_controller"
+			}]
+			rewards: [
+				{
+					id: "0350C8C1970BEEB3"
+					type: "item"
+					item: "occultism:otherstone"
+					count: 10
+				}
+				{
+					id: "302CF1B20E6868ED"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.979166666666657d
+			y: 0.6011904761904674d
+			dependencies: ["4B240822D6CAE492"]
+			id: "40BA74C647D39C14"
+			tasks: [{
+				id: "545ECD02C2CB896C"
+				type: "item"
+				item: {
+					id: "occultism:storage_remote"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "24CFC63AE2A73431"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.5d
+			dependencies: ["4B240822D6CAE492"]
+			id: "4B9DAE474E66457A"
+			tasks: [{
+				id: "27FCE80A5C8BABCA"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier1"
+			}]
+			rewards: [{
+				id: "21D24FF8C96EB3B2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.5d
+			dependencies: ["00F776D9E12DB4EF"]
+			id: "0336A06EDBBDFE9B"
+			tasks: [{
+				id: "291FBB073C5C4FDE"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier2"
+			}]
+			rewards: [{
+				id: "3D5843C0DCD4B530"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.5d
+			dependencies: ["6678E52BF83A90EE"]
+			id: "00F776D9E12DB4EF"
+			tasks: [{
+				id: "42D16F6EA07A3E89"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier3"
+			}]
+			rewards: [{
+				id: "60EA5638A0DB969A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: 4.5d
+			dependencies: ["694263286610C489"]
+			id: "6678E52BF83A90EE"
+			tasks: [{
+				id: "0F6180ED74FD56F5"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier4"
+			}]
+			rewards: [
+				{
+					id: "3F1204CF01B70DD3"
+					type: "item"
+					item: "occultism:storage_stabilizer_tier2"
+				}
+				{
+					id: "35EF6641E4C53F86"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -10.016369047619044d
+			y: 2.9107142857142847d
+			dependencies: ["679606694CB42084"]
+			id: "694263286610C489"
+			tasks: [{
+				id: "64C31DE02EE4E936"
+				type: "item"
+				item: {
+					id: "occultism:chalk_red"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1CA732C597101543"
+					type: "item"
+					item: "occultism:afrit_essence"
+				}
+				{
+					id: "6E8B4388BACC4DD6"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -12.122023809523803d
+			y: -0.1488095238095255d
+			description: ["Summon a Foliad Miner, this is the begin of Magic Ore mining. but his verre slow"]
+			dependencies: ["1D3F05B169B89CE9"]
+			id: "17E975BB4C7218D8"
+			tasks: [{
+				id: "7477E49D425DCE88"
+				type: "advancement"
+				title: "Foliad Miner"
+				icon: {
+					id: "occultism:miner_foliot_unspecialized"
+					Count: 1b
+					tag: {
+						spiritName: "Mrokredd"
+						Damage: 0
+					}
+				}
+				advancement: "occultism:occultism/craft_miner_foliot_unspecialized"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1EFB1E3CE908F4A5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.5d
+			y: 1.0d
+			dependencies: ["1D3F05B169B89CE9"]
+			id: "7FE36E3D52A55034"
+			tasks: [{
+				id: "7350292E03A77FD2"
+				type: "advancement"
+				title: "The Best Magic Ore miner"
+				icon: {
+					id: "occultism:miner_djinni_ores"
+					Count: 1b
+					tag: {
+						spiritName: "Jarairder"
+						Damage: 0
+					}
+				}
+				advancement: "occultism:occultism/craft_miner_djinni_ores"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "27B0522CC039AB0D"
+				type: "item"
+				item: "occultism:dimensional_mineshaft"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.0d
+			dependencies: ["260D280B6F25B9F1"]
+			id: "1D3F05B169B89CE9"
+			tasks: [{
+				id: "586B239CFCCA7CAF"
+				type: "item"
+				item: "occultism:dimensional_mineshaft"
+			}]
+			rewards: [{
+				id: "04DAA540A0D2864D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.9434523809523725d
+			y: 1.6726190476190368d
+			dependencies: ["4B240822D6CAE492"]
+			id: "352835E0F12E36A4"
+			tasks: [{
+				id: "7CF9B055140813EA"
+				type: "item"
+				item: {
+					id: "occultism:stable_wormhole"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1DC7667AA2434BD4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.360119047619051d
+			y: 0.1190476190476133d
+			description: ["Drop 1 Netherite and get 1 Iesnium ingot"]
+			dependencies: ["114A0498AC5461DA"]
+			id: "43B179BC8112DB18"
+			tasks: [{
+				id: "75A0B8A792CF91D6"
+				type: "item"
+				item: "occultism:iesnium_ingot"
+			}]
+			rewards: [{
+				id: "02295675DE619795"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				count: 2
+			}]
+		}
+		{
+			x: -1.264880952380949d
+			y: -2.0059523809523867d
+			dependencies: ["114A0498AC5461DA"]
+			id: "3988E8BA3EA5F454"
+			tasks: [{
+				id: "75F24C10A86EFF25"
+				type: "item"
+				item: {
+					id: "occultism:butcher_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FBB59554E7C5937"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 5
+			}]
+		}
+		{
+			x: -1.7291666666666643d
+			y: -3.041666666666675d
+			dependencies: ["3988E8BA3EA5F454"]
+			id: "4D14A3ED5BBDE3E4"
+			tasks: [{
+				id: "3041BE6BF8BA3503"
+				type: "item"
+				item: "occultism:tallow"
+			}]
+			rewards: [{
+				id: "30570B32E2C448A8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.657738095238095d
+			y: -2.3988095238095326d
+			dependencies: [
+				"4D14A3ED5BBDE3E4"
+				"77BCAF2DC798407E"
+			]
+			id: "4390FE4DB7D3B957"
+			tasks: [{
+				id: "7B2D6EF4FD6C53A2"
+				type: "item"
+				item: "occultism:candle_white"
+			}]
+			rewards: [{
+				id: "67FE2E9EB816B673"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Summon The Wild Afrit"
+			icon: "occultism:afrit_essence"
+			x: -9.873511904761905d
+			y: 1.2321428571428612d
+			dependencies: ["260D280B6F25B9F1"]
+			id: "679606694CB42084"
+			tasks: [
+				{
+					id: "239E97B16DF4901D"
+					type: "advancement"
+					advancement: "occultism:occultism/summon_wild_afrit"
+					criterion: ""
+				}
+				{
+					id: "39ECE5E81E0A3DC0"
+					type: "item"
+					item: "occultism:afrit_essence"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "2BDAB7B6B965C572"
+					type: "item"
+					item: "minecraft:writable_book"
+					count: 2
+				}
+				{
+					id: "6D78CAE75CD261F3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			icon: {
+				id: "occultism:book_of_binding_bound_foliot"
+				Count: 1b
+				tag: {
+					spiritName: "Lukurakarc"
+				}
+			}
+			x: -5.302083333333336d
+			y: 0.7678571428571388d
+			subtitle: "Summon your first Spirit"
+			description: [
+				"Your first spirit did your need is a Foliat crusher."
+				"This spirit is shlow in his job"
+			]
+			dependencies: ["37EC75F35F7C9AC1"]
+			id: "3AA827D60D67532C"
+			tasks: [
+				{
+					id: "68E3C8C9F51F0990"
+					type: "checkmark"
+				}
+				{
+					id: "3DA36E478A296C17"
+					type: "item"
+					item: "occultism:book_of_binding_foliot"
+				}
+			]
+		}
+	]
+}

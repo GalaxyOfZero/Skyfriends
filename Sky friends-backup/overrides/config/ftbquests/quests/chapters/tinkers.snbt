@@ -1,0 +1,350 @@
+{
+	id: "4DA8FFE155F03576"
+	group: ""
+	order_index: 1
+	filename: "tinkers"
+	title: "Tinkers"
+	icon: "tconstruct:smeltery_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: -0.5d
+			id: "130CDC79E64AF950"
+			tasks: [{
+				id: "18494750FC36D2D1"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["130CDC79E64AF950"]
+			id: "252069ED7A7860F1"
+			tasks: [
+				{
+					id: "333E91218943A653"
+					type: "item"
+					item: "minecraft:sand"
+				}
+				{
+					id: "015165B852757475"
+					type: "item"
+					item: "minecraft:clay_ball"
+				}
+				{
+					id: "0E53E008A54F0639"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+			]
+			rewards: [{
+				id: "3A2EEC0131CCA3A1"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 10
+			}]
+		}
+		{
+			x: -0.2678571428571388d
+			y: -1.9107142857142847d
+			dependencies: ["252069ED7A7860F1"]
+			id: "282F94A883BF03B8"
+			tasks: [{
+				id: "650EA98ED0887C07"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "23E5586EA8ECDB48"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 10
+			}]
+		}
+		{
+			x: 1.1964285714285694d
+			y: -1.875d
+			dependencies: ["252069ED7A7860F1"]
+			id: "0592AD8F0212158C"
+			tasks: [{
+				id: "15414269EA18FFCE"
+				type: "item"
+				item: {
+					id: "tconstruct:part_builder"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CE7FAC2AC14267B"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 10
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["252069ED7A7860F1"]
+			id: "28BF10D124A40BD8"
+			tasks: [{
+				id: "46D55455C56D1CB3"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 64L
+			}]
+			rewards: [{
+				id: "61D54AABE79090B1"
+				type: "item"
+				item: "minecraft:clay"
+				count: 10
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["28BF10D124A40BD8"]
+			id: "50FDCBDCDCFBE727"
+			tasks: [{
+				id: "16ABE8873CB7D9A1"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+			rewards: [{
+				id: "11B0DF16A574CD5C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.267857142857132d
+			y: -1.9107142857142954d
+			dependencies: ["50FDCBDCDCFBE727"]
+			id: "344A2C984020DB54"
+			tasks: [{
+				id: "70DAA8F4F57D57EA"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+			rewards: [{
+				id: "76111FC4F139A738"
+				type: "item"
+				item: "minecraft:glass"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["50FDCBDCDCFBE727"]
+			id: "4B99FC586E5E80F1"
+			tasks: [{
+				id: "32CD4487BC898FF9"
+				type: "item"
+				item: "tconstruct:seared_fuel_tank"
+			}]
+			rewards: [{
+				id: "184F81ECBB48D324"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["50FDCBDCDCFBE727"]
+			id: "11097B163C45D66C"
+			tasks: [{
+				id: "59C6CA14D802D101"
+				type: "item"
+				item: "tconstruct:seared_heater"
+			}]
+			rewards: [{
+				id: "7EC2FF894B02E5C0"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 5
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			description: ["ths is a one use cast"]
+			dependencies: ["252069ED7A7860F1"]
+			id: "7421270D72E0DC89"
+			tasks: [{
+				id: "69A1E875DCF65F66"
+				type: "item"
+				item: "tconstruct:blank_sand_cast"
+			}]
+			rewards: [{
+				id: "7746B82295900776"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["344A2C984020DB54"]
+			id: "0C93F46543469F5F"
+			tasks: [{
+				id: "7015DE75C2816B71"
+				type: "item"
+				item: "tconstruct:seared_basin"
+			}]
+			rewards: [{
+				id: "10A53EAFD8AF65A6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.482142857142847d
+			y: -1.678571428571427d
+			dependencies: ["344A2C984020DB54"]
+			id: "12DB35569ACF7ADF"
+			tasks: [{
+				id: "652E1E8411C9BAC6"
+				type: "item"
+				item: "tconstruct:seared_faucet"
+			}]
+			rewards: [{
+				id: "6CF8EFAF60ED64D9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			dependencies: [
+				"0C93F46543469F5F"
+				"12DB35569ACF7ADF"
+			]
+			id: "4F341FA640E76C7B"
+			tasks: [{
+				id: "1BFE079A57F467A0"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+		}
+		{
+			title: "Safe your casts"
+			x: 5.696428571428562d
+			y: 1.2142857142857153d
+			dependencies: ["5E70DBFD3AE022F5"]
+			id: "4E3F0D0DB19FC5B2"
+			tasks: [{
+				id: "4D72BE914685E6AC"
+				type: "item"
+				item: "tconstruct:cast_chest"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["4F341FA640E76C7B"]
+			id: "5E70DBFD3AE022F5"
+			tasks: [
+				{
+					id: "6C5CC57C512EC324"
+					type: "item"
+					item: "tconstruct:blank_cast"
+				}
+				{
+					id: "2306FAEA73BE7D94"
+					type: "item"
+					item: "tconstruct:ingot_cast"
+				}
+				{
+					id: "1BB38F36F62C8B91"
+					type: "item"
+					item: "tconstruct:repair_kit_cast"
+				}
+				{
+					id: "3825038616C294BF"
+					type: "item"
+					item: "tconstruct:small_axe_head_cast"
+				}
+				{
+					id: "1DAD59303F65EAEB"
+					type: "item"
+					item: "tconstruct:tool_binding_cast"
+				}
+				{
+					id: "32F3B20599399872"
+					type: "item"
+					item: "tconstruct:tool_handle_cast"
+				}
+			]
+			rewards: [{
+				id: "12BC9CE84147C7F9"
+				type: "item"
+				item: "minecraft:gold_block"
+				count: 2
+			}]
+		}
+		{
+			x: 7.410714285714278d
+			y: 0.9642857142857082d
+			dependencies: ["4F341FA640E76C7B"]
+			id: "1A59BBE18C5DA1F0"
+			tasks: [{
+				id: "1D358FD89F047437"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+		}
+		{
+			x: 7.982142857142854d
+			y: 0.2142857142857082d
+			dependencies: ["4F341FA640E76C7B"]
+			id: "58BB7A319FCDB292"
+			tasks: [{
+				id: "357A0B0E654E29ED"
+				type: "item"
+				item: "tconstruct:liquid_soul_bucket"
+			}]
+		}
+		{
+			x: 8.125000000000007d
+			y: -1.1428571428571423d
+			dependencies: ["4F341FA640E76C7B"]
+			id: "6CDB0ADCDE4DA612"
+			tasks: [{
+				id: "7067C0C5D8EBF352"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 32L
+			}]
+		}
+		{
+			x: 9.446428571428577d
+			y: -1.2857142857142847d
+			dependencies: ["6CDB0ADCDE4DA612"]
+			id: "5443C1B4E2629F31"
+			tasks: [{
+				id: "26E5FDADA1A33C79"
+				type: "item"
+				item: "tconstruct:seared_drain"
+			}]
+			rewards: [{
+				id: "2534DE3DACA675F8"
+				type: "item"
+				item: "tconstruct:cobalt_ore"
+				count: 3
+			}]
+		}
+	]
+}

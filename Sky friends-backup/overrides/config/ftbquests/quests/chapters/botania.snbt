@@ -1,0 +1,694 @@
+{
+	id: "2F9ABB1DCFED7286"
+	group: ""
+	order_index: 5
+	filename: "botania"
+	title: "Botania"
+	icon: "botania:lexicon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.4464285714285694d
+			y: 1.8035714285714164d
+			dependencies: ["1C0E67FF8F550FAE"]
+			id: "0CDBD3A9E4360F51"
+			tasks: [{
+				id: "6FF431ECD3AD3D3F"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+			rewards: [
+				{
+					id: "48B7225EEFD58613"
+					type: "item"
+					item: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+				}
+				{
+					id: "26B091923E972CF6"
+					type: "random"
+				}
+			]
+		}
+		{
+			x: -0.5892857142857153d
+			y: -0.9821428571428683d
+			dependencies: ["09E2C7BAE11EE1EC"]
+			id: "33BAAA1236D3F590"
+			tasks: [{
+				id: "4249250A89C513D9"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "7DC87BCDD72A4C75"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 10
+			}]
+		}
+		{
+			title: "A new life"
+			x: -0.5535714285714306d
+			y: -2.303571428571445d
+			dependencies: ["33BAAA1236D3F590"]
+			id: "1655AE6CEBCB44A9"
+			tasks: [{
+				id: "23015CAE05BC3F36"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [
+				{
+					id: "3D13CEBC9CE7B83D"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5
+				}
+				{
+					id: "13C53357D15EAFC5"
+					type: "item"
+					item: "botania:livingwood"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.1964285714285694d
+			y: -3.3392857142857224d
+			dependencies: ["1655AE6CEBCB44A9"]
+			id: "2793E8B28D87FBA4"
+			tasks: [{
+				id: "485266BCEE83DDF7"
+				type: "item"
+				item: "botania:livingrock"
+			}]
+			rewards: [{
+				id: "53276C0B76D3AC41"
+				type: "item"
+				item: "botania:livingrock"
+				count: 10
+			}]
+		}
+		{
+			x: -1.517857142857146d
+			y: -3.1964285714285836d
+			dependencies: ["1655AE6CEBCB44A9"]
+			id: "393546653D5581BD"
+			tasks: [{
+				id: "5B1F30A05716B1C4"
+				type: "item"
+				item: "botania:livingwood"
+			}]
+			rewards: [{
+				id: "157FB804720CB621"
+				type: "item"
+				item: "botania:livingwood"
+				count: 10
+			}]
+		}
+		{
+			x: 0.3749999999999929d
+			y: -4.553571428571438d
+			dependencies: ["2793E8B28D87FBA4"]
+			id: "373D7E53378D46E3"
+			tasks: [{
+				id: "161AA95957AD4D40"
+				type: "item"
+				item: "botania:diluted_pool"
+			}]
+			rewards: [{
+				id: "54701AE5C344ED59"
+				type: "item"
+				item: "botania:livingrock"
+				count: 5
+			}]
+		}
+		{
+			x: -0.7678571428571459d
+			y: -6.982142857142865d
+			dependencies: ["3256F00CFA0A8279"]
+			id: "5D6707FE67A8B48C"
+			tasks: [{
+				id: "6DF316A0D0304B52"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+		}
+		{
+			x: -1.8392857142857153d
+			y: -4.482142857142868d
+			description: [""]
+			dependencies: ["393546653D5581BD"]
+			id: "02A3A36F00C40CDD"
+			tasks: [{
+				id: "6ED327DF6A1B37E3"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "64DF4CBE981A8E19"
+				type: "item"
+				item: "botania:open_crate"
+			}]
+		}
+		{
+			x: 4.767857142857153d
+			y: -1.375d
+			dependencies: [
+				"166B51BBC89BF870"
+				"3CF4C2B9C4A83636"
+			]
+			id: "12AE37EF27094E5B"
+			tasks: [{
+				id: "40C34DD0B5FC30EC"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [{
+				id: "5FBAC21169550423"
+				type: "item"
+				item: "botania:dreamwood"
+				count: 5
+			}]
+		}
+		{
+			x: -0.6875d
+			y: -4.205357142857146d
+			dependencies: ["34C11C3B757AEE26"]
+			id: "27736FDA35D9AE13"
+			tasks: [{
+				id: "30CF3E0C9DF0AB00"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+		}
+		{
+			x: -0.875d
+			y: -5.482142857142868d
+			dependencies: [
+				"373D7E53378D46E3"
+				"02A3A36F00C40CDD"
+			]
+			id: "3256F00CFA0A8279"
+			tasks: [{
+				id: "07744CD0EEF77D1A"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [
+				{
+					id: "5B052B6EF5D173BC"
+					type: "item"
+					item: "minecraft:feather"
+					count: 5
+				}
+				{
+					id: "7BE79C1A7DFB9151"
+					type: "random"
+				}
+			]
+		}
+		{
+			title: "Bassic Mana Coal"
+			x: -1.1964285714285694d
+			y: 0.4821428571428399d
+			dependencies: ["33BAAA1236D3F590"]
+			id: "7F997F92891699A5"
+			tasks: [{
+				id: "110201C883A758CE"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "7AC78E1B8D36DDC3"
+				type: "item"
+				item: "minecraft:coal"
+				count: 10
+			}]
+		}
+		{
+			title: "Bassic Mana Water"
+			x: -1.9107142857142847d
+			y: -0.5892857142857295d
+			dependencies: ["33BAAA1236D3F590"]
+			id: "5EF4EC62A737B01D"
+			tasks: [{
+				id: "0C76E08064EB37C2"
+				type: "item"
+				item: "botania:hydroangeas"
+				count: 4L
+			}]
+			rewards: [{
+				id: "684745B8631B3AAC"
+				type: "item"
+				item: "minecraft:grass_block"
+				count: 2
+			}]
+		}
+		{
+			x: 0.7678571428571388d
+			y: 0.4107142857142776d
+			id: "1C0E67FF8F550FAE"
+			tasks: [{
+				id: "5680556A5B8E7CC1"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 10L
+			}]
+			rewards: [{
+				id: "0323E9478209DB2F"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 5
+			}]
+		}
+		{
+			x: 1.3392857142857153d
+			y: -0.7321428571428683d
+			dependencies: ["1C0E67FF8F550FAE"]
+			id: "09E2C7BAE11EE1EC"
+			tasks: [
+				{
+					id: "17CBF472B18D7EB2"
+					type: "item"
+					item: "botania:white_mystical_flower"
+				}
+				{
+					id: "0C199F9B9B3E7AB8"
+					type: "item"
+					item: "botania:orange_mystical_flower"
+				}
+				{
+					id: "420791C40607AF87"
+					type: "item"
+					item: "botania:magenta_mystical_flower"
+				}
+				{
+					id: "63B9162B18A09FD9"
+					type: "item"
+					item: "botania:light_blue_mystical_flower"
+				}
+				{
+					id: "37E472C942F4C4A5"
+					type: "item"
+					item: "botania:yellow_mystical_flower"
+				}
+				{
+					id: "6A07087708D95914"
+					type: "item"
+					item: "botania:lime_mystical_flower"
+				}
+				{
+					id: "44AB2F7E26732CBE"
+					type: "item"
+					item: "botania:pink_mystical_flower"
+				}
+				{
+					id: "0939B45145718357"
+					type: "item"
+					item: "botania:gray_mystical_flower"
+				}
+				{
+					id: "47595F00E584C219"
+					type: "item"
+					item: "botania:light_gray_mystical_flower"
+				}
+				{
+					id: "10DEE03D6D80D152"
+					type: "item"
+					item: "botania:cyan_mystical_flower"
+				}
+				{
+					id: "10652D2788D1C26A"
+					type: "item"
+					item: "botania:purple_mystical_flower"
+				}
+				{
+					id: "29586133C5B1EB6F"
+					type: "item"
+					item: "botania:blue_mystical_flower"
+				}
+				{
+					id: "0750A87B30D5FEDB"
+					type: "item"
+					item: "botania:brown_mystical_flower"
+				}
+				{
+					id: "733F0230DA02CF39"
+					type: "item"
+					item: "botania:red_mystical_flower"
+				}
+				{
+					id: "00380DBA5A1E7A97"
+					type: "item"
+					item: "botania:green_mystical_flower"
+				}
+				{
+					id: "3D072FE734FB058B"
+					type: "item"
+					item: "botania:black_mystical_flower"
+				}
+			]
+			rewards: [{
+				id: "000C50FB5E7E958B"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			dependencies: ["3256F00CFA0A8279"]
+			id: "26525F69ECE60BB8"
+			tasks: [
+				{
+					id: "0DBE3AFC76CA5198"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "5A6A2EFD7B8C572E"
+					type: "item"
+					item: "botania:spark"
+				}
+				{
+					id: "44F6608A4CE96EBE"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+				{
+					id: "39C415B4212B1654"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "2B9B94CD3CA41D41"
+					type: "item"
+					item: "botania:mana_pearl"
+					count: 3
+				}
+				{
+					id: "5521F3CD2E4DC7A6"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Elven Portal part 1"
+			x: 2.4464285714285765d
+			y: -4.410714285714292d
+			dependencies: ["26525F69ECE60BB8"]
+			id: "48A0927A6CA0334D"
+			tasks: [
+				{
+					id: "288FA269C6787008"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "7F6B855099403F94"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "426A2E6F03119F50"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+				count: 10
+			}]
+		}
+		{
+			title: "Elven Portal part 2"
+			x: 3.3392857142857153d
+			y: -3.6964285714285694d
+			dependencies: ["48A0927A6CA0334D"]
+			id: "2C2DC3C689CB42E5"
+			tasks: [
+				{
+					id: "50193EAA4E6FE2A6"
+					type: "item"
+					item: "botania:mana_pool"
+					count: 2L
+				}
+				{
+					id: "03C36CD72A1EF012"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "21B1E6D49932D9F0"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+		}
+		{
+			title: "Elven Portal part 3"
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["2C2DC3C689CB42E5"]
+			id: "1962B83A20E6FF4D"
+			tasks: [{
+				id: "0A2910965F5B6344"
+				type: "item"
+				item: "botania:alfheim_portal"
+			}]
+			rewards: [{
+				id: "4DAA8B7D4F0CEFD7"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.125000000000007d
+			y: -2.8035714285714306d
+			dependencies: ["1962B83A20E6FF4D"]
+			id: "30F43CDF68ED0A0D"
+			tasks: [{
+				id: "07940ACC1F1CE5EC"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "270583F1A011B4DB"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: 4.089285714285722d
+			y: -2.410714285714292d
+			dependencies: ["1962B83A20E6FF4D"]
+			id: "3CF4C2B9C4A83636"
+			tasks: [{
+				id: "0481DC3D17991CA5"
+				type: "item"
+				item: "botania:dreamwood"
+			}]
+			rewards: [{
+				id: "2B0FD140FC0EE824"
+				type: "item"
+				item: "botania:dreamwood"
+				count: 5
+			}]
+		}
+		{
+			x: 4.053571428571438d
+			y: -4.517857142857146d
+			dependencies: ["1962B83A20E6FF4D"]
+			id: "5CA989EF20BA4149"
+			tasks: [{
+				id: "1196DFEA7677CE27"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "65773734EBF6106F"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 6
+			}]
+		}
+		{
+			x: 5.053571428571438d
+			y: -4.589285714285715d
+			dependencies: ["1962B83A20E6FF4D"]
+			id: "0E8EC09702B8DC23"
+			tasks: [{
+				id: "12ACE1C9284C74B0"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [{
+				id: "64CCC33366763BB8"
+				type: "item"
+				item: "botania:pixie_dust"
+				count: 10
+			}]
+		}
+		{
+			x: 5.125000000000007d
+			y: -2.482142857142854d
+			dependencies: ["1962B83A20E6FF4D"]
+			id: "166B51BBC89BF870"
+			tasks: [{
+				id: "6BCCB957D81FCB8D"
+				type: "item"
+				item: "botania:dragonstone"
+				count: 10L
+			}]
+			rewards: [{
+				id: "01DA0CFF65E8304D"
+				type: "item"
+				item: "botania:mana_diamond"
+				count: 5
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			dependencies: ["1962B83A20E6FF4D"]
+			id: "7BB170B7252D79CD"
+			tasks: [
+				{
+					id: "6B3B3D5C8355685A"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+				{
+					id: "590138DF19F10F61"
+					type: "item"
+					item: "botania:spark"
+				}
+				{
+					id: "01890B0FD5ADB28C"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 4L
+				}
+				{
+					id: "53FBC1F2FCC9D522"
+					type: "item"
+					item: "botania:shimmerrock"
+					count: 5L
+				}
+			]
+		}
+		{
+			x: 2.214285714285708d
+			y: -7.107142857142865d
+			dependencies: ["26525F69ECE60BB8"]
+			id: "40860B81DCA013D4"
+			tasks: [{
+				id: "262ABEE3B72F7B03"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			rewards: [
+				{
+					id: "08676962ABFC1D35"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5
+				}
+				{
+					id: "597A3C336C65C3F4"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.7142857142857224d
+			y: 1.4732142857142776d
+			dependencies: ["7F997F92891699A5"]
+			id: "6F83D732EA10B396"
+			tasks: [{
+				id: "221AF0D83012F314"
+				type: "item"
+				item: "botania:floating_endoflame"
+			}]
+			rewards: [{
+				id: "22F52DE0BB1481B2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Ritual of Gaia Spirit"
+			icon: "botania:gaia_head"
+			x: 4.5d
+			y: -7.0d
+			shape: "pentagon"
+			description: [
+				"The Ritual of Gaia Spirit is a area fight with 2 waves."
+				"Your need a space from 11x11 for thes Ritual"
+				"Thes Spirat has 2 Tiers"
+				"Tier 1 can your Activate with a &2Terrasteel"
+				"Tier 2 nees a &4Gaia Spirit Ingot."
+				"Gaia Spirit becoms your by fighting the tier 1"
+			]
+			dependencies: ["26525F69ECE60BB8"]
+			id: "5D1B734D2D89F860"
+			tasks: [
+				{
+					id: "3779161D1B6C1FFB"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "2233AF63262963E4"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "0A343EF72A2FF01A"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 9L
+				}
+				{
+					id: "34C11C3B757AEE26"
+					type: "kill"
+					entity: "botania:doppleganger"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "312B414FD6ABF42B"
+				type: "item"
+				item: "botania:life_essence"
+				count: 2
+			}]
+		}
+	]
+}

@@ -1,0 +1,907 @@
+{
+	id: "4228B72D7E7F00CA"
+	group: ""
+	order_index: 10
+	filename: "powah"
+	title: "Powah"
+	icon: "powah:book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.205357142857146d
+			y: 1.2410714285714306d
+			dependencies: ["5D6707FE67A8B48C"]
+			id: "59FFE902C7070434"
+			tasks: [{
+				id: "67E0E497564B3691"
+				type: "item"
+				item: "powah:dielectric_paste"
+			}]
+			rewards: [
+				{
+					id: "3A9DFD2B4EDF7E36"
+					type: "item"
+					item: "powah:book"
+				}
+				{
+					id: "457A14CD1B69755D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BA8776060230394"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -2.455357142857146d
+			y: 0.3839285714285765d
+			dependencies: ["59FFE902C7070434"]
+			id: "3A7B6622695E832F"
+			tasks: [{
+				id: "21D03B95B84C0AEA"
+				type: "item"
+				item: "powah:dielectric_rod"
+			}]
+			rewards: [
+				{
+					id: "0EBC645B46F35F6F"
+					type: "item"
+					item: "powah:dielectric_paste"
+					count: 10
+				}
+				{
+					id: "37347865C9334EDA"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -1.5982142857142918d
+			y: 0.5625d
+			dependencies: ["59FFE902C7070434"]
+			id: "21382EADB16D37EF"
+			tasks: [{
+				id: "000D0A314B48ACAE"
+				type: "item"
+				item: "powah:dielectric_rod_horizontal"
+			}]
+			rewards: [
+				{
+					id: "32192C6EFE7F7559"
+					type: "item"
+					item: "powah:dielectric_paste"
+					count: 10
+				}
+				{
+					id: "43102FC996B3A25B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.8035714285714235d
+			y: -0.9642857142857153d
+			dependencies: [
+				"3A7B6622695E832F"
+				"21382EADB16D37EF"
+			]
+			id: "1DB4BFBC20668984"
+			tasks: [{
+				id: "4A004697178FD489"
+				type: "item"
+				item: "powah:dielectric_casing"
+			}]
+			rewards: [
+				{
+					id: "222EE9CC053F4CCA"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "6E7F9435B25025AC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -0.3392857142857437d
+			y: -0.8035714285714093d
+			dependencies: ["1DB4BFBC20668984"]
+			id: "2CD9306CFFA1DD54"
+			tasks: [{
+				id: "2E3AE2F09265D9C1"
+				type: "item"
+				item: "powah:furnator_starter"
+			}]
+			rewards: [
+				{
+					id: "105241D52997A8DC"
+					type: "item"
+					item: "minecraft:coal"
+					count: 10
+				}
+				{
+					id: "6EEB5106912B6BEC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -0.1249999999999929d
+			y: -1.7857142857142883d
+			dependencies: ["1DB4BFBC20668984"]
+			id: "6C04B58670B08B20"
+			tasks: [{
+				id: "6F724EB47D33E57C"
+				type: "item"
+				item: "powah:magmator_starter"
+			}]
+			rewards: [{
+				id: "7575DA5597920672"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.874999999999993d
+			y: -1.9642857142857117d
+			dependencies: ["1DB4BFBC20668984"]
+			id: "3D1085C2A9226B99"
+			tasks: [{
+				id: "17E916E11B537668"
+				type: "item"
+				item: "powah:thermo_generator_starter"
+			}]
+			rewards: [{
+				id: "29DBAD15F26E1FD3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.982142857142847d
+			y: -2.464285714285719d
+			dependencies: ["1DB4BFBC20668984"]
+			id: "08BA0DCCD168B1F4"
+			tasks: [{
+				id: "5F97CA6F882C9127"
+				type: "item"
+				item: "powah:solar_panel_starter"
+			}]
+			rewards: [{
+				id: "3CB2061ACF628FAC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.9464285714285623d
+			y: -2.4642857142857117d
+			dependencies: ["1DB4BFBC20668984"]
+			id: "748FB77D0D7A6410"
+			tasks: [{
+				id: "28083C8D5D42F1C8"
+				type: "item"
+				item: "powah:reactor_starter"
+				count: 36L
+			}]
+			rewards: [
+				{
+					id: "7894312C1ED43C10"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7E76F2C067A0200D"
+					type: "item"
+					item: "powah:uraninite_raw"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -0.6339285714285765d
+			y: -0.0446428571428541d
+			dependencies: ["1DB4BFBC20668984"]
+			id: "4CA9298A8D392662"
+			tasks: [{
+				id: "4BE7542BA6B537CD"
+				type: "item"
+				item: "powah:energy_cell_basic"
+			}]
+			rewards: [{
+				id: "44BA3813F902B323"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.7678571428571743d
+			y: 0.9821428571428683d
+			dependencies: ["1DB4BFBC20668984"]
+			id: "3181911C35BB25F3"
+			tasks: [{
+				id: "638B97D2A1E6B1D8"
+				type: "item"
+				item: "powah:ender_cell_starter"
+			}]
+			rewards: [
+				{
+					id: "16C1D81B1E8B3153"
+					type: "item"
+					item: "powah:ender_gate_basic"
+				}
+				{
+					id: "3022172122E8304D"
+					type: "item"
+					item: "powah:ender_gate_basic"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["748FB77D0D7A6410"]
+			id: "6CDC95DB2B2D5C0F"
+			tasks: [{
+				id: "6AF759865978434C"
+				type: "item"
+				item: "powah:reactor_basic"
+				count: 36L
+			}]
+			rewards: [
+				{
+					id: "6B7020317954A7BA"
+					type: "item"
+					item: "mekanism:ingot_uranium"
+					count: 3
+				}
+				{
+					id: "7E01D958EA2922DB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			dependencies: ["6CDC95DB2B2D5C0F"]
+			id: "39077B4A0837EAB5"
+			tasks: [{
+				id: "5489DB921D32879F"
+				type: "item"
+				item: "powah:reactor_hardened"
+				count: 36L
+			}]
+			rewards: [
+				{
+					id: "1C512ADB4E41DA2F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34F3ADE7F3D3888D"
+					type: "item"
+					item: "minecraft:ice"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			dependencies: ["31A5563D57BBE7D1"]
+			id: "2A0A4BCAFCB82D78"
+			tasks: [{
+				id: "574F9D194FCE1196"
+				type: "item"
+				item: "powah:reactor_niotic"
+				count: 36L
+			}]
+			rewards: [{
+				id: "753A08B298D05858"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			dependencies: ["39077B4A0837EAB5"]
+			id: "31A5563D57BBE7D1"
+			tasks: [{
+				id: "21A0FAFC652DBA57"
+				type: "item"
+				item: "powah:reactor_blazing"
+				count: 36L
+			}]
+			rewards: [{
+				id: "5FA687649445BEB8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.5d
+			dependencies: ["2A0A4BCAFCB82D78"]
+			id: "54796C4B5F030C6E"
+			tasks: [{
+				id: "077EECADFFCB3F5C"
+				type: "item"
+				item: "powah:reactor_spirited"
+				count: 36L
+			}]
+			rewards: [{
+				id: "419F4B2BB23621E4"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.5d
+			dependencies: ["54796C4B5F030C6E"]
+			id: "37F1A5A872951809"
+			tasks: [{
+				id: "336E1D14177BB881"
+				type: "item"
+				item: "powah:reactor_nitro"
+				count: 36L
+			}]
+			rewards: [{
+				id: "7A8D0132C82F28DA"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["08BA0DCCD168B1F4"]
+			id: "681D3B9D9E58A827"
+			tasks: [{
+				id: "50912F57A15013D6"
+				type: "item"
+				item: "powah:solar_panel_basic"
+			}]
+			rewards: [{
+				id: "07DE4F3559737AB0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["681D3B9D9E58A827"]
+			id: "01AB15F102EBDD54"
+			tasks: [{
+				id: "52BF38FEA8D78D03"
+				type: "item"
+				item: "powah:solar_panel_hardened"
+			}]
+			rewards: [{
+				id: "327B25B2FC27C1A8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			dependencies: ["01AB15F102EBDD54"]
+			id: "5FEF8BBEA843DE4A"
+			tasks: [{
+				id: "1E4C0592266F78BD"
+				type: "item"
+				item: "powah:solar_panel_blazing"
+			}]
+			rewards: [{
+				id: "4AF96E4AB139B0B8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["5FEF8BBEA843DE4A"]
+			id: "2EE55B3781F025E5"
+			tasks: [{
+				id: "151254B36FA69BA0"
+				type: "item"
+				item: "powah:solar_panel_niotic"
+			}]
+			rewards: [{
+				id: "2D8553A3A528A25A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			dependencies: ["2EE55B3781F025E5"]
+			id: "2E44EE5597B33CC2"
+			tasks: [{
+				id: "43739A51B2FE683A"
+				type: "item"
+				item: "powah:solar_panel_spirited"
+			}]
+			rewards: [{
+				id: "03770549B46D239A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			dependencies: ["2E44EE5597B33CC2"]
+			id: "2C49671D1B1E0A39"
+			tasks: [{
+				id: "0FE71EA9943BD507"
+				type: "item"
+				item: "powah:solar_panel_nitro"
+			}]
+			rewards: [{
+				id: "797F153442051EAF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5535714285714164d
+			y: -2.8214285714285623d
+			dependencies: ["3D1085C2A9226B99"]
+			id: "7BFC53DC30253F76"
+			tasks: [{
+				id: "34764DDC1C490201"
+				type: "item"
+				item: "powah:thermo_generator_basic"
+			}]
+			rewards: [{
+				id: "55B8CB713D2A4EC8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.214285714285701d
+			y: -3.571428571428555d
+			dependencies: ["7BFC53DC30253F76"]
+			id: "2ACCC6AD74C227AB"
+			tasks: [{
+				id: "5B46B35DF10EB0D0"
+				type: "item"
+				item: "powah:thermo_generator_hardened"
+			}]
+			rewards: [{
+				id: "658BD61FA8FBCC3B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.714285714285701d
+			y: -4.35714285714284d
+			dependencies: ["2ACCC6AD74C227AB"]
+			id: "532B471361D930B1"
+			tasks: [{
+				id: "0E7E65F52E05CDB9"
+				type: "item"
+				item: "powah:thermo_generator_blazing"
+			}]
+			rewards: [{
+				id: "675F5969792702A3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.392857142857132d
+			y: -4.999999999999986d
+			dependencies: ["532B471361D930B1"]
+			id: "35ED5730495E61CD"
+			tasks: [{
+				id: "419B96CCBEE28684"
+				type: "item"
+				item: "powah:thermo_generator_niotic"
+			}]
+			rewards: [{
+				id: "70EA2A19EDE9717E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.999999999999986d
+			y: -5.821428571428555d
+			dependencies: ["35ED5730495E61CD"]
+			id: "03448FFB785519F5"
+			tasks: [{
+				id: "74CF89A478FD9BD1"
+				type: "item"
+				item: "powah:thermo_generator_spirited"
+			}]
+			rewards: [{
+				id: "4B29BEFC8F13FB25"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.571428571428555d
+			y: -6.5357142857142705d
+			dependencies: ["03448FFB785519F5"]
+			id: "419277AE8D264BC3"
+			tasks: [{
+				id: "4E1B0AF738D2D354"
+				type: "item"
+				item: "powah:thermo_generator_nitro"
+			}]
+			rewards: [
+				{
+					id: "4466967B586DEEC5"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "3DBED5B262C3D69E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.7589285714285694d
+			y: -2.3660714285714306d
+			dependencies: ["6C04B58670B08B20"]
+			id: "4F8CDF645128B0ED"
+			tasks: [{
+				id: "6A51AACFA92FB8A5"
+				type: "item"
+				item: "powah:magmator_basic"
+			}]
+			rewards: [{
+				id: "47E3F5B593FE42EF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5000000000000142d
+			y: -3.214285714285694d
+			dependencies: ["4F8CDF645128B0ED"]
+			id: "5DAE252CD27FE82A"
+			tasks: [{
+				id: "034422098DEB1BA1"
+				type: "item"
+				item: "powah:magmator_hardened"
+			}]
+			rewards: [{
+				id: "1066331BDCE88420"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.178571428571445d
+			y: -3.964285714285694d
+			dependencies: ["5DAE252CD27FE82A"]
+			id: "5424CA9F04E99D72"
+			tasks: [{
+				id: "01C28A6C2B705BE1"
+				type: "item"
+				item: "powah:magmator_blazing"
+			}]
+			rewards: [{
+				id: "7D5205A813A957AE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.8214285714285836d
+			y: -4.714285714285701d
+			dependencies: ["5424CA9F04E99D72"]
+			id: "00D5E7E4B1DB6A2F"
+			tasks: [{
+				id: "5386AE7BFD8E97D1"
+				type: "item"
+				item: "powah:magmator_niotic"
+			}]
+			rewards: [{
+				id: "259365A6366782A1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.392857142857153d
+			y: -5.571428571428555d
+			dependencies: ["00D5E7E4B1DB6A2F"]
+			id: "2C25813028A3C4F8"
+			tasks: [{
+				id: "5D3B72754ACEB03A"
+				type: "item"
+				item: "powah:magmator_spirited"
+			}]
+		}
+		{
+			x: 3.9642857142857295d
+			y: -6.499999999999986d
+			dependencies: ["2C25813028A3C4F8"]
+			id: "6CC98856FC5A7EDC"
+			tasks: [{
+				id: "3DCB3E49F02A41EA"
+				type: "item"
+				item: "powah:magmator_nitro"
+			}]
+			rewards: [{
+				id: "35CDD17D443E05E6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.8750000000000213d
+			y: -0.3392857142857011d
+			dependencies: ["1DB4BFBC20668984"]
+			id: "6D597B250B8D2F7A"
+			tasks: [{
+				id: "615D1FC8DECE5D9D"
+				type: "item"
+				item: "powah:energizing_orb"
+			}]
+			rewards: [
+				{
+					id: "28262CD813DA54C0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "40478FF01441E907"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -3.51785714285716d
+			y: 0.3750000000000142d
+			dependencies: ["6D597B250B8D2F7A"]
+			id: "439AD29B329C146F"
+			tasks: [{
+				id: "585AAE532C12506F"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 10L
+			}]
+			rewards: [{
+				id: "7C4283CA99869864"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.339285714285737d
+			y: 0.05357142857144481d
+			dependencies: ["6D597B250B8D2F7A"]
+			id: "1769342D84AA12AD"
+			tasks: [{
+				id: "3EB60457FA5B5A78"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 25L
+			}]
+			rewards: [
+				{
+					id: "11A0BB02218ECD1B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3839C43B66F48CA3"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -3.9821428571428754d
+			y: 1.1250000000000142d
+			dependencies: ["6D597B250B8D2F7A"]
+			id: "071DCAF00913CE72"
+			tasks: [{
+				id: "29752C091014B623"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 10L
+			}]
+			rewards: [{
+				id: "03A41F9910AF166A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.803571428571452d
+			y: 0.8035714285714448d
+			dependencies: ["6D597B250B8D2F7A"]
+			id: "1EAC3905942780EE"
+			tasks: [{
+				id: "16D24601FA16844C"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "3D275AE7F7BB6113"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1A572E626323D166"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -4.76785714285716d
+			y: 1.660714285714306d
+			dependencies: ["6D597B250B8D2F7A"]
+			id: "6C7521CF3AB710EB"
+			tasks: [{
+				id: "60EF6112C229EEB4"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "1BABAD5E1109C1FB"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "12726B38AF628BFC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.196428571428598d
+			y: -1.196428571428548d
+			dependencies: ["1DB4BFBC20668984"]
+			id: "23233056CDE9DD4C"
+			tasks: [{
+				id: "01DF656E289F323C"
+				type: "item"
+				item: "powah:energizing_rod_starter"
+			}]
+			rewards: [{
+				id: "5BAF5BFF90B9FCA1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.910714285714313d
+			y: -1.839285714285701d
+			dependencies: ["23233056CDE9DD4C"]
+			id: "39B85F70FBA74E01"
+			tasks: [{
+				id: "3B620B30E93EB20C"
+				type: "item"
+				item: "powah:energizing_rod_basic"
+			}]
+			rewards: [
+				{
+					id: "636A81723C2A4C17"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "219CE10809562AD5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.696428571428598d
+			y: -2.5178571428571246d
+			dependencies: ["39B85F70FBA74E01"]
+			id: "4165C32061A9D368"
+			tasks: [{
+				id: "697D8477B0C31B5C"
+				type: "item"
+				item: "powah:energizing_rod_hardened"
+			}]
+			rewards: [{
+				id: "2506367B8FD26C2A"
+				type: "item"
+				item: "contenttweaker:coin"
+				count: 5
+			}]
+		}
+		{
+			x: -6.410714285714313d
+			y: -3.196428571428555d
+			dependencies: ["4165C32061A9D368"]
+			id: "68EF9C873B0CB29B"
+			tasks: [{
+				id: "70A76FC0DCC4CD76"
+				type: "item"
+				item: "powah:energizing_rod_blazing"
+			}]
+			rewards: [{
+				id: "71F2AA9828FBE109"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.089285714285744d
+			y: -3.946428571428555d
+			dependencies: ["68EF9C873B0CB29B"]
+			id: "558A198BF5523F98"
+			tasks: [{
+				id: "4DCF79473B0C956A"
+				type: "item"
+				item: "powah:energizing_rod_niotic"
+			}]
+			rewards: [{
+				id: "23F42AB0B28BB69F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.7321428571428825d
+			y: -4.589285714285701d
+			dependencies: ["558A198BF5523F98"]
+			id: "77640CDE10C0CBB1"
+			tasks: [{
+				id: "0812EE894E680C74"
+				type: "item"
+				item: "powah:energizing_rod_spirited"
+			}]
+			rewards: [{
+				id: "4306A0CBF047AAC8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.410714285714313d
+			y: -5.196428571428555d
+			dependencies: ["77640CDE10C0CBB1"]
+			id: "059925C8FC509941"
+			tasks: [{
+				id: "4449B4BD57F70B89"
+				type: "item"
+				item: "powah:energizing_rod_nitro"
+			}]
+			rewards: [{
+				id: "2A23E0533EEC2EDF"
+				type: "xp"
+				xp: 500
+			}]
+		}
+	]
+}

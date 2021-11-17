@@ -1,0 +1,9 @@
+<recipetype:exnihilosequentia:heat>.removeAll();
+<recipetype:exnihilosequentia:heat>.create("tourch").setBlock(<block:minecraft:torch>).setAmount(1);
+<recipetype:exnihilosequentia:heat>.create("glostone").setBlock(<block:minecraft:glowstone>).setAmount(2);
+<recipetype:exnihilosequentia:heat>.create("shroomlight").setBlock(<block:minecraft:shroomlight>).setAmount(2);
+<recipetype:exnihilosequentia:heat>.create("lava").setBlock(<blockstate:minecraft:lava:level=0>).setAmount(5);
+<recipetype:exnihilosequentia:heat>.create("bio").setBlock(<block:quark:biotite_block>).setAmount(150);
+<recipetype:exnihilosequentia:heat>.create("superelementet").setBlock(<block:mekanism:superheating_element>).setAmount(80);
+<recipetype:exnihilosequentia:heat>.create("magma").setBlock(<blockstate:cyclic:magma_block:level=0>).setAmount(15);
+<recipetype:exnihilosequentia:heat>.create("blase_blood").setBlock(<blockstate:tconstruct:blazing_blood_fluid:level=0>).setAmount(15);

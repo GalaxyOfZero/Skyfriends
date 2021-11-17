@@ -1,0 +1,575 @@
+{
+	id: "0231623C73307230"
+	group: ""
+	order_index: 6
+	filename: "astral"
+	title: "Astral"
+	icon: "astralsorcery:tome"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -10.0d
+			y: -6.0d
+			description: ["This Crafting of thes Luminous Crafting Table nees 4 full mana polls, i know"]
+			dependencies: ["78D2333CC1F509AA"]
+			id: "7CDE9CF02414A4BB"
+			tasks: [{
+				id: "28ADA6BCA374A3A8"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [
+				{
+					id: "5F4BFDA97A89B36B"
+					type: "item"
+					item: "astralsorcery:aquamarine_sand_ore"
+					count: 2
+				}
+				{
+					id: "2DA06D6733EAE161"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "421A5B602E8B52B7"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -3.4857142857142946d
+			y: -4.780952380952371d
+			dependencies: ["4327020A5E5C3143"]
+			id: "76BCFD007CD24A2D"
+			tasks: [{
+				id: "55D9675A0C78E112"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+			rewards: [
+				{
+					id: "39A1E9169F2C2634"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+					count: 10
+				}
+				{
+					id: "2214625DB33DFEE0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.6964285714285694d
+			y: -6.955952380952375d
+			dependencies: ["4F20F8811C910212"]
+			id: "15832357C3C16F1D"
+			tasks: [{
+				id: "01D0AA8E714421F3"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+			rewards: [
+				{
+					id: "231C5CD1B23AAC99"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "3CEB554CC4091D83"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.767857142857139d
+			y: -6.063095238095229d
+			dependencies: ["76BCFD007CD24A2D"]
+			id: "4F20F8811C910212"
+			tasks: [{
+				id: "2A403251AE1C653D"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+			rewards: [{
+				id: "1433588D929C8D7D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.4380952380952365d
+			y: -4.1142857142857d
+			dependencies: ["76BCFD007CD24A2D"]
+			id: "0D020E56B890C829"
+			tasks: [{
+				id: "2D8C56DF07CCAB43"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+			rewards: [{
+				id: "7D9188C677498A82"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			dependencies: ["7420A42913A82A77"]
+			id: "4327020A5E5C3143"
+			tasks: [{
+				id: "59D03A8A2C8F82FD"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+			rewards: [
+				{
+					id: "2A6A9373F6B98258"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 5
+				}
+				{
+					id: "217C39C5EEBF2FA2"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			dependencies: ["4F20F8811C910212"]
+			id: "6F582008B2089BF0"
+			tasks: [{
+				id: "7BF59B9BF1ADFA73"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+			rewards: [{
+				id: "54B9B4C78DEAF491"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: -4.5d
+			dependencies: ["7CDE9CF02414A4BB"]
+			id: "00A6E2ADED07ACE0"
+			tasks: [{
+				id: "34018626BE71554A"
+				type: "item"
+				item: {
+					id: "astralsorcery:constellation_paper"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C18FE8AEBCCFDA8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.5d
+			y: -6.5d
+			dependencies: ["7CDE9CF02414A4BB"]
+			id: "1F76AAF0C9D28E2C"
+			tasks: [{
+				id: "268B05E011D53D68"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [{
+				id: "524C5DDE81CE38E7"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 4
+			}]
+		}
+		{
+			x: -2.057142857142857d
+			y: -4.590476190476181d
+			dependencies: ["76BCFD007CD24A2D"]
+			id: "192B3EC86DBD044C"
+			tasks: [{
+				id: "1616150D3F2272C5"
+				type: "item"
+				item: "astralsorcery:linking_tool"
+			}]
+			rewards: [{
+				id: "42D108074DD80AC9"
+				type: "item"
+				item: {
+					id: "astralsorcery:lens"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 3b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.4857142857142946d
+			y: -3.733333333333327d
+			dependencies: ["76BCFD007CD24A2D"]
+			id: "604124913ED6C34C"
+			tasks: [{
+				id: "2B9AFC84B8E1B7C2"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+			}]
+			rewards: [{
+				id: "5836C989EF934AFB"
+				type: "item"
+				item: "astralsorcery:glass_lens"
+				count: 6
+			}]
+		}
+		{
+			x: -3.4857142857142946d
+			y: -2.73333333333332d
+			dependencies: ["604124913ED6C34C"]
+			id: "20E9E4DBAF02C281"
+			tasks: [{
+				id: "6DAF5F2078D85E8C"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
+			rewards: [
+				{
+					id: "62EA5422EBC71691"
+					type: "item"
+					item: "astralsorcery:shifting_star"
+				}
+				{
+					id: "5EB443412B7B77BF"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "21FBB5EF261E871F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.125d
+			y: -7.991666666666667d
+			dependencies: ["15832357C3C16F1D"]
+			id: "3DDAFE0AAB003D0D"
+			tasks: [{
+				id: "5C88DB8820CD6575"
+				type: "item"
+				item: "astralsorcery:refraction_table"
+			}]
+			rewards: [{
+				id: "553188A3476E3BE6"
+				type: "item"
+				item: "astralsorcery:parchment"
+				count: 10
+			}]
+		}
+		{
+			x: -4.0d
+			y: -8.5d
+			dependencies: ["4EF4AB41BFE3D09D"]
+			id: "423E5AE10FF4D9E6"
+			tasks: [{
+				id: "6E98C02174D7C238"
+				type: "item"
+				item: "astralsorcery:starmetal_ore"
+			}]
+			rewards: [{
+				id: "4347F316B3BF71E9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.5d
+			dependencies: ["7CDE9CF02414A4BB"]
+			id: "7420A42913A82A77"
+			tasks: [{
+				id: "711F0B733F1BCEB9"
+				type: "item"
+				item: "astralsorcery:rock_crystal_ore"
+			}]
+			rewards: [{
+				id: "2317EDA87ADD97E8"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal"
+				count: 4
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.5d
+			dependencies: ["7CDE9CF02414A4BB"]
+			id: "1052314208B10E60"
+			tasks: [{
+				id: "0DFFDC672D4A1C22"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+			rewards: [{
+				id: "025B899989DFDDB1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.5d
+			dependencies: ["6F582008B2089BF0"]
+			id: "4EF4AB41BFE3D09D"
+			tasks: [{
+				id: "1143E0A6F40484AB"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+			}]
+			rewards: [
+				{
+					id: "53736368BABC8461"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+					count: 4
+				}
+				{
+					id: "0268CF8935218EB1"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "better Crystal, more power"
+			x: -5.0d
+			y: -11.5d
+			dependencies: [
+				"641DD095C48CDAE9"
+				"02A9F5A771BDC7AA"
+			]
+			id: "75CFADB58B270E0B"
+			tasks: [{
+				id: "292B25A99D5C1072"
+				type: "item"
+				item: "astralsorcery:celestial_collector_crystal"
+			}]
+			rewards: [{
+				id: "6E3EA3346C69599D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.4857142857142875d
+			y: -3.780952380952371d
+			dependencies: ["76BCFD007CD24A2D"]
+			id: "7AA4F5D6D6070CA9"
+			tasks: [{
+				id: "48A546F3BEE69F07"
+				type: "item"
+				item: {
+					id: "astralsorcery:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71DFC7860B0BF4DD"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+				{
+					id: "7B7135701FC15B21"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -10.5d
+			dependencies: ["423E5AE10FF4D9E6"]
+			id: "02A9F5A771BDC7AA"
+			tasks: [{
+				id: "4AFF9A3BB24F9335"
+				type: "item"
+				item: "astralsorcery:stardust"
+			}]
+			rewards: [
+				{
+					id: "045B30337A3EE1CB"
+					type: "item"
+					item: "astralsorcery:liquid_starlight_bucket"
+				}
+				{
+					id: "05F28C41B0D8C92E"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -10.5d
+			description: ["Drop 1 Stardust and 1 rock Crystal in a pool of Starlight"]
+			dependencies: ["02A9F5A771BDC7AA"]
+			id: "641DD095C48CDAE9"
+			tasks: [{
+				id: "76BE22FFA5A5DE0B"
+				type: "item"
+				item: "astralsorcery:celestial_crystal"
+			}]
+			rewards: [{
+				id: "2B016F2251CE36AB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.3749999999999929d
+			y: -7.170238095238098d
+			dependencies: ["15832357C3C16F1D"]
+			id: "1BDDEEAB599038BA"
+			tasks: [{
+				id: "390DB2066C3884C2"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+			rewards: [{
+				id: "1415678BBE2D010F"
+				type: "xp"
+				xp: 700
+			}]
+		}
+		{
+			x: -0.3392857142857082d
+			y: -6.134523809523806d
+			dependencies: ["15832357C3C16F1D"]
+			id: "0D2FD5A9524328AC"
+			tasks: [{
+				id: "7FCB29B00F0E4CF7"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+			rewards: [{
+				id: "3E0DD95B4B353871"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			title: "Enhanced Collector Crystal"
+			x: -5.0d
+			y: -13.0d
+			dependencies: ["75CFADB58B270E0B"]
+			optional: true
+			id: "5A4163D5BB2D6B47"
+			tasks: [
+				{
+					id: "73B4F51BCEC152F5"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 8L
+				}
+				{
+					id: "2E443A70287E2854"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 5L
+				}
+				{
+					id: "3507720C84D792EA"
+					type: "item"
+					item: "astralsorcery:marble_engraved"
+					count: 5L
+				}
+				{
+					id: "0C076DFA638F41FF"
+					type: "item"
+					item: "astralsorcery:liquid_starlight_bucket"
+					count: 8L
+				}
+				{
+					id: "2D5BAB0A69C69920"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 12L
+				}
+				{
+					id: "2722E939B3CF995F"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+				}
+			]
+			rewards: [{
+				id: "484A1657898880A8"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 0.125d
+			y: -8.277380952380952d
+			dependencies: ["3DDAFE0AAB003D0D"]
+			id: "284CB90479130605"
+			tasks: [{
+				id: "7824E8F566BF159D"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_glass"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4077F43A425A580E"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+	]
+}
