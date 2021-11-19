@@ -1,0 +1,17 @@
+{
+	"x": 60,
+	"y": 50,
+	"width": 120,
+	"height": 30,
+	"u": 0,
+  "v": 0,
+  "hoverU": 0,
+  "hoverV": 30,
+  "texWidth": 120,
+  "texHeight": 60,
+	"textXOffset": 5,
+	"textYOffset": -3,
+	"texture": "skyfriends:textures/exit.png",
+	"langKey": "menu.quit",
+	"action": "QUIT"
+}

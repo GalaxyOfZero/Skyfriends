@@ -1,0 +1,17 @@
+{
+  "x": -5,
+	"y": 20,
+	"width": 120,
+	"height": 30,
+	"u": 0,
+  "v": 0,
+  "hoverU": 0,
+  "hoverV": 30,
+  "texWidth": 120,
+  "texHeight": 60,
+  "dropShadow": false,
+	"texture": "skyfriends:textures/github.png",
+	"langKey": "packmenu.github",
+  "action": "OPEN_URL",
+	"data": "https://github.com/GalaxyOfZero/Skyfriends"
+}

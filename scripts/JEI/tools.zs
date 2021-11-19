@@ -59,12 +59,6 @@ val toolsToNerf =[
 <item:botania:elementium_shovel>,
 <item:botania:elementium_hoe>,
 
-<item:forbidden_arcanus:bone_sword>,
-<item:forbidden_arcanus:bone_pickaxe>,
-<item:forbidden_arcanus:bone_axe>,
-<item:forbidden_arcanus:bone_shovel>,
-<item:forbidden_arcanus:bone_hoe>,
-
 <item:forbidden_arcanus:obsidian_sword>,
 <item:forbidden_arcanus:obsidian_pickaxe>,
 <item:forbidden_arcanus:obsidian_axe>,
@@ -143,12 +137,6 @@ val tooltip =[
 <item:botania:elementium_axe>,
 <item:botania:elementium_shovel>,
 <item:botania:elementium_hoe>,
-
-<item:forbidden_arcanus:bone_sword>,
-<item:forbidden_arcanus:bone_pickaxe>,
-<item:forbidden_arcanus:bone_axe>,
-<item:forbidden_arcanus:bone_shovel>,
-<item:forbidden_arcanus:bone_hoe>,
 
 <item:forbidden_arcanus:obsidian_sword>,
 <item:forbidden_arcanus:obsidian_pickaxe>,

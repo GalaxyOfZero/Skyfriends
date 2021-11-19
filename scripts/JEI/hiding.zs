@@ -20,6 +20,7 @@ mods.jei.JEI.hideItem(<item:exnihilosequentia:end_cake>);
 mods.jei.JEI.hideItem(<item:telepastries:twilight_cake>);
 mods.jei.JEI.hideItem(<item:telepastries:custom_cake>);
 mods.jei.JEI.hideItem(<item:telepastries:lost_city_cake>);
+mods.jei.JEI.hideItem(<item:telepastries:nether_cake>);
 
 mods.jei.JEI.hideItem(<item:refinedstorage:raw_basic_processor>);
 mods.jei.JEI.hideItem(<item:refinedstorage:raw_improved_processor>);

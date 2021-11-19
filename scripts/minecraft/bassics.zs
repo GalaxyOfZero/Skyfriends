@@ -19,6 +19,7 @@ craftingTable.removeRecipe(<item:extendedcrafting:handheld_table>);
 craftingTable.removeRecipe(<item:minecraft:ancient_debris>);
 craftingTable.removeRecipe(<item:minecraft:piston>);
 craftingTable.removeRecipe(<item:minecraft:hopper>);
+craftingTable.removeRecipe(<item:minecraft:stick>);
 
 craftingTable.addShaped("oakplanks", <item:minecraft:oak_planks:>, [[<item:minecraft:oak_log>]]);
 craftingTable.addShaped("birchplanks", <item:minecraft:birch_planks>, [[<item:minecraft:birch_log>]]);
@@ -28,6 +29,11 @@ craftingTable.addShaped("spruceplanks", <item:minecraft:spruce_planks>, [[<item:
 craftingTable.addShaped("acaciaplanks", <item:minecraft:acacia_planks>, [[<item:minecraft:acacia_log>]]);
 craftingTable.addShaped("crimsonplanks", <item:minecraft:crimson_planks>, [[<item:minecraft:crimson_stem>]]);
 craftingTable.addShaped("warpedplanks", <item:minecraft:warped_planks>, [[<item:minecraft:warped_stem>]]);
+
+craftingTable.addShaped("stick", <item:minecraft:stick>*2, [
+	[<tag:items:minecraft:planks>, <item:minecraft:air>],
+	[<tag:items:minecraft:planks>, <item:minecraft:air>]
+]);
 
 craftingTable.addShaped("craftingtable", <item:improved-stations:crafting_table_slab>, [
     [<tag:items:minecraft:logs>,<tag:items:minecraft:logs>],

@@ -1,0 +1,18 @@
+{
+	"x": -5,
+	"y": -10,
+	"width": 120,
+	"height": 30,
+	"u": 0,
+  "v": 0,
+  "hoverU": 0,
+  "hoverV": 30,
+  "texWidth": 120,
+  "texHeight": 60,
+  "dropShadow": false,
+	"langKey": "packmenu.language",
+	"texture": "skyfriends:textures/language.png",
+	"action": "OPEN_GUI",
+	"data": "LANGUAGE"
+
+}

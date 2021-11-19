@@ -1,0 +1,18 @@
+{
+	"x": 120,
+	"y": -10,
+	"width": 120,
+	"height": 30,
+	"u": 0,
+  "v": 0,
+  "hoverU": 0,
+  "hoverV": 30,
+  "texWidth": 120,
+  "texHeight": 60,
+	"textXOffset": 5,
+	"textYOffset": -3,
+	"texture": "skyfriends:textures/mods.png",
+	"langKey": "fml.menu.mods",
+	"action": "OPEN_GUI",
+	"data": "MODS"
+}

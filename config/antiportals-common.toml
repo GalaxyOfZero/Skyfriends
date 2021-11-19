@@ -5,5 +5,5 @@
 	#Change to 'false' if you want to reactivate End Portals
 	AntiEnd = true
 	#Change to 'false' if you want to reactivate Nether Portals
-	AntiNether = true
+	AntiNether = false
 

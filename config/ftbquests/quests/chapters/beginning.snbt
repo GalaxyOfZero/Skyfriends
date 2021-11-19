@@ -768,5 +768,77 @@
 				item: "pedestals:pedestal/stone000"
 			}]
 		}
+		{
+			x: -4.857142857142861d
+			y: -4.370535714285715d
+			description: ["Welcome to my first modpack Sky Friends, This modpack is based on the modpacks \"Project Ozone 3 kappa mode\" and \"Sky bees\"."]
+			id: "64A3ACDB256CCE96"
+			tasks: [{
+				id: "200E26AA164500D8"
+				type: "checkmark"
+				title: "Welcome"
+			}]
+			rewards: [{
+				id: "5A44D271DFBF01F3"
+				type: "loot"
+				table_id: 7733633901596953089L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			description: ["Yes, most of the Recipes has bin change. but not all"]
+			id: "53D5644CDC7A2B58"
+			tasks: [{
+				id: "7AC30B2160F6EE46"
+				type: "checkmark"
+				title: "Recipes changes?"
+			}]
+		}
+		{
+			x: -2.2857142857142847d
+			y: -4.428571428571431d
+			description: [
+				"The Quest book is your best friend in this modpack, it tells your what your need and what your make"
+				"FTB Utilities is your Ore Excavation"
+			]
+			id: "1D8D419683C43E94"
+			tasks: [{
+				id: "168B771BB739BB35"
+				type: "checkmark"
+				title: "Help?"
+			}]
+		}
+		{
+			x: -4.071428571428569d
+			y: -3.642857142857146d
+			description: [
+				"/skyblock create "
+				"/skyblock team"
+				"/skyblock home"
+			]
+			id: "7F46621262AC3099"
+			tasks: [{
+				id: "20400C1B4B3DC615"
+				type: "checkmark"
+				title: "Skyblock commands"
+			}]
+			rewards: [{
+				id: "446CCD7154BC496F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.9642857142857153d
+			y: -3.642857142857146d
+			description: ["if your have a problem or any ide please contact on my Github. the Github link is im mainmenu"]
+			id: "7382CDADA4ED8E0F"
+			tasks: [{
+				id: "502CD18CD57192EF"
+				type: "checkmark"
+				title: "and more?"
+			}]
+		}
 	]
 }

@@ -1,0 +1,18 @@
+{
+	"x": 120,
+	"y":-40,
+	"width": 120,
+	"height": 30,
+	"u": 0,
+  "v": 0,
+  "hoverU": 0,
+  "hoverV": 30,
+  "texWidth": 120,
+  "texHeight": 60,
+	"texture": "skyfriends:textures/multie.png",
+	"langKey": "menu.multiplayer",
+	"action": "OPEN_GUI",
+	"data": "MULTIPLAYER",
+	"textXOffset": 5,
+  "textYOffset": -3
+}
