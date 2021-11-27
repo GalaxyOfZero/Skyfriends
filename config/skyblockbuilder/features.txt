@@ -52,6 +52,7 @@ minecraft:random_boolean_selector
 minecraft:decorated
 astralsorcery:replace_block
 astralsorcery:rock_crystal
+resourcefulbees:bee_nest_feature
 extcaves:patch_ground
 extcaves:patch_ceiling
 extcaves:structure_cabin_oak
@@ -120,6 +121,7 @@ mekanism:disk
 mekanism:ore
 mekanism:ore_retrogen
 ars_nouveau:lights
+mysticalagriculture:soulstone
 mythicbotany:motif_flowers
 mythicbotany:mana_crystals
 mythicbotany:abandoned_apothecaries

@@ -1,0 +1,11 @@
+{
+  "name": "Sheet",
+  "colors": [
+    "3767F2",
+    "94A3CE"
+  ],
+  "ingredient": {
+    "item": "contenttweaker:lapis_sheet2"
+  },
+  "materialCount" : 1500
+}

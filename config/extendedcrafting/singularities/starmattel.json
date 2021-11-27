@@ -1,0 +1,10 @@
+{
+  "name": "Starmetal",
+  "colors": [
+    "1A17F1",
+    "FAFAFA"
+  ],
+  "ingredient": {
+    "item": "astralsorcery:starmetal"
+  }
+}

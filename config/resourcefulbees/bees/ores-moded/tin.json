@@ -1,0 +1,48 @@
+{
+  "flower": "tag:forge:storage_blocks/tin",
+  "maxTimeInHive": 2200,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/tin/tin_bee",
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 5
+},
+  "ColorData": {
+    "honeycombColor": "#7ED6CA",
+    "modelType": "ORE"
+},
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:tin_ingot",
+    "mainOutputWeight": 0.55,
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:ingots/tin",
+    "feedAmount": 10
+  },
+  "traits" : [""],
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+  {
+    "type": "BLOCK_TO_BLOCK",
+    "inputID": "minecraft:smooth_stone",
+    "chance": 0.40,
+    "outputs": [
+      {"outputID": "thermal:tin_ore", "weight": 1}
+    ]
+   }
+  ]
+},
+  "TraitData": {
+  "hasTraits": true
+}
+
+}

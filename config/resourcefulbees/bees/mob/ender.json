@@ -1,0 +1,31 @@
+{
+  "flower": "tag:forge:storage_blocks/enderium",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 2500,
+  "ColorData": {
+      "isBeeColored": true,
+      "honeycombColor": "#339786",
+      "primaryColor": "#339786",
+      "secondaryColor": "#303030"
+  },
+  "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "minecraft:ender_pearl",
+      "mainOutputWeight": 0.40,
+      "mainOutputCount": 1,
+      "secondaryOutput": "forbidden_arcanus:ender_pearl_fragment",
+      "secondaryOutputWeight": 0.03,
+      "bottleOutput": "minecraft:dragon_breath"
+  },
+  "SpawnData": {
+      "canSpawnInWorld": false
+  },
+  "BreedData": {
+      "isBreedable": true,
+      "feedItem": "forbidden_arcanus:ender_pearl_fragment",
+      "feedAmount": 32
+  },
+  "TraitData": {
+      "hasTraits": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:magical_ore"],
+	"item": {
+		"raw:item_tag": "forge:ores/stella_arcanum", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
+	"config": [
+		{
+			"weight": 150
+		},
+		{
+			"focus": "envirotech:gray",
+			"weight": 1100
+		}
+	]
+}

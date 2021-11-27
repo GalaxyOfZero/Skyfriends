@@ -1,0 +1,11 @@
+{
+  "name": "Aethium",
+  "colors": [
+    "090A0A",
+    "C8C4D1"
+  ],
+  "ingredient": {
+    "item": "envirocore:aethium"
+  },
+  "materialCount" : 50000
+}

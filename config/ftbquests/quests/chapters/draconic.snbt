@@ -3,8 +3,654 @@
 	group: ""
 	order_index: 19
 	filename: "draconic"
-	title: "Draconic (WIP)"
+	title: "Draconic"
+	icon: "draconicevolution:info_tablet"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 1.0d
+			y: -8.0d
+			dependencies: ["4397110D0A4215F0"]
+			id: "02911571D6C43701"
+			tasks: [{
+				id: "7998C4CDECF2F097"
+				type: "item"
+				item: "draconicevolution:particle_generator"
+				count: 4L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -8.0d
+			dependencies: ["02911571D6C43701"]
+			id: "5C49001B363EF8D8"
+			tasks: [{
+				id: "28BA68856134CD87"
+				type: "item"
+				item: "draconicevolution:energy_core_stabilizer"
+				count: 36L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			dependencies: ["4397110D0A4215F0"]
+			id: "502E95EBC78AB0E4"
+			tasks: [{
+				id: "17A5596CE7F070B7"
+				type: "item"
+				item: "draconicevolution:energy_core"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			dependencies: ["5996DE60CFC8E0E2"]
+			id: "6F47AF8763ABA432"
+			tasks: [{
+				id: "39E8196616ABA82E"
+				type: "item"
+				item: "draconicevolution:chaotic_crafting_injector"
+			}]
+			rewards: [
+				{
+					id: "3B39D12D6AB10ED6"
+					type: "item"
+					item: "draconicevolution:chaos_shard"
+					count: 4
+				}
+				{
+					id: "6D732E10B03BA87E"
+					type: "xp"
+					xp: 10000
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			dependencies: ["337C7550816BFCFC"]
+			id: "5996DE60CFC8E0E2"
+			tasks: [{
+				id: "6AC92CC73CC43659"
+				type: "item"
+				item: "draconicevolution:awakened_crafting_injector"
+			}]
+			rewards: [
+				{
+					id: "64A29C681D050246"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_block"
+					count: 4
+				}
+				{
+					id: "5396859BC62626B4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			dependencies: ["78312F5DBF0A3AE2"]
+			id: "337C7550816BFCFC"
+			tasks: [{
+				id: "4C404BD6AF557241"
+				type: "item"
+				item: "draconicevolution:wyvern_crafting_injector"
+			}]
+			rewards: [
+				{
+					id: "39BEEE99FA5A010E"
+					type: "item"
+					item: "draconicevolution:wyvern_core"
+					count: 4
+				}
+				{
+					id: "0EAF041219ED8FEA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			dependencies: ["36650EB15835B878"]
+			id: "78312F5DBF0A3AE2"
+			tasks: [{
+				id: "794E31E6D5FF33C9"
+				type: "item"
+				item: "draconicevolution:basic_crafting_injector"
+			}]
+			rewards: [
+				{
+					id: "75ED7366E46D86DB"
+					type: "item"
+					item: "draconicevolution:draconium_core"
+					count: 2
+				}
+				{
+					id: "2A11ACE6109FE0A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "264BA9247C917800"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["06F211FF3ADE8C44"]
+			id: "3D04B3E0AF267F93"
+			tasks: [{
+				id: "78309BB73DC6FC48"
+				type: "item"
+				item: {
+					id: "draconicevolution:advanced_dislocator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "534A2FF8F9028676"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 16
+				}
+				{
+					id: "376164556A1C90AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "30984F4D7B5166C6"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["7F98C8EA0FBC54B6"]
+			id: "0056BAA79187487C"
+			tasks: [{
+				id: "506D48182D8A9458"
+				type: "item"
+				item: "draconicevolution:magnet"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			description: ["This is your energy in and outputt, You can switch the mode with a right click at the sphere "]
+			dependencies: ["4397110D0A4215F0"]
+			id: "0C87F08F962B4C0E"
+			tasks: [
+				{
+					id: "1106212E4961CD13"
+					type: "item"
+					item: "draconicevolution:energy_pylon"
+				}
+				{
+					id: "14AC6D1F75D35719"
+					type: "item"
+					item: "minecraft:glass"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			dependencies: ["3F0D93C546167460"]
+			id: "5EFCCA496235089A"
+			tasks: [{
+				id: "46C0E1C6833D81A9"
+				type: "item"
+				item: "draconicevolution:crafting_core"
+			}]
+			rewards: [{
+				id: "468DD35DAAEF1326"
+				type: "item"
+				item: "draconicevolution:basic_crafting_injector"
+				count: 4
+			}]
+		}
+		{
+			x: 1.767857142857146d
+			y: -7.267857142857139d
+			description: [
+				"this is the best Energy Storage in the pack"
+				"&6Tier 1 &fhas a site of 1x1x1"
+				"&6Tier 2 &fneeds 6 Draconium Blocks and has a site of 3x3x3"
+				"&6Tier 3 &fneeds 26 Draconium Blocks and has a site of 3x3x3"
+				"&6Tier 4 &fneeds 54 Draconium Blocks and 26 Redstone Blocks. it has a site of 5x5x5"
+				"&6Tier 5 &fneeds 90 Draconium Blocks and 80 Redstone Blocks. it has a site of 7x7x7"
+				"&6Tier 6 &fneeds 150 Draconium Blocks and 178 Redstone Blocks. it has a site of 9x9x9"
+				"&6Tier 7 &fneeds 210 Draconium Blocks and 328 Redstone Blocks. it has a site of 11x11x11"
+				"&6Tier 8 (infinity) &f needs 786 Draconium Blocks and 378 Awakened Draconium Blocks. it has a site of 13x13x13"
+			]
+			dependencies: ["36650EB15835B878"]
+			id: "4397110D0A4215F0"
+			tasks: [{
+				id: "02DDF3A7B8E7ED93"
+				type: "checkmark"
+				title: "best"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["3ECF17D89E28D75B"]
+			id: "397F43A685F1D1B8"
+			tasks: [{
+				id: "5249855C6003851A"
+				type: "item"
+				item: "draconicevolution:reactor_injector"
+			}]
+			rewards: [
+				{
+					id: "1CAC4C340B8A8F37"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "152AAE364C4747B3"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+					count: 10
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			dependencies: ["3ECF17D89E28D75B"]
+			id: "0AB87878B9D9F38F"
+			tasks: [{
+				id: "3D595C0D0F10B7C2"
+				type: "item"
+				item: "draconicevolution:reactor_stabilizer"
+				count: 4L
+			}]
+			rewards: [{
+				id: "72919F1132DABA82"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["3ECF17D89E28D75B"]
+			id: "292054AF4BA7B00E"
+			tasks: [{
+				id: "49CF12A8603E6E27"
+				type: "item"
+				item: "draconicevolution:reactor_core"
+			}]
+			rewards: [
+				{
+					id: "79E9C1411B75E556"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_block"
+					count: 10
+				}
+				{
+					id: "5A125B64589B4DC9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&4OHH Bloodi HELL"
+			x: 3.5d
+			y: -3.5d
+			description: [
+				"&4WARNING!!! &fThis Reactor is really hard to stabilize, one fail step and your base is gone"
+				"&4do that on your one Risk"
+			]
+			dependencies: ["36650EB15835B878"]
+			id: "3ECF17D89E28D75B"
+			tasks: [{
+				id: "1A656A4D09DD7A0A"
+				type: "checkmark"
+				title: "do not do this or do that."
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			dependencies: ["36650EB15835B878"]
+			id: "539DC0DD601DD1AB"
+			tasks: [{
+				id: "358E6D57AE53255B"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+			rewards: [
+				{
+					id: "744DB623822C5048"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "31EA1130F6626C4C"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -7.0d
+			dependencies: ["539DC0DD601DD1AB"]
+			id: "07E5702F325D9C0C"
+			tasks: [{
+				id: "5A35AA068DAB973E"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
+			rewards: [{
+				id: "20D8C4CAB6AEC226"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			dependencies: ["07E5702F325D9C0C"]
+			id: "13A80753A04BC645"
+			tasks: [{
+				id: "26AA6709EA826B0A"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+			}]
+			rewards: [
+				{
+					id: "6DF10BEF7512F376"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07EB47BBF236A9B3"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			dependencies: ["13A80753A04BC645"]
+			id: "74B93995305D9FDA"
+			tasks: [{
+				id: "38ED897FE2CACD12"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+			}]
+			rewards: [{
+				id: "2B1C812A8060FC35"
+				type: "xp"
+				xp: 100000
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			dependencies: ["13A80753A04BC645"]
+			id: "334594DB41972860"
+			tasks: [{
+				id: "5323882382A5D6AA"
+				type: "item"
+				item: "draconicevolution:chaotic_energy_core"
+			}]
+			rewards: [
+				{
+					id: "2D84462F03FEC4F5"
+					type: "item"
+					item: "draconicevolution:awakened_core"
+					count: 4
+				}
+				{
+					id: "32E6B5552DF4F460"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			dependencies: ["07E5702F325D9C0C"]
+			id: "3FECFA63821F3FB0"
+			tasks: [{
+				id: "23ADA8F315ADD36A"
+				type: "item"
+				item: "draconicevolution:draconic_energy_core"
+			}]
+			rewards: [
+				{
+					id: "067486037FC70910"
+					type: "item"
+					item: "draconicevolution:wyvern_core"
+					count: 4
+				}
+				{
+					id: "6ACAA5B83BD05074"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			dependencies: ["539DC0DD601DD1AB"]
+			id: "588E9AECE666452D"
+			tasks: [{
+				id: "1BD5A8022FA55844"
+				type: "item"
+				item: "draconicevolution:wyvern_energy_core"
+			}]
+			rewards: [
+				{
+					id: "2BCF276DCD24A9CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2465B518261CD66D"
+					type: "item"
+					item: "draconicevolution:draconium_core"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["3ECF17D89E28D75B"]
+			id: "3D105ADA089CC5AC"
+			tasks: [{
+				id: "7653FE0B9308E9AA"
+				type: "item"
+				item: "draconicevolution:flux_gate"
+			}]
+			rewards: [{
+				id: "30B75F4AF252BAC7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["41A4431F2140479A"]
+			id: "56642E560C596655"
+			tasks: [{
+				id: "3EA825838D4D1D88"
+				type: "item"
+				item: "draconicevolution:basic_wireless_crystal"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["75310B2080C2D39F"]
+			id: "0B83D16632CC8562"
+			tasks: [{
+				id: "6FAB36F5AEB28F94"
+				type: "item"
+				item: "draconicevolution:wyvern_wireless_crystal"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["75310B2080C2D39F"]
+			id: "63F3DA646376A429"
+			tasks: [{
+				id: "1EDC5A2F0F0A6105"
+				type: "item"
+				item: "draconicevolution:draconic_relay_crystal"
+			}]
+			rewards: [{
+				id: "05419351DEACFC01"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["41A4431F2140479A"]
+			id: "5773C09FC4772B69"
+			tasks: [{
+				id: "75C3AD3A159EAFF4"
+				type: "item"
+				item: "draconicevolution:basic_io_crystal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["75310B2080C2D39F"]
+			id: "58BDE26D402E775E"
+			tasks: [{
+				id: "3F2B78B6BB1724DA"
+				type: "item"
+				item: "draconicevolution:wyvern_io_crystal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["63F3DA646376A429"]
+			id: "6534F5677D5D4AA6"
+			tasks: [{
+				id: "5C5707F1F1A346AF"
+				type: "item"
+				item: "draconicevolution:draconic_io_crystal"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["63F3DA646376A429"]
+			id: "7E84A0DDCE1DB190"
+			tasks: [{
+				id: "6888F6CFAAC02F29"
+				type: "item"
+				item: "draconicevolution:draconic_wireless_crystal"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["41A4431F2140479A"]
+			id: "75310B2080C2D39F"
+			tasks: [{
+				id: "6FDBFF2B662898DC"
+				type: "item"
+				item: "draconicevolution:wyvern_relay_crystal"
+			}]
+			rewards: [{
+				id: "3E67329BA3FA756B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["1BD5A8022FA55844"]
+			id: "41A4431F2140479A"
+			tasks: [{
+				id: "1B597A26430F84EC"
+				type: "item"
+				item: "draconicevolution:basic_relay_crystal"
+			}]
+			rewards: [{
+				id: "79036581D0D7D226"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["7F98C8EA0FBC54B6"]
+			id: "47FC4448D495ED3D"
+			tasks: [{
+				id: "689E8DFC5F81C8F2"
+				type: "item"
+				item: "draconicevolution:crystal_binder"
+			}]
+			rewards: [{
+				id: "16BD9CD5CB149539"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			description: ["this mod ist still in the Beta phase and has maybe a lot on bugs."]
+			dependencies: ["17548559A4197E2F"]
+			id: "7F98C8EA0FBC54B6"
+			tasks: [{
+				id: "36650EB15835B878"
+				type: "checkmark"
+				title: "Over Power and better"
+			}]
+		}
+		{
+			x: -1.6607142857142847d
+			y: -4.196428571428569d
+			dependencies: ["7F98C8EA0FBC54B6"]
+			id: "06F211FF3ADE8C44"
+			tasks: [{
+				id: "4880023A583E8436"
+				type: "item"
+				item: {
+					id: "draconicevolution:dislocator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
 }

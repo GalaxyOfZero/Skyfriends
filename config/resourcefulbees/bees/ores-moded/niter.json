@@ -1,0 +1,47 @@
+{
+  "flower": "tag:forge:storage_blocks/niter",
+  "maxTimeInHive": 1600,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/niter/nither_bee",
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 5
+},
+  "ColorData": {
+    "honeycombColor": "#EEEAD8",
+    "modelType": "ORE"
+},
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:niter",
+    "mainOutputWeight": 0.40,
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:gems/niter",
+    "feedAmount": 30
+  },
+  "traits" : [""],
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+  {
+    "type": "BLOCK_TO_BLOCK",
+    "inputID": "minecraft:smooth_stone",
+    "chance": 0.20,
+    "outputs": [
+      {"outputID": "thermal:niter_ore", "weight": 1}
+    ]
+   }
+  ]
+},
+  "TraitData": {
+  "hasTraits": true
+}
+}

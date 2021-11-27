@@ -786,22 +786,6 @@
 			}]
 		}
 		{
-			x: 10.294047619047639d
-			y: 6.616220238095231d
-			dependencies: ["5B80EF4AA0134D36"]
-			id: "3A13D8DCFD61BA99"
-			tasks: [{
-				id: "7064669517E29C91"
-				type: "item"
-				item: "industrialforegoing:material_stonework_factory"
-			}]
-			rewards: [{
-				id: "714C20FDF45054F9"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			x: 9.484523809523829d
 			y: 6.282886904761895d
 			dependencies: ["5B80EF4AA0134D36"]

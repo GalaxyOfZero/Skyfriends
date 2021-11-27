@@ -1,0 +1,11 @@
+{
+  "name": "Destruction",
+  "colors": [
+    "330A9F",
+    "330A9F"
+  ],
+  "ingredient": {
+    "item": "constructionwand:core_destruction"
+  },
+  "materialCount" : 100000
+}

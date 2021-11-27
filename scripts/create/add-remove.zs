@@ -95,6 +95,8 @@ craftingTable.addShaped("brass_case", <item:create:brass_casing>*2, [
   "heatRequirement": "heated"
 });
 
+<recipetype:create:mixing>.addRecipe("paste","heated", <item:powah:dielectric_paste>*4, [<item:minecraft:clay>*4, <tag:items:forge:dusts/coal_coke>*3], [<fluid:minecraft:lava>*1000]);
+
 <recipetype:create:mixing>.addJSONRecipe("brass_ingot3",
 {
   "type": "create:mixing",

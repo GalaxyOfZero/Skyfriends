@@ -1,0 +1,47 @@
+{
+  "flower": "tag:forge:storage_blocks/redstone",
+  "maxTimeInHive": 1600,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/redstone/redstone_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#aa0f01",
+    "modelType": "ORE"
+  },
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 5
+},
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:redstone",
+    "mainOutputWeight": 0.50,
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "feedItem": "minecraft:redstone_block",
+    "feedAmount": 10,
+    "isBreedable": true
+  },
+  "traits" : [""],
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+  {
+    "type": "BLOCK_TO_BLOCK",
+    "inputID": "minecraft:smooth_stone",
+    "chance": 0.2,
+    "outputs": [
+      {"outputID": "minecraft:redstone_ore", "weight": 1}
+     ]
+   }
+  ]
+
+},
+  "TraitData": {}
+}

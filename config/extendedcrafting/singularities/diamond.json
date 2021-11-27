@@ -5,6 +5,6 @@
     "20c5b5"
   ],
   "ingredient": {
-    "item": "minecraft:diamond"
+    "tag": "forge:storage_blocks/diamond"
   }
 }

@@ -1,0 +1,31 @@
+{
+  "flower": "all",
+  "hasHoneycomb": true,
+  "traits": ["slimy"],
+  "maxTimeInHive": 1200,
+  "baseLayerTexture": "slime/slime_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#61EE00",
+      "modelType": "GELATINOUS",
+      "gelLayerTexture": "/slime/slime_gel_Layer"
+  },
+  "BreedData": {
+      "isBreedable": true,
+      "parent1": "rgbee",
+      "parent2": "zombie",
+      "feedItem": "minecraft:slime_ball",
+      "feedAmount": 10
+  },
+  "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "minecraft:slime_ball",
+      "mainOutputWeight": 0.35,
+      "mainOutputCount": 4,
+      "secondaryOutput": "minecraft:string",
+      "secondaryOutputWeight": 0.10
+  },
+  "TraitData": {
+      "hasTraits": true
+  }
+}

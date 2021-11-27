@@ -1,0 +1,11 @@
+{
+  "name": "Plastic",
+  "colors": [
+    "ADB3B3",
+    "C7D3D3"
+  ],
+  "ingredient": {
+    "item": "industrialforegoing:plastic"
+  },
+  "materialCount" : 10000
+}

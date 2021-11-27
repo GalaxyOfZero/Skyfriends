@@ -1,0 +1,48 @@
+{
+  "flower": "tag:forge:storage_blocks/silver",
+  "maxTimeInHive": 2200,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/silver/silver_bee",
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 5
+},
+  "ColorData": {
+    "honeycombColor": "#A3B0AE",
+    "modelType": "ORE"
+},
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:silver_ingot",
+    "mainOutputWeight": 0.40,
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:ingots/silver",
+    "feedAmount": 35
+  },
+  "traits" : [""],
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+  {
+    "type": "BLOCK_TO_BLOCK",
+    "inputID": "minecraft:smooth_stone",
+    "chance": 0.35,
+    "outputs": [
+      {"outputID": "thermal:silver_ore", "weight": 1}
+    ]
+   }
+  ]
+},
+  "TraitData": {
+  "hasTraits": true
+}
+
+}

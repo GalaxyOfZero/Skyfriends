@@ -6,6 +6,7 @@ craftingTable.removeByRegex("metalbarrels:.*to.*");
 craftingTable.removeByRegex("storage_overhaul:.*_barrel_.*");
 craftingTable.removeByRegex("storage_overhaul:.*_storage_barrel");
 smithing.removeRecipe(<item:metalbarrels:netherite_barrel>);
+craftingTable.removeRecipe(<item:dankstorage:dank_1>);
 
 craftingTable.removeRecipe(<item:exnihilosequentia:end_cake>);
 
@@ -35,3 +36,10 @@ craftingTable.addShaped("barrel-obsidian", <item:metalbarrels:obsidian_barrel>, 
 ]);
 
 smithing.addRecipe("netherite-barrel", <item:metalbarrels:netherite_barrel>, <item:metalbarrels:obsidian_barrel>, <item:minecraft:netherite_block>);
+
+
+craftingTable.addShaped("dank_1", <item:dankstorage:dank_1>, [
+	[<item:minecraft:coal_block>, <item:minecraft:coal_block>, <item:minecraft:coal_block>],
+	[<item:minecraft:coal_block>, <item:minecraft:barrel>, <item:minecraft:coal_block>],
+	[<item:minecraft:coal_block>, <item:minecraft:coal_block>, <item:minecraft:coal_block>]
+]);

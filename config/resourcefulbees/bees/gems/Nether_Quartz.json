@@ -1,0 +1,55 @@
+{
+  "flower": "tag:forge:storage_blocks/quartz",
+  "maxTimeInHive": 2000,
+  "hasHoneycomb": true,
+  "baseLayerTexture":"nether/nether_bee",
+  "ColorData": {
+    "honeycombColor": "#ffffff",
+    "modelType": "ORE"
+  },
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 5
+},
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:quartz",
+    "mainOutputWeight": 0.50,
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:quartz_block",
+    "feedAmount": 10
+  },
+  "traits" : [""],
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+  {
+    "type": "BLOCK_TO_BLOCK",
+    "inputID": "minecraft:nether_bricks",
+    "chance": 0.1,
+    "outputs": [
+      {"outputID": "minecraft:nether_quartz_ore", "weight": 1}
+     ]
+   },
+   {
+     "type": "BLOCK_TO_ITEM",
+     "inputID": "tconstruct:blazewood",
+     "chance": 0.5,
+     "outputs": [
+       {"outputID": "resourcefulbees:blaze_bee_spawn_egg", "weight": 1}
+      ]
+    }
+  ]
+},
+  "TraitData": {
+    "hasTraits": true
+  }
+}

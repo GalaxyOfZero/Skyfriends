@@ -1,0 +1,11 @@
+{
+  "name": "Xerothium",
+  "colors": [
+    "71E3E3",
+    "C8C4D1"
+  ],
+  "ingredient": {
+    "item": "envirocore:xerothium"
+  },
+  "materialCount" : 50000
+}

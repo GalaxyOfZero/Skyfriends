@@ -3,8 +3,1213 @@
 	group: ""
 	order_index: 20
 	filename: "environmental"
-	title: "Environmental (WIP)"
+	title: "Environmental"
+	icon: "valkyrielib:info_tablet"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["5A85AD678B360832"]
+			id: "6949C919BD434CEC"
+			tasks: [{
+				id: "30460A800B29CF16"
+				type: "item"
+				item: "envirotech:litherite_void_miner_ccu"
+			}]
+			rewards: [{
+				id: "54F1AAEF3740F529"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["77B4D0733CFB685D"]
+			id: "69462DF60797406B"
+			tasks: [{
+				id: "611211F84F35D445"
+				type: "item"
+				item: "envirotech:erodium_void_miner_ccu"
+			}]
+			rewards: [{
+				id: "032ABDFA37DA983A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["0C54F8B90CC4A7B4"]
+			id: "79D70A782E870EA5"
+			tasks: [{
+				id: "3319E1D3D5B11744"
+				type: "item"
+				item: "envirotech:kyronite_void_miner_ccu"
+			}]
+			rewards: [{
+				id: "4D3F9180D846C777"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["0168BD8F4D3A2E58"]
+			id: "625D76427A6C2D6B"
+			tasks: [{
+				id: "3EBAABF17454E53C"
+				type: "item"
+				item: "envirotech:pladium_void_miner_ccu"
+			}]
+			rewards: [{
+				id: "19E21476AC5D623C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["2B52F5A89BCF8C9D"]
+			id: "6B12C40ECDAB2736"
+			tasks: [{
+				id: "60D9E8F28640BEC4"
+				type: "item"
+				item: "envirotech:ionite_void_miner_ccu"
+			}]
+			rewards: [{
+				id: "2938D5C432B97FB5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["16D5F4F4A40CC120"]
+			id: "1E450CD9F592F615"
+			tasks: [{
+				id: "74ADB0C2DE1023F8"
+				type: "item"
+				item: "envirotech:aethium_void_miner_ccu"
+			}]
+			rewards: [{
+				id: "6556C183D32F701F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["02A2152D7F060718"]
+			id: "6A7B4E6F2FA700AC"
+			tasks: [{
+				id: "2D8BAD77CE96D938"
+				type: "item"
+				item: "envirotech:nanorite_void_miner_ccu"
+			}]
+			rewards: [{
+				id: "40EE49F10A7EC4FD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["1A709E1FF19DCE72"]
+			id: "5BA45F3DD11D637F"
+			tasks: [{
+				id: "4275E9BC244BA911"
+				type: "item"
+				item: "envirotech:xerothium_void_miner_ccu"
+			}]
+			rewards: [{
+				id: "07FEDDF79E67DC7E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: -6.0d
+			dependencies: ["6CF3A4AF5D731290"]
+			id: "4820CB7177220A70"
+			tasks: [{
+				id: "73A8F866B8D5536B"
+				type: "item"
+				item: "enviroenergy:litherite_solar_ccu"
+			}]
+			rewards: [{
+				id: "4A1DEF069D6AEDFB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: -6.0d
+			dependencies: ["62A0445AA9075C2E"]
+			id: "3D1B10BF1F8CA17A"
+			tasks: [{
+				id: "272D7CF8783F44CF"
+				type: "item"
+				item: "enviroenergy:erodium_solar_ccu"
+			}]
+			rewards: [{
+				id: "39214C17D7106DA1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: -6.0d
+			dependencies: ["40D8AF9474CED20D"]
+			id: "160E1D7A810A7411"
+			tasks: [{
+				id: "3A9119A5A6CF4A56"
+				type: "item"
+				item: "enviroenergy:kyronite_solar_ccu"
+			}]
+			rewards: [{
+				id: "5DFE79B53287A6C0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.0d
+			y: -6.0d
+			dependencies: ["3BD08EF72B6FF7B9"]
+			id: "3AC6F67551DA5BB8"
+			tasks: [{
+				id: "37BF79A7535C235C"
+				type: "item"
+				item: "enviroenergy:pladium_solar_ccu"
+			}]
+			rewards: [{
+				id: "657B247ACB2A867B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: -6.0d
+			dependencies: ["5B771C7F0358710F"]
+			id: "76E75F2A8A26211A"
+			tasks: [{
+				id: "61546C099D6C13A2"
+				type: "item"
+				item: "enviroenergy:ionite_solar_ccu"
+			}]
+			rewards: [{
+				id: "38EF0F58396EFE63"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			dependencies: ["33D4ED27C5304644"]
+			id: "6852CC17A6B28AA7"
+			tasks: [{
+				id: "2AAD11F2220A0507"
+				type: "item"
+				item: "enviroenergy:aethium_solar_ccu"
+			}]
+			rewards: [{
+				id: "0F8E8F804F2404D3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			dependencies: ["47FBC2A6FF7157DD"]
+			id: "67951F7965E046E7"
+			tasks: [{
+				id: "4770121BBA7223BE"
+				type: "item"
+				item: "enviroenergy:nanorite_solar_ccu"
+			}]
+			rewards: [{
+				id: "5278AD3C4A517A5A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			dependencies: ["2B11932F9A91BA84"]
+			id: "597A834847912B33"
+			tasks: [{
+				id: "3735615B16E22BAB"
+				type: "item"
+				item: "enviroenergy:xerothium_solar_ccu"
+			}]
+			rewards: [{
+				id: "03F4FE4B4AAAD16A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["068FBC79914B0B90"]
+			id: "5A85AD678B360832"
+			tasks: [{
+				id: "0E9E687B5702E4DC"
+				type: "item"
+				item: "envirocore:litherite_crystal"
+			}]
+			rewards: [{
+				id: "2127B67651679F63"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["6949C919BD434CEC"]
+			id: "77B4D0733CFB685D"
+			tasks: [{
+				id: "1521CDB6FEEC8CE0"
+				type: "item"
+				item: "envirocore:erodium_crystal"
+			}]
+			rewards: [{
+				id: "2C87198ABFABA2A6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["69462DF60797406B"]
+			id: "0C54F8B90CC4A7B4"
+			tasks: [{
+				id: "4CCD230A5D465526"
+				type: "item"
+				item: "envirocore:kyronite_crystal"
+			}]
+			rewards: [{
+				id: "63003A815E54CCBD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["79D70A782E870EA5"]
+			id: "0168BD8F4D3A2E58"
+			tasks: [{
+				id: "612052C980EE14ED"
+				type: "item"
+				item: "envirocore:pladium_crystal"
+			}]
+			rewards: [{
+				id: "630C1C0CCBAE4917"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["625D76427A6C2D6B"]
+			id: "2B52F5A89BCF8C9D"
+			tasks: [{
+				id: "0BFF0F905081E5E4"
+				type: "item"
+				item: "envirocore:ionite_crystal"
+			}]
+			rewards: [{
+				id: "00FA9138E9C1D546"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["6B12C40ECDAB2736"]
+			id: "16D5F4F4A40CC120"
+			tasks: [{
+				id: "3978976E7C3449B6"
+				type: "item"
+				item: "envirocore:aethium_crystal"
+			}]
+			rewards: [{
+				id: "68E909A810009BFB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["1E450CD9F592F615"]
+			id: "02A2152D7F060718"
+			tasks: [{
+				id: "577AD4E0802C8C41"
+				type: "item"
+				item: "envirocore:nanorite_crystal"
+			}]
+			rewards: [{
+				id: "1ACF7DC1CA953EAF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["6A7B4E6F2FA700AC"]
+			id: "1A709E1FF19DCE72"
+			tasks: [{
+				id: "6DFFC0940A99A3A9"
+				type: "item"
+				item: "envirocore:xerothium_crystal"
+			}]
+			rewards: [{
+				id: "313DBC259CE42A91"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["6949C919BD434CEC"]
+			id: "58194C43265360F4"
+			tasks: [{
+				id: "4BDF406E6BC729CA"
+				type: "item"
+				item: "envirocore:litherite_frame"
+				count: 22L
+			}]
+			rewards: [{
+				id: "0B3D74E37CA096CA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			dependencies: ["15B644C747058E89"]
+			id: "257A0F794A8E05DA"
+			tasks: [{
+				id: "1F330464D05D35B1"
+				type: "checkmark"
+				title: "End game tech"
+			}]
+			rewards: [
+				{
+					id: "3E3F1C4FCFE877CD"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "05CC35872AD56237"
+					type: "xp"
+					xp: 10000
+				}
+			]
+		}
+		{
+			x: -6.630952380952358d
+			y: -0.9880952380952337d
+			description: [
+				"This Machin make all Components and Modifiers did your need."
+				"You can speed up this machine by using 16 &6Frequency Modifiers anye tiers&f, but it will increase your energy cost."
+			]
+			dependencies: ["257A0F794A8E05DA"]
+			id: "2492CA1A71BAAF07"
+			tasks: [{
+				id: "3AD518752E6D0647"
+				type: "item"
+				item: "envirocore:assembler"
+			}]
+			rewards: [
+				{
+					id: "5DC0627670A56226"
+					type: "item"
+					item: "envirocore:obsidian_plate"
+					count: 10
+				}
+				{
+					id: "1F8C3445371E46E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7B7006E33DCB09BC"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			description: [
+				"Your can Program your Void Miner CCU, what he should mine"
+				"The following programs are available:"
+				"&6Crystal Miner &f- This mines the tiered crystals"
+				"&6Ore Miner &f- This mines Ores."
+				"&6Resource Miner &f- This mines stuff like various Dirt's, Stones, Sands, Gravels etc."
+				"&6Botanic Miner &f- This mines Leaves, Logs, Plants, Crops, Sapling's etc."
+				"&6Multi Miner &f- This mines any drop from any program."
+				"&6Gemstone Ore &f- Gem based ores such as Diamonds, Emeralds and other crystals"
+				"&6Metallic Ore &f- Metalic ores such as Iron, Copper, Gold, Silver, etc."
+				"&6Mineral Ore &f- Ores that are considered Minerals such as Coal, Redstone, Sulfer, Nitor etc."
+				"&6Magical Ore &f- This will mine magical ores from magic mods if any are present."
+				"&6Frozen Resource &f- Ice, Snow and other Frozen materials."
+				"&6Loose Resource &f- Dirts, Gravels, Sands etc."
+				"&6Rocky Resource &f- Stones and other hard/rocky materials."
+				"&6Flowery Botanic &f- Flowers"
+				"&6Foresty Botanic &f- Leaves, Logs, Saplings etc."
+				"&6Gargen Botanic &f- Crops, Seeds etc."
+			]
+			dependencies: ["257A0F794A8E05DA"]
+			id: "620F318F58C9A5F7"
+			tasks: [{
+				id: "25C09F98AEC2E33F"
+				type: "item"
+				item: "envirocore:memory_programmer"
+			}]
+			rewards: [
+				{
+					id: "74B08D0D7BF55887"
+					type: "item"
+					item: "envirocore:flash_memory"
+					count: 5
+				}
+				{
+					id: "763E2B9605A6CFA3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C3F481BE3C1A14D"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			description: ["If you want more ores for one type a lens can help, lenses can focus on these ores depending on the color special and increase the drop rate significantly"]
+			dependencies: ["257A0F794A8E05DA"]
+			id: "6C8997222FC3D248"
+			tasks: [{
+				id: "519F4C4522622C61"
+				type: "item"
+				item: "envirocore:lens_grinder"
+			}]
+			rewards: [
+				{
+					id: "6D5AA25219E5C49C"
+					type: "item"
+					item: "envirocore:lens"
+					count: 10
+				}
+				{
+					id: "3348B8A1E734C3EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5FBC15D6CB955388"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			description: [
+				"The Void Miner Multiblock can use the following modifiers:"
+				"&6Frequency &f- This speeds up the void miner as long as you still have the energy to feed it."
+				"&6Bandwidth &f- This increases the possible maximum stack size of each mined drop."
+				"&6Amplification &f- This increases the likelihood of gaining drops based on what lens you have installed."
+				"&6Dimensional &f- This will mine any drop from any biome within the current dimension."
+				"&6Interdimensional &f- This will mine any drop from any dimension."
+			]
+			dependencies: ["257A0F794A8E05DA"]
+			id: "0FA5B3A846145054"
+			tasks: [{
+				id: "068FBC79914B0B90"
+				type: "checkmark"
+				title: "Void miner"
+			}]
+			rewards: [
+				{
+					id: "3154E174F6ECC2A0"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					id: "502A6BD7278460C5"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -7.821428571428548d
+			y: -0.7499999999999929d
+			description: [
+				"the Solar Pandel Multiblock can Only use &6Piezo Modifier"
+				"This allows the panel to generate energy from rainy and thundery weather"
+			]
+			dependencies: ["257A0F794A8E05DA"]
+			id: "0F97DAC4BD830802"
+			tasks: [{
+				id: "39B4A9D3698C617A"
+				type: "checkmark"
+				title: "solar"
+			}]
+			rewards: [{
+				id: "246346AD81073857"
+				type: "xp"
+				xp: 10000
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			dependencies: ["1110EC9A8BCCC712"]
+			optional: true
+			id: "14517E3034B35C81"
+			tasks: [{
+				id: "3BC33F32328E7F42"
+				type: "item"
+				item: "enviroenergy:litherite_lightning_ccu"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.0d
+			dependencies: ["1110EC9A8BCCC712"]
+			optional: true
+			id: "742E565A81BC13E6"
+			tasks: [{
+				id: "1FCAD737D5E0B0B6"
+				type: "item"
+				item: "enviroenergy:erodium_lightning_ccu"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.0d
+			dependencies: ["1110EC9A8BCCC712"]
+			optional: true
+			id: "6639FAC0BEE0D1BD"
+			tasks: [{
+				id: "0BA2917ED320802B"
+				type: "item"
+				item: "enviroenergy:kyronite_lightning_ccu"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.0d
+			dependencies: ["1110EC9A8BCCC712"]
+			optional: true
+			id: "22CCA8205DA82D0E"
+			tasks: [{
+				id: "74A8F6DCCABE0FA6"
+				type: "item"
+				item: "enviroenergy:pladium_lightning_ccu"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 5.0d
+			dependencies: ["1110EC9A8BCCC712"]
+			optional: true
+			id: "110FB097A531DEA0"
+			tasks: [{
+				id: "6FC994093BCD6492"
+				type: "item"
+				item: "enviroenergy:ionite_lightning_ccu"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 5.0d
+			dependencies: ["1110EC9A8BCCC712"]
+			optional: true
+			id: "7044A005645398D2"
+			tasks: [{
+				id: "28E34CBAFD85E193"
+				type: "item"
+				item: "enviroenergy:aethium_lightning_ccu"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 5.0d
+			dependencies: ["1110EC9A8BCCC712"]
+			optional: true
+			id: "1E175F9E5F25E44E"
+			tasks: [{
+				id: "2D7B91D2F1FEF7C1"
+				type: "item"
+				item: "enviroenergy:nanorite_lightning_ccu"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 5.0d
+			dependencies: ["1110EC9A8BCCC712"]
+			optional: true
+			id: "2ED4AA9AE3DC17AB"
+			tasks: [{
+				id: "1D6FEB4F3E352F48"
+				type: "item"
+				item: "enviroenergy:xerothium_lightning_ccu"
+			}]
+		}
+		{
+			x: -6.773809523809504d
+			y: 4.059523809523817d
+			dependencies: ["1110EC9A8BCCC712"]
+			optional: true
+			id: "5BBC58D5795CA252"
+			tasks: [
+				{
+					id: "4A4F4C01891E19BD"
+					type: "item"
+					item: "enviroenergy:insulated_lightning_rod"
+				}
+				{
+					id: "2B3C798C65B14E24"
+					type: "item"
+					item: "enviroenergy:lightning_rod"
+				}
+			]
+		}
+		{
+			x: -7.773809523809511d
+			y: 3.9166666666666785d
+			description: [
+				"This Lightning Rod Multiblock produce power by lightning strikes."
+				"This multiblock can use the following modifiers:"
+				"&6Radiant - &fAllows the rod to generate a small amount of energy passively from the sun."
+				"&6Electrostatic &f- Allows the rod to passively generate energy from rainy and thunderous weather."
+			]
+			dependencies: ["1F330464D05D35B1"]
+			id: "1110EC9A8BCCC712"
+			tasks: [{
+				id: "2EE31A9D02E1C89B"
+				type: "checkmark"
+				title: "Light rod"
+			}]
+			rewards: [{
+				id: "6FE32D2220CC6C36"
+				type: "xp"
+				xp: 10000
+			}]
+		}
+		{
+			x: -13.0d
+			y: -4.0d
+			dependencies: ["0E9E687B5702E4DC"]
+			id: "4248CEF3C88B1A2F"
+			tasks: [{
+				id: "3999187BC2EA5BE1"
+				type: "item"
+				item: "envirocore:litherite_boule"
+			}]
+			rewards: [{
+				id: "0DB1B29A09C261A2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: -4.0d
+			dependencies: ["1521CDB6FEEC8CE0"]
+			id: "378757C1DA935006"
+			tasks: [{
+				id: "67E41AFA66124BBD"
+				type: "item"
+				item: "envirocore:erodium_boule"
+			}]
+			rewards: [{
+				id: "2B7E870D2E055B97"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.0d
+			dependencies: ["4CCD230A5D465526"]
+			id: "138E681CD3762462"
+			tasks: [{
+				id: "530649BE1FEE081A"
+				type: "item"
+				item: "envirocore:kyronite_boule"
+			}]
+			rewards: [{
+				id: "6308EF43479EA240"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: -4.0d
+			dependencies: ["612052C980EE14ED"]
+			id: "02A86B337A08ED66"
+			tasks: [{
+				id: "3DE907FF34920220"
+				type: "item"
+				item: "envirocore:pladium_boule"
+			}]
+			rewards: [{
+				id: "76C443E3F142EA18"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.0d
+			dependencies: ["0BFF0F905081E5E4"]
+			id: "3BCF29209518B355"
+			tasks: [{
+				id: "18D28F483DC408DB"
+				type: "item"
+				item: "envirocore:ionite_boule"
+			}]
+			rewards: [{
+				id: "42F8CF595BD41523"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			dependencies: ["3978976E7C3449B6"]
+			id: "5BA745AA522C3278"
+			tasks: [{
+				id: "7C90A32F6E364E19"
+				type: "item"
+				item: "envirocore:aethium_boule"
+			}]
+			rewards: [{
+				id: "4AEC33F0E963E578"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			dependencies: ["577AD4E0802C8C41"]
+			id: "375C5E5F24B9EA70"
+			tasks: [{
+				id: "587B99D337D824F7"
+				type: "item"
+				item: "envirocore:nanorite_boule"
+			}]
+			rewards: [{
+				id: "2A4E585BFD33B63F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			dependencies: ["6DFFC0940A99A3A9"]
+			id: "69218AFB53884210"
+			tasks: [{
+				id: "6794EE4374A8CE29"
+				type: "item"
+				item: "envirocore:xerothium_boule"
+			}]
+			rewards: [{
+				id: "0004D041B9C2A10D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.5d
+			y: -5.0d
+			dependencies: ["4248CEF3C88B1A2F"]
+			id: "6CF3A4AF5D731290"
+			tasks: [{
+				id: "5DF2D568A98CE193"
+				type: "item"
+				item: "enviroenergy:litherite_solar_cell"
+			}]
+			rewards: [
+				{
+					id: "3CB8C0B1C7CF7888"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0B25E1C05EB6872E"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -5.0d
+			dependencies: ["378757C1DA935006"]
+			id: "62A0445AA9075C2E"
+			tasks: [{
+				id: "4ACF87C5C374278F"
+				type: "item"
+				item: "enviroenergy:erodium_solar_cell"
+			}]
+			rewards: [{
+				id: "7FD4A04B15F32BD9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: -5.0d
+			dependencies: ["138E681CD3762462"]
+			id: "40D8AF9474CED20D"
+			tasks: [{
+				id: "12ACD631FF5C06EB"
+				type: "item"
+				item: "enviroenergy:kyronite_solar_cell"
+			}]
+			rewards: [
+				{
+					id: "520AA2380345A5D4"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "4DE9AE34E677B292"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -5.0d
+			dependencies: ["02A86B337A08ED66"]
+			id: "3BD08EF72B6FF7B9"
+			tasks: [{
+				id: "053DB46E3B5E3771"
+				type: "item"
+				item: "enviroenergy:pladium_solar_cell"
+			}]
+			rewards: [{
+				id: "12E2CC1CEB283470"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.5d
+			y: -5.0d
+			dependencies: ["3BCF29209518B355"]
+			id: "5B771C7F0358710F"
+			tasks: [{
+				id: "63FAFD51DF61DCE2"
+				type: "item"
+				item: "enviroenergy:ionite_solar_cell"
+			}]
+			rewards: [{
+				id: "1ED650DC33762B8F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.0d
+			dependencies: ["5BA745AA522C3278"]
+			id: "33D4ED27C5304644"
+			tasks: [{
+				id: "4D29E6A96087C751"
+				type: "item"
+				item: "enviroenergy:aethium_solar_cell"
+			}]
+			rewards: [{
+				id: "5678675CB0F5E210"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			dependencies: ["375C5E5F24B9EA70"]
+			id: "47FBC2A6FF7157DD"
+			tasks: [{
+				id: "6B8D29017725CE2B"
+				type: "item"
+				item: "enviroenergy:nanorite_solar_cell"
+			}]
+			rewards: [
+				{
+					id: "4F3DF5D931E3960E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18C2A8F19793B213"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			dependencies: ["69218AFB53884210"]
+			id: "2B11932F9A91BA84"
+			tasks: [{
+				id: "58C004E74A5C82C6"
+				type: "item"
+				item: "enviroenergy:xerothium_solar_cell"
+			}]
+			rewards: [{
+				id: "6ADD0F3425FE0FD1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["69462DF60797406B"]
+			id: "208151DE02E09259"
+			tasks: [{
+				id: "1308C68E7BC64D35"
+				type: "item"
+				item: "envirocore:erodium_frame"
+				count: 30L
+			}]
+			rewards: [{
+				id: "3CD8EAD09B0B5F19"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["79D70A782E870EA5"]
+			id: "43F43519F738BDFD"
+			tasks: [{
+				id: "36F49BAFE2558DC0"
+				type: "item"
+				item: "envirocore:kyronite_frame"
+				count: 38L
+			}]
+			rewards: [{
+				id: "46794786427C49B8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["625D76427A6C2D6B"]
+			id: "3CAF273FA25BAF5A"
+			tasks: [{
+				id: "0062FEA2A0D692DC"
+				type: "item"
+				item: "envirocore:pladium_frame"
+				count: 54L
+			}]
+			rewards: [{
+				id: "1119C71E1F4F210C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["6B12C40ECDAB2736"]
+			id: "1E9CD0EC76C767B0"
+			tasks: [{
+				id: "33240D461C50D894"
+				type: "item"
+				item: "envirocore:ionite_frame"
+				count: 70L
+			}]
+			rewards: [{
+				id: "10A296A31AEE9CAC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["1E450CD9F592F615"]
+			id: "354405DC4F6B9DA0"
+			tasks: [{
+				id: "31CCEBFA6252F2BA"
+				type: "item"
+				item: "envirocore:aethium_frame"
+				count: 90L
+			}]
+			rewards: [{
+				id: "7CF4A34BD238EC2C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["6A7B4E6F2FA700AC"]
+			id: "5C848189268F6625"
+			tasks: [{
+				id: "26F7DFDC880ED74D"
+				type: "item"
+				item: "envirocore:nanorite_frame"
+				count: 94L
+			}]
+			rewards: [{
+				id: "476585ED02117610"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			dependencies: ["5BA45F3DD11D637F"]
+			id: "59353DDF7490723B"
+			tasks: [{
+				id: "763B5DC545CE3B1A"
+				type: "item"
+				item: "envirocore:xerothium_frame"
+				count: 102L
+			}]
+			rewards: [{
+				id: "26804A5C7B45A05B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.154761904761884d
+			y: -2.0833333333333286d
+			dependencies: ["2492CA1A71BAAF07"]
+			id: "011133469D3CA560"
+			tasks: [{
+				id: "678D87C6BB74B345"
+				type: "item"
+				item: "envirocore:redstone_imbued_obsidian_plate"
+			}]
+			rewards: [
+				{
+					id: "69E3894AA5F3B96D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5C76D42BB520F347"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 10
+				}
+			]
+		}
+		{
+			x: -6.249999999999979d
+			y: -2.1309523809523796d
+			dependencies: ["2492CA1A71BAAF07"]
+			id: "2D06D4BB0E82A78C"
+			tasks: [{
+				id: "4A95208A2DA7068D"
+				type: "item"
+				item: {
+					id: "envirocore:fe_input"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "088D8C5FD40A85DD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.345238095238074d
+			y: -1.9404761904761827d
+			dependencies: ["2492CA1A71BAAF07"]
+			id: "52CA970675FC2182"
+			tasks: [{
+				id: "0698EBD40F3805E3"
+				type: "item"
+				item: {
+					id: "envirocore:fe_output"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0CFEF9989D7D8760"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.773809523809497d
+			y: -1.3214285714285623d
+			dependencies: ["2492CA1A71BAAF07"]
+			id: "376D06F08106F00F"
+			tasks: [{
+				id: "3E4D6DAC4D629BEF"
+				type: "item"
+				item: {
+					id: "envirocore:null_modifier"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "32B44771BF6D898B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
 }

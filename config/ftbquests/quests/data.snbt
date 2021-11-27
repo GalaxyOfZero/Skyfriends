@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "Project Sky"
+	title: "Sky Friends"
 	icon: "minecraft:end_crystal"
 	default_reward_team: false
 	default_consume_items: false

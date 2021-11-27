@@ -1,0 +1,11 @@
+{
+  "name": "Plutonium",
+  "colors": [
+    "43DFA4",
+    "43DFA4"
+  ],
+  "ingredient": {
+    "item": "mekanism:pellet_plutonium"
+  },
+  "materialCount" : 6000
+}

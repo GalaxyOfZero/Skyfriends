@@ -1,0 +1,46 @@
+{
+  "flower": "tag:forge:storage_blocks/netherite",
+  "maxTimeInHive": 2200,
+  "hasHoneycomb": true,
+  "baseLayerTexture":"nether/netherait",
+  "ColorData": {
+    "honeycombColor": "#513933",
+    "modelType": "ORE"
+  },
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 20
+},
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:netherite_scrap",
+    "mainOutputWeight": 0.50,
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:netherite_scrap",
+    "feedAmount": 32
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+  {
+    "type": "BLOCK_TO_BLOCK",
+    "inputID": "minecraft:nether_bricks",
+    "chance": 0.02,
+    "outputs": [
+      {"outputID": "minecraft:ancient_debris", "weight": 1}
+     ]
+   }
+  ]
+},
+  "TraitData": {
+  "hasTraits": true
+}
+}

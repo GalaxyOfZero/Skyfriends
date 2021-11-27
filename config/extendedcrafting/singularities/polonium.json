@@ -1,0 +1,11 @@
+{
+  "name": "Polonium",
+  "colors": [
+    "43DFA4",
+    "2EC1C6"
+  ],
+  "ingredient": {
+    "item": "mekanism:pellet_polonium"
+  },
+  "materialCount" : 10000
+}

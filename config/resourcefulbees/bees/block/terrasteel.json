@@ -1,0 +1,48 @@
+{
+  "flower": "botania:terrasteel_block",
+  "maxTimeInHive": 2200,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "block/terra/terra_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#63d53b",
+    "modelType": "ORE"
+  },
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 5
+},
+  "CentrifugeData": {
+  "hasCentrifugeOutput": true,
+  "mainOutput": "botania:terrasteel_nugget",
+  "mainOutputWeight": 0.10,
+  "mainOutputCount": 1
+},
+  "SpawnData": {
+  "canSpawnInWorld": false
+},
+  "BreedData": {
+  "isBreedable": true,
+  "feedItem": "botania:terrasteel_ingot",
+  "feedAmount": 10
+},
+  "traits" : [""],
+  "MutationData": {
+  "hasMutation": true,
+  "mutations": [
+{
+  "type": "BLOCK_TO_BLOCK",
+  "inputID": "botania:livingrock",
+  "chance": 0.01,
+  "outputs": [
+    {"outputID": "botania:terrasteel_block", "weight": 1}
+   ]
+ }
+]
+},
+  "TraitData": {
+  "hasTraits": true
+}
+}

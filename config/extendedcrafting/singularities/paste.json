@@ -1,0 +1,11 @@
+{
+  "name": "Dielectric",
+  "colors": [
+    "000000",
+    "6A6666"
+  ],
+  "ingredient": {
+    "item": "powah:dielectric_paste"
+  },
+  "materialCount" : 250000
+}

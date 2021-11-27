@@ -1,0 +1,48 @@
+{
+  "flower": "botania:manasteel_block",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "block/manasteel/manasteel_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#4aa8f1",
+    "modelType": "ORE"
+  },
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 5
+},
+  "CentrifugeData": {
+  "hasCentrifugeOutput": true,
+  "mainOutput": "botania:manasteel_ingot",
+  "mainOutputWeight": 0.50,
+  "mainOutputCount": 1
+},
+  "SpawnData": {
+  "canSpawnInWorld": false
+},
+  "BreedData": {
+  "isBreedable": true,
+  "feedItem": "botania:manasteel_ingot",
+  "feedAmount": 10
+},
+  "traits" : [""],
+  "MutationData": {
+  "hasMutation": true,
+  "mutations": [
+{
+  "type": "BLOCK_TO_BLOCK",
+  "inputID": "botania:livingrock",
+  "chance": 0.1,
+  "outputs": [
+    {"outputID": "botania:manasteel_block", "weight": 1}
+   ]
+ }
+]
+},
+  "TraitData": {
+  "hasTraits": true
+}
+}

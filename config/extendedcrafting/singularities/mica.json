@@ -1,0 +1,11 @@
+{
+  "name": "Mica",
+  "colors": [
+    "C1C1C1",
+    "C8C4D1"
+  ],
+  "ingredient": {
+    "item": "envirocore:mica"
+  },
+  "materialCount" : 150000
+}

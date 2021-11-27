@@ -20,6 +20,7 @@ craftingTable.removeRecipe(<item:minecraft:ancient_debris>);
 craftingTable.removeRecipe(<item:minecraft:piston>);
 craftingTable.removeRecipe(<item:minecraft:hopper>);
 craftingTable.removeRecipe(<item:minecraft:stick>);
+craftingTable.removeRecipe(<item:minecraft:barrel>);
 
 craftingTable.addShaped("oakplanks", <item:minecraft:oak_planks:>, [[<item:minecraft:oak_log>]]);
 craftingTable.addShaped("birchplanks", <item:minecraft:birch_planks>, [[<item:minecraft:birch_log>]]);

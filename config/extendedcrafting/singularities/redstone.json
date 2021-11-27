@@ -5,6 +5,6 @@
     "720000"
   ],
   "ingredient": {
-    "item": "minecraft:redstone"
+    "tag": "forge:storage_blocks/redstone"
   }
 }

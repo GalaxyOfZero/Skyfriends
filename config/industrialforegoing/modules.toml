@@ -181,7 +181,7 @@
 			enabled = true
 
 		[modules.resource_production.material_stonework_factory]
-			enabled = true
+			enabled = false
 
 		[modules.resource_production.fluid_sieving_machine]
 			enabled = true

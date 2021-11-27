@@ -3,8 +3,980 @@
 	group: ""
 	order_index: 3
 	filename: "bees"
-	title: "bees (WIP)"
+	title: "Bees"
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -6.794642857142875d
+			y: -3.8214285714285623d
+			dependencies: ["1BBCB96EB0C8D908"]
+			id: "7402DA7B9ED8230A"
+			tasks: [{
+				id: "5D74E953EC4E6282"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+		}
+		{
+			x: -5.901785714285737d
+			y: -3.607142857142847d
+			dependencies: ["7402DA7B9ED8230A"]
+			id: "7F74A884F9400F11"
+			tasks: [{
+				id: "4088B75AEF65E81A"
+				type: "item"
+				item: "resourcefulbees:t1_beehive"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			dependencies: ["7F74A884F9400F11"]
+			id: "44435E01DE4D38F5"
+			tasks: [{
+				id: "286DD72B5D7E2D71"
+				type: "item"
+				item: "resourcefulbees:t2_beehive"
+			}]
+		}
+		{
+			x: -5.6517857142857295d
+			y: -2.714285714285708d
+			dependencies: ["44435E01DE4D38F5"]
+			id: "6C6AC9A828DB84D3"
+			tasks: [{
+				id: "7BDA15FF711286C5"
+				type: "item"
+				item: "resourcefulbees:t3_beehive"
+			}]
+		}
+		{
+			x: -6.366071428571445d
+			y: -2.107142857142854d
+			dependencies: ["6C6AC9A828DB84D3"]
+			id: "62EE313E0EE19EB3"
+			tasks: [{
+				id: "47037657937AE840"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+		}
+		{
+			x: -9.437500000000028d
+			y: -4.071428571428562d
+			dependencies: ["02A20E7362C1DE25"]
+			id: "46177A10B31F5D25"
+			tasks: [{
+				id: "7427AB34AED9B565"
+				type: "item"
+				item: "resourcefulbees:t1_hive_upgrade"
+			}]
+		}
+		{
+			x: -9.116071428571459d
+			y: -3.214285714285708d
+			dependencies: ["46177A10B31F5D25"]
+			id: "326224942CB845A9"
+			tasks: [{
+				id: "218B4F1C06BE898B"
+				type: "item"
+				item: "resourcefulbees:t2_hive_upgrade"
+			}]
+		}
+		{
+			x: -8.54464285714289d
+			y: -3.857142857142847d
+			dependencies: ["326224942CB845A9"]
+			id: "68B4165FBAD8AA83"
+			tasks: [{
+				id: "355BE5C643F565A8"
+				type: "item"
+				item: "resourcefulbees:t3_hive_upgrade"
+			}]
+		}
+		{
+			x: -9.973214285714313d
+			y: -3.2857142857142776d
+			dependencies: ["68B4165FBAD8AA83"]
+			id: "0B9785C9C9A991E6"
+			tasks: [{
+				id: "7FCE157BC1D0E784"
+				type: "item"
+				item: "resourcefulbees:t4_hive_upgrade"
+			}]
+		}
+		{
+			x: -8.830357142857167d
+			y: -4.821428571428562d
+			id: "02A20E7362C1DE25"
+			tasks: [{
+				id: "2555980F917330A0"
+				type: "item"
+				item: "resourcefulbees:apiary_storage"
+			}]
+		}
+		{
+			x: -9.651785714285737d
+			y: -2.464285714285708d
+			dependencies: ["326224942CB845A9"]
+			id: "5BB7EE8178D2129D"
+			tasks: [{
+				id: "1344E5324315B815"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder_upgrade"
+			}]
+		}
+		{
+			x: -8.25892857142859d
+			y: -2.964285714285701d
+			dependencies: ["326224942CB845A9"]
+			id: "425F3FA2EA8E31FA"
+			tasks: [{
+				id: "00443AF2B89E8C12"
+				type: "item"
+				item: "resourcefulbees:apiary_breed_time_upgrade"
+			}]
+		}
+		{
+			x: -5.080357142857167d
+			y: -4.321428571428562d
+			dependencies: ["47037657937AE840"]
+			id: "5E7BEEDD670DD584"
+			tasks: [{
+				id: "0123AC5EDA7EBA47"
+				type: "item"
+				item: "resourcefulbees:t1_apiary"
+			}]
+		}
+		{
+			x: -4.973214285714306d
+			y: -3.4285714285714235d
+			dependencies: ["5E7BEEDD670DD584"]
+			id: "665BB18400E70695"
+			tasks: [{
+				id: "5AE058F8BCE2CC8B"
+				type: "item"
+				item: "resourcefulbees:t2_apiary"
+			}]
+		}
+		{
+			x: -4.2946428571428825d
+			y: -3.9285714285714164d
+			dependencies: ["665BB18400E70695"]
+			id: "15404F129B2CB44B"
+			tasks: [{
+				id: "7A85C1C71F5BFA7E"
+				type: "item"
+				item: "resourcefulbees:t3_apiary"
+			}]
+		}
+		{
+			x: -4.223214285714313d
+			y: -3.0714285714285694d
+			dependencies: ["15404F129B2CB44B"]
+			id: "5BD466E94E22C5A0"
+			tasks: [{
+				id: "12DECC4B242ED0CB"
+				type: "item"
+				item: "resourcefulbees:t4_apiary"
+			}]
+		}
+		{
+			x: -9.830357142857167d
+			y: -4.857142857142847d
+			dependencies: ["2555980F917330A0"]
+			id: "61C52EC320315F50"
+			tasks: [{
+				id: "466E48960FC9A6E5"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder"
+			}]
+		}
+		{
+			x: -6.223214285714313d
+			y: -4.535714285714278d
+			dependencies: ["4B48C47F333A055D"]
+			id: "1BBCB96EB0C8D908"
+			tasks: [{
+				id: "7A8FEC5628137245"
+				type: "item"
+				item: "exnihilosequentia:beehive_frame"
+			}]
+		}
+		{
+			title: "Spawn your first bee"
+			x: -0.9017857142857295d
+			y: -6.017857142857139d
+			description: ["Right-click the Doll on a Barrle full of Witch water to spawn you bee"]
+			id: "10F619A8A67B4BA8"
+			tasks: [{
+				id: "3F528BF68E9A1A0D"
+				type: "item"
+				item: "exnihilosequentia:doll_bee"
+			}]
+		}
+		{
+			x: 1.5267857142857153d
+			y: -6.1785714285714235d
+			dependencies: [
+				"607D4F4B55ADCAEE"
+				"73865FE41BADEBDA"
+			]
+			id: "588FEE5DF1D20D43"
+			tasks: [{
+				id: "4C5C47061B05213D"
+				type: "item"
+				item: "minecraft:bee_spawn_egg"
+			}]
+		}
+		{
+			x: 0.1696428571428399d
+			y: -6.660714285714285d
+			dependencies: ["10F619A8A67B4BA8"]
+			id: "607D4F4B55ADCAEE"
+			tasks: [{
+				id: "4B9D7852A2CB2531"
+				type: "item"
+				item: "mysticalagriculture:infusion_altar"
+			}]
+		}
+		{
+			x: 0.3124999999999858d
+			y: -5.410714285714285d
+			dependencies: ["10F619A8A67B4BA8"]
+			id: "73865FE41BADEBDA"
+			tasks: [{
+				id: "77D78E6CB96B7269"
+				type: "item"
+				item: "mysticalagriculture:infusion_pedestal"
+				count: 8L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "1104AC75C04291A5"
+			tasks: [{
+				id: "07376FDF39889A16"
+				type: "item"
+				item: "resourcefulbees:rgbee_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 2.5982142857142776d
+			y: -9.035714285714285d
+			dependencies: ["1104AC75C04291A5"]
+			id: "6525B58F286DC9EC"
+			tasks: [{
+				id: "56E798D2FAC4AB9C"
+				type: "item"
+				item: "resourcefulbees:gold_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 0.8482142857142847d
+			y: -9.214285714285715d
+			dependencies: ["1104AC75C04291A5"]
+			id: "68404D9D366DC524"
+			tasks: [{
+				id: "1727AD7339624476"
+				type: "item"
+				item: "resourcefulbees:iron_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 2.0982142857142705d
+			y: -8.32142857142857d
+			dependencies: ["1104AC75C04291A5"]
+			id: "0A90532C342CD956"
+			tasks: [{
+				id: "13F593661E03AB92"
+				type: "item"
+				item: "resourcefulbees:lapis_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 1.169642857142854d
+			y: -8.392857142857139d
+			dependencies: ["1104AC75C04291A5"]
+			id: "3E715F554423C217"
+			tasks: [{
+				id: "6B3AF988EA55D2E9"
+				type: "item"
+				item: "resourcefulbees:redstone_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 1.7053571428571317d
+			y: -9.07142857142857d
+			dependencies: ["1104AC75C04291A5"]
+			id: "7D0E8E746BA4A627"
+			tasks: [{
+				id: "0545A630CE51BFA6"
+				type: "item"
+				item: "resourcefulbees:coal_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 2.3482142857142776d
+			y: -9.857142857142854d
+			dependencies: ["1104AC75C04291A5"]
+			id: "61BD8127495ECD02"
+			tasks: [{
+				id: "500B5D4394360A66"
+				type: "item"
+				item: "resourcefulbees:emerald_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 1.4910714285714235d
+			y: -9.892857142857139d
+			dependencies: ["1104AC75C04291A5"]
+			id: "7E35867127A29253"
+			tasks: [{
+				id: "61EE58D886DA26E4"
+				type: "item"
+				item: "resourcefulbees:diamond_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 4.669642857142861d
+			y: -7.785714285714292d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "4D60557A66908953"
+			tasks: [{
+				id: "527E4C4AD611FA91"
+				type: "item"
+				item: "resourcefulbees:copper_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 4.812500000000007d
+			y: -5.464285714285722d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "2D5A3DA5CFB82486"
+			tasks: [{
+				id: "75D75A2598B1F143"
+				type: "item"
+				item: "resourcefulbees:platium_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 6.419642857142861d
+			y: -7.535714285714292d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "2F943DA01FE0A935"
+			tasks: [{
+				id: "25BE00181F8E9FCD"
+				type: "item"
+				item: "resourcefulbees:nickel_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 6.1339285714285765d
+			y: -6.000000000000007d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "41CEC12BE83E28F3"
+			tasks: [{
+				id: "03423D59593D4320"
+				type: "item"
+				item: "resourcefulbees:lead_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 5.526785714285715d
+			y: -7.678571428571431d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "7BCA6773E0CBF1AD"
+			tasks: [{
+				id: "521E0F3D3342DFD9"
+				type: "item"
+				item: "resourcefulbees:tin_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 5.3125d
+			y: -6.178571428571431d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "4878AB6DFB6E6AB0"
+			tasks: [{
+				id: "299E07ADFEB45225"
+				type: "item"
+				item: "resourcefulbees:zinc_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 5.848214285714292d
+			y: -6.857142857142861d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "51B16E2C34075FEB"
+			tasks: [{
+				id: "41FFC26A030D88B4"
+				type: "item"
+				item: "resourcefulbees:silver_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.0d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "02C42FB5885EA5E7"
+			tasks: [{
+				id: "5531FE9F75AC9186"
+				type: "item"
+				item: "resourcefulbees:bauxite_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 4.455357142857153d
+			y: -6.285714285714285d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "1E1B29DA07C682CA"
+			tasks: [{
+				id: "29E522CA468465B5"
+				type: "item"
+				item: "resourcefulbees:bismuth_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 4.169642857142861d
+			y: -7.0714285714285765d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "4560D2B57D1E1655"
+			tasks: [{
+				id: "28E6230BFC1650E7"
+				type: "item"
+				item: "resourcefulbees:osmium_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 2.3839285714285765d
+			y: -4.75d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "6E031115641C7BAB"
+			tasks: [{
+				id: "50F226123A5E25FC"
+				type: "item"
+				item: "resourcefulbees:zombie_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 3.1339285714285836d
+			y: -4.357142857142861d
+			dependencies: ["6E031115641C7BAB"]
+			id: "0FACB2FF688655CB"
+			tasks: [{
+				id: "5A56B998BEE7333A"
+				type: "item"
+				item: "resourcefulbees:skeleton_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 1.598214285714299d
+			y: -4.214285714285715d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "4E683DA9F26EE33D"
+			tasks: [{
+				id: "153DB4CBF6403A34"
+				type: "item"
+				item: "resourcefulbees:ender_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 3.1339285714285836d
+			y: -3.4642857142857153d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "6219E1BAE5ECDC66"
+			tasks: [{
+				id: "73C26F96AD9876A0"
+				type: "item"
+				item: "resourcefulbees:creeper_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 2.348214285714292d
+			y: -3.785714285714292d
+			dependencies: ["6E031115641C7BAB"]
+			id: "2832B5C75A781982"
+			tasks: [{
+				id: "782F7750D9796C5D"
+				type: "item"
+				item: "resourcefulbees:pigman_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 2.3839285714285765d
+			y: -2.9285714285714235d
+			dependencies: ["0FACB2FF688655CB"]
+			id: "6AFD81A1EB468459"
+			tasks: [{
+				id: "1851DEAD416FCC5B"
+				type: "item"
+				item: "resourcefulbees:wither_skelet_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 1.562500000000007d
+			y: -3.357142857142854d
+			dependencies: [
+				"6E031115641C7BAB"
+				"07376FDF39889A16"
+			]
+			id: "7CFF53BAAC498BBF"
+			tasks: [{
+				id: "243C61C3FFCB6F2F"
+				type: "item"
+				item: "resourcefulbees:slimy_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 0.6607142857142918d
+			y: -10.053571428571434d
+			dependencies: ["68404D9D366DC524"]
+			id: "0BE0768B0652C220"
+			tasks: [{
+				id: "7CF25717D80ACF88"
+				type: "item"
+				item: "resourcefulbees:starmatlle_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 3.1964285714285836d
+			y: -9.696428571428573d
+			dependencies: ["6525B58F286DC9EC"]
+			id: "18A57B89819D0763"
+			tasks: [{
+				id: "485976069DE46B9C"
+				type: "item"
+				item: "resourcefulbees:netherite_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 0.3035714285714235d
+			y: -8.375d
+			dependencies: ["4C5C47061B05213D"]
+			id: "5FE6BF29865EC1F1"
+			tasks: [{
+				id: "0E1C9605E5A9250D"
+				type: "item"
+				item: "resourcefulbees:redallow_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 0.05357142857143771d
+			y: -9.482142857142854d
+			dependencies: ["4C5C47061B05213D"]
+			id: "2F7CA88D53D5BA20"
+			tasks: [{
+				id: "7CDF94DB91EEDFE7"
+				type: "item"
+				item: "resourcefulbees:steel_bee_spawn_egg"
+			}]
+		}
+		{
+			x: -0.7276785714285765d
+			y: -8.749999999999986d
+			description: ["This bee need a half of your mana  Pool"]
+			dependencies: ["2F7CA88D53D5BA20"]
+			id: "58D52CA03EC3F36E"
+			tasks: [{
+				id: "750E8AE87F53D098"
+				type: "item"
+				item: "resourcefulbees:manasteel_bee_spawn_egg"
+			}]
+		}
+		{
+			x: -0.9776785714285694d
+			y: -9.571428571428559d
+			description: ["This bee need a full mama poll to creat theis bee"]
+			dependencies: ["58D52CA03EC3F36E"]
+			id: "7E99476D34B915BE"
+			tasks: [{
+				id: "42AC40F36AEE51E0"
+				type: "item"
+				item: "resourcefulbees:terrasteel_bee_spawn_egg"
+			}]
+		}
+		{
+			x: -1.9776785714285765d
+			y: -8.571428571428559d
+			description: ["This bee nees a lot on mana, your need min 4 mana polls full of mana"]
+			dependencies: [
+				"58D52CA03EC3F36E"
+				"7E99476D34B915BE"
+				"0CF9B92E58635174"
+			]
+			id: "7A89592B671A32B0"
+			tasks: [{
+				id: "341ED1E9D4C4870B"
+				type: "item"
+				item: "resourcefulbees:alfsteel_bee_spawn_egg"
+			}]
+		}
+		{
+			x: -1.8348214285714306d
+			y: -9.74999999999999d
+			description: ["2 Mana bees for 1 Element bee LOL"]
+			dependencies: ["58D52CA03EC3F36E"]
+			id: "0CF9B92E58635174"
+			tasks: [{
+				id: "0912B0E3D3B8F8D6"
+				type: "item"
+				item: "resourcefulbees:elementium_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 1.6607142857142918d
+			y: -2.5178571428571246d
+			dependencies: ["6AFD81A1EB468459"]
+			id: "6265A72C7F7087C4"
+			tasks: [{
+				id: "29F7A80EE69FCBB1"
+				type: "item"
+				item: "resourcefulbees:wither_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 0.8392857142857224d
+			y: -2.9107142857142634d
+			dependencies: ["6265A72C7F7087C4"]
+			id: "417B8C3A23062ECD"
+			tasks: [{
+				id: "62987E831A9A82C7"
+				type: "item"
+				item: "resourcefulbees:dragon_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 0.9821428571428612d
+			y: -2.0535714285714093d
+			dependencies: ["417B8C3A23062ECD"]
+			id: "23C37F832F085554"
+			tasks: [{
+				id: "5A61A2C16BE6D6E0"
+				type: "item"
+				item: "resourcefulbees:draconic_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 0.1250000000000071d
+			y: -2.4107142857142705d
+			dependencies: ["23C37F832F085554"]
+			id: "58C425086B15C69E"
+			tasks: [{
+				id: "3CE61EF7BE9124F0"
+				type: "item"
+				item: "resourcefulbees:awecon_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 2.660714285714299d
+			y: -7.410714285714263d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "2F50340B5296AD50"
+			tasks: [{
+				id: "29869E939F0DBC3C"
+				type: "item"
+				item: "resourcefulbees:lifeessens_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 6.76785714285716d
+			y: -6.696428571428555d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "4B0D09F5AF8908B0"
+			tasks: [{
+				id: "71A62F7A0B7F228B"
+				type: "item"
+				item: "resourcefulbees:uranium_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 3.486607142857139d
+			y: -8.821428571428559d
+			dependencies: ["1104AC75C04291A5"]
+			id: "67C616034B84D7A8"
+			tasks: [{
+				id: "7B4AFE2ACA092DD6"
+				type: "item"
+				item: "resourcefulbees:nether_quartz_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 3.20089285714284d
+			y: -2.6428571428571317d
+			dependencies: ["7B4AFE2ACA092DD6"]
+			id: "23C7538E3F0D5BD5"
+			tasks: [{
+				id: "760C56D34C6B0AE7"
+				type: "item"
+				item: "resourcefulbees:blaze_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 5.665178571428569d
+			y: -5.285714285714278d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "55AE76021820C15E"
+			tasks: [{
+				id: "3A2721628D9F8913"
+				type: "item"
+				item: "resourcefulbees:aquamarien_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 6.59375d
+			y: -5.214285714285701d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "6D48BF9960A9A590"
+			tasks: [{
+				id: "2882844D7C3E4816"
+				type: "item"
+				item: "resourcefulbees:niter_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 7.129464285714285d
+			y: -5.892857142857132d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "3B8734EFA7CEEA54"
+			tasks: [{
+				id: "4F742EFF646C581A"
+				type: "item"
+				item: "resourcefulbees:sulfur_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 7.343749999999993d
+			y: -7.392857142857132d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "6339DD57D94F4A6B"
+			tasks: [{
+				id: "788035045570DE1B"
+				type: "item"
+				item: "resourcefulbees:flourin_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 4.129464285714278d
+			y: -9.499999999999986d
+			dependencies: ["67C616034B84D7A8"]
+			id: "11D6D53A9F765FA4"
+			tasks: [{
+				id: "6B54BACE441F3C00"
+				type: "item"
+				item: "resourcefulbees:rock_cystal_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 1.950892857142847d
+			y: -10.642857142857128d
+			dependencies: ["588FEE5DF1D20D43"]
+			id: "53DB818F082775BC"
+			tasks: [{
+				id: "7C54C19DC72BE346"
+				type: "item"
+				item: "resourcefulbees:aquamarien_bee_spawn_egg"
+			}]
+		}
+		{
+			x: -7.625d
+			y: -7.196428571428562d
+			description: ["This mechanical centrifuge consumes hunger in the long run"]
+			dependencies: ["51AEDEB85E886E4C"]
+			id: "141FB4BEE6A4224E"
+			tasks: [{
+				id: "442D1D915F1AADBC"
+				type: "item"
+				item: "resourcefulbees:mechanical_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "4C1E77B05321A4F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "46AD7D541354BAAF"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "019466B50DFE17B7"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "6607B119B86079B7"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: -6.375d
+			y: -7.160714285714278d
+			description: ["better than by hand "]
+			dependencies: ["141FB4BEE6A4224E"]
+			id: "4C483FA98E5F696C"
+			tasks: [{
+				id: "7A69372D24B21CAE"
+				type: "item"
+				item: "resourcefulbees:centrifuge"
+			}]
+			rewards: [{
+				id: "2EB89981FCD7BFD5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.0d
+			y: -10.0d
+			dependencies: ["1D0D5F7A00BD5FAF"]
+			id: "44C7F37F7D02AFBE"
+			tasks: [{
+				id: "7A02C547B3320F69"
+				type: "item"
+				item: "resourcefulbees:centrifuge_controller"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -9.0d
+			dependencies: ["052F4938895AFFC0"]
+			id: "1D0D5F7A00BD5FAF"
+			tasks: [{
+				id: "50DD2FAFE1A3962A"
+				type: "item"
+				item: "resourcefulbees:centrifuge_casing"
+				count: 35L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.0d
+			dependencies: ["1D0D5F7A00BD5FAF"]
+			id: "1227220A0861F54D"
+			tasks: [{
+				id: "6006515141855314"
+				type: "item"
+				item: "resourcefulbees:elite_centrifuge_casing"
+				count: 35L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -10.0d
+			dependencies: ["1227220A0861F54D"]
+			id: "207B72D7AC2D98BE"
+			tasks: [{
+				id: "0EFB9899CCB9BFF3"
+				type: "item"
+				item: "resourcefulbees:elite_centrifuge_controller"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -9.0d
+			dependencies: ["1227220A0861F54D"]
+			id: "14EBF28AC00979E0"
+			tasks: [{
+				id: "65A8AFFB49283400"
+				type: "item"
+				item: "ctiers:centrifuge_casing_tier_3"
+				count: 35L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -10.0d
+			dependencies: ["14EBF28AC00979E0"]
+			id: "55086BDDE2134754"
+			tasks: [{
+				id: "5514E6E06CC4894D"
+				type: "item"
+				item: "ctiers:centrifuge_controller_tier_3"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -10.0d
+			dependencies: ["2DB63B6289D9E7E1"]
+			id: "1DC37C8FA5A73265"
+			tasks: [{
+				id: "1A2795B1772BEF5B"
+				type: "item"
+				item: "ctiers:centrifuge_controller_tier_4"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -9.0d
+			dependencies: ["14EBF28AC00979E0"]
+			id: "2DB63B6289D9E7E1"
+			tasks: [{
+				id: "4C572AD577ACAC36"
+				type: "item"
+				item: "ctiers:centrifuge_casing_tier_4"
+				count: 35L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -10.0d
+			dependencies: ["310C2C95BDA67D6E"]
+			id: "0230D4982904E328"
+			tasks: [{
+				id: "5B3DA47D751D15BF"
+				type: "item"
+				item: "ctiers:centrifuge_controller_tier_5"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -9.0d
+			dependencies: ["2DB63B6289D9E7E1"]
+			id: "310C2C95BDA67D6E"
+			tasks: [{
+				id: "4734FB61D528BB18"
+				type: "item"
+				item: "ctiers:centrifuge_casing_tier_5"
+				count: 35L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -8.0d
+			description: ["The Centrifuge Multiblocks has a site from 3x4x3, your can put the Controller on any site  "]
+			dependencies: ["4C483FA98E5F696C"]
+			id: "052F4938895AFFC0"
+			tasks: [{
+				id: "081FFC7ECC25F34C"
+				type: "checkmark"
+				title: "Bee multiblock"
+			}]
+			rewards: [
+				{
+					id: "1201DC32C2655D30"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "24A7F54609E5C829"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
 }

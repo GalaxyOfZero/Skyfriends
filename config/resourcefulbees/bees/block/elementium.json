@@ -1,0 +1,48 @@
+{
+  "flower": "botania:elementium_block",
+  "maxTimeInHive": 2000,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "block/elementium/elementium_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#0273ff",
+    "modelType": "ORE"
+  },
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 5
+},
+  "CentrifugeData": {
+  "hasCentrifugeOutput": true,
+  "mainOutput": "botania:elementium_ingot",
+  "mainOutputWeight": 0.20,
+  "mainOutputCount": 1
+},
+  "SpawnData": {
+  "canSpawnInWorld": false
+},
+  "BreedData": {
+  "isBreedable": true,
+  "feedItem": "botania:elementium_ingot",
+  "feedAmount": 10
+},
+  "traits" : [""],
+  "MutationData": {
+  "hasMutation": true,
+  "mutations": [
+{
+  "type": "BLOCK_TO_BLOCK",
+  "inputID": "botania:livingrock",
+  "chance": 0.01,
+  "outputs": [
+    {"outputID": "mythicbotany:elementium_ore", "weight": 1}
+   ]
+ }
+]
+},
+  "TraitData": {
+  "hasTraits": true
+}
+}

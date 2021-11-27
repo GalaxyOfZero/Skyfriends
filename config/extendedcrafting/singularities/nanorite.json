@@ -1,0 +1,11 @@
+{
+  "name": "Nanorite",
+  "colors": [
+    "320B64",
+    "C8C4D1"
+  ],
+  "ingredient": {
+    "item": "envirocore:nanorite"
+  },
+  "materialCount" : 50000
+}

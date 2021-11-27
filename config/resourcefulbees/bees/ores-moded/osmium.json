@@ -1,0 +1,48 @@
+{
+  "flower": "tag:forge:storage_blocks/osmium",
+  "maxTimeInHive": 2200,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/osmium/osmium_bee",
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 5
+},
+  "ColorData": {
+    "honeycombColor": "#86C6C8",
+    "modelType": "ORE"
+},
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mekanism:ingot_osmium",
+    "mainOutputWeight": 0.40,
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:ingots/osmium",
+    "feedAmount": 30
+  },
+  "traits" : [""],
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+  {
+    "type": "BLOCK_TO_BLOCK",
+    "inputID": "minecraft:smooth_stone",
+    "chance": 0.20,
+    "outputs": [
+      {"outputID": "mekanism:osmium_ore", "weight": 1}
+    ]
+   }
+  ]
+},
+  "TraitData": {
+  "hasTraits": true
+}
+
+}

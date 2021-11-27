@@ -1,0 +1,11 @@
+{
+  "name": "Purified_ink",
+  "colors": [
+    "330A9F",
+    "330A9F"
+  ],
+  "ingredient": {
+    "item": "occultism:purified_ink"
+  },
+  "materialCount" : 1000
+}

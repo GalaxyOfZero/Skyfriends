@@ -1,0 +1,11 @@
+{
+  "name": "Teleportation",
+  "colors": [
+    "FBFBFB",
+    "47ACA7"
+  ],
+  "ingredient": {
+    "item": "mekanism:teleportation_core"
+  },
+  "materialCount" : 1000
+}

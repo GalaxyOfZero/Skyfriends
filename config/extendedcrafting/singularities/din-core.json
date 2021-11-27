@@ -1,0 +1,11 @@
+{
+  "name": "Dim Core",
+  "colors": [
+    "3D85F4",
+    "A5A5A5"
+  ],
+  "ingredient": {
+    "item": "dimstorage:dim_core"
+  },
+    "materialCount" : 6000
+}

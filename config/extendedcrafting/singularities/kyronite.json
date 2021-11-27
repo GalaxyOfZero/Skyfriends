@@ -1,0 +1,11 @@
+{
+  "name": "Kyronite",
+  "colors": [
+    "7C175D",
+    "C8C4D1"
+  ],
+  "ingredient": {
+    "item": "envirocore:kyronite"
+  },
+  "materialCount" : 50000
+}

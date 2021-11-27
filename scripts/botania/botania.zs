@@ -1,6 +1,7 @@
 import crafttweaker.api.item.ItemStack;
 import crafttweaker.api.item.Ingredient;
 import crafttweaker.api.registries.IRecipeManager;
+import mods.botania.Orechid;
 
 #remove
 craftingTable.removeRecipe(<item:botania:mana_pool>);
@@ -15,6 +16,8 @@ craftingTable.removeRecipe(<item:botania:apothecary_default>);
 <recipetype:botania:pure_daisy>.removeRecipe(<blockstate:minecraft:sand>);
 <recipetype:botania:pure_daisy>.removeRecipe(<blockstate:minecraft:packed_ice>);
 <recipetype:botania:pure_daisy>.removeRecipe(<blockstate:minecraft:blue_ice>);
+Orechid.main.removeOreWeight(<blockstate:mysticalagriculture:prosperity_ore>);
+Orechid.main.removeOreWeight(<blockstate:mysticalagriculture:inferium_ore>);
 craftingTable.removeByName("gardenofglass:pebble_to_cobblestone");
 
 #add

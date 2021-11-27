@@ -1,0 +1,11 @@
+{
+  "name": "Pladium",
+  "colors": [
+    "00059E",
+    "C8C4D1"
+  ],
+  "ingredient": {
+    "item": "envirocore:pladium"
+  },
+  "materialCount" : 50000
+}

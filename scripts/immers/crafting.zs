@@ -5,8 +5,6 @@ import crafttweaker.api.fluid.MCFluid;
 import crafttweaker.api.fluid.MCFluid;
 import crafttweaker.api.tag.MCTag;
 
-#tags remov
-<tag:fluids:forge:diesel>.remove(<fluid:immersivepetroleum:diesel_sulfur>);
 #platen
 craftingTable.removeRecipe(<item:immersiveengineering:stick_steel>);
 craftingTable.removeRecipe(<item:immersiveengineering:plate_steel>);

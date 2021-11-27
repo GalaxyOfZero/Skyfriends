@@ -1,0 +1,38 @@
+{
+    "flower":"draconicevolution:awakened_draconium_block",
+    "maxTimeInHive":3000,
+    "sizeModifier":1.0,
+    "hasHoneycomb":true,
+    "baseLayerTexture":"/spezial/awecondraconium_bee",
+    "ColorData": {
+      "honeycombColor": "#E3700B",
+      "isEnchanted": true,
+      "modelType": "DRAGON"
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "feedItem": "draconicevolution:awakened_draconium_ingot",
+      "feedAmount": 59
+    },
+    "CombatData": {
+        "isPassive": true,
+        "removeStingerOnAttack": true,
+        "inflictsPoison": true,
+        "attackDamage": 40
+    },
+    "CentrifugeData": {
+     "hasCentrifugeOutput": true,
+     "mainOutput": "draconicevolution:awakened_draconium_ingot",
+     "mainOutputWeight": 0.30,
+     "mainOutputCount": 1,
+     "secondaryOutput": "draconicevolution:awakened_core",
+     "secondaryOutputWeight": 0.03,
+     "bottleOutput": "minecraft:dragon_breath"
+   },
+    "SpawnData": {
+     "canSpawnInWorld": false
+   },
+    "TraitData": {
+        "hasTraits": false
+    }
+}

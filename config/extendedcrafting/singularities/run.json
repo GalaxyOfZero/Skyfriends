@@ -1,0 +1,10 @@
+{
+  "name": "Rune",
+  "colors": [
+    "7B7B7B",
+    "B3ACAC"
+  ],
+  "ingredient": {
+    "item": "bloodmagic:blankrune"
+  }
+}

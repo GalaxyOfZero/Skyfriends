@@ -1,0 +1,10 @@
+{
+  "name": "Dark matter",
+  "colors": [
+    "3C1A79",
+    "1D0B3E"
+  ],
+  "ingredient": {
+    "item": "forbidden_arcanus:dark_matter"
+  }
+}

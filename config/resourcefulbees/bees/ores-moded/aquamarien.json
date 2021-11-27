@@ -1,0 +1,49 @@
+{
+  "flower": "minecraft:water",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/aquamariene/aquamariene_bee",
+  "trains": ["can_swim"],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#02C2FF",
+    "modelType": "ORE"
+  },
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 5
+},
+  "CentrifugeData": {
+  "hasCentrifugeOutput": true,
+  "mainOutput": "astralsorcery:aquamariene",
+  "mainOutputWeight": 0.30,
+  "mainOutputCount": 1
+},
+  "SpawnData": {
+  "canSpawnInWorld": false
+},
+  "BreedData": {
+  "isBreedable": true,
+  "feedItem": "astralsorcery:aquamarine",
+  "feedAmount": 10
+},
+  "traits" : [""],
+  "MutationData": {
+  "hasMutation": true,
+  "mutations": [
+{
+  "type": "BLOCK_TO_BLOCK",
+  "inputID": "minecraft:sandstone",
+  "chance": 0.30,
+  "outputs": [
+    {"outputID": "astralsorcery:aquamarine_sand_ore", "weight": 1}
+  ]
+ }
+]
+},
+  "TraitData": {
+"hasTraits": true
+}
+}

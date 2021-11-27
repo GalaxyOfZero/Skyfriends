@@ -1,0 +1,112 @@
+{
+    "flower":"ALL",
+    "maxTimeInHive":1600,
+    "sizeModifier":1.0,
+    "hasHoneycomb":true,
+    "baseLayerTexture":"/ores/custom/custom_bee_primary",
+    "ColorData": {
+      "primaryColor": "#ffffff",
+      "secondaryColor": "#ffffff",
+      "honeycombColor": "#ffffff",
+      "primaryLayerTexture": "empty_layer",
+      "secondaryLayerTexture": "/ores/custom/custom_bee_secondary",
+      "emissiveLayerTexture": "/ores/custom/custom_bee_emissive",
+      "isRainbowBee": true,
+      "isGlowing": true ,
+      "glowColor": "#ffffff",
+      "modelType": "ORE"
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "feedItem": "tag:forge:dyes",
+      "feedAmount": 10
+    },
+    "CombatData": {
+        "isPassive": true,
+        "removeStingerOnAttack": true,
+        "inflictsPoison": true,
+        "attackDamage": 3
+    },
+    "MutationData": {
+      "hasMutation": true,
+      "mutations": [
+    {
+      "type": "BLOCK_TO_ITEM",
+      "inputID": "minecraft:iron_ore",
+      "chance": 0.05,
+      "outputs": [
+        {"outputID": "resourcefulbees:iron_bee_spawn_egg", "weight": 5}
+       ]
+     },
+     {
+       "type": "BLOCK_TO_ITEM",
+       "inputID": "minecraft:coal_ore",
+       "chance": 0.05,
+       "outputs": [
+         {"outputID": "resourcefulbees:coal_bee_spawn_egg", "weight": 5}
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:gold_ore",
+        "chance": 0.05,
+        "outputs": [
+          {"outputID": "resourcefulbees:gold_bee_spawn_egg", "weight": 5}
+         ]
+       },
+       {
+         "type": "BLOCK_TO_ITEM",
+         "inputID": "minecraft:lapis_ore",
+         "chance": 0.05,
+         "outputs": [
+           {"outputID": "resourcefulbees:lapis_bee_spawn_egg", "weight": 5}
+          ]
+        },
+        {
+          "type": "BLOCK_TO_ITEM",
+          "inputID": "minecraft:redstone_ore",
+          "chance": 0.05,
+          "outputs": [
+            {"outputID": "resourcefulbees:redstone_bee_spawn_egg", "weight": 5}
+           ]
+         },
+         {
+           "type": "BLOCK_TO_ITEM",
+           "inputID": "minecraft:iron_ore",
+           "chance": 0.05,
+           "outputs": [
+             {"outputID": "resourcefulbees:iron_bee_spawn_egg", "weight": 5}
+            ]
+          },
+          {
+            "type": "BLOCK_TO_ITEM",
+            "inputID": "minecraft:diamond_ore",
+            "chance": 0.05,
+            "outputs": [
+              {"outputID": "resourcefulbees:diamond_bee_spawn_egg", "weight": 5}
+             ]
+           },
+           {
+             "type": "BLOCK_TO_ITEM",
+             "inputID": "minecraft:emerald_ore",
+             "chance": 0.05,
+             "outputs": [
+               {"outputID": "resourcefulbees:emerald_bee_spawn_egg", "weight": 5}
+              ]
+            },
+            {
+              "type": "BLOCK_TO_ITEM",
+              "inputID": "minecraft:nether_quartz_ore",
+              "chance": 0.05,
+              "outputs": [
+                {"outputID": "resourcefulbees:nether_quartz_bee_spawn_egg", "weight": 5}
+               ]
+             }
+
+          ]
+  },
+
+    "TraitData": {
+        "hasTraits": false
+    }
+}

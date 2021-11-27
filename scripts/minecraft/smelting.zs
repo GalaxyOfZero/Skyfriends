@@ -1,5 +1,6 @@
 import crafttweaker.api.FurnaceManager;
 import crafttweaker.api.BlastFurnaceManager;
+import crafttweaker.api.SmokerManager;
 
 furnace.addRecipe("darkstone", <item:forbidden_arcanus:darkstone>, <item:minecraft:blackstone>, 1.0, 100);
 furnace.removeRecipe(<item:biggerreactors:graphite_ingot>);
@@ -8,6 +9,9 @@ blastFurnace.removeRecipe(<item:powah:uraninite>);
 furnace.addRecipe("grafit_ingot", <item:biggerreactors:graphite_ingot>, <item:biggerreactors:graphite_dust>, 0.0, 100);
 furnace.addRecipe("bismuth_ingot", <item:silents_mechanisms:bismuth_ingot>, <item:contenttweaker:bismuth_chunk>, 1.0, 200);
 blastFurnace.addRecipe("bismuth_ingot2", <item:silents_mechanisms:bismuth_ingot>, <item:contenttweaker:bismuth_chunk>, 1.0, 100);
+blastFurnace.addRecipe("glas", <item:minecraft:glass>, <item:minecraft:sand> ,1.0, 100);
+smoker.addRecipe("leather-vanilla", <item:minecraft:leather>, <item:forbidden_arcanus:rotten_leather>, 1.0, 100);
+
 
 #refine
 furnace.removeRecipe(<item:refinedstorage:basic_processor>);

@@ -1,0 +1,11 @@
+{
+  "name": "Erodium",
+  "colors": [
+    "8851DE",
+    "C8C4D1"
+  ],
+  "ingredient": {
+    "item": "envirocore:erodium"
+  },
+  "materialCount" : 50000
+}

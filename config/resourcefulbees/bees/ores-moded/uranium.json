@@ -1,0 +1,48 @@
+{
+  "flower": "tag:forge:storage_blocks/uranium",
+  "maxTimeInHive": 2200,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/uranium/uranium_bee",
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": false,
+  "inflictsPoison": true,
+  "attackDamage": 15
+},
+  "ColorData": {
+    "honeycombColor": "#18D42C",
+    "modelType": "ORE"
+},
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mekanism:ingot_uranium",
+    "mainOutputWeight": 0.30,
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:ingots/uranium",
+    "feedAmount": 10
+  },
+  "traits" : [""],
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+  {
+    "type": "BLOCK_TO_BLOCK",
+    "inputID": "minecraft:smooth_stone",
+    "chance": 0.10,
+    "outputs": [
+      {"outputID": "mekanism:uranium_ore", "weight": 1}
+    ]
+   }
+  ]
+},
+  "TraitData": {
+  "hasTraits": true
+}
+
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Honey",
+  "colors": [
+    "F3AE35",
+    "F8F8F6"
+  ],
+  "ingredient": {
+    "item": "minecraft:honey_block"
+  }
+}

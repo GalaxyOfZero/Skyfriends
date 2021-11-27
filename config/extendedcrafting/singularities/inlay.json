@@ -1,0 +1,11 @@
+{
+  "name": "Pewter Inlay",
+  "colors": [
+    "BFBFBF",
+    "6A6A6A"
+  ],
+  "ingredient": {
+    "item": "eidolon:pewter_inlay"
+  },
+    "materialCount" : 10000
+}

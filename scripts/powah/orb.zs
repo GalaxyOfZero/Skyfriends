@@ -167,11 +167,14 @@
 {
   "type": "powah:energizing",
   "ingredients": [
-	{"item": "extendedcrafting:nether_star_block"},
-  {"item": "extendedcrafting:nether_star_block"},
+  {"item": "forbidden_arcanus:dark_nether_star"},
+  {"item": "forbidden_arcanus:dark_nether_star"},
+  {"item": "forbidden_arcanus:dark_nether_star"},
+  {"item": "forbidden_arcanus:dark_nether_star"},
+  {"item": "forbidden_arcanus:dark_nether_star"},
   {"item": "refinedstorage:advanced_processor"}
   ],
-  "energy": 1000000,
+  "energy": 1200000,
   "result": {
 	"item": "extradisks:withering_processor"
   }

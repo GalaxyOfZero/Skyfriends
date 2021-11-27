@@ -1,0 +1,35 @@
+{
+    "flower":"bloodmagic:chargingrune",
+    "maxTimeInHive":3300,
+    "sizeModifier":1.0,
+    "hasHoneycomb":true,
+    "trains": ["can_swim"],
+    "baseLayerTexture":"/spezial/lifeessens_bee",
+    "ColorData": {
+      "honeycombColor": "#6D0D08",
+      "isEnchanted": true
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "feedItem": "bloodmagic:defaultcrystal",
+      "feedAmount": 10
+    },
+    "CombatData": {
+        "isPassive": true,
+        "removeStingerOnAttack": true,
+        "inflictsPoison": true,
+        "attackDamage": 40
+    },
+    "CentrifugeData": {
+     "hasCentrifugeOutput": true,
+     "mainOutput": "bloodmagic:life_essence_fluid",
+     "mainOutputCount": 250,
+     "hasFluidOutput": true
+   },
+    "SpawnData": {
+     "canSpawnInWorld": false
+   },
+    "TraitData": {
+        "hasTraits": false
+    }
+}

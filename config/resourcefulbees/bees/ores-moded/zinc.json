@@ -1,0 +1,46 @@
+{
+  "flower": "tag:forge:storage_blocks/zinc",
+  "maxTimeInHive": 1600,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/zinc/zinc_bee",
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 5
+},
+  "ColorData": {
+    "honeycombColor": "#6B6F6F",
+    "modelType": "ORE"
+},
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "silents_mechanisms:zinc_ingot",
+    "mainOutputWeight": 0.40,
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:ingots/zinc",
+    "feedAmount": 20
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+  {
+    "type": "BLOCK_TO_BLOCK",
+    "inputID": "minecraft:smooth_stone",
+    "chance": 0.15,
+    "outputs": [
+      {"outputID": "silents_mechanisms:zinc_ore", "weight": 1}
+    ]
+   }
+  ]
+},
+  "TraitData": {
+  "hasTraits": true
+}
+}

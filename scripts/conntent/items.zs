@@ -18,3 +18,15 @@ new ItemBuilder()
 new ItemBuilder()
     .withMaxStackSize(64)
     .build("lapis_sheet2");
+
+new ItemBuilder()
+  .withMaxStackSize(64)
+  .build("infinity_ingot");
+
+new ItemBuilder()
+    .withMaxStackSize(64)
+    .build("infinity_catalyst");
+
+new ItemBuilder()
+      .withMaxStackSize(64)
+      .build("neutronium_ingot");

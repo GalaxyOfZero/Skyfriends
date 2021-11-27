@@ -1,0 +1,11 @@
+{
+  "name": "Dimensional",
+  "colors": [
+    "4CEEEC",
+    "4CEEB3"
+  ],
+  "ingredient": {
+    "item": "rftoolsbase:dimensionalshard"
+  },
+  "materialCount" : 150000
+}

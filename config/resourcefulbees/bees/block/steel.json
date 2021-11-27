@@ -1,0 +1,39 @@
+{
+  "flower": "tag:forge:storage_blocks/steel",
+  "maxTimeInHive": 2000,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#868282",
+    "modelType": "ORE",
+    "primaryLayerTexture": "custom/primary_layer",
+    "secondaryLayerTexture": "custom/secondary_layer",
+    "primaryColor": "#282626",
+    "secondaryColor": "#909090"
+  },
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 5
+},
+  "CentrifugeData": {
+  "hasCentrifugeOutput": true,
+  "mainOutput": "silents_mechanisms:steel_ingot",
+  "mainOutputWeight": 0.50,
+  "mainOutputCount": 1,
+  "secondaryOutput": "immersiveengineering:coal_coke",
+  "secondaryOutputWeight": 0.1
+},
+  "SpawnData": {
+  "canSpawnInWorld": false
+},
+  "BreedData": {
+  "isBreedable": true,
+  "feedItem": "silents_mechanisms:steel_ingot",
+  "feedAmount": 25
+},
+  "TraitData": {
+  "hasTraits": true
+}
+}

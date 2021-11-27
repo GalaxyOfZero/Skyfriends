@@ -1,0 +1,11 @@
+{
+  "name": "Obsidian Ingot",
+  "colors": [
+    "330A9F",
+    "330A9F"
+  ],
+  "ingredient": {
+    "item": "forbidden_arcanus:obsidian_ingot"
+  },
+    "materialCount" : 50000
+}

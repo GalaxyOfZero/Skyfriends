@@ -1,0 +1,42 @@
+{
+  "flower": "minecraft:glostone",
+  "maxTimeInHive": 1000,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "pigman/pigman_bee",
+  "traits": ["nether", "pigman"],
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#885956"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+  {
+    "type": "BLOCK_TO_BLOCK",
+    "inputID": "minecraft:nether_bricks",
+    "chance": 0.30,
+    "outputs": [
+      {"outputID": "minecraft:glostone", "weight": 1}
+     ]
+   }
+  ]
+
+},
+  "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "minecraft:glowstone_dust",
+      "mainOutputWeight": 0.25,
+      "mainOutputCount": 4
+  },
+  "SpawnData": {
+      "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "forbidden_arcanus:arcane_gold_ingot",
+    "feedAmount": 10
+  },
+  "TraitData": {
+      "hasTraits": true
+  }
+}

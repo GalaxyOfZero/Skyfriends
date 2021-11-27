@@ -1,0 +1,39 @@
+{
+  "flower": "wpbmod:witherproofblock",
+  "maxTimeInHive": 2500,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "wither/wither_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#444444"
+  },
+  "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "minecraft:wither_skeleton_skull",
+      "mainOutputWeight": 0.10
+  },
+  "SpawnData": {
+      "canSpawnInWorld": false
+  },
+  "BreedData": {
+      "isBreedable": true,
+      "feedItem": "tconstruct:necrotic_bone",
+      "feedAmount": 12
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+  {
+    "type": "BLOCK_TO_ITEM",
+    "inputID": "extendedcrafting:nether_star_block",
+    "chance": 0.04,
+    "outputs": [
+      {"outputID": "resourcefulbees:wither_bee_spawn_egg", "weight": 1}
+     ]
+   }
+  ]
+},
+  "TraitData": {
+      "hasTraits": true
+  }
+}

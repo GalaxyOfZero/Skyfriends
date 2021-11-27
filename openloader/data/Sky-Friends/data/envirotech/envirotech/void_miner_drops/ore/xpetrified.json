@@ -1,0 +1,19 @@
+{
+"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:magical_ore"],
+	"item": {
+		"raw:item_tag": "forge:ores/xpetrified_ore", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
+	"config": [
+		{
+			"weight": 100
+		},
+		{
+			"focus": "envirotech:gray",
+			"weight": 1000
+		}
+	]
+}

@@ -5,6 +5,6 @@
     "101015"
   ],
   "ingredient": {
-    "item": "minecraft:coal"
+    "tag": "forge:storage_blocks/coal"
   }
 }

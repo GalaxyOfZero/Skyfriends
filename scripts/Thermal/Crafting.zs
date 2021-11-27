@@ -32,6 +32,7 @@ craftingTable.removeRecipe(<item:thermal:machine_efficiency_augment>);
 craftingTable.removeRecipe(<item:thermal:redstone_servo>);
 craftingTable.removeRecipe(<item:thermal:saw_blade>);
 craftingTable.removeRecipe(<item:thermal:drill_head>);
+craftingTable.removeRecipe(<item:thermal:device_tree_extractor>);
 
 <recipetype:thermal:tree_extractor>.removeAll();
 <recipetype:thermal:press>.removeRecipe([], [<fluid:thermal:latex>]);

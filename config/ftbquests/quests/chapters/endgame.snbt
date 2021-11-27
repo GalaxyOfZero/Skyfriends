@@ -15,38 +15,59 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 2.863095238095255d
-			y: 0.41071428571429536d
-			id: "15B981A37536E01F"
-			tasks: [{
-				id: "4E1B9FB01A1394B4"
-				type: "item"
-				item: "extendedcrafting:ender_alternator"
-			}]
-		}
-		{
-			x: 2.0416666666666856d
-			y: -0.3035714285714164d
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["76F2FDAA63335279"]
 			id: "201385ED21F42D4B"
-			tasks: [{
-				id: "616EB4A2B1B6ACF8"
-				type: "item"
-				item: "extendedcrafting:ender_crafter"
-			}]
+			tasks: [
+				{
+					id: "616EB4A2B1B6ACF8"
+					type: "item"
+					item: "extendedcrafting:ender_crafter"
+				}
+				{
+					id: "37DD6EF923F115BC"
+					type: "item"
+					item: "extendedcrafting:ender_alternator"
+				}
+			]
 		}
 		{
-			x: -0.3154761904761685d
-			y: 0.4464285714285836d
+			x: 1.5d
+			y: 3.5d
+			dependencies: [
+				"201385ED21F42D4B"
+				"3A23738A0501EE71"
+			]
 			id: "17548559A4197E2F"
 			tasks: [{
 				id: "4822BC04635E17A1"
 				type: "item"
 				item: "extendedcrafting:black_iron_ingot"
 			}]
+			rewards: [
+				{
+					id: "14AB280389BE9FF4"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 5
+				}
+				{
+					id: "7D783511518BC1FC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0BAB140F49AA9F98"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
 		}
 		{
-			x: -0.4226190476190297d
-			y: 1.5892857142857224d
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["17548559A4197E2F"]
 			id: "2BA79AD3A62DBB40"
 			tasks: [{
 				id: "3BC6CFB2EF43DCE8"
@@ -55,18 +76,37 @@
 			}]
 		}
 		{
-			x: 2.970238095238116d
-			y: -0.7678571428571317d
+			x: 2.538690476190496d
+			y: 0.907738095238102d
 			id: "76F2FDAA63335279"
 			tasks: [{
 				id: "3BF7E8AFDA780F40"
 				type: "item"
 				item: "extendedcrafting:ender_ingot"
 			}]
+			rewards: [
+				{
+					id: "1520F738B430D1B3"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 10
+				}
+				{
+					id: "73A74120AEC79D7E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5190A59E77E7A8E3"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
 		}
 		{
-			x: 0.6488095238095397d
-			y: -0.19642857142855874d
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["201385ED21F42D4B"]
 			id: "3A23738A0501EE71"
 			tasks: [{
 				id: "4D526EFC0C318A04"
@@ -75,58 +115,101 @@
 			}]
 		}
 		{
-			x: -1.494047619047599d
-			y: 1.0535714285714377d
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["201385ED21F42D4B"]
 			id: "3FA5FD4CF43D7F1E"
 			tasks: [{
 				id: "2D57DAE1FB24BF75"
 				type: "item"
 				item: "extendedcrafting:luminessence"
 			}]
+			rewards: [{
+				id: "53197282B394F328"
+				type: "item"
+				item: "astralsorcery:stardust"
+				count: 10
+			}]
 		}
 		{
-			x: -1.5d
-			y: 2.5d
+			x: 0.5d
+			y: 6.5d
+			dependencies: [
+				"2BA79AD3A62DBB40"
+				"3FA5FD4CF43D7F1E"
+			]
 			id: "54E4ABCC683E678F"
 			tasks: [{
 				id: "6DFF41169E6F3056"
 				type: "item"
 				item: "extendedcrafting:basic_component"
 			}]
+			rewards: [{
+				id: "49D855E6EB133904"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: -1.5d
-			y: 4.0d
+			x: 0.5d
+			y: 8.5d
+			dependencies: [
+				"54E4ABCC683E678F"
+				"3FA5FD4CF43D7F1E"
+			]
 			id: "6134140EFB7B3374"
 			tasks: [{
 				id: "5AF0141979F6C79A"
 				type: "item"
 				item: "extendedcrafting:advanced_component"
 			}]
+			rewards: [{
+				id: "7FF96D9D252350A5"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: -1.5d
-			y: 6.0d
+			x: 0.5d
+			y: 10.5d
+			dependencies: [
+				"6134140EFB7B3374"
+				"3FA5FD4CF43D7F1E"
+			]
 			id: "6D120CFDB48A8E24"
 			tasks: [{
 				id: "7DA9716B6D154916"
 				type: "item"
 				item: "extendedcrafting:elite_component"
 			}]
+			rewards: [{
+				id: "24AF339C5EFB297A"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: -1.5d
-			y: 7.5d
+			x: 0.5d
+			y: 12.5d
+			dependencies: [
+				"6D120CFDB48A8E24"
+				"3FA5FD4CF43D7F1E"
+			]
 			id: "266F07748C4C44E8"
 			tasks: [{
 				id: "12C3B8F2DE3470B6"
 				type: "item"
 				item: "extendedcrafting:ultimate_component"
 			}]
+			rewards: [{
+				id: "5A5DC11392420E05"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: -1.5d
-			y: 9.0d
+			x: 0.5d
+			y: 14.0d
 			id: "4331E15B703DE8F6"
 			tasks: [{
 				id: "7094B1417B490219"
@@ -135,8 +218,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 10.0d
+			x: 2.0d
+			y: 15.0d
 			id: "07C69B073BECECEB"
 			tasks: [{
 				id: "62408401F9430ADF"
@@ -145,190 +228,1117 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 8.0d
+			x: 2.0d
+			y: 13.5d
+			dependencies: ["266F07748C4C44E8"]
 			id: "18FB46EA5CA9DAF1"
 			tasks: [{
 				id: "73E0B3770C3B6D7F"
 				type: "item"
 				item: "extendedcrafting:ultimate_catalyst"
 			}]
+			rewards: [{
+				id: "6865A3CC201BAC33"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: 0.0d
-			y: 6.5d
+			x: 2.0d
+			y: 11.0d
+			dependencies: ["6D120CFDB48A8E24"]
 			id: "121D6EAC8F8E2B62"
 			tasks: [{
 				id: "19246F1F2B688A47"
 				type: "item"
 				item: "extendedcrafting:elite_catalyst"
 			}]
+			rewards: [{
+				id: "1F0E30A8408E7E34"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: 0.0d
-			y: 5.0d
+			x: 2.0d
+			y: 9.0d
+			dependencies: ["6134140EFB7B3374"]
 			id: "7E337B1E7EF8FCDE"
 			tasks: [{
 				id: "16C13F7F011979D9"
 				type: "item"
 				item: "extendedcrafting:advanced_catalyst"
 			}]
+			rewards: [{
+				id: "72A0CCE9AD71F425"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: 0.0d
-			y: 3.0d
+			x: 2.0d
+			y: 7.0d
+			dependencies: ["54E4ABCC683E678F"]
 			id: "64AE4D97ACFDD861"
 			tasks: [{
 				id: "0BA3D5DAF2FA052B"
 				type: "item"
 				item: "extendedcrafting:basic_catalyst"
 			}]
+			rewards: [{
+				id: "2C9A661F74F29266"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: 1.755952380952401d
-			y: 3.3392857142857224d
+			x: 3.5d
+			y: 7.0d
+			dependencies: ["64AE4D97ACFDD861"]
 			id: "15D5802FDFF060A6"
 			tasks: [{
 				id: "1E1291E99BC306D7"
 				type: "item"
 				item: "extendedcrafting:basic_table"
 			}]
+			rewards: [{
+				id: "1FFB8ED95FED7892"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: 1.8273809523809703d
-			y: 4.5892857142857295d
+			x: 3.5d
+			y: 9.0d
+			dependencies: [
+				"7E337B1E7EF8FCDE"
+				"15D5802FDFF060A6"
+			]
 			id: "3F0D93C546167460"
 			tasks: [{
 				id: "117A57787EB742A3"
 				type: "item"
 				item: "extendedcrafting:advanced_table"
 			}]
+			rewards: [{
+				id: "1F6394F23544ECEE"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: 2.0d
-			y: 7.0d
+			x: 3.5d
+			y: 11.5d
+			dependencies: [
+				"121D6EAC8F8E2B62"
+				"3F0D93C546167460"
+			]
 			id: "15B644C747058E89"
 			tasks: [{
 				id: "5964FE0C6DE9BD9F"
 				type: "item"
 				item: "extendedcrafting:elite_table"
 			}]
+			rewards: [{
+				id: "2E743210DB854671"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: 2.0d
-			y: 8.0d
+			x: 3.5d
+			y: 14.0d
+			dependencies: [
+				"18FB46EA5CA9DAF1"
+				"15B644C747058E89"
+			]
 			id: "2A1BD4DB7A223119"
 			tasks: [{
 				id: "1E29D87B13B8B481"
 				type: "item"
 				item: "extendedcrafting:ultimate_table"
 			}]
+			rewards: [{
+				id: "30F6BDD4F687B5A8"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: 1.9345238095238457d
-			y: 5.803571428571438d
+			x: 8.0d
+			y: 10.0d
+			dependencies: ["19D99A04D1453B66"]
 			id: "7C1F6E0EE0F2C7B0"
 			tasks: [{
 				id: "26087D8736D2B4B8"
 				type: "item"
 				item: "extendedcrafting:crafting_core"
 			}]
+			rewards: [
+				{
+					id: "227F614DC6231E17"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "291D29D33C6D83E7"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
-			x: -3.0d
-			y: 3.0d
+			x: 2.5d
+			y: 5.0d
+			dependencies: [
+				"2BA79AD3A62DBB40"
+				"3FA5FD4CF43D7F1E"
+			]
 			id: "1E1B4260A7DBE6CD"
 			tasks: [{
 				id: "01ED2A188B7C726F"
 				type: "item"
 				item: "extendedcrafting:crystaltine_component"
 			}]
+			rewards: [{
+				id: "55075C4EB179FEDB"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: -3.0d
-			y: 2.0d
+			x: 1.8809523809523654d
+			y: 5.8824404761904745d
+			dependencies: [
+				"2BA79AD3A62DBB40"
+				"3FA5FD4CF43D7F1E"
+			]
 			id: "4E13A4CA59373D7C"
 			tasks: [{
 				id: "5E3F9271506B94A0"
 				type: "item"
 				item: "extendedcrafting:redstone_component"
 			}]
+			rewards: [{
+				id: "4CB2EF3CE232F082"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: -4.5d
-			y: 2.5d
+			x: 4.738095238095234d
+			y: 6.9300595238095255d
+			dependencies: ["15D5802FDFF060A6"]
 			id: "657353CBF751ABC0"
 			tasks: [{
 				id: "6AA928A761809A70"
 				type: "item"
 				item: "extendedcrafting:basic_auto_table"
 			}]
+			rewards: [{
+				id: "2E3CE27507B82421"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: -4.5d
-			y: 1.5d
+			x: 4.595238095238088d
+			y: 8.453869047619051d
+			dependencies: ["3F0D93C546167460"]
 			id: "2142699808F902F1"
 			tasks: [{
 				id: "2936750BAD2477AE"
 				type: "item"
 				item: "extendedcrafting:advanced_auto_table"
 			}]
+			rewards: [{
+				id: "0F75857C8B259369"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: -5.5d
-			y: 2.0d
+			x: 4.547619047619044d
+			y: 11.882440476190474d
+			dependencies: ["15B644C747058E89"]
 			id: "7228CBC86F4C559B"
 			tasks: [{
 				id: "6A5156E2BA95C14C"
 				type: "item"
 				item: "extendedcrafting:elite_auto_table"
 			}]
+			rewards: [{
+				id: "48F00A146B4A19BC"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: -5.5d
-			y: 3.0d
+			x: 4.499999999999993d
+			y: 13.59672619047619d
+			dependencies: ["2A1BD4DB7A223119"]
 			id: "56CE66A417A5E3F6"
 			tasks: [{
 				id: "14BA6EB45E56FCF8"
 				type: "item"
 				item: "extendedcrafting:ultimate_auto_table"
 			}]
+			rewards: [{
+				id: "63509DD213C09325"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: 3.1845238095238386d
-			y: 5.803571428571445d
+			x: 6.776785714285737d
+			y: 10.09226190476192d
+			dependencies: [
+				"73865FE41BADEBDA"
+				"5EFCCA496235089A"
+			]
 			id: "163EBF9A2BDDFCA9"
 			tasks: [{
 				id: "294217D408B62B2B"
 				type: "item"
 				item: "extendedcrafting:pedestal"
 			}]
-		}
-		{
-			x: 3.863095238095262d
-			y: -0.12499999999998934d
-			id: "313868E09D112514"
-			tasks: [{
-				id: "7D7CA09E2AEF2F18"
+			rewards: [{
+				id: "7CA0C0AFA802823E"
 				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "extendedcrafting:guide"
-					}
-				}
+				item: "extendedcrafting:pedestal"
+				count: 2
 			}]
 		}
 		{
-			x: -4.851190476190453d
-			y: 7.0892857142857295d
+			x: 10.0d
+			y: 9.0d
+			dependencies: ["19D99A04D1453B66"]
 			id: "0A57F5EF7818F155"
 			tasks: [{
 				id: "2072C3D955D9F94A"
 				type: "item"
 				item: "extendedcrafting:compressor"
 			}]
+			rewards: [
+				{
+					id: "6ACE3DF1A946EB82"
+					type: "xp"
+					xp: 100000
+				}
+				{
+					id: "22A2C451AD93303F"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 5.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "3734BD18DDE83D57"
+			tasks: [{
+				id: "0D4F78C9EF284637"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:inlay"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "404D2FA908FEC754"
+			tasks: [{
+				id: "364ADDF2462CDB17"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:pure-ing"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "0A41547E0E1EBEEE"
+			tasks: [{
+				id: "5342206280AEA179"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:polonium"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 3.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "2163EF01D71213AB"
+			tasks: [{
+				id: "5BDC15746E34B035"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:bronze"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "365D64C113DD0A8A"
+			tasks: [{
+				id: "064356873B74CBFE"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:din-core"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "039E1605BC942336"
+			tasks: [{
+				id: "355AB095ED75A005"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:invar"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "445E50A5D754749B"
+			tasks: [{
+				id: "3A294EFDAA4BEB95"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:electrum"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 7.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "238BBC486C553EE7"
+			tasks: [{
+				id: "734A81E314D7066E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:dark-quartz"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "4CE872A49131D575"
+			tasks: [{
+				id: "722E1F46FBF80B9E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lapis_lazuli"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 3.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "63368EDAD9DCB88B"
+			tasks: [{
+				id: "7CA83AC056C39447"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:honey"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "2041B0C480967EE2"
+			tasks: [{
+				id: "3A9E464768239F5D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:platinum"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "47D82D7328C0F9AE"
+			tasks: [{
+				id: "0F453D9A4B819CC0"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:dark-matter"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "32325169A0FF89CF"
+			tasks: [{
+				id: "42766E5FA67CB0D1"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "47E07E9350004F0A"
+			tasks: [{
+				id: "17086586EAE0798E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:nanorite"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "7E63973768A5D279"
+			tasks: [{
+				id: "704A23A2611D7123"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "10273642F5B49940"
+			tasks: [{
+				id: "5470597F40DDB31C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:uranium"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "1B97CE2B1D19F13D"
+			tasks: [{
+				id: "24A418BF627127F6"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:dim-sharts"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "27C70813D4BC6D82"
+			tasks: [{
+				id: "2E1903712DF2B208"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:obsidian-ingot"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "2FBBE02D2E931E0D"
+			tasks: [{
+				id: "35A54E5B3A0DD69D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:erodium"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "38AA55A0CE3E4F1C"
+			tasks: [{
+				id: "109AE8D98AD0E043"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:diamond"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "6168D1BFC561775C"
+			tasks: [{
+				id: "093ACB5601BE85C0"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:iron"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "613D7F1A1A975807"
+			tasks: [{
+				id: "60630CE91537C6B3"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:nickel"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "2B69DF77D4C8FBF0"
+			tasks: [{
+				id: "68ABBF43AF25B484"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:starmattel"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 7.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "58B59A9CD6A53011"
+			tasks: [{
+				id: "7058ABD7E38E1CEE"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:plutonium-pellet"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 7.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "791EBF4328C7D029"
+			tasks: [{
+				id: "2C9FAC1AC1BB34A5"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:glowstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "63D902452FC7DD18"
+			tasks: [{
+				id: "0C7A2098B4945543"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:plastic"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "4760A10E627EB896"
+			tasks: [{
+				id: "5531EE8474B70EF4"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:silver"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "0527DAF05C80A50B"
+			tasks: [{
+				id: "3D36CD58A46D8525"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:aluminum"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "4A9F670B4B349B31"
+			tasks: [{
+				id: "16BD726E724A9F33"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:dis-core"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "43DDB428BED05998"
+			tasks: [{
+				id: "6FF09317F0D87A51"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:kyronite"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "2BAFF69FC35E0576"
+			tasks: [{
+				id: "3B1A1A1E76C29AD9"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:emerald"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "3F2CC80FEC9027B4"
+			tasks: [{
+				id: "4F311B60EEA5CEA5"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:aquamarine"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "091CCC4D2B5C9F9F"
+			tasks: [{
+				id: "031EE93360711CF7"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:teleport"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "6EF46D878D283014"
+			tasks: [{
+				id: "6781D2B117CDC111"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:mica"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "18314E4ACF486FD1"
+			tasks: [{
+				id: "117D2CECF0F2F377"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 7.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "4BD4A0CCFC1F0D88"
+			tasks: [{
+				id: "24AD986B7062C3CF"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:ionite"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 6.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "5458146C38DE7662"
+			tasks: [{
+				id: "4585734CDFC45A6D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:litherite"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "30E9F6EE77B3A329"
+			tasks: [{
+				id: "6589A99B55E65B51"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:litherite"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "42535571465435A4"
+			tasks: [{
+				id: "69CFA6ADEA404F80"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:platium-en"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 5.0d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "763E9A92F3BAA621"
+			tasks: [{
+				id: "3E0262BB61513BF3"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:copper"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 6.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "725853B07C2BAF34"
+			tasks: [{
+				id: "08F691336BDB7860"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:run"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "0627F6310DDBA48A"
+			tasks: [{
+				id: "5A48348D955CA7E6"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lead"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 7.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "215640E75B844E54"
+			tasks: [{
+				id: "23D49B22B1762DB9"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lapis_sheat"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 7.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "363AA9697659DDD8"
+			tasks: [{
+				id: "0B96D05ED4ABAFED"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:aethium"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.5d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "019F672B4E709547"
+			tasks: [{
+				id: "49AF9F12DA3F11FA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:xerothium"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.321428571428569d
+			y: 9.072916666666671d
+			dependencies: [
+				"35243F9CD315BC6A"
+				"3F0D93C546167460"
+			]
+			id: "19D99A04D1453B66"
+			tasks: [{
+				id: "0B6280C4698D7EC1"
+				type: "item"
+				item: "extendedcrafting:frame"
+			}]
+		}
+		{
+			x: 5.214285714285708d
+			y: 10.311011904761912d
+			dependencies: ["15B644C747058E89"]
+			id: "35243F9CD315BC6A"
+			tasks: [{
+				id: "70EC054544EE69A4"
+				type: "item"
+				item: "extendedcrafting:crystaltine_ingot"
+			}]
+			rewards: [
+				{
+					id: "1DCEAA7D1FD18FE3"
+					type: "item"
+					item: "extendedcrafting:crystaltine_ingot"
+					count: 5
+				}
+				{
+					id: "6F238FAA0AFB2A82"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7E94AE93E809DA75"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
 		}
 	]
 }

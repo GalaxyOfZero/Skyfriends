@@ -73,10 +73,17 @@ craftingTable.removeRecipe(<item:cyclic:crafting_bag>);
 craftingTable.removeRecipe(<item:cyclic:apple_sprout_emerald>);
 craftingTable.removeRecipe(<item:cyclic:apple_sprout_diamond>);
 craftingTable.removeRecipe(<item:cyclic:apple_sprout>);
+craftingTable.removeRecipe(<item:cyclic:cask>);
 #craftingTable.removeRecipe();
 
 
 craftingTable.addShaped("crafting_bag",  <item:cyclic:crafting_bag>, [
 	[<item:silents_mechanisms:refined_iron_ingot>, <item:minecraft:chest>],
 	[<item:extendedcrafting:handheld_table>, <item:silents_mechanisms:refined_iron_ingot>],
+]);
+
+craftingTable.addShaped("cask_new", <item:cyclic:cask>, [
+	[<item:minecraft:leather>, <item:minecraft:string>, <item:minecraft:leather>],
+	[<item:minecraft:string>, <tag:items:forge:barrels/wooden>, <item:minecraft:string>],
+	[<item:minecraft:leather>, <item:minecraft:string>, <item:minecraft:leather>]
 ]);

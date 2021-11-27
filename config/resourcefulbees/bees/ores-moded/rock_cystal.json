@@ -1,0 +1,49 @@
+{
+  "flower": "astralsorcery:liquid_starlight",
+  "maxTimeInHive": 2200,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/rockcrystal_bee/rockcrystal_bee",
+  "trains": ["can_swim"],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#E0E5E6",
+    "modelType": "ORE"
+  },
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 10
+},
+  "CentrifugeData": {
+  "hasCentrifugeOutput": true,
+  "mainOutput": "astralsorcery:rock_cystal",
+  "mainOutputWeight": 0.30,
+  "mainOutputCount": 1
+},
+  "SpawnData": {
+  "canSpawnInWorld": false
+},
+  "BreedData": {
+  "isBreedable": true,
+  "feedItem": "astralsorcery:rock_crystal",
+  "feedAmount": 1
+},
+  "traits" : [""],
+  "MutationData": {
+  "hasMutation": true,
+  "mutations": [
+{
+  "type": "BLOCK_TO_BLOCK",
+  "inputID": "minecraft:smooth_stone",
+  "chance": 0.20,
+  "outputs": [
+    {"outputID": "astralsorcery:rock_crystal_ore", "weight": 1}
+  ]
+ }
+]
+},
+  "TraitData": {
+"hasTraits": true
+}
+}

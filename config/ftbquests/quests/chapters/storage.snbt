@@ -509,9 +509,6 @@
 					id: "simplybackpacks:commonbackpack"
 					Count: 1b
 					tag: { }
-					ForgeCaps: {
-						Parent: { }
-					}
 				}
 			}]
 		}
@@ -527,9 +524,6 @@
 					id: "simplybackpacks:uncommonbackpack"
 					Count: 1b
 					tag: { }
-					ForgeCaps: {
-						Parent: { }
-					}
 				}
 			}]
 		}
@@ -545,9 +539,6 @@
 					id: "simplybackpacks:rarebackpack"
 					Count: 1b
 					tag: { }
-					ForgeCaps: {
-						Parent: { }
-					}
 				}
 			}]
 		}
@@ -563,9 +554,6 @@
 					id: "simplybackpacks:epicbackpack"
 					Count: 1b
 					tag: { }
-					ForgeCaps: {
-						Parent: { }
-					}
 				}
 			}]
 		}

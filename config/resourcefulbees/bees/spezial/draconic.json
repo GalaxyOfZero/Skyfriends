@@ -1,0 +1,58 @@
+{
+  "flower": "tag:forge:storage_blocks/draconium",
+  "maxTimeInHive": 2200,
+  "hasHoneycomb": true,
+  "baseLayerTexture":"spezial/draconic/draconic_bee",
+  "ColorData": {
+    "honeycombColor": "#6518D5",
+    "modelType": "ORE"
+  },
+  "CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 20
+},
+ "CentrifugeData": {
+  "hasCentrifugeOutput": true,
+  "mainOutput": "draconicevolution:draconium_ingot",
+  "mainOutputWeight": 0.50,
+  "mainOutputCount": 1,
+  "secondaryOutput": "draconicevolution:draconium_core",
+  "secondaryOutputWeight": 0.03,
+  "bottleOutput": "minecraft:dragon_breath"
+},
+ "SpawnData": {
+  "canSpawnInWorld": false
+},
+ "BreedData": {
+  "isBreedable": true,
+  "feedItem": "draconicevolution:draconium_core",
+  "feedAmount": 40
+},
+ "traits" : [""],
+ "MutationData": {
+  "hasMutation": true,
+  "mutations": [
+{
+  "type": "BLOCK_TO_BLOCK",
+  "inputID": "minecraft:end_stone_bricks",
+  "chance": 0.07,
+  "outputs": [
+    {"outputID": "draconicevolution:end_draconium_ore", "weight": 1}
+   ]
+ },
+ {
+   "type": "BLOCK_TO_ITEM",
+   "inputID": "draconicevolution:awakened_draconium_block",
+   "chance": 0.01,
+   "outputs": [
+     {"outputID": "resourcefulbees:awecon_bee_spawn_egg", "weight": 1}
+    ]
+  }
+]
+},
+ "TraitData": {
+"hasTraits": true
+}
+}

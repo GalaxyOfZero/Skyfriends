@@ -1,0 +1,11 @@
+{
+  "name": "Litherite",
+  "colors": [
+    "2C7E00",
+    "C8C4D1"
+  ],
+  "ingredient": {
+    "item": "envirocore:litherite"
+  },
+  "materialCount" : 50000
+}
