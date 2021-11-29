@@ -11,7 +11,7 @@
 		{
 			x: -10.0d
 			y: -6.0d
-			description: ["This Crafting of thes Luminous Crafting Table nees 4 full mana polls, i know"]
+			description: ["This Luminous Crafting Table nees 4 full mana polls, i know"]
 			dependencies: ["78D2333CC1F509AA"]
 			id: "7CDE9CF02414A4BB"
 			tasks: [{

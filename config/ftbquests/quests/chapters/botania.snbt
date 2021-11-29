@@ -211,8 +211,9 @@
 					count: 5
 				}
 				{
-					id: "7BE79C1A7DFB9151"
-					type: "random"
+					id: "27CA4E2F60867790"
+					type: "loot"
+					table_id: 7733633901596953089L
 				}
 			]
 		}

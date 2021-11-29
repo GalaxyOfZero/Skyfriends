@@ -142,6 +142,7 @@ quark:deferred_feature_underground_ores
 quark:deferred_feature_underground_decoration
 quark:deferred_feature_vegetal_decoration
 quark:deferred_feature_top_layer_modification
+chisel:replace_block_downwards
 occultism:underground_grove
 forbidden_arcanus:petrified_root
 forbidden_arcanus:big_fungyss

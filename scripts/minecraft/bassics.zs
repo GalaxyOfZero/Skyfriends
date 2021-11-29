@@ -1,7 +1,6 @@
 import crafttweaker.api.item.ItemStack;
 import crafttweaker.api.item.Ingredient;
 
-craftingTable.removeRecipe(<item:woodenbuckets:wooden_bucket>);
 craftingTable.removeRecipe(<item:minecraft:crafting_table>);
 craftingTable.removeRecipe(<item:minecraft:furnace>);
 craftingTable.removeByName("minecraft:oak_planks");
@@ -21,6 +20,7 @@ craftingTable.removeRecipe(<item:minecraft:piston>);
 craftingTable.removeRecipe(<item:minecraft:hopper>);
 craftingTable.removeRecipe(<item:minecraft:stick>);
 craftingTable.removeRecipe(<item:minecraft:barrel>);
+craftingTable.removeRecipe(<item:minecraft:cauldron>);
 
 craftingTable.addShaped("oakplanks", <item:minecraft:oak_planks:>, [[<item:minecraft:oak_log>]]);
 craftingTable.addShaped("birchplanks", <item:minecraft:birch_planks>, [[<item:minecraft:birch_log>]]);
@@ -45,11 +45,6 @@ craftingTable.addShaped("crafting-strick", <item:extendedcrafting:handheld_table
 	[<item:minecraft:stick>, <item:minecraft:air>]
 ]);
 
-craftingTable.addShaped("woodenbucket", <item:woodenbuckets:wooden_bucket>,[
-  [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>],
-  [<item:minecraft:oak_log>, <item:minecraft:air>, <item:minecraft:oak_log>],
-  [<item:minecraft:stick>, <item:minecraft:oak_log>, <item:minecraft:stick>]
-]);
 craftingTable.addShaped("furnace_slab", <item:improved-stations:furnace_slab>,[
 	[<item:minecraft:cobblestone>,<item:minecraft:cobblestone>,<item:minecraft:cobblestone>],
 	[<item:minecraft:cobblestone>,<item:minecraft:campfire>,<item:minecraft:cobblestone>],
@@ -87,3 +82,9 @@ craftingTable.addShaped("hopper-vanilla",  <item:minecraft:hopper>, [
   	[<tag:items:forge:ingots/steel>, <item:cyclic:hopper>, <tag:items:forge:ingots/steel>],
   	[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>]
   ]);
+
+craftingTable.addShaped("cauldron", <item:minecraft:cauldron>, [
+		[<tag:items:forge:plates/iron>, <item:minecraft:air>, <tag:items:forge:plates/iron>],
+		[<tag:items:forge:plates/iron>, <item:minecraft:bucket>, <tag:items:forge:plates/iron>],
+		[<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>]
+	]);

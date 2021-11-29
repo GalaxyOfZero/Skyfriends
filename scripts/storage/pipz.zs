@@ -30,7 +30,7 @@ craftingTable.addShaped("advanced_upgrade", <item:pipez:advanced_upgrade>, [
 
 craftingTable.addShaped("ultimate_upgrade", <item:pipez:ultimate_upgrade>, [
 	[<item:minecraft:netherite_ingot>, <item:forbidden_arcanus:obsidian_ingot>, <item:minecraft:netherite_ingot>],
-	[<item:forbidden_arcanus:obsidian_ingot>, <item:pipez:improved_upgrade>, <item:forbidden_arcanus:obsidian_ingot>],
+	[<item:forbidden_arcanus:obsidian_ingot>, <item:pipez:advanced_upgrade>, <item:forbidden_arcanus:obsidian_ingot>],
 	[<item:minecraft:netherite_ingot>, <item:forbidden_arcanus:obsidian_ingot>, <item:minecraft:netherite_ingot>]
 ]);
 

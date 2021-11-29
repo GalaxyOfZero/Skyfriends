@@ -5,3 +5,4 @@ mods.jei.JEI.addInfo(<item:biggerreactors:blutonium_ingot>, ["Your get blutonium
 <item:biggerreactors:blutonium_ingot>.addTooltip(("Cyanite Reprocessor ingot" as MCTextComponent).setStyle(new MCStyle().setColor(<formatting:yellow>)));
 <item:cyclic:melter>.addTooltip(("This machine does not need power" as MCTextComponent).setStyle(new MCStyle().setColor(<formatting:yellow>)));
 <item:cyclic:solidifier>.addTooltip(("This machine does not need power" as MCTextComponent).setStyle(new MCStyle().setColor(<formatting:yellow>)));
+<item:cyclic:user>.addTooltip(("This machine does not need power" as MCTextComponent).setStyle(new MCStyle().setColor(<formatting:yellow>)));

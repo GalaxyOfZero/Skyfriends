@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Chest"
 			x: -1.5d
 			y: -2.5d
 			id: "4245E5DA5FB00E0B"
@@ -31,6 +32,7 @@
 			}]
 		}
 		{
+			title: "Barrel"
 			x: -1.5d
 			y: 1.5d
 			id: "51AEDEB85E886E4C"
@@ -57,6 +59,11 @@
 				type: "item"
 				item: "dankstorage:dank_1"
 			}]
+			rewards: [{
+				id: "3DBC3C8D9840402B"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 3.0d
@@ -67,6 +74,11 @@
 				id: "02811B9B24FD2B7A"
 				type: "item"
 				item: "dankstorage:dank_2"
+			}]
+			rewards: [{
+				id: "52B15055139A7307"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -79,6 +91,11 @@
 				type: "item"
 				item: "dankstorage:dank_3"
 			}]
+			rewards: [{
+				id: "5425D7397C67A75D"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 6.0d
@@ -89,6 +106,11 @@
 				id: "0DC6054B7890C138"
 				type: "item"
 				item: "dankstorage:dank_4"
+			}]
+			rewards: [{
+				id: "260CA224E6214A42"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -101,6 +123,11 @@
 				type: "item"
 				item: "dankstorage:dank_5"
 			}]
+			rewards: [{
+				id: "6C22FB0596034CA9"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 9.0d
@@ -111,6 +138,11 @@
 				id: "053D7A130A632744"
 				type: "item"
 				item: "dankstorage:dank_6"
+			}]
+			rewards: [{
+				id: "35525C5FF1A4B0B4"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{

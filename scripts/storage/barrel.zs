@@ -40,6 +40,6 @@ smithing.addRecipe("netherite-barrel", <item:metalbarrels:netherite_barrel>, <it
 
 craftingTable.addShaped("dank_1", <item:dankstorage:dank_1>, [
 	[<item:minecraft:coal_block>, <item:minecraft:coal_block>, <item:minecraft:coal_block>],
-	[<item:minecraft:coal_block>, <item:minecraft:barrel>, <item:minecraft:coal_block>],
+	[<item:minecraft:coal_block>, <tag:items:forge:barrels/wooden>, <item:minecraft:coal_block>],
 	[<item:minecraft:coal_block>, <item:minecraft:coal_block>, <item:minecraft:coal_block>]
 ]);

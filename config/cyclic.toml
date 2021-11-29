@@ -339,7 +339,7 @@
 			crafter = 500
 			#Power per use user
 			#Range: 0 ~ 64000
-			user = 50
+			user = 0
 			#Power per recipe solidifier
 			#Range: 0 ~ 64000
 			solidifier = 0

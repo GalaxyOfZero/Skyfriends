@@ -48,21 +48,21 @@ import crafttweaker.api.tag.MCTagWithAmount;
   "energy": 3000
 });
 
-<recipetype:thermal:smelter>.addJSONRecipe("redstone_alloy",
+<recipetype:thermal:smelter>.addJSONRecipe("enritcht_iron2",
 {
   "type": "thermal:smelter",
   "ingredients": [
     {
-    "tag": "forge:ingots/steel"
+    "item": "minecraft:quartz",
+    "count": 4
     },
     {
-    "item": "minecraft:redstone",
-    "count": 4
+    "tag": "forge:ingots/steel"
     }
   ],
   "result": [
     {
-      "item": "silents_mechanisms:redstone_alloy_ingot"
+      "item": "refinedstorage:quartz_enriched_iron"
     }
   ],
   "energy": 3000

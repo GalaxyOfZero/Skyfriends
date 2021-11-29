@@ -300,6 +300,7 @@
 		{
 			x: -1.127380952380939d
 			y: 2.3726190476190396d
+			dependencies: ["6BD8ADC171E67D6A"]
 			id: "03C72F9DBC58486A"
 			tasks: [{
 				id: "2B24B171C1E9E646"

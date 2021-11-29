@@ -69,6 +69,7 @@ craftingTable.addShaped("kilnbrick", <item:immersiveengineering:alloybrick>, [
 
 <recipetype:immersiveengineering:alloy>.addRecipe("redstone_alloy_ingot2", <item:minecraft:redstone> *4, <tag:items:forge:ingots/steel>, 600, <item:silents_mechanisms:redstone_alloy_ingot>);
 <recipetype:immersiveengineering:alloy>.addRecipe("andesite_alloy", <item:minecraft:andesite>, <tag:items:forge:nuggets/steel>*3, 750, <item:create:andesite_alloy>);
+<recipetype:immersiveengineering:alloy>.addRecipe("enritcht_iron", <tag:items:forge:ingots/steel>, <item:minecraft:quartz>*4, 600, <item:refinedstorage:quartz_enriched_iron>);
 <recipetype:immersiveengineering:alloy>.addRecipe("brass_ingot", <tag:items:forge:ingots/copper>, <tag:items:forge:ingots/zinc>, 500, <item:create:brass_ingot>);
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("brass_ingot2", <tag:items:forge:ingots/copper>, [<tag:items:forge:ingots/zinc>], 500, 300000, [<item:create:brass_ingot>]);
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("redstone_alloy_ingot3", <tag:items:forge:ingots/steel>, [<item:minecraft:redstone>*4], 600, 300000, [<item:silents_mechanisms:redstone_alloy_ingot>]);

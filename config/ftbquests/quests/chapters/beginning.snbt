@@ -32,8 +32,9 @@
 					count: 2
 				}
 				{
-					id: "4E3668FE66859CA3"
-					type: "random"
+					id: "4E51E66EE2868ECC"
+					type: "loot"
+					table_id: 7733633901596953089L
 				}
 			]
 		}
@@ -48,38 +49,18 @@
 				item: "minecraft:oak_planks"
 				count: 32L
 			}]
-			rewards: [{
-				id: "2D7C13C7DFAEBF36"
-				type: "item"
-				item: "minecraft:barrel"
-			}]
-		}
-		{
-			title: "first bucket"
-			x: -4.205357142857146d
-			y: -1.8392857142857117d
-			description: [
-				"First Bucket, use thes for water"
-				"&4Warnig: do not use thes for laver"
-			]
-			dependencies: ["7F275F60A5828A14"]
-			id: "11183129BEFA499B"
-			tasks: [{
-				id: "2D286DAE10FA663B"
-				type: "item"
-				item: {
-					id: "woodenbuckets:wooden_bucket"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "0436DAC755532252"
+					type: "item"
+					item: "quark:nether_brick_trapped_chest"
 				}
-			}]
-			rewards: [{
-				id: "46352D3F13C5A8C8"
-				type: "xp"
-				xp: 100
-			}]
+				{
+					id: "32C4251A3C482A12"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -165,19 +146,27 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 2.0d
+			title: "Time for more Dirt"
+			x: -1.500000000000007d
+			y: 2.1205357142857153d
 			dependencies: ["4B48C47F333A055D"]
 			id: "5A7EF90490AA28B8"
 			tasks: [{
 				id: "5C9AD56BCC9C76FF"
 				type: "item"
-				item: "exnihilosequentia:barrel_wood"
+				title: "Any #exnihilosequentia:barrels"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:barrels"
+					}
+				}
 			}]
 		}
 		{
-			x: -2.1249999999999787d
-			y: 3.1964285714285765d
+			x: -1.7857142857142918d
+			y: 3.156249999999993d
 			description: [
 				"make water from leaves, saplings"
 				"silkworms and etz"
@@ -226,8 +215,9 @@
 			]
 		}
 		{
-			x: 1.732142857142854d
-			y: -0.3392857142857153d
+			x: 1.0d
+			y: 0.0d
+			description: ["if your get from Compressed Cobblestone gravel, this is not a bug it is so"]
 			dependencies: ["12EE26A87A240124"]
 			id: "1C19DDE0B15511F3"
 			tasks: [{
@@ -248,8 +238,8 @@
 			}]
 		}
 		{
-			x: 0.875d
-			y: 0.4107142857142847d
+			x: 2.5d
+			y: 0.5d
 			dependencies: ["1C19DDE0B15511F3"]
 			id: "0B92772BCD5C4DA1"
 			tasks: [{
@@ -259,8 +249,8 @@
 			}]
 		}
 		{
-			x: 2.267857142857146d
-			y: 0.5178571428571459d
+			x: 2.5d
+			y: 1.5d
 			dependencies: ["0B92772BCD5C4DA1"]
 			id: "16BE89547034FD7D"
 			tasks: [{
@@ -270,8 +260,8 @@
 			}]
 		}
 		{
-			x: 1.5178571428571601d
-			y: 1.3035714285714306d
+			x: 0.9642857142857082d
+			y: 1.3348214285714306d
 			dependencies: ["16BE89547034FD7D"]
 			id: "30AA399D9CADBB20"
 			tasks: [{
@@ -286,15 +276,20 @@
 			dependencies: ["260765E7909F4FAE"]
 			id: "6E5E37BD70AD48E7"
 			tasks: [{
-				id: "3330E9BB0A476552"
+				id: "1E9CB67160A77641"
 				type: "item"
 				item: {
-					id: "woodenbuckets:wooden_water_bucket"
+					id: "ceramics:clay_bucket"
 					Count: 1b
 					tag: {
-						Damage: 0
+						fluid: "minecraft:water"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7DE479B9DBBDD379"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -321,11 +316,10 @@
 			}]
 		}
 		{
-			x: 0.23214285714287541d
-			y: 2.0535714285714306d
+			x: 0.9999999999999858d
+			y: 2.763392857142861d
 			dependencies: [
 				"6E5E37BD70AD48E7"
-				"5A7EF90490AA28B8"
 				"30AA399D9CADBB20"
 			]
 			id: "4B29C83F6C897D46"
@@ -363,8 +357,8 @@
 		}
 		{
 			title: "First stap to make lava"
-			x: 1.8750000000000213d
-			y: 2.5892857142857224d
+			x: 1.7142857142857082d
+			y: 3.9776785714285694d
 			dependencies: ["7F088A314B5B8E81"]
 			id: "50A0CC7A6B15F8DD"
 			tasks: [{
@@ -372,15 +366,22 @@
 				type: "item"
 				item: "exnihilosequentia:crucible_fired"
 			}]
-			rewards: [{
-				id: "55CCD073ACF37C69"
-				type: "random"
-				table_id: 7733633901596953089L
-			}]
+			rewards: [
+				{
+					id: "55CCD073ACF37C69"
+					type: "random"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "10B918AF054A5850"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
-			x: 1.0d
-			y: 3.5d
+			x: 2.357142857142854d
+			y: 2.9776785714285694d
 			dependencies: ["4B29C83F6C897D46"]
 			id: "7F088A314B5B8E81"
 			tasks: [{
@@ -389,6 +390,18 @@
 				item: "exnihilosequentia:porcelain_clay"
 				count: 7L
 			}]
+			rewards: [
+				{
+					id: "00D6168AA2FC3D93"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "64B6EB65166657F0"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -752,8 +765,8 @@
 			]
 		}
 		{
-			x: 3.1607142857142776d
-			y: 2.8482142857142847d
+			x: 0.607142857142847d
+			y: 4.40625d
 			description: ["The best cobble gen ever, look in JEI what your can all make "]
 			dependencies: ["50A0CC7A6B15F8DD"]
 			id: "7D49CFA55D0ABA7A"
@@ -762,11 +775,18 @@
 				type: "item"
 				item: "pedestals:coin/cobble"
 			}]
-			rewards: [{
-				id: "6039410696B2AF77"
-				type: "item"
-				item: "pedestals:pedestal/stone000"
-			}]
+			rewards: [
+				{
+					id: "6039410696B2AF77"
+					type: "item"
+					item: "pedestals:pedestal/stone000"
+				}
+				{
+					id: "27D699D7C102965A"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: -4.857142857142861d
@@ -839,6 +859,39 @@
 				type: "checkmark"
 				title: "and more?"
 			}]
+		}
+		{
+			x: -0.1428571428571459d
+			y: 2.2276785714285694d
+			description: [
+				"You can convert some organic material or drops into dirt"
+				"Tip: use leave or saw dust to make Dirt"
+			]
+			dependencies: ["5A7EF90490AA28B8"]
+			id: "4ABE12A76A2DD457"
+			tasks: [{
+				id: "2AFEEC63D29072C4"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "361F964AD099023E"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "27F4905D0200F954"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5D1788654BD12DFB"
+					type: "item"
+					item: "compressium:dirt_4"
+				}
+			]
 		}
 	]
 }

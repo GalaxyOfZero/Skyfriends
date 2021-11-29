@@ -36,6 +36,8 @@ craftingTable.removeRecipe(<item:thermal:device_tree_extractor>);
 
 <recipetype:thermal:tree_extractor>.removeAll();
 <recipetype:thermal:press>.removeRecipe([], [<fluid:thermal:latex>]);
+<recipetype:thermal:smelter>.removeRecipe(<item:refinedstorage:quartz_enriched_iron>);
+
 
 <recipetype:thermal:smelter>.removeRecipe(<item:silents_mechanisms:redstone_alloy_ingot>);
 <recipetype:thermal:smelter>.removeByName("thermal:compat/silents_mechanisms/smelter_silents_mechanisms_alloy_bismuth_steel");

@@ -303,7 +303,7 @@
     ],
 
     "catalyst": {
-      "id": "minecraft:ender_pearl",
+      "id": "minecraft:redstone",
       "Count": 1
     },
 

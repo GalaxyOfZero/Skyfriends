@@ -342,3 +342,133 @@ craftingTable.addShaped("brass_case", <item:create:brass_casing>*2, [
   ],
   "loops": 3
 });
+<recipetype:create:sequenced_assembly>.addJSONRecipe("integrated_circuit2",
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "silents_mechanisms:circuit_board"
+  },
+  "transitionalItem": {
+    "item": "create:incomplete_precision_mechanism"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "create:incomplete_precision_mechanism"
+				},
+				{
+					"item": "minecraft:gold_nugget"
+				}
+			],
+			"results": [
+				{
+					"item": "create:incomplete_precision_mechanism"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "create:incomplete_precision_mechanism"
+				},
+				{
+					"item": "minecraft:gold_nugget"
+				}
+			],
+			"results": [
+				{
+					"item": "create:incomplete_precision_mechanism"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "create:incomplete_precision_mechanism"
+				},
+				{
+					"item": "minecraft:gold_nugget"
+				}
+			],
+			"results": [
+				{
+					"item": "create:incomplete_precision_mechanism"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "create:incomplete_precision_mechanism"
+				},
+				{
+					"item": "contenttweaker:lapis_sheet2"
+				}
+			],
+			"results": [
+				{
+					"item": "create:incomplete_precision_mechanism"
+				}
+			]
+		}
+  ],
+  "results": [
+    {
+      "item": "contenttweaker:integrated_circuit"
+    }
+  ],
+  "loops": 3
+});
