@@ -139,40 +139,6 @@ import crafttweaker.api.registries.IRecipeManager;
   ]
 });
 
-<recipetype:excompressum:compressed_hammer>.addJSONRecipe("cobble",
-{
-  "type": "excompressum:compressed_hammer",
-  "input": {
-    "item":"compressium:cobblestone_1"
-  },
-  "lootTable": {
-    "type": "minecraft:block",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:gravel",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 9
-              }
-            ]
-          }
-        ],
-        "conditions": []
-      }
-    ]
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "exnihilosequentia"
-    }
-  ]
-});
 <recipetype:excompressum:compressed_hammer>.addJSONRecipe("netherrack",
 {
   "type": "excompressum:compressed_hammer",

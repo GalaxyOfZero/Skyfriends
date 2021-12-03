@@ -16,7 +16,7 @@
     "inputID": "minecraft:nether_bricks",
     "chance": 0.30,
     "outputs": [
-      {"outputID": "minecraft:glostone", "weight": 1}
+      {"outputID": "minecraft:glowstone", "weight": 1}
      ]
    }
   ]

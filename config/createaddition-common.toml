@@ -75,6 +75,9 @@
 	#Hurt range (in blocks/meters).
 	#Range: > 0
 	tesla_coil_hurt_range = 3
+	#The chance that a AE2 Certus Quartz will be turned into Charged Certus Quartz for every tick.
+	#Range: 0.0 ~ 1.0
+	certus_quartz_charge_chance = 0.96
 	#Charger internal capacity in FE.
 	#Range: > 0
 	tesla_coil_capacity = 32000
@@ -132,9 +135,6 @@
 
 #Misc
 [misc]
-	#The chance that a AE2 Certus Quartz will be turned into Charged Certus Quartz for every tick.
-	#Range: 0.0 ~ 1.0
-	certus_quartz_charge_chance = 0.96
 	#Diamond Grit Sandpaper durability (number of uses).
 	#Range: > 3
 	diamond_grit_sandpaper_uses = 1024

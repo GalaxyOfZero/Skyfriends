@@ -1,7 +1,9 @@
 #remove
 craftingTable.removeRecipe(<item:tconstruct:seared_melter>);
 craftingTable.removeRecipe(<item:tconstruct:pattern>);
-
+craftingTable.removeRecipe(<item:tconstruct:seared_drain>);
+craftingTable.removeRecipe(<item:tconstruct:seared_duct>);
+craftingTable.removeRecipe(<item:tconstruct:seared_chute>);
 
 #add
 craftingTable.addShaped("melter-t", <item:tconstruct:seared_melter>,[

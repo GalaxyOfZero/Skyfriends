@@ -30,7 +30,21 @@ craftingTable.removeRecipe(<item:silents_mechanisms:coal_generator>);
 <recipetype:immersiveengineering:crusher>.addRecipe("b_chunk2", <item:contenttweaker:bismuth_chunk>, 500, <item:silents_mechanisms:bismuth_dust>*2);
 <recipetype:create:splashing>.addRecipe("splashing_test", [<item:silents_mechanisms:bismuth_nugget>*10, <item:silents_mechanisms:bismuth_nugget>*5 % 50], <item:silents_mechanisms:bismuth_chunks>);
 
-
+<recipetype:create:crushing>.addRecipe("redstone_alloy_dust3", [<item:silents_mechanisms:redstone_alloy_dust>], <item:silents_mechanisms:redstone_alloy_ingot>);
+<recipetype:immersiveengineering:crusher>.addRecipe("redstone_alloy_dust4", <item:silents_mechanisms:redstone_alloy_ingot>, 700, <item:silents_mechanisms:redstone_alloy_dust>);
+<recipetype:thermal:pulverizer>.addRecipe("redstone_alloy_dust5", [<item:silents_mechanisms:redstone_alloy_dust> % 100] , <item:silents_mechanisms:redstone_alloy_ingot>, 0, 5000);
+<recipetype:mekanism:crushing>.addJSONRecipe("redstone_alloy_dust2",
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "silents_mechanisms:redstone_alloy_ingot"
+    }
+  },
+  "output": {
+    "item": "silents_mechanisms:redstone_alloy_dust"
+  }
+});
 
 
 craftingTable.addShaped("stone_machine_frame", <item:silents_mechanisms:stone_machine_frame>, [

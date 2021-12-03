@@ -24,7 +24,11 @@ craftingTable.removeRecipe(<item:immersiveengineering:plate_lead>);
 craftingTable.removeRecipe(<item:immersiveengineering:heavy_engineering>);
 craftingTable.removeRecipe(<item:immersiveengineering:light_engineering>);
 craftingTable.removeRecipe(<item:immersiveengineering:rs_engineering>);
+#################################################################
+craftingTable.removeRecipe(<item:buildersaddition:iron_rod>);
 
+#################################################################
+craftingTable.removeRecipe(<item:immersiveengineering:stick_iron>);
 craftingTable.removeRecipe(<item:immersiveengineering:wire_copper>);
 craftingTable.removeRecipe(<item:immersiveengineering:wire_electrum>);
 craftingTable.removeRecipe(<item:immersiveengineering:wire_steel>);

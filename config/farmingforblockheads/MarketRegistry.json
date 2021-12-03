@@ -1,0 +1,180 @@
+{
+  "groupOverrides": {
+    "Vanilla Seeds": {
+      "enabled": true
+    },
+    "Vanilla Saplings": {
+      "enabled": false,
+      "payment": {
+        "item": "minecraft:emerald_block",
+        "count": 3
+      }
+    }
+  },
+  "entryOverrides": {
+    "minecraft:bone_meal": {
+      "amount": 12,
+      "enabled": false
+    }
+  },
+  "customCategories": {
+    "wooden_stuff": {
+      "name": "more saplinge",
+      "icon": {
+        "item": "ars_nouveau:blue_archwood_sapling"
+      }
+    }
+  },
+  "customEntries": [
+  {
+      "output": {
+        "item": "tconstruct:earth_slime_sapling"
+      },
+      "payment": {
+        "item": "minecraft:coal",
+        "count": 10
+      },
+      "category": "wooden_stuff"
+    },
+  {
+      "output": {
+        "item": "tconstruct:sky_slime_sapling"
+      },
+      "payment": {
+        "item": "bloodmagic:blankslate",
+        "count": 10
+      },
+      "category": "wooden_stuff"
+      },
+  {
+  "output": {
+    "item": "tconstruct:ender_slime_sapling"
+  },
+  "payment": {
+    "item": "bloodmagic:blankslate",
+    "count": 10
+  },
+  "category": "wooden_stuff"
+},
+  {
+    "output": {
+      "item": "forbidden_arcanus:cherrywood_sapling"
+      },
+      "payment": {
+        "item": "bloodmagic:blankslate",
+        "count": 10
+        },
+        "category": "wooden_stuff"
+},
+  {
+  "output": {
+    "item": "forbidden_arcanus:mysterywood_sapling"
+    },
+    "payment": {
+      "item": "bloodmagic:blankslate",
+      "count": 10
+      },
+      "category": "wooden_stuff"
+},
+  {
+    "output": {
+      "item": "ars_nouveau:blue_archwood_sapling"
+      },
+    "payment": {
+    "item": "ars_nouveau:mana_gem_block",
+    "count": 10
+    },
+    "category": "wooden_stuff"
+},
+  {
+    "output": {
+      "item": "ars_nouveau:purple_archwood_sapling"
+  },
+    "payment": {
+      "item": "ars_nouveau:mana_gem_block",
+      "count": 10
+    },
+    "category": "wooden_stuff"
+},
+  {
+    "output": {
+      "item": "ars_nouveau:green_archwood_sapling"
+    },
+    "payment": {
+      "item": "ars_nouveau:mana_gem_block",
+      "count": 10
+      },
+      "category": "wooden_stuff"
+},
+  {
+    "output": {
+      "item": "ars_nouveau:red_archwood_sapling"
+    },
+    "payment": {
+      "item": "ars_nouveau:mana_gem_block",
+      "count": 10
+      },
+      "category": "wooden_stuff"
+},
+  {
+    "output": {
+      "item": "minecraft:oak_sapling"
+    },
+    "payment": {
+      "item": "minecraft:emerald_block",
+      "count": 3
+    },
+    "category": "wooden_stuff"
+},
+  {
+    "output": {
+      "item": "minecraft:birch_sapling"
+    },
+    "payment": {
+      "item": "minecraft:emerald_block",
+      "count": 3
+    },
+    "category": "wooden_stuff"
+},
+  {
+    "output": {
+      "item": "minecraft:spruce_sapling"
+    },
+    "payment": {
+      "item": "minecraft:emerald_block",
+      "count": 3
+    },
+    "category": "wooden_stuff"
+},
+  {
+    "output": {
+      "item": "minecraft:jungle_sapling"
+    },
+    "payment": {
+      "item": "minecraft:emerald_block",
+      "count": 3
+    },
+    "category": "wooden_stuff"
+},
+  {
+    "output": {
+      "item": "minecraft:acacia_sapling"
+    },
+    "payment": {
+      "item": "minecraft:emerald_block",
+      "count": 3
+    },
+    "category": "wooden_stuff"
+  },
+  {
+    "output": {
+      "item": "minecraft:dark_oak_sapling"
+    },
+    "payment": {
+      "item": "minecraft:emerald_block",
+      "count": 3
+      },
+      "category": "wooden_stuff"
+    }
+  ]
+}
