@@ -10,6 +10,7 @@ import mods.exnihilosequentia.ZenSieveRecipe;
 <recipetype:exnihilosequentia:sieve>.create("chorus_fruit").setInput(<item:exnihilosequentia:crushed_end_stone>).addDrop(<item:minecraft:chorus_fruit>).addRoll("diamond", 0.2).addRoll("iron", 0.10).addRoll("emerald", 0.01);
 <recipetype:exnihilosequentia:sieve>.create("chorus_flower").setInput(<item:exnihilosequentia:crushed_end_stone>).addDrop(<item:minecraft:chorus_flower>).addRoll("iron", 0.2).addRoll("diamond", 0.1).addRoll("emerald", 0.03);
 <recipetype:exnihilosequentia:sieve>.create("shulker_shell").setInput(<item:exnihilosequentia:crushed_end_stone>).addDrop(<item:minecraft:shulker_shell>).addRoll("netherite", 0.008);
+<recipetype:exnihilosequentia:sieve>.create("menril_berries").setInput(<item:minecraft:dirt>).addDrop(<item:integrateddynamics:menril_berries>).addRoll("netherite", 0.008);
 
 craftingTable.addShaped("bismuth_chung", <item:contenttweaker:bismuth_chunk>,[
 [<item:contenttweaker:bismuth_piece>,<item:contenttweaker:bismuth_piece>],

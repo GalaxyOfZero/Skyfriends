@@ -24,6 +24,7 @@ craftingTable.removeRecipe(<item:immersiveengineering:plate_lead>);
 craftingTable.removeRecipe(<item:immersiveengineering:heavy_engineering>);
 craftingTable.removeRecipe(<item:immersiveengineering:light_engineering>);
 craftingTable.removeRecipe(<item:immersiveengineering:rs_engineering>);
+craftingTable.removeRecipe(<item:immersiveengineering:craftingtable>);
 #################################################################
 craftingTable.removeRecipe(<item:buildersaddition:iron_rod>);
 
@@ -52,6 +53,12 @@ craftingTable.removeRecipe(<item:immersiveengineering:alloybrick>);
 <recipetype:immersiveengineering:alloy>.removeRecipe(<item:create:brass_ingot>);
 <recipetype:immersiveengineering:arc_furnace>.removeRecipe(<item:create:brass_ingot>);
 <recipetype:immersivepetroleum:hydrotreater>.removeAll();
+
+craftingTable.addShaped("engeniring-craftingtable", <item:immersiveengineering:craftingtable>, [
+	[<tag:items:forge:treated_wood_slab>, <tag:items:forge:treated_wood_slab>, <tag:items:forge:treated_wood_slab>],
+	[<item:immersiveengineering:stick_treated>, <tag:items:forge:workbenches>, <item:immersiveengineering:stick_treated>],
+	[<item:immersiveengineering:stick_treated>, <tag:items:forge:chests/wooden>, <item:immersiveengineering:stick_treated>]
+]);
 
 craftingTable.addShaped("cokebrick", <item:immersiveengineering:cokebrick>*2, [
 	[<item:minecraft:clay>, <item:minecraft:brick>, <item:minecraft:clay>],
@@ -108,7 +115,7 @@ craftingTable.addShaped("steel-scafholdings", <item:immersiveengineering:steel_s
 	[<item:immersiveengineering:stick_steel>, <item:minecraft:air>, <item:immersiveengineering:stick_steel>]
 ]);
 
-<recipetype:immersiveengineering:blueprint>.addJSONRecipe("circuit_board",
+<recipetype:immersiveengineering:blueprint>.addJSONRecipe("circuit-board",
 {
   "type": "immersiveengineering:blueprint",
   "inputs": [

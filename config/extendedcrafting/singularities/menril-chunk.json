@@ -1,0 +1,11 @@
+{
+  "name": "Crystalized Menril",
+  "colors": [
+    "12D4E1",
+    "9FDADE"
+  ],
+  "ingredient": {
+    "item": "integrateddynamics:crystalized_menril_chunk"
+  },
+  "materialCount" : 500000
+}

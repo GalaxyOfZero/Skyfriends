@@ -8,7 +8,7 @@ import crafttweaker.api.tag.MCTagWithAmount;
 <recipetype:thermal:press>.addRecipe("obsidian_plate", [<item:envirocore:obsidian_plate>*2 % 100], <fluid:minecraft:empty>, [<item:minecraft:obsidian>], 5000);
 
 <recipetype:thermal:press>.addRecipe("lapis_gear", [<item:thermal:lapis_gear> % 100], <fluid:minecraft:empty>, [<item:minecraft:lapis_lazuli>*4, <item:thermal:press_gear_die>], 2500);
-<recipetype:thermal:smelter>.addRecipe("redstone_alloy_ingot3", [<item:silents_mechanisms:redstone_alloy_ingot> % 100], [<tag:items:forge:ingots/steel>, <item:minecraft:redstone>*4], 0, 25000);
+<recipetype:thermal:smelter>.addRecipe("redstone_alloy_ingot4", [<item:silents_mechanisms:redstone_alloy_ingot> % 100], [<tag:items:forge:ingots/steel>, <item:minecraft:redstone>*4], 0, 25000);
 <recipetype:thermal:smelter>.addRecipe("bismuth_steel_ingot", [<item:silents_mechanisms:bismuth_steel_ingot> % 100], [<tag:items:forge:ingots/steel>, <item:silents_mechanisms:bismuth_ingot>*10], 0, 36000);
 <recipetype:thermal:chiller>.addRecipe("obsidian_platte", <item:tconstruct:obsidian_pane>, <item:minecraft:air>, <fluid:tconstruct:molten_obsidian> *250, 1500);
 <recipetype:thermal:crucible>.addRecipe("molten_obsidian", <fluid:tconstruct:molten_obsidian> *1000, <item:minecraft:obsidian>, 35000);

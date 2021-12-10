@@ -87,3 +87,47 @@ craftingTable.addShaped("cask_new", <item:cyclic:cask>, [
 	[<item:minecraft:string>, <tag:items:forge:barrels/wooden>, <item:minecraft:string>],
 	[<item:minecraft:leather>, <item:minecraft:string>, <item:minecraft:leather>]
 ]);
+
+<recipetype:cyclic:solidifier>.addJSONRecipe("mendrin",
+{
+  "type": "cyclic:solidifier",
+  "inputTop": {
+		"item": "integrateddynamics:menril_berries"
+  },
+  "inputMiddle": {
+    "tag": "minecraft:saplings"
+  },
+  "inputBottom": {
+    "item": "integrateddynamics:menril_berries"
+  },
+  "mix": {
+    "fluid": "cyclic:xpjuice",
+    "count": 8000
+  },
+  "result": {
+    "item": "integrateddynamics:menril_sapling",
+	"count": 1
+  }
+});
+
+<recipetype:cyclic:solidifier>.addJSONRecipe("mendrin2",
+{
+  "type": "cyclic:solidifier",
+  "inputTop": {
+		"item": "integrateddynamics:menril_berries"
+  },
+  "inputMiddle": {
+    "tag": "minecraft:saplings"
+  },
+  "inputBottom": {
+    "item": "integrateddynamics:menril_berries"
+  },
+  "mix": {
+    "fluid": "cofh_core:experience",
+    "count": 8000
+  },
+  "result": {
+    "item": "integrateddynamics:menril_sapling",
+	"count": 1
+  }
+});

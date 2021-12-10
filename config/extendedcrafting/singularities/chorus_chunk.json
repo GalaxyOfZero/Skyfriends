@@ -1,0 +1,11 @@
+{
+  "name": "Crystalized Chorus",
+  "colors": [
+    "C308DD",
+    "D89EE0"
+  ],
+  "ingredient": {
+    "item": "integrateddynamics:crystalized_chorus_chunk"
+  },
+  "materialCount" : 500000
+}

@@ -1,0 +1,17 @@
+{
+  "x": -5,
+	"y": 50,
+	"width": 120,
+	"height": 30,
+	"u": 0,
+  "v": 0,
+  "hoverU": 0,
+  "hoverV": 30,
+  "texWidth": 120,
+  "texHeight": 60,
+  "dropShadow": false,
+	"texture": "skyfriends:textures/discorde.png",
+	"langKey": "packmenu.discord",
+  "action": "OPEN_URL",
+	"data": "https://discord.gg/WuEk4kgAQ5"
+}
