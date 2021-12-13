@@ -6,3 +6,5 @@ mods.jei.JEI.addInfo(<item:biggerreactors:blutonium_ingot>, ["Your get blutonium
 <item:cyclic:melter>.addTooltip(("This machine does not need power" as MCTextComponent).setStyle(new MCStyle().setColor(<formatting:yellow>)));
 <item:cyclic:solidifier>.addTooltip(("This machine does not need power" as MCTextComponent).setStyle(new MCStyle().setColor(<formatting:yellow>)));
 <item:cyclic:user>.addTooltip(("This machine does not need power" as MCTextComponent).setStyle(new MCStyle().setColor(<formatting:yellow>)));
+<item:contenttweaker:sword>.addTooltip(("This Sword make infinity Damage!" as MCTextComponent).setStyle(new MCStyle().setColor(<formatting:gold>)));
+<item:contenttweaker:sword>.addTooltip(("Now your a Overpower, may the cosmos help you" as MCTextComponent).setStyle(new MCStyle().setColor(<formatting:gold>)));

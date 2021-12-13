@@ -123,6 +123,7 @@ mods.jei.JEI.hideItem(<item:cyclic:scaffold_fragile>);
 mods.jei.JEI.hideItem(<item:cyclic:apple_sprout_emerald>);
 mods.jei.JEI.hideItem(<item:cyclic:apple_sprout_diamond>);
 mods.jei.JEI.hideItem(<item:cyclic:apple_sprout>);
+mods.jei.JEI.hideItem(<item:cyclic:packager>);
 mods.jei.JEI.hideItem(<item:extendedcrafting:recipe_maker>);
 mods.jei.JEI.hideItem(<item:extendedcrafting:redstone_ingot>);
 mods.jei.JEI.hideItem(<item:extendedcrafting:redstone_ingot_block>);

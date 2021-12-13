@@ -24,6 +24,7 @@ craftingTable.removeRecipe(<item:cyclic:peat_farm>);
 craftingTable.removeRecipe(<item:cyclic:peat_fuel>);
 craftingTable.removeRecipe(<item:cyclic:peat_fuel_enriched>);
 craftingTable.removeRecipe(<item:cyclic:peat_unbaked>);
+craftingTable.removeRecipe(<item:cyclic:packager>);
 
 craftingTable.removeRecipe(<item:cyclic:apple_prismarine>);
 craftingTable.removeRecipe(<item:cyclic:apple_lofty_stature>);

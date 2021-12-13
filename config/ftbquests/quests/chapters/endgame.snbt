@@ -1340,5 +1340,339 @@
 				}
 			]
 		}
+		{
+			x: 9.984523809523829d
+			y: 12.500297619047636d
+			dependencies: [
+				"0B96D05ED4ABAFED"
+				"3D36CD58A46D8525"
+				"4F311B60EEA5CEA5"
+				"5BDC15746E34B035"
+				"704A23A2611D7123"
+				"3E0262BB61513BF3"
+				"0F453D9A4B819CC0"
+				"734A81E314D7066E"
+				"16BD726E724A9F33"
+				"109AE8D98AD0E043"
+				"064356873B74CBFE"
+				"24A418BF627127F6"
+				"3A294EFDAA4BEB95"
+				"3B1A1A1E76C29AD9"
+				"35A54E5B3A0DD69D"
+				"2C9FAC1AC1BB34A5"
+				"7CA83AC056C39447"
+				"355AB095ED75A005"
+				"24AD986B7062C3CF"
+				"6FF09317F0D87A51"
+				"722E1F46FBF80B9E"
+				"5A48348D955CA7E6"
+				"6589A99B55E65B51"
+				"6781D2B117CDC111"
+				"17086586EAE0798E"
+				"60630CE91537C6B3"
+				"2E1903712DF2B208"
+				"0D4F78C9EF284637"
+				"69CFA6ADEA404F80"
+				"0C7A2098B4945543"
+				"3A9E464768239F5D"
+				"5342206280AEA179"
+				"364ADDF2462CDB17"
+				"42766E5FA67CB0D1"
+				"08F691336BDB7860"
+				"23D49B22B1762DB9"
+				"5531EE8474B70EF4"
+				"68ABBF43AF25B484"
+				"117D2CECF0F2F377"
+				"031EE93360711CF7"
+				"5470597F40DDB31C"
+				"49AF9F12DA3F11FA"
+			]
+			id: "3F9426282CFCFF94"
+			tasks: [{
+				id: "1511BF33A9C93DFF"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: 5.285714285714292d
+			y: 14.561011904761912d
+			dependencies: ["2A1BD4DB7A223119"]
+			id: "1CFBEFBB7A9604B4"
+			tasks: [{
+				id: "3FF263C0B3A6A1B8"
+				type: "item"
+				item: "contenttweaker:ultimate_stew"
+			}]
+			rewards: [
+				{
+					id: "5394700F4B549C55"
+					type: "item"
+					item: "quark:apple_crate"
+				}
+				{
+					id: "7E2C0D647C52B2BA"
+					type: "item"
+					item: "minecraft:honey_block"
+					count: 64
+				}
+				{
+					id: "2AEB81111034EAEE"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "06C392D2E57D445C"
+					type: "xp"
+					xp: 10000
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 15.0d
+			dependencies: ["2A1BD4DB7A223119"]
+			id: "1C66FF2850002016"
+			tasks: [{
+				id: "6B9B0F3C7FDCD666"
+				type: "item"
+				item: "contenttweaker:cosmic_meatballs"
+			}]
+			rewards: [
+				{
+					id: "143726C397125AA2"
+					type: "item"
+					item: "minecraft:rabbit"
+					count: 10
+				}
+				{
+					id: "0ADD8E3299019E6F"
+					type: "item"
+					item: "minecraft:beef"
+					count: 10
+				}
+				{
+					id: "33726E7ADFE06D56"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "42E9C1D7AD8FC787"
+					type: "xp"
+					xp: 10000
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 14.0d
+			dependencies: ["2A1BD4DB7A223119"]
+			id: "059F1062D65B9D8B"
+			tasks: [{
+				id: "57F98617D51C5E9F"
+				type: "item"
+				item: "contenttweaker:endest_pearl"
+			}]
+			rewards: [
+				{
+					id: "63C868165BE8924D"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 64
+				}
+				{
+					id: "6C27D9EAA46226A9"
+					type: "item"
+					item: "minecraft:end_stone"
+					count: 20
+				}
+				{
+					id: "661A872E6535B85A"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "1877DFE161A93375"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 14.5d
+			shape: "diamond"
+			dependencies: [
+				"07D1B9BB0DECC0AD"
+				"22480059E2134253"
+			]
+			id: "2623D1FD732EB740"
+			tasks: [{
+				id: "679637654A078612"
+				type: "item"
+				item: "contenttweaker:infinity_ingot"
+			}]
+		}
+		{
+			x: 9.964285714285722d
+			y: 14.453869047619051d
+			dependencies: [
+				"3BDA7D55D051CF40"
+				"3F9426282CFCFF94"
+				"1CFBEFBB7A9604B4"
+				"1C66FF2850002016"
+				"059F1062D65B9D8B"
+				"4A39C3181BB12F38"
+				"2CE5123ECDC29006"
+				"4F4D3E26B989DDDF"
+			]
+			id: "07D1B9BB0DECC0AD"
+			tasks: [{
+				id: "32AD599836F9CDA8"
+				type: "item"
+				item: "contenttweaker:infinity_catalyst"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 13.0d
+			dependencies: ["578927C2654FD46E"]
+			id: "4A39C3181BB12F38"
+			tasks: [{
+				id: "6FF256F94B431F2D"
+				type: "item"
+				item: "contenttweaker:neutronium_ingot"
+			}]
+		}
+		{
+			x: 6.714285714285722d
+			y: 14.525297619047628d
+			dependencies: ["2A1BD4DB7A223119"]
+			id: "3BDA7D55D051CF40"
+			tasks: [{
+				id: "680C2DD6F806FF58"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+			rewards: [
+				{
+					id: "3A4AC6CAF1926E53"
+					type: "item"
+					item: "bloodmagic:dungeon_metal"
+				}
+				{
+					id: "5B55661B241D44B0"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					id: "28003FCD5D6CEEFF"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: 6.88928571428572d
+			y: 11.614583333333343d
+			description: [
+				"Put Liquid Starlight and &eSpent Nuclear Waste &fin the Pressurized Reaction Chamber. your need max Energy Upgrade, but your can not more as 5 Speed Upgrade useing on your PRC!"
+				"&4Warning spent nuclear waste is very radioactive, be careful"
+			]
+			dependencies: ["11DEB032EB5922EF"]
+			id: "578927C2654FD46E"
+			tasks: [{
+				id: "4A3D82A0DE05691F"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 9.2607142857143d
+			y: 15.671726190476193d
+			id: "2CE5123ECDC29006"
+			tasks: [{
+				id: "7FD59EAD4BFECCB7"
+				type: "item"
+				item: "contenttweaker:record_fragment"
+			}]
+			rewards: [
+				{
+					id: "222F13AB8AC4C1AB"
+					type: "item"
+					item: "minecraft:music_disc_13"
+				}
+				{
+					id: "1326AE0DDA891CBB"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: 10.57500000000001d
+			y: 15.786011904761907d
+			dependencies: [
+				"02A2152D7F060718"
+				"1A709E1FF19DCE72"
+			]
+			id: "4F4D3E26B989DDDF"
+			tasks: [{
+				id: "7EC59A538FD3DA87"
+				type: "item"
+				item: "contenttweaker:crystal_matrix_ingot"
+			}]
+			rewards: [
+				{
+					id: "38E8DC75F2746A45"
+					type: "item"
+					item: "minecraft:nether_star"
+					count: 4
+				}
+				{
+					id: "4F1B5E44A7F0265D"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					id: "6061EB380349FDF8"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 4.0d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "6CB67C6A1B1732B7"
+			tasks: [{
+				id: "34BA34E5CD0F0797"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:chorus_chunk"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			dependencies: ["0A57F5EF7818F155"]
+			id: "0B79A6D2D4F32E8D"
+			tasks: [{
+				id: "4349040A4133D198"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:menril-chunk"
+					}
+				}
+			}]
+		}
 	]
 }

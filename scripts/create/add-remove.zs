@@ -37,7 +37,7 @@ craftingTable.addShaped("whisk", <item:create:whisk>, [
 craftingTable.addShaped("mechanical_press", <item:create:mechanical_press>, [
 	[<item:minecraft:air>, <item:create:andesite_alloy>, <item:minecraft:air>],
 	[<item:create:cogwheel>, <item:create:andesite_casing>, <item:create:cogwheel>],
-	[<item:minecraft:air>, <item:silents_mechanisms:steel_block>, <item:minecraft:air>]
+	[<item:minecraft:air>, <tag:items:forge:storage_blocks/steel>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("rotare", <item:create:rotation_speed_controller>, [

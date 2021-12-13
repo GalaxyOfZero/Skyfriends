@@ -524,3 +524,26 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
 	outputFluid: "{FluidName:\"minecraft:air\",Amount:0}",
 	inputFluid: "{FluidName:\"industrialforegoing:ether_gas\",Amount:1000}"
 });
+
+<recipetype:mekanism:reaction>.addJSONRecipe("neutronium",
+{
+  "type": "mekanism:reaction",
+  "itemInput": {
+    "ingredient": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    }
+  },
+  "fluidInput": {
+    "amount": 10000,
+    "fluid": "astralsorcery:liquid_starlight"
+  },
+  "gasInput": {
+    "amount": 1000,
+    "gas": "mekanism:spent_nuclear_waste"
+  },
+  "energyRequired": 10000,
+  "duration": 90,
+  "itemOutput": {
+    "item": "contenttweaker:neutronium_ingot"
+  }
+});

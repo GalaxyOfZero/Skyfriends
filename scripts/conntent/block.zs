@@ -13,3 +13,7 @@ new BlockBuilder()
 new BlockBuilder()
     .withMaxStackSize(64)
     .build("neutronium");
+
+new BlockBuilder()
+    .withMaxStackSize(64)
+    .build("crystal_matrix");

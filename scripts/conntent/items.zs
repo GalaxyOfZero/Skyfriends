@@ -28,5 +28,33 @@ new ItemBuilder()
     .build("infinity_catalyst");
 
 new ItemBuilder()
-      .withMaxStackSize(64)
-      .build("neutronium_ingot");
+    .withMaxStackSize(64)
+    .build("neutronium_ingot");
+
+new ItemBuilder()
+    .withMaxStackSize(64)
+    .build("neutron_nugget");
+
+new ItemBuilder()
+    .withMaxStackSize(64)
+    .build("cosmic_meatballs");
+
+new ItemBuilder()
+    .withMaxStackSize(64)
+    .build("ultimate_stew");
+
+new ItemBuilder()
+    .withMaxStackSize(64)
+    .build("endest_pearl");
+
+new ItemBuilder()
+    .withMaxStackSize(64)
+    .build("crystal_matrix_ingot");
+
+new ItemBuilder()
+    .withMaxStackSize(64)
+    .build("diamond_lattice");
+
+new ItemBuilder()
+    .withMaxStackSize(64)
+    .build("record_fragment");

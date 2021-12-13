@@ -1,0 +1,7 @@
+{
+  "parent" : "item/handheld",
+  "textures" :
+  {"layer0" : "contenttweaker:item/infinity_sword/layer_0",
+   "layer1" : "contenttweaker:item/infinity_sword/layer_1"
+  }
+}
