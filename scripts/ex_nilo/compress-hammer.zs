@@ -153,7 +153,7 @@ import crafttweaker.api.registries.IRecipeManager;
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:netherrack",
+            "name": "exnihilosequentia:crushed_netherrack",
             "functions": [
               {
                 "function": "minecraft:set_count",

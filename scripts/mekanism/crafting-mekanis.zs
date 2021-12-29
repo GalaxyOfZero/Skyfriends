@@ -45,8 +45,8 @@ craftingTable.removeRecipe(<item:mekanism:ultimate_tier_installer>);
 craftingTable.removeRecipe(<item:mekanism:upgrade_muffling>);
 craftingTable.removeRecipe(<item:mekanism:advanced_tier_installer>);
 ##########################################################
-<recipetype:mekanism:metallurgic_infusing>.removeRecipe(<item:mekanism:alloy_infused>);
-<recipetype:mekanism:metallurgic_infusing>.removeRecipe(<item:mekanism:basic_control_circuit>);
+<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:metallurgic_infusing/alloy/infused");
+<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:control_circuit/basic");
 ############################################################
 #mekanism:refined_obsidian
 

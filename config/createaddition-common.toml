@@ -6,10 +6,13 @@
 	connector_max_input = 256
 	#Max wire length in blocks.
 	#Range: 0 ~ 256
-	connector_capacity = 256
+	wire_length = 12
 	#Connector max output in FE/t (Energy transfer).
 	#Range: > 0
 	connector_max_output = 256
+	#Connector internal input buffer in FE.
+	#Range: > 0
+	connector_input_capacity = 512
 
 #General Settings
 [general]

@@ -4,7 +4,7 @@ import crafttweaker.api.registries.IRecipeManager;
 import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.brackets.CommandStringDisplayable;
 
-Replacer.forTypes(craftingTable).replace(<item:minecraft:crafting_table>, <tag:items:forge:workbenches>).suppressWarnings().execute();
+Replacer.forAllTypes().replace(<item:minecraft:crafting_table>, <tag:items:forge:workbenches>).suppressWarnings().execute();
 
 craftingTable.removeRecipe(<item:minecraft:crafting_table>);
 craftingTable.removeRecipe(<item:minecraft:furnace>);

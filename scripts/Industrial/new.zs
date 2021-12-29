@@ -11,6 +11,8 @@ craftingTable.removeRecipe(<item:industrialforegoing:dryrubber>);
 craftingTable.removeRecipe(<item:industrialforegoing:fluid_extractor>);
 <recipetype:industrialforegoing:fluid_extractor>.removeAll();
 <recipetype:create:compacting>.removeRecipe(<item:industrialforegoing:dryrubber>);
+<recipetype:industrialforegoing:dissolution_chamber>.removeRecipe(<item:industrialforegoing:processing_addon_1>);
+<recipetype:industrialforegoing:dissolution_chamber>.removeRecipe(<item:industrialforegoing:processing_addon_2>);
 <recipetype:industrialforegoing:laser_drill_fluid>.addJSONRecipe("oil",
 {
   "output": "{FluidName:\"immersivepetroleum:oil\",Amount:10}",
@@ -43,6 +45,80 @@ craftingTable.removeRecipe(<item:industrialforegoing:fluid_extractor>);
   },
   "entity": "minecraft:empty",
   "type": "industrialforegoing:laser_drill_fluid"
+});
+
+<recipetype:industrialforegoing:dissolution_chamber>.addJSONRecipe("processing-addon-1",
+{
+	"input": [
+  {
+    "item": <item:minecraft:redstone>.registryName
+  },
+  {
+    "item": <item:minecraft:redstone>.registryName
+  },
+  {
+    "tag": "forge:glass_panes"
+  },
+  {
+    "tag": "forge:glass_panes"
+  },
+  {
+    "tag": "forge:gears/gold"
+  },
+  {
+    "tag": "forge:gears/gold"
+  },
+  {
+    "item": <item:minecraft:furnace>.registryName
+  },
+  {
+    "tag": "forge:workbenches"
+  }
+],
+	output: {
+		item: <item:industrialforegoing:processing_addon_1>.registryName,
+		count: 1
+	},
+	processingTime: 200,
+	outputFluid: "{FluidName:\"minecraft:air\",Amount:0}",
+	inputFluid: "{FluidName:\"industrialforegoing:latex\",Amount:1000}"
+});
+
+<recipetype:industrialforegoing:dissolution_chamber>.addJSONRecipe("processing-addon-2",
+{
+	"input": [
+  {
+    "item": <item:minecraft:redstone>.registryName
+  },
+  {
+    "item": <item:minecraft:redstone>.registryName
+  },
+  {
+    "tag": "forge:glass_panes"
+  },
+  {
+    "tag": "forge:glass_panes"
+  },
+  {
+    "tag": "forge:gears/diamond"
+  },
+  {
+    "tag": "forge:gears/diamond"
+  },
+  {
+    "item": <item:minecraft:furnace>.registryName
+  },
+  {
+    "tag": "forge:workbenches"
+  }
+],
+	output: {
+		item: <item:industrialforegoing:processing_addon_2>.registryName,
+		count: 1
+	},
+	processingTime: 200,
+	outputFluid: "{FluidName:\"minecraft:air\",Amount:0}",
+	inputFluid: "{FluidName:\"industrialforegoing:latex\",Amount:1000}"
 });
 
 craftingTable.addShaped("machine_frame_pity",  <item:industrialforegoing:machine_frame_pity>, [

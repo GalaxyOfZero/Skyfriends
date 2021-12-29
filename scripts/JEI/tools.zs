@@ -75,7 +75,19 @@ val toolsToNerf =[
 <item:forbidden_arcanus:arcane_golden_pickaxe>,
 <item:forbidden_arcanus:arcane_golden_axe>,
 <item:forbidden_arcanus:arcane_golden_shovel>,
-<item:forbidden_arcanus:arcane_golden_hoe>
+<item:forbidden_arcanus:arcane_golden_hoe>,
+
+<item:abstoneedition:copper_sword>,
+<item:abstoneedition:copper_axe>,
+<item:abstoneedition:copper_pickaxe>,
+<item:abstoneedition:copper_hoe>,
+<item:abstoneedition:copper_shovel>,
+
+<item:abstoneedition:silver_sword>,
+<item:abstoneedition:silver_axe>,
+<item:abstoneedition:silver_pickaxe>,
+<item:abstoneedition:silver_hoe>,
+<item:abstoneedition:silver_shovel>
 
 ] as IItemStack [];
 
@@ -155,6 +167,18 @@ val tooltip =[
 <item:forbidden_arcanus:arcane_golden_axe>,
 <item:forbidden_arcanus:arcane_golden_shovel>,
 <item:forbidden_arcanus:arcane_golden_hoe>,
+
+<item:abstoneedition:copper_sword>,
+<item:abstoneedition:copper_axe>,
+<item:abstoneedition:copper_pickaxe>,
+<item:abstoneedition:copper_hoe>,
+<item:abstoneedition:copper_shovel>,
+
+<item:abstoneedition:silver_sword>,
+<item:abstoneedition:silver_axe>,
+<item:abstoneedition:silver_pickaxe>,
+<item:abstoneedition:silver_hoe>,
+<item:abstoneedition:silver_shovel>,
 
 ] as IItemStack [];
 

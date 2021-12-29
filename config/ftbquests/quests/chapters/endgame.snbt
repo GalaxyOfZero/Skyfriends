@@ -1502,6 +1502,7 @@
 			x: 12.0d
 			y: 14.5d
 			shape: "diamond"
+			description: ["its not over, creative items in WIP"]
 			dependencies: [
 				"07D1B9BB0DECC0AD"
 				"22480059E2134253"
