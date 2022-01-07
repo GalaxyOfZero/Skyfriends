@@ -58,3 +58,15 @@ new ItemBuilder()
 new ItemBuilder()
     .withMaxStackSize(64)
     .build("record_fragment");
+
+new ItemBuilder()
+    .withMaxStackSize(64)
+    .build("chaos_catalyst");
+
+new ItemBuilder()
+    .withMaxStackSize(64)
+    .build("chaos_ingot");
+
+new ItemBuilder()
+    .withMaxStackSize(64)
+    .build("infused_neutron_ingot");

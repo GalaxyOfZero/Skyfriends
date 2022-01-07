@@ -90,7 +90,7 @@ craftingTable.addShaped("thermal_frame", <item:thermal:machine_frame>, [
 #machinen
 
 craftingTable.addShaped("multiservopress", <item:thermal:machine_press>, [
-	[<item:minecraft:air>, <item:silents_mechanisms:compressor>, <item:minecraft:air>],
+	[<item:cyclic:anvil>, <item:immersiveengineering:heavy_engineering>, <item:cyclic:anvil>],
 	[<item:thermal:constantan_gear>, <item:thermal:machine_frame>, <item:thermal:constantan_gear>],
 	[<item:minecraft:emerald_block>, <item:thermal:rf_coil>, <item:minecraft:emerald_block>]
 ]);

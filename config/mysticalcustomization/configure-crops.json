@@ -321,5 +321,20 @@
   },
   "mysticalagriculture:turtle": {
     "enabled": false
+  },
+  "mysticalagriculture:spirited_crystal_seeds":{
+    "enabled": false
+  },
+  "mysticalagriculture:energized_steel_seeds":{
+    "enabled": false
+  },
+  "mysticalagriculture:basalt_seeds":{
+    "enabled": false
+  },
+  "mysticalagriculture:limestone_seeds":{
+    "enabled": false
+  },
+  "mysticalagriculture:marble_seeds":{
+    "enabled": false
   }
 }

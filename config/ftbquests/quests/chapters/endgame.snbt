@@ -208,26 +208,6 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 14.0d
-			id: "4331E15B703DE8F6"
-			tasks: [{
-				id: "7094B1417B490219"
-				type: "item"
-				item: "extendedcrafting:the_ultimate_component"
-			}]
-		}
-		{
-			x: 2.0d
-			y: 15.0d
-			id: "07C69B073BECECEB"
-			tasks: [{
-				id: "62408401F9430ADF"
-				type: "item"
-				item: "extendedcrafting:the_ultimate_catalyst"
-			}]
-		}
-		{
 			x: 2.0d
 			y: 13.5d
 			dependencies: ["266F07748C4C44E8"]
@@ -1502,7 +1482,7 @@
 			x: 12.0d
 			y: 14.5d
 			shape: "diamond"
-			description: ["its not over, creative items in WIP"]
+			description: ["its not over"]
 			dependencies: [
 				"07D1B9BB0DECC0AD"
 				"22480059E2134253"
@@ -1588,8 +1568,8 @@
 			}]
 		}
 		{
-			x: 9.2607142857143d
-			y: 15.671726190476193d
+			x: 8.80357142857143d
+			y: 15.36837797619048d
 			id: "2CE5123ECDC29006"
 			tasks: [{
 				id: "7FD59EAD4BFECCB7"
@@ -1610,8 +1590,8 @@
 			]
 		}
 		{
-			x: 10.57500000000001d
-			y: 15.786011904761907d
+			x: 10.83928571428573d
+			y: 15.261235119047626d
 			dependencies: [
 				"02A2152D7F060718"
 				"1A709E1FF19DCE72"
@@ -1673,6 +1653,31 @@
 						Id: "extendedcrafting:menril-chunk"
 					}
 				}
+			}]
+		}
+		{
+			x: 10.053571428571438d
+			y: 16.43980654761905d
+			dependencies: ["07D1B9BB0DECC0AD"]
+			id: "2A9C8DA1FF109216"
+			tasks: [{
+				id: "3A7DC9D809CE893C"
+				type: "item"
+				item: "contenttweaker:chaos_catalyst"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 16.5d
+			dependencies: [
+				"2A9C8DA1FF109216"
+				"2623D1FD732EB740"
+			]
+			id: "20553A2B82E47587"
+			tasks: [{
+				id: "2A20DC3C59D2ED1E"
+				type: "item"
+				item: "contenttweaker:chaos_ingot"
 			}]
 		}
 	]

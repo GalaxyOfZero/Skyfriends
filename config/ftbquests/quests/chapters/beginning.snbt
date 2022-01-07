@@ -165,6 +165,7 @@
 			}]
 		}
 		{
+			title: "Water time"
 			x: -1.7857142857142918d
 			y: 3.156249999999993d
 			description: [
@@ -176,7 +177,14 @@
 			tasks: [{
 				id: "4856C0C4B86A078A"
 				type: "item"
-				item: "excompressum:oak_crucible"
+				title: "Any #excompressum:crucibles"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "excompressum:crucibles"
+					}
+				}
 			}]
 			rewards: [{
 				id: "010DF34B0C065B31"

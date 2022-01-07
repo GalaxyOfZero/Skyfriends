@@ -75,7 +75,7 @@
 	[automation.pistons_move_tile_entities]
 		"Enable Chests Moving Together" = true
 		"Render Blacklist" = ["psi:programmer", "botania:starfield"]
-		"Movement Blacklist" = ["minecraft:spawner", "integrateddynamics:cable", "randomthings:blockbreaker", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:trapped_chest", "quark:spruce_trapped_chest", "quark:birch_trapped_chest", "quark:jungle_trapped_chest", "quark:acacia_trapped_chest", "quark:dark_oak_trapped_chest", "endergetic:bolloom_bud"]
+		"Movement Blacklist" = ["minecraft:spawner", "integrateddynamics:cable", "randomthings:blockbreaker", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:trapped_chest", "quark:spruce_trapped_\r\n\t\t", "quark:birch_trapped_chest", "quark:jungle_trapped_chest", "quark:acacia_trapped_chest", "quark:dark_oak_trapped_chest", "endergetic:bolloom_bud"]
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
 
 	[automation.color_slime]
@@ -408,7 +408,7 @@
 	[tweaks.infinity_bucket]
 		#Set this to false to prevent dispensers from using infinite water buckets
 		"Allow Dispensers To Use" = true
-		Cost = 10
+		Cost = 60
 
 	[tweaks.poison_potato_usage]
 		"Poison Effect" = true
@@ -416,7 +416,7 @@
 
 	[tweaks.utility_recipes]
 		#Can you craft four chests at once using logs?
-		"Logs To Chests" = true
+		"Logs To Chests" = false
 		#Can other stone-like materials be used for crafting stone tools?
 		"Better Stone Tool Crafting" = true
 		#Can a dispenser be crafted by adding a bow to a dropper?

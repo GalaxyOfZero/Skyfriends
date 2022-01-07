@@ -3,8 +3,279 @@
 	group: ""
 	order_index: 21
 	filename: "6creativ"
-	title: "&5Creativ (WIP)"
+	title: "&5Creativ"
+	icon: {
+		id: "modularrouters:creative_module"
+		Count: 1b
+		tag: {
+			modularrouters: {
+				ModuleFilter: { }
+			}
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -2.5d
+			y: -2.0d
+			id: "34A50667152D3AF0"
+			tasks: [{
+				id: "24880210662C7C92"
+				type: "item"
+				item: "rsinfinitybooster:infinity_card"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			id: "2B9E0CA38B4E1974"
+			tasks: [{
+				id: "10CB6C39F839CD12"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			description: ["now your can fly :)"]
+			id: "13B4D2E009564FCF"
+			tasks: [{
+				id: "55510D536AD6C15E"
+				type: "item"
+				item: "angelring:itemring"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			id: "7021EEE5DFD5DC14"
+			tasks: [{
+				id: "3000A402BB3EB6A0"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			id: "73584AE5155F301E"
+			tasks: [{
+				id: "51EFAE7EA83845EC"
+				type: "item"
+				item: "refinedstorage:creative_controller"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			id: "2DE3CEB5E941A5B9"
+			tasks: [{
+				id: "135DCE862A960E72"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			id: "6E40528664C12538"
+			tasks: [{
+				id: "2DAAC8AEDDC8F3C3"
+				type: "item"
+				item: "extradisks:infinite_storage_part"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			id: "2D70C7079556689D"
+			tasks: [{
+				id: "32AEDA92CB7E4D72"
+				type: "item"
+				item: "powah:energy_cell_creative"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			id: "7A1C6FEBAEDB7F59"
+			tasks: [{
+				id: "70A78A1CBB4F61CC"
+				type: "item"
+				item: "extradisks:infinite_fluid_storage_part"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			id: "44EC390EBCB5AC43"
+			tasks: [{
+				id: "4DF7F468667866E0"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["44EC390EBCB5AC43"]
+			id: "58BDA3839EE460C4"
+			tasks: [{
+				id: "7AEC590A0BE33CC8"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+						creative: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			id: "2F73B1E226E0F165"
+			tasks: [{
+				id: "4A0A13CC49CAF46B"
+				type: "item"
+				item: "ctiers:centrifuge_casing_tier_creative"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			id: "3114F3E65703B20D"
+			tasks: [{
+				id: "276C2E8DC8E053FB"
+				type: "item"
+				item: "ctiers:centrifuge_controller_tier_creative"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			id: "16C0D520490DDC58"
+			tasks: [{
+				id: "54F266E176A6492A"
+				type: "item"
+				item: "rsinfinitybooster:dimension_card"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "16CFB4B10E387F17"
+			tasks: [{
+				id: "15EEE7D1F0EFE594"
+				type: "item"
+				item: "creativeapiary:tcreative_apiary"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			id: "1E2B545E0B60BEDE"
+			tasks: [{
+				id: "28D273EF5BC6F18B"
+				type: "item"
+				item: "creativeapiary:creative_apiary_storage"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			id: "3721C4216A543DE6"
+			tasks: [{
+				id: "6997F51FEC1BFED9"
+				type: "item"
+				item: "creativeapiary:creative_apiary_breeder"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			id: "44C67D96D84354BF"
+			tasks: [{
+				id: "68DC9F107E5FA721"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			id: "4F7F7941017E4E37"
+			tasks: [{
+				id: "28C6A86FDE1700A5"
+				type: "item"
+				item: "creativewirelesstransmitter:creative_wireless_transmitter"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			id: "0C62FE3CC4D502C4"
+			tasks: [{
+				id: "0EF84C879B0E7CE2"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			shape: "pentagon"
+			dependencies: [
+				"20553A2B82E47587"
+				"2F73B1E226E0F165"
+				"3114F3E65703B20D"
+				"3721C4216A543DE6"
+				"1E2B545E0B60BEDE"
+				"44C67D96D84354BF"
+				"0C62FE3CC4D502C4"
+				"73584AE5155F301E"
+				"7021EEE5DFD5DC14"
+				"2DE3CEB5E941A5B9"
+				"2B9E0CA38B4E1974"
+				"4F7F7941017E4E37"
+				"2D70C7079556689D"
+				"16CFB4B10E387F17"
+			]
+			id: "73D50F23B06FFBCC"
+			tasks: [{
+				id: "2FA88BA2058AEC7E"
+				type: "item"
+				item: "contenttweaker:infused_neutron_ingot"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			description: ["this is the Last item in this pack"]
+			dependencies: ["73D50F23B06FFBCC"]
+			id: "04390CAC2BDC9C88"
+			tasks: [{
+				id: "7E9E0E7FBC3B24DE"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+			rewards: [{
+				id: "51980137D2570B74"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"text\":\"Thenks for playing the modpack. i hope your have a fun time in this pack.\\ni know it was a long time to finish this Pack, you spent a lot of time in this pack, farming, grainding and wating to get finally the last Creative item. Im almost positiv we will see your in a other Pack again \"}"]
+						title: "End of this Pack"
+						author: "Galaxy_of_zero"
+					}
+				}
+			}]
+		}
+	]
 }

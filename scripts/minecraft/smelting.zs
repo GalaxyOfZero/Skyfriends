@@ -8,6 +8,7 @@ furnace.removeRecipe(<item:powah:uraninite>);
 furnace.removeRecipe(<item:ceramics:terracotta_cistern>);
 furnace.removeRecipe(<item:ceramics:white_porcelain_cistern>);
 furnace.removeRecipe(<item:ceramics:clay_plate>);
+furnace.removeRecipe(<item:minecraft:leather>);
 blastFurnace.removeRecipe(<item:powah:uraninite>);
 furnace.addRecipe("grafit_ingot", <item:biggerreactors:graphite_ingot>, <item:biggerreactors:graphite_dust>, 0.0, 100);
 furnace.addRecipe("bismuth_ingot", <item:silents_mechanisms:bismuth_ingot>, <item:contenttweaker:bismuth_chunk>, 1.0, 200);

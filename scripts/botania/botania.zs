@@ -22,8 +22,8 @@ craftingTable.removeByName("gardenofglass:pebble_to_cobblestone");
 
 #add
 <recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("manapool", <item:botania:mana_pool>, <item:botania:diluted_pool>,[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>, <item:botania:rune_mana>, <item:botania:rune_mana>, <item:ars_nouveau:bucket_of_mana>, <item:ars_nouveau:mana_gem_block>, <item:ars_nouveau:bucket_of_mana> ]);
-<recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("runealtar", <item:botania:runic_altar>, <item:ars_nouveau:mana_gem>,[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>, <item:botania:mana_diamond>, <item:botania:mana_diamond>, <item:ars_nouveau:bucket_of_mana>]);
-<recipetype:botania:mana_infusion>.addRecipe("mana_diamond", <item:botania:mana_diamond>, <item:ars_nouveau:mana_gem>, 11000);
+<recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("runealtar", <item:botania:runic_altar>, <item:ars_nouveau:mana_gem>,[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>, <item:botania:mana_diamond>, <item:botania:mana_diamond>, <item:ars_nouveau:bucket_of_mana>, <item:ars_nouveau:bucket_of_mana>]);
+<recipetype:botania:mana_infusion>.addRecipe("mana_diamond", <item:botania:mana_diamond>, <item:ars_nouveau:mana_gem>, 10000);
 
 <recipetype:botania:mana_infusion>.addRecipe("manasteel_ingot", <item:botania:manasteel_ingot>, <tag:items:forge:ingots/steel>, 5500);
 <recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("petter", <item:botania:apothecary_default>, <item:minecraft:wheat_seeds>, [<item:ars_nouveau:mana_gem> ,<tag:items:botania:petals>, <item:ars_nouveau:mana_gem>, <item:minecraft:water_bucket>, <item:minecraft:water_bucket>, <item:ars_nouveau:arcane_stone>, <item:ars_nouveau:arcane_stone>, <item:ars_nouveau:arcane_stone>,]);
