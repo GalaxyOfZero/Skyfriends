@@ -3,7 +3,6 @@ import crafttweaker.api.item.IItemStack;
 <recipetype:astralsorcery:block_transmutation>.removeByName("astralsorcery:block_transmutation/craftingtable_altar");
 <recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/wand");
 <recipetype:astralsorcery:block_transmutation>.removeByName("astralsorcery:block_transmutation/iron_starmetal");
-<recipetype:astralsorcery:infusion>.removeRecipe(<item:astralsorcery:resonating_gem>);
 <recipetype:astralsorcery:infusion>.removeRecipe(<item:minecraft:diamond>);
 craftingTable.removeRecipe(<item:astralsorcery:wand>);
 

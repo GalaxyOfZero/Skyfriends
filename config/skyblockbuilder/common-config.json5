@@ -7,7 +7,7 @@
     "End": {
 
       // Should end generate as in default world type? [default: false]
-      "Default": false,
+      "Default": true,
 
       // Should the main island be generated as normal? [default: true]
       "mainIsland": true
@@ -103,7 +103,9 @@
       "whitelist": true,
       "elements": [
         "minecraft:fortress",
-        "minecraft:buried_treasure"
+        "minecraft:endcity",
+        "minecraft:buried_treasure",
+        "minecraft:bastion_remnant"
       ]
     }
   },
@@ -111,7 +113,7 @@
   "Utility": {
 
     // Should players be able to create their own team? [default: false]
-    "createOwnTeam": false,
+    "createOwnTeam": true,
 
     // Should players be able to leave their team or invite others? [default: true]
     "selfManage": true,
@@ -166,7 +168,7 @@
     // Minimal spacing is 1
     // Minimal separation is 0
     // Range: 0.0 - 10.0
-    "structureModifier": 1.0,
+    "structureModifier": 2.0,
 
     // Should a surface be generated in overworld? [default: false]
     "surface": false,

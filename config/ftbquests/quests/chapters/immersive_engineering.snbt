@@ -108,6 +108,7 @@
 			}]
 		}
 		{
+			title: "First Steel"
 			x: 1.0267857142857082d
 			y: -0.2053571428571459d
 			dependencies: [
@@ -212,6 +213,7 @@
 			x: 0.5d
 			y: 2.5d
 			dependencies: ["03C72F9DBC58486A"]
+			optional: true
 			id: "4701CDF8A33B6BEC"
 			tasks: [
 				{
@@ -240,6 +242,7 @@
 			x: -2.5845238095237946d
 			y: 2.772619047619031d
 			dependencies: ["03C72F9DBC58486A"]
+			optional: true
 			id: "3E8F336EB34F53DF"
 			tasks: [{
 				id: "19FBB6D5427358F5"
@@ -307,12 +310,19 @@
 				type: "item"
 				item: "immersiveengineering:coil_lv"
 			}]
-			rewards: [{
-				id: "65145058F2FAE3A9"
-				type: "item"
-				item: "tconstruct:copper_ingot"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "65145058F2FAE3A9"
+					type: "item"
+					item: "tconstruct:copper_ingot"
+					count: 2
+				}
+				{
+					id: "456746E9DD51491A"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
 		}
 		{
 			title: "Matel Press"
@@ -391,7 +401,7 @@
 			}]
 		}
 		{
-			title: "better storage part 1"
+			title: "Storage Part 1"
 			x: -0.1607142857142918d
 			y: -0.4910714285714306d
 			dependencies: [

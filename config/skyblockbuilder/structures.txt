@@ -19,6 +19,13 @@ minecraft:bastion_remnant
 astralsorcery:ancient_shrine
 astralsorcery:desert_shrine
 astralsorcery:small_shrine
+betterendforge:mountain_structure
+betterendforge:megalake_structure
+betterendforge:megalake_small_structure
+betterendforge:giant_mossy_glowshroom_structure
+betterendforge:painted_mountain_structure
+betterendforge:eternal_portal_structure
+betterendforge:giant_ice_star_structure
 eidolon:lab
 eidolon:stray_tower
 eidolon:catacomb

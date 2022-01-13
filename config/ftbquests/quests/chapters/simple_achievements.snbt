@@ -1,0 +1,679 @@
+{
+	id: "39501BD0A601BF75"
+	group: ""
+	order_index: 22
+	filename: "simple_achievements"
+	title: "Simple Achievements"
+	icon: {
+		id: "trophymanager:trophy"
+		Count: 1b
+		tag: {
+			TrophyItem: {
+				id: "ftbquests:book"
+				Count: 1.0d
+			}
+			TrophyType: "item"
+			Scale: 0.5f
+			OffsetY: 0.8d
+			BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+			Name: "Quest Trophy"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: -1.0d
+			subtitle: "i hate this dragon, .... let me kill yours"
+			description: [
+				"The chaos guardian has been completely rewritten with all-new fight mechanics. its much harder as in 1.12"
+				"if you need help what are the attacks of the Chaos Guardian, and what equipment you should have, check the Draconic Evolution mod page"
+			]
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "0CA4F5A24C13BB54"
+			tasks: [{
+				id: "0C5737EBA32616F9"
+				type: "kill"
+				icon: "draconicevolution:chaos_shard"
+				entity: "draconicevolution:draconic_guardian"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "09F835CA35A7F9E5"
+					type: "item"
+					item: {
+						id: "trophymanager:trophy"
+						Count: 1b
+						tag: {
+							TrophyType: "entity"
+							TrophyEntity: {
+								entityType: "draconicevolution:draconic_guardian"
+							}
+							Scale: 0.2d
+							OffsetY: 1.0d
+							BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+							Name: "Draconic Guardian Trophy"
+						}
+					}
+				}
+				{
+					id: "31F34E4DCE1CA091"
+					type: "item"
+					item: "draconicevolution:chaos_shard"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "Simple Achievements"
+			x: -3.0d
+			y: -2.5d
+			description: ["This is a Optional Chapter your dont need to Complet this all"]
+			id: "16C32C7772E9BD5E"
+			tasks: [{
+				id: "2C2BF68DEDCDDDDD"
+				type: "checkmark"
+				title: "Simple av"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			description: ["From Battel to Battel the Ender Dragon gets stronger and Summon Minions"]
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "567273A535A9D7C4"
+			tasks: [{
+				id: "3AC7C434FBD1A1A6"
+				type: "kill"
+				title: "Dragon Master"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "687697A23B20C16A"
+					type: "item"
+					item: {
+						id: "trophymanager:trophy"
+						Count: 1b
+						tag: {
+							TrophyType: "entity"
+							TrophyEntity: {
+								entityType: "minecraft:ender_dragon"
+							}
+							Scale: 0.2d
+							OffsetY: 1.0d
+							BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+							Name: "Witter Trophy"
+						}
+					}
+				}
+				{
+					id: "182888888D8ADC59"
+					type: "item"
+					item: "quark:dragon_scale"
+					count: 10
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			description: ["From Battel to Battel the Wither gets stronger and Summon Minions"]
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "3D1FABBC06E9316F"
+			tasks: [{
+				id: "21D8E37D773DE3B6"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "71FEE7DC43C211FC"
+					type: "item"
+					item: {
+						id: "trophymanager:trophy"
+						Count: 1b
+						tag: {
+							identifier: "minecraft:wither"
+							TrophyType: "entity"
+							TrophyEntity: {
+								entityType: "minecraft:wither"
+							}
+							Scale: 0.5f
+							OffsetY: 1.0d
+							BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+							Name: "Wither Trophy"
+						}
+					}
+				}
+				{
+					id: "11D7206B75977682"
+					type: "item"
+					item: "minecraft:nether_star"
+					count: 100
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			description: ["One of the best battel ever with good music"]
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "776AE54685C0F805"
+			tasks: [{
+				id: "418D8964A063038E"
+				type: "kill"
+				icon: "botania:gaia_head"
+				entity: "botania:doppleganger"
+				value: 100L
+			}]
+			rewards: [{
+				id: "7D2096277D3B72DB"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						TrophyType: "entity"
+						TrophyEntity: {
+							entityType: "botania:doppleganger"
+						}
+						Scale: 0.5d
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Guardian of Gaia Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "6D355FC0025AB9B9"
+			tasks: [{
+				id: "12A6184E50543954"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 10000L
+			}]
+			rewards: [{
+				id: "71A660910683D5ED"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						identifier: "minecraft:zombie"
+						TrophyType: "entity"
+						TrophyEntity: {
+							entityType: "minecraft:zombie"
+						}
+						Scale: 0.5f
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Zombie Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "36E10F256F36BC06"
+			tasks: [{
+				id: "62A2A9DFF4743943"
+				type: "kill"
+				entity: "minecraft:skeleton"
+				value: 10000L
+			}]
+			rewards: [{
+				id: "5F0BBD9F8F4E5E46"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						identifier: "minecraft:skeleton"
+						TrophyType: "entity"
+						TrophyEntity: {
+							entityType: "minecraft:skeleton"
+						}
+						Scale: 0.5f
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Skeleton Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "1F7CBA8E881FBA2D"
+			tasks: [{
+				id: "35E67170813D563F"
+				type: "kill"
+				entity: "minecraft:creeper"
+				value: 5000L
+			}]
+			rewards: [{
+				id: "60F27BB375D00C5A"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						identifier: "minecraft:creeper"
+						TrophyType: "entity"
+						TrophyEntity: {
+							entityType: "minecraft:creeper"
+						}
+						Scale: 0.5f
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Creeper Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "16BADB756D56529E"
+			tasks: [{
+				id: "11D075E1C65724FF"
+				type: "kill"
+				entity: "minecraft:enderman"
+				value: 2500L
+			}]
+			rewards: [{
+				id: "07882ACD54EAA239"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						identifier: "minecraft:enderman"
+						TrophyType: "entity"
+						TrophyEntity: {
+							entityType: "minecraft:enderman"
+						}
+						Scale: 0.5f
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Enderman Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "7E43CAD99F4B2056"
+			tasks: [{
+				id: "2EF8DE3518188734"
+				type: "kill"
+				entity: "minecraft:phantom"
+				value: 1800L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "2B2714832FBAEA27"
+			tasks: [{
+				id: "46ACC3CCEEE4C3C1"
+				type: "kill"
+				entity: "minecraft:spider"
+				value: 1000L
+			}]
+			rewards: [{
+				id: "01E5D716981F50E0"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						identifier: "minecraft:spider"
+						TrophyType: "entity"
+						TrophyEntity: {
+							entityType: "minecraft:spider"
+						}
+						Scale: 0.5f
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Spider Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "272694212DA4E679"
+			tasks: [{
+				id: "4457052F9B6A9002"
+				type: "item"
+				item: {
+					id: "contenttweaker:sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "61468CC2F6A095DC"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						TrophyItem: {
+							id: "contenttweaker:sword"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						TrophyType: "item"
+						Scale: 0.5f
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Sword of the Cosmos Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "6905936E4C55182D"
+			tasks: [{
+				id: "1F909E8C12A9FD61"
+				type: "item"
+				item: "contenttweaker:infinity"
+				count: 10000L
+			}]
+			rewards: [{
+				id: "7D64C911D388519A"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						TrophyItem: {
+							id: "contenttweaker:infinity"
+							Count: 1b
+						}
+						TrophyType: "item"
+						Scale: 0.5f
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "infinity Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			description: ["make 50 Chaos Ingots"]
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "601C4922B6F3B9D8"
+			tasks: [{
+				id: "0511D7E5181E39C4"
+				type: "item"
+				item: "contenttweaker:chaos_ingot"
+				count: 50L
+			}]
+			rewards: [{
+				id: "4066AC59D9D0CDC6"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						TrophyItem: {
+							id: "contenttweaker:chaos_ingot"
+							Count: 1.0d
+						}
+						TrophyType: "item"
+						Scale: 0.5f
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Chaos Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			description: ["Make 25 &5The Cyber World Ingots"]
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "4CA9A4EBDBF290E7"
+			tasks: [{
+				id: "75BB82B85FBDCBA2"
+				type: "item"
+				item: "contenttweaker:infused_neutron_ingot"
+				count: 25L
+			}]
+			rewards: [{
+				id: "4213DD4453128AED"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						TrophyItem: {
+							id: "contenttweaker:infused_neutron_ingot"
+							Count: 1b
+						}
+						TrophyType: "item"
+						Scale: 0.5f
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Cyber Galaxys Heart"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			description: ["Recycle your nuclear Material for some Better Material"]
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "0E9C940704ABD5C1"
+			tasks: [{
+				id: "0939FC15112237E3"
+				type: "item"
+				item: "contenttweaker:neutronium_ingot"
+			}]
+			rewards: [{
+				id: "3BEE3B851FEC60E2"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						TrophyItem: {
+							id: "contenttweaker:neutronium_ingot"
+							Count: 1b
+						}
+						TrophyType: "item"
+						Scale: 0.5f
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Neutronium Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "23DD6F6314EB8173"
+			tasks: [{
+				id: "0C6F6B8A5D7A85D5"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 10000L
+			}]
+			rewards: [{
+				id: "6B4012FC1B615C50"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						TrophyType: "entity"
+						TrophyEntity: {
+							entityType: "minecraft:wither_skeleton"
+						}
+						Scale: 0.5d
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Wither Skeleton Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "673FB92D8D839672"
+			tasks: [{
+				id: "1264A698E53B4717"
+				type: "kill"
+				entity: "minecraft:blaze"
+				value: 750L
+			}]
+			rewards: [{
+				id: "37EFCA675A555201"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						TrophyType: "entity"
+						TrophyEntity: {
+							entityType: "minecraft:blaze"
+						}
+						Scale: 0.5d
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Blaze Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "305F139DC724957D"
+			tasks: [{
+				id: "7AF5694C0DB9232E"
+				type: "kill"
+				entity: "minecraft:piglin_brute"
+				value: 500L
+			}]
+			rewards: [{
+				id: "26C12163C8804DC3"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						TrophyType: "entity"
+						TrophyEntity: {
+							entityType: "minecraft:piglin_brute"
+						}
+						Scale: 0.5d
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Piglin Brute Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "5DAFF11C2213BA0A"
+			tasks: [{
+				id: "69C993334C233276"
+				type: "kill"
+				icon: "minecraft:end_crystal"
+				entity: "minecraft:end_crystal"
+				value: 1000L
+			}]
+			rewards: [{
+				id: "7C0FD387F13E48B3"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						TrophyType: "entity"
+						TrophyEntity: {
+							entityType: "minecraft:end_crystal"
+						}
+						Scale: 0.5d
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "End Crystal Trophy"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["16C32C7772E9BD5E"]
+			id: "055813933DF0FE89"
+			tasks: [{
+				id: "0E37583254CD81D3"
+				type: "kill"
+				entity: "minecraft:shulker"
+				value: 100L
+			}]
+			rewards: [{
+				id: "1964F42DFF940C8F"
+				type: "item"
+				item: {
+					id: "trophymanager:trophy"
+					Count: 1b
+					tag: {
+						TrophyType: "entity"
+						TrophyEntity: {
+							entityType: "minecraft:shulker"
+						}
+						Scale: 0.5d
+						OffsetY: 0.8d
+						BaseBlock: "forbidden_arcanus:darkstone_pedestal"
+						Name: "Shulker Trophy"
+					}
+				}
+			}]
+		}
+	]
+}

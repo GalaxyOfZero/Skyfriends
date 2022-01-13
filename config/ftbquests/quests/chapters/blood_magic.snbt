@@ -15,41 +15,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "bloodmagic:textures/item/sanguine_scientiem_guide_book.png"
-				}
-			}
-			x: -0.4821428571429536d
-			y: 1.4119047619048004d
-			id: "1FDCFB4031D85FA8"
-			tasks: [{
-				id: "6337754D89EC222B"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "bloodmagic:guide"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "7D8748775AE31801"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "4C3D18129100791F"
-					type: "random"
-					table_id: 7733633901596953089L
-				}
-			]
-		}
-		{
 			title: "i neat demonic will"
 			x: 2.028571428571425d
 			y: -1.0488095238095134d
@@ -90,7 +55,7 @@
 		{
 			x: 0.5d
 			y: -1.0d
-			dependencies: ["1FDCFB4031D85FA8"]
+			dependencies: ["7D45A670669DBB3E"]
 			id: "05DA3555E7EA1CA6"
 			tasks: [{
 				id: "5043D1EA9AFBF534"
@@ -108,6 +73,17 @@
 					id: "1B89BDD9CCB98325"
 					type: "loot"
 					table_id: 7733633901596953089L
+				}
+				{
+					id: "701D2EE2C9D89915"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
 				}
 			]
 		}
@@ -453,10 +429,9 @@
 				item: "bloodmagic:alchemytable"
 			}]
 			rewards: [{
-				id: "6ACAF0AD0F189AEB"
-				type: "item"
-				item: "contenttweaker:coin"
-				count: 5
+				id: "15B0810B4A14843D"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -936,6 +911,34 @@
 				id: "6C514BFD0209709A"
 				type: "xp"
 				xp: 1000
+			}]
+		}
+		{
+			title: "Edge of the Hidden Realm"
+			icon: "bloodmagic:strong_tau"
+			x: -5.885714285714393d
+			y: -3.052380952380908d
+			description: [
+				"Your need this Ritual to get in the Dungel Dimension from blood Magic."
+				"to find is the Tau Fruit. your can grow this noraml. if this grow and a Animal workt on to, its dammig the Animal and your get a changs to grow the Saturated Tau"
+				"your need this Fruit to becom the Blood Shard"
+			]
+			dependencies: ["095B39785C00FA14"]
+			id: "0095EEFE70569A82"
+			tasks: [{
+				id: "202F617C69A35E3E"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.4357142857141767d
+			y: -3.909523809523769d
+			dependencies: ["3BBC6306C0434744"]
+			id: "36E5555AA2B6EAB5"
+			tasks: [{
+				id: "32219ED2F9F5B6F1"
+				type: "item"
+				item: "bloodmagic:ritualdiviner"
 			}]
 		}
 	]

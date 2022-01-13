@@ -16,10 +16,12 @@
   "item.contenttweaker.crystal_matrix_ingot": "§eCrystal Matrix ingot",
   "item.contenttweaker.sword": "§cSword of the Cosmos",
   "item.contenttweaker.chaos_catalyst":"§6Chaos Catalyst",
-    "item.contenttweaker.chaos_ingot":"§6Chaos ingot",
+  "item.contenttweaker.chaos_ingot":"§6Chaos ingot",
   "item.contenttweaker.infused_neutron_ingot": "§5The Cyber World ingot",
   "item.contenttweaker.event": "§5 750 Downloads",
   "block.contenttweaker.infinity": "Infinity Block",
   "block.contenttweaker.neutronium": "Neutronium Block",
-  "block.contenttweaker.crystal_matrix": "§eCrystal Matrix Block"
+  "block.contenttweaker.crystal_matrix": "§eCrystal Matrix Block",
+  "fluid.contenttweaker.neutron": "§9Neutronium Fluid",
+  "item.contenttweaker.neutron_bucket": "§9Neutronium Bucket"
 }

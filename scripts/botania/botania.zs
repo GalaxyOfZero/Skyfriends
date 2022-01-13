@@ -9,6 +9,8 @@ craftingTable.removeRecipe(<item:botania:runic_altar>);
 craftingTable.removeRecipe(<item:botania:apothecary_default>);
 <recipetype:botania:mana_infusion>.removeRecipe(<item:botania:manasteel_ingot>);
 <recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mana_diamond>);
+<recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mana_diamond_block>);
+<recipetype:botania:mana_infusion>.removeRecipe(<item:botania:manasteel_block>);
 <recipetype:botania:pure_daisy>.removeRecipe(<blockstate:botania:livingrock>);
 <recipetype:botania:pure_daisy>.removeRecipe(<blockstate:botania:livingwood>);
 <recipetype:botania:pure_daisy>.removeRecipe(<blockstate:minecraft:soul_sand>);
@@ -22,12 +24,15 @@ craftingTable.removeByName("gardenofglass:pebble_to_cobblestone");
 
 #add
 <recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("manapool", <item:botania:mana_pool>, <item:botania:diluted_pool>,[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>, <item:botania:rune_mana>, <item:botania:rune_mana>, <item:ars_nouveau:bucket_of_mana>, <item:ars_nouveau:mana_gem_block>, <item:ars_nouveau:bucket_of_mana> ]);
-<recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("runealtar", <item:botania:runic_altar>, <item:ars_nouveau:mana_gem>,[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>, <item:botania:mana_diamond>, <item:botania:mana_diamond>, <item:ars_nouveau:bucket_of_mana>, <item:ars_nouveau:bucket_of_mana>]);
+<recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("runealtar", <item:botania:runic_altar>, <item:ars_nouveau:mana_gem>,[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>, <item:botania:mana_diamond>, <item:botania:mana_diamond>, <item:ars_nouveau:bucket_of_mana>, <item:minecraft:air>, <item:ars_nouveau:bucket_of_mana>]);
 <recipetype:botania:mana_infusion>.addRecipe("mana_diamond", <item:botania:mana_diamond>, <item:ars_nouveau:mana_gem>, 10000);
+<recipetype:botania:mana_infusion>.addRecipe("mana-diamond-block", <item:botania:mana_diamond_block>, <item:ars_nouveau:mana_gem_block>, 90000);
 
-<recipetype:botania:mana_infusion>.addRecipe("manasteel_ingot", <item:botania:manasteel_ingot>, <tag:items:forge:ingots/steel>, 5500);
+
+<recipetype:botania:mana_infusion>.addRecipe("manasteel_ingot", <item:botania:manasteel_ingot>, <tag:items:forge:ingots/steel>, 3500);
+<recipetype:botania:mana_infusion>.addRecipe("manasteel_block", <item:botania:manasteel_block>, <tag:items:forge:storage_blocks/steel>, 30000);
 <recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("petter", <item:botania:apothecary_default>, <item:minecraft:wheat_seeds>, [<item:ars_nouveau:mana_gem> ,<tag:items:botania:petals>, <item:ars_nouveau:mana_gem>, <item:minecraft:water_bucket>, <item:minecraft:water_bucket>, <item:ars_nouveau:arcane_stone>, <item:ars_nouveau:arcane_stone>, <item:ars_nouveau:arcane_stone>,]);
-<recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("petter1", <item:botania:apothecary_default>, <item:minecraft:wheat_seeds>, [<item:ars_nouveau:mana_gem> ,<tag:items:botania:petals>, <item:ars_nouveau:mana_gem>, <item:ceramics:clay_bucket>.withTag({fluid: "minecraft:water" as string}), <item:ars_nouveau:arcane_stone>, <item:ars_nouveau:arcane_stone>, <item:ars_nouveau:arcane_stone>,]);
+<recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("petter1", <item:botania:apothecary_default>, <item:minecraft:wheat_seeds>, [<item:ars_nouveau:mana_gem> ,<tag:items:botania:petals>, <item:ars_nouveau:mana_gem>, <item:ceramics:clay_bucket>.withTag({fluid: "minecraft:water" as string}), <item:ceramics:clay_bucket>.withTag({fluid: "minecraft:water" as string}), <item:ars_nouveau:arcane_stone>, <item:ars_nouveau:arcane_stone>, <item:ars_nouveau:arcane_stone>,]);
 
 <recipetype:botania:mana_infusion>.addRecipe("dielectric_paste", <item:powah:dielectric_paste>, <tag:items:minecraft:coals>, 10000);
 <recipetype:botania:terra_plate>.addRecipe("dielectric_casing", <item:powah:dielectric_casing>, 10000, <item:powah:dielectric_rod>, <item:powah:dielectric_rod>, <item:powah:dielectric_rod_horizontal>, <item:powah:dielectric_rod_horizontal>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>);

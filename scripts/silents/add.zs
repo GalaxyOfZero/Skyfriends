@@ -110,12 +110,12 @@ craftingTable.addShaped("alloy_smelter_normal", <item:silents_mechanisms:alloy_s
 craftingTable.addShaped("crusher_normal", <item:silents_mechanisms:crusher>, [
 	[<item:silents_mechanisms:bismuth_steel_block>, <item:silents_mechanisms:basic_crusher>, <item:silents_mechanisms:bismuth_brass_block>],
 	[<item:create:crushing_wheel>, <item:silents_mechanisms:alloy_machine_frame>, <item:create:crushing_wheel>],
-	[<item:silents_mechanisms:steel_block>, <item:silents_mechanisms:circuit_board>, <item:silents_mechanisms:steel_block>]
+	[<tag:items:forge:storage_blocks/steel>, <item:silents_mechanisms:circuit_board>, <tag:items:forge:storage_blocks/steel>]
 ]);
 craftingTable.addShaped("electri_furnase", <item:silents_mechanisms:electric_furnace>, [
 	[<item:minecraft:smooth_stone>, <item:ironfurnaces:diamond_furnace>, <item:minecraft:smooth_stone>],
 	[<item:silents_mechanisms:heating_element>, <item:silents_mechanisms:alloy_machine_frame>, <item:silents_mechanisms:heating_element>],
-	[<item:silents_mechanisms:steel_block>, <item:silents_mechanisms:circuit_board>, <item:silents_mechanisms:steel_block>]
+	[<tag:items:forge:storage_blocks/steel>, <item:silents_mechanisms:circuit_board>, <tag:items:forge:storage_blocks/steel>]
 ]);
 
 craftingTable.addShaped("coal-gen", <item:silents_mechanisms:coal_generator>, [

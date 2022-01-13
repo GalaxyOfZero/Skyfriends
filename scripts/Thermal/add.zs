@@ -143,3 +143,7 @@ import crafttweaker.api.tag.MCTagWithAmount;
   ],
   "energy": 3000
 });
+
+<recipetype:thermal:brewer>.addRecipe("neutron-fluid", <fluid:contenttweaker:neutron> *144, <item:contenttweaker:neutronium_ingot>, <fluid:astralsorcery:liquid_starlight> *1000, 5000);
+<recipetype:thermal:bottler>.addRecipe("chaos-chart-new", <item:draconicevolution:medium_chaos_frag>, <item:betterendforge:eternal_crystal>, <fluid:contenttweaker:neutron> *144, 5000);
+<recipetype:thermal:bottler>.addRecipe("chaos-chart-new2", <item:draconicevolution:small_chaos_frag>, <item:betterendforge:crystal_shards>, <fluid:contenttweaker:neutron> *144, 5000);

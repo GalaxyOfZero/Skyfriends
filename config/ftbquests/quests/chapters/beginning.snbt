@@ -11,6 +11,8 @@
 		{
 			x: -3.0d
 			y: -2.5d
+			shape: "circle"
+			dependencies: ["200E26AA164500D8"]
 			id: "73DAD5DC6AB2A677"
 			tasks: [{
 				id: "2C3D79A007B7C651"
@@ -80,6 +82,7 @@
 			}]
 		}
 		{
+			title: "Harvist for all"
 			x: -3.0d
 			y: 1.0d
 			dependencies: ["2DB058F52077AE1D"]
@@ -87,11 +90,12 @@
 			tasks: [{
 				id: "4A146B02AF040908"
 				type: "item"
+				title: "Any #exnihilosequentia:crook"
 				item: {
-					id: "exnihilosequentia:crook_wood"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
+						value: "exnihilosequentia:crook"
 					}
 				}
 			}]
@@ -301,6 +305,7 @@
 			}]
 		}
 		{
+			title: "Sieving time"
 			x: -4.5d
 			y: 0.0d
 			dependencies: ["2DB058F52077AE1D"]
@@ -308,7 +313,14 @@
 			tasks: [{
 				id: "1783546EA93218CC"
 				type: "item"
-				item: "exnihilosequentia:sieve"
+				title: "Any #exnihilosequentia:sieves"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:sieves"
+					}
+				}
 			}]
 		}
 		{
@@ -320,7 +332,14 @@
 			tasks: [{
 				id: "0C032B71190BF8E0"
 				type: "item"
-				item: "excompressum:oak_heavy_sieve"
+				title: "Any #excompressum:heavy_sieve"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "excompressum:heavy_sieve"
+					}
+				}
 			}]
 		}
 		{
@@ -797,8 +816,9 @@
 			]
 		}
 		{
-			x: -4.857142857142861d
-			y: -4.370535714285715d
+			icon: "minecraft:grass_block"
+			x: -3.4107142857142847d
+			y: -4.683035714285715d
 			description: ["Welcome to my first modpack Sky Friends, This modpack is based on the modpacks \"Project Ozone 3 kappa mode\" and \"Sky bees\"."]
 			id: "64A3ACDB256CCE96"
 			tasks: [{
@@ -813,8 +833,13 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -4.5d
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.0892857142857153d
+			y: -3.004464285714292d
 			description: ["Yes, most of the Recipes has bin change. but not all"]
 			id: "53D5644CDC7A2B58"
 			tasks: [{
@@ -822,8 +847,30 @@
 				type: "checkmark"
 				title: "Recipes changes?"
 			}]
+			rewards: [
+				{
+					id: "72FFD6AA438DCA92"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "7BE84BFFAF71B2EB"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+				{
+					id: "336CA6FBD5A9CB8A"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
 		}
 		{
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
 			x: -2.2857142857142847d
 			y: -4.428571428571431d
 			description: [
@@ -838,10 +885,15 @@
 			}]
 		}
 		{
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
 			x: -4.071428571428569d
 			y: -3.642857142857146d
 			description: [
-				"/skyblock create "
+				"/skyblock spawn"
 				"/skyblock team"
 				"/skyblock home"
 			]
@@ -858,14 +910,24 @@
 			}]
 		}
 		{
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
 			x: -2.9642857142857153d
 			y: -3.642857142857146d
-			description: ["if your have a problem or any ide please contact on my Github. the Github link is im mainmenu"]
+			description: ["if your have a problem or any ide please contact on my Github or on The Sky Friends Discorde server. the Github link and the Discorde is im the Mainmenu"]
 			id: "7382CDADA4ED8E0F"
 			tasks: [{
 				id: "502CD18CD57192EF"
 				type: "checkmark"
 				title: "and more?"
+			}]
+			rewards: [{
+				id: "1DDE6B96294673BC"
+				type: "loot"
+				table_id: 7733633901596953089L
 			}]
 		}
 		{
@@ -900,6 +962,30 @@
 					item: "compressium:dirt_4"
 				}
 			]
+		}
+		{
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -4.125d
+			y: -2.5044642857142847d
+			id: "30F87ABC9DB5280D"
+			tasks: [{
+				id: "5F72389ED3CBC923"
+				type: "checkmark"
+				title: "Own Insel on server"
+			}]
+			rewards: [{
+				id: "1E71A43CBF3A8081"
+				type: "command"
+				title: "Own Insel"
+				icon: "minecraft:grass_block"
+				auto: "enabled"
+				command: "/execute as @p run skyblock manage teams createAndJoin"
+				player_command: false
+			}]
 		}
 	]
 }

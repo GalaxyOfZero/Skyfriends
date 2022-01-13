@@ -141,6 +141,24 @@
 				type: "item"
 				item: "botania:mana_pool"
 			}]
+			rewards: [
+				{
+					id: "486E73EEB5CCE3AD"
+					type: "item"
+					item: {
+						id: "botania:mana_tablet"
+						Count: 1b
+						tag: {
+							mana: 500000
+						}
+					}
+				}
+				{
+					id: "2A8DA1A41DE2AEB6"
+					type: "loot"
+					table_id: 7733633901596953089L
+				}
+			]
 		}
 		{
 			x: -1.8392857142857153d

@@ -95,7 +95,7 @@ craftingTable.addShaped("brass_case", <item:create:brass_casing>*2, [
   "heatRequirement": "heated"
 });
 
-<recipetype:create:mixing>.addRecipe("paste","heated", <item:powah:dielectric_paste>*4, [<item:minecraft:clay>*4, <tag:items:forge:dusts/coal_coke>*3], [<fluid:minecraft:lava>*1000]);
+<recipetype:create:mixing>.addRecipe("paste","heated", <item:powah:dielectric_paste>*4, [<item:minecraft:clay_ball>*4, <tag:items:forge:dusts/coal_coke>*3], [<fluid:minecraft:lava>*1000]);
 
 <recipetype:create:mixing>.addJSONRecipe("brass_ingot3",
 {
@@ -471,4 +471,23 @@ craftingTable.addShaped("brass_case", <item:create:brass_casing>*2, [
     }
   ],
   "loops": 3
+});
+
+<recipetype:silents_mechanisms:alloy_smelting>.addJSONRecipe("andesite_alloy4",
+{
+    "type": "silents_mechanisms:alloy_smelting",
+    "process_time": 150,
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/steel",
+						"count": 3
+        },
+        {
+            "item": "minecraft:andesite"
+        }
+    ],
+    "result": {
+        "item": "create:andesite_alloy",
+        "count": 1
+    }
 });

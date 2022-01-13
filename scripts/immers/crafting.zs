@@ -40,6 +40,7 @@ craftingTable.removeRecipe(<item:immersiveengineering:fluid_pipe>);
 craftingTable.removeRecipe(<item:immersiveengineering:cokebrick>);
 craftingTable.removeRecipe(<item:immersiveengineering:blastbrick>);
 craftingTable.removeRecipe(<item:immersiveengineering:alloybrick>);
+craftingTable.removeRecipe(<item:immersiveengineering:wirecoil_redstone>);
 
 <recipetype:immersiveengineering:metal_press>.addRecipe("emerald_gear", <item:minecraft:emerald>*4, <item:immersiveengineering:mold_gear>, 2500, <item:thermal:emerald_gear>);
 <recipetype:immersiveengineering:metal_press>.addRecipe("signalum_gear", <tag:items:forge:ingots/signalum>*4, <item:immersiveengineering:mold_gear>, 2500, <item:thermal:signalum_gear>);
@@ -53,6 +54,12 @@ craftingTable.removeRecipe(<item:immersiveengineering:alloybrick>);
 <recipetype:immersiveengineering:alloy>.removeRecipe(<item:create:brass_ingot>);
 <recipetype:immersiveengineering:arc_furnace>.removeRecipe(<item:create:brass_ingot>);
 <recipetype:immersivepetroleum:hydrotreater>.removeAll();
+
+craftingTable.addShaped("redstone-wirecoil", <item:immersiveengineering:wirecoil_redstone>, [
+	[<item:minecraft:air>, <item:immersiveengineering:wire_aluminum>, <item:minecraft:air>],
+	[<item:silents_mechanisms:redstone_alloy_ingot>, <tag:items:forge:rods/wooden>, <item:silents_mechanisms:redstone_alloy_ingot>], 
+	[<item:minecraft:air>, <item:immersiveengineering:wire_aluminum>, <item:minecraft:air>]
+]);
 
 craftingTable.addShaped("engeniring-craftingtable", <item:immersiveengineering:craftingtable>, [
 	[<tag:items:forge:treated_wood_slab>, <tag:items:forge:treated_wood_slab>, <tag:items:forge:treated_wood_slab>],
@@ -77,6 +84,34 @@ craftingTable.addShaped("kilnbrick", <item:immersiveengineering:alloybrick>, [
 	[<item:minecraft:brick>, <item:minecraft:sandstone>, <item:minecraft:brick>],
 	[<item:minecraft:sandstone>, <item:minecraft:brick>, <item:minecraft:sandstone>]
 ]);
+//coal_coke_dust
+<recipetype:silents_mechanisms:crushing>.addJSONRecipe("coal-coke-dust",
+{
+    "type": "silents_mechanisms:crushing",
+    "process_time": 400,
+    "ingredient": {
+        "tag": "forge:coal_coke"
+    },
+    "results": [
+        {
+            "item": "immersiveengineering:dust_coke",
+            "count": 1
+        }
+    ]
+});
+<recipetype:thermal:pulverizer>.addRecipe("coal-coke-dust2", [<item:immersiveengineering:dust_coke> % 100] , <tag:items:forge:coal_coke>, 0, 5000);
+<recipetype:mekanism:crushing>.addJSONRecipe("coal-coke-dust3",
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "forge:coal_coke"
+    }
+  },
+  "output": {
+    "item": "immersiveengineering:dust_coke"
+  }
+});
 
 <recipetype:immersiveengineering:alloy>.addRecipe("redstone_alloy_ingot2", <item:minecraft:redstone> *4, <tag:items:forge:ingots/steel>, 600, <item:silents_mechanisms:redstone_alloy_ingot>);
 <recipetype:immersiveengineering:alloy>.addRecipe("andesite_alloy", <item:minecraft:andesite>, <tag:items:forge:nuggets/steel>*3, 750, <item:create:andesite_alloy>);
