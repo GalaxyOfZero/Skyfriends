@@ -15,7 +15,9 @@ furnace.addRecipe("bismuth_ingot", <item:silents_mechanisms:bismuth_ingot>, <ite
 blastFurnace.addRecipe("bismuth_ingot2", <item:silents_mechanisms:bismuth_ingot>, <item:contenttweaker:bismuth_chunk>, 1.0, 100);
 blastFurnace.addRecipe("glas", <item:minecraft:glass>, <item:minecraft:sand> ,1.0, 100);
 smoker.addRecipe("leather-vanilla", <item:minecraft:leather>, <item:forbidden_arcanus:rotten_leather>, 1.0, 100);
-
+blastFurnace.addRecipe("uraninite-new", <item:powah:uraninite_raw_poor>, <item:powah:uraninite_ore_poor>, 1.0, 100);
+blastFurnace.addRecipe("uraninite-new1", <item:powah:uraninite_raw>, <item:powah:uraninite_ore>, 1.0, 100);
+blastFurnace.addRecipe("uraninite-new2", <item:powah:uraninite_raw_dense>, <item:powah:uraninite_ore_dense>, 1.0, 100);
 
 #refine
 furnace.removeRecipe(<item:refinedstorage:basic_processor>);

@@ -16,6 +16,7 @@ craftingTable.removeByName("minecraft:jungle_planks");
 craftingTable.removeByName("minecraft:acacia_planks");
 craftingTable.removeByName("minecraft:crimson_planks");
 craftingTable.removeByName("minecraft:warped_planks");
+craftingTable.removeByName("minecraft:chest");
 craftingTable.removeByModid("improved-stations");
 craftingTable.removeRecipe(<item:minecraft:bucket>);
 craftingTable.removeRecipe(<item:minecraft:gilded_blackstone>);
@@ -37,6 +38,8 @@ craftingTable.addShaped("spruceplanks", <item:minecraft:spruce_planks>, [[<item:
 craftingTable.addShaped("acaciaplanks", <item:minecraft:acacia_planks>, [[<item:minecraft:acacia_log>]]);
 craftingTable.addShaped("crimsonplanks", <item:minecraft:crimson_planks>, [[<item:minecraft:crimson_stem>]]);
 craftingTable.addShaped("warpedplanks", <item:minecraft:warped_planks>, [[<item:minecraft:warped_stem>]]);
+
+craftingTable.addShaped("chest-new", <item:minecraft:chest>, [[<tag:items:forge:chests/wooden>]]);
 
 craftingTable.addShaped("stick", <item:minecraft:stick>*2, [
 	[<tag:items:minecraft:planks>, <item:minecraft:air>],

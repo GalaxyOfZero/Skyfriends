@@ -201,14 +201,22 @@
 			}]
 		}
 		{
+			title: "Bee nest"
 			x: -6.223214285714313d
 			y: -4.535714285714278d
-			dependencies: ["4B48C47F333A055D"]
+			dependencies: ["11877A5F853D9119"]
 			id: "1BBCB96EB0C8D908"
 			tasks: [{
-				id: "7A8FEC5628137245"
+				id: "2DBA677E05D8F375"
 				type: "item"
-				item: "exnihilosequentia:beehive_frame"
+				title: "Any #minecraft:beehives"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beehives"
+					}
+				}
 			}]
 		}
 		{
@@ -973,6 +981,37 @@
 				}
 				{
 					id: "24A7F54609E5C829"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.671875000000021d
+			y: -5.312499999999972d
+			description: ["Your can buy Candlenut from the Marked to craft Honneycombs"]
+			id: "11877A5F853D9119"
+			tasks: [
+				{
+					id: "792394908E53C85C"
+					type: "item"
+					item: "minecraft:bee_nest"
+				}
+				{
+					id: "118E5A4BB372E00C"
+					type: "item"
+					item: "minecraft:honeycomb"
+				}
+			]
+			rewards: [
+				{
+					id: "5362CF865C475F41"
+					type: "item"
+					item: "pamhc2trees:candlenut_sapling"
+					count: 2
+				}
+				{
+					id: "49AFD182D748903E"
 					type: "xp"
 					xp: 100
 				}

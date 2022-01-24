@@ -1,0 +1,10 @@
+{
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/ores"
+  },
+  "result": {
+    "item": "silents_mechanisms:bismuth_ore"
+  },
+  "weight": 350
+}

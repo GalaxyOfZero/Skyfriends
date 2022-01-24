@@ -121,5 +121,10 @@
    "entity.resourcefulbees.redallow_bee": "Redstone Alloy Bee",
 
    "block.resourcefulbees.slimy_honeycomb_block": "Slimy Alloy Block",
-   "item.resourcefulbees.slimy_honeycomb": "Slimy Honeycomb"
+   "item.resourcefulbees.slimy_honeycomb": "Slimy Honeycomb",
+
+   "block.resourcefulbees.blaze_honeycomb_block": "Blaze  Honeycomb Block",
+   "item.resourcefulbees.blaze_honeycomb": "Blaze Honeycomb",
+   "item.resourcefulbees.blaze_bee_spawn_egg": "Blaze Bee Spawn Egg",
+   "entity.resourcefulbees.blaze_bee": "Blaze Bee"
 }

@@ -48,10 +48,18 @@ mods.jei.JEI.hideItem(<item:extcaves:picker_stone>);
 
 
 #titanium
+mods.jei.JEI.hideRegex("titanium:.*_gear");
+//storage_overhaul
+mods.jei.JEI.hideRegex("metalbarrels:.*to.*");
+mods.jei.JEI.hideRegex("ironchest:.*to.*");
 mods.jei.JEI.hideRegex("storage_overhaul:.*_chest_.*");
 mods.jei.JEI.hideRegex("storage_overhaul:.*_barrel_.*");
 mods.jei.JEI.hideRegex("storage_overhaul:.*_storage_barrel");
-mods.jei.JEI.hideRegex("titanium:.*_gear");
+
+mods.jei.JEI.hideRegex("quark:.*_.*_chest");
+mods.jei.JEI.hideRegex("quark:.*_chest");
+mods.jei.JEI.hideRegex("quark:.*_.*_trapped_chest");
+mods.jei.JEI.hideRegex("quark:.*_trapped_chest");
 
 #cyclick
 mods.jei.JEI.hideRegex("cyclic:.*_hoe");
@@ -252,3 +260,9 @@ mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_vanilla1>);
 mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_vanilla1_armored>);
 mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_vanilla2_armored>);
 mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_vanilla3_armored>);
+
+mods.jei.JEI.hideItem(<item:simplyjetpacks:armorplating_te5_enderium>);
+mods.jei.JEI.hideItem(<item:simplyjetpacks:armorplating_te5>);
+mods.jei.JEI.hideItem(<item:simplyjetpacks:flux_chestplate>);
+mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_te5_enderium>);
+mods.jei.JEI.hideItem(<item:simplyjetpacks:thruster_te5>);

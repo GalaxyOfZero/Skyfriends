@@ -1,0 +1,10 @@
+{
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/ores"
+  },
+  "result": {
+    "item": "powah:uraninite_ore_poor"
+  },
+  "weight": 90
+}

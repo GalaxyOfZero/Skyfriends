@@ -24,6 +24,12 @@ craftingTable.removeRecipe(<item:simplyjetpacks:jetpack_vanilla1_armored>);
 craftingTable.removeRecipe(<item:simplyjetpacks:jetpack_vanilla2_armored>);
 craftingTable.removeRecipe(<item:simplyjetpacks:jetpack_vanilla3_armored>);
 
+craftingTable.removeRecipe(<item:simplyjetpacks:armorplating_te5_enderium>);
+craftingTable.removeRecipe(<item:simplyjetpacks:armorplating_te5>);
+craftingTable.removeRecipe(<item:simplyjetpacks:flux_chestplate>);
+craftingTable.removeRecipe(<item:simplyjetpacks:jetpack_te5_enderium>);
+craftingTable.removeRecipe(<item:simplyjetpacks:thruster_te5>);
+
 <recipetype:thermal:smelter>.removeRecipe(<item:simplyjetpacks:armorplating_te2>);
 <recipetype:thermal:smelter>.removeRecipe(<item:simplyjetpacks:armorplating_te3>);
 <recipetype:thermal:smelter>.removeRecipe(<item:simplyjetpacks:armorplating_te4>);
