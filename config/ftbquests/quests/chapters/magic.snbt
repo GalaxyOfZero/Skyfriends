@@ -38,20 +38,20 @@
 			}]
 			rewards: [
 				{
-					id: "481DA4676AE0D7FC"
-					type: "item"
-					item: "ars_nouveau:glyph_gust"
-				}
-				{
 					id: "6E6D0E63470603E6"
 					type: "random"
 					table_id: 7733633901596953089L
 				}
+				{
+					id: "34CB12F3626B7450"
+					type: "xp"
+					xp: 100
+				}
 			]
 		}
 		{
-			x: -1.267857142857146d
-			y: -1.7321428571428577d
+			x: -0.8660714285714448d
+			y: -1.3214285714285765d
 			dependencies: ["2D0641F7FC5AE80C"]
 			id: "68360DD6A901121C"
 			tasks: [{
@@ -67,14 +67,14 @@
 		}
 		{
 			title: "Mana Production"
-			x: -2.285714285714292d
-			y: -2.7857142857142883d
+			x: -1.6517857142857295d
+			y: -2.142857142857146d
 			description: [
 				"there are 2 methods to produce mana, via corps and via heat."
 				"Place the mana condenser over a mana jar near a crop field and it will produce mana."
 				"or"
-				"Place the Volcanic Accumulator over a 3x3 lava field and a mana jar next to the lava poul."
 				""
+				"Place the Volcanic Accumulator over a 3x3 lava field and a mana jar next to the lava poul."
 				""
 			]
 			dependencies: ["68360DD6A901121C"]
@@ -273,7 +273,7 @@
 			dependencies: [
 				"10402973A61BD5CF"
 				"1396CD074F7ACE57"
-				"47EC0F714D314911"
+				"3256F00CFA0A8279"
 			]
 			id: "32C757633E18CBA2"
 			tasks: [{

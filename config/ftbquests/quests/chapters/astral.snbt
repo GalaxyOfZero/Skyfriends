@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -10.0d
-			y: -6.0d
+			x: -7.0d
+			y: -5.5d
 			description: ["This Luminous Crafting Table nees 4 full mana polls, i know"]
 			dependencies: ["78D2333CC1F509AA"]
 			id: "7CDE9CF02414A4BB"
@@ -63,8 +63,8 @@
 			]
 		}
 		{
-			x: -1.6964285714285694d
-			y: -6.955952380952375d
+			x: -2.9196428571428825d
+			y: -7.134523809523806d
 			dependencies: ["4F20F8811C910212"]
 			id: "15832357C3C16F1D"
 			tasks: [{
@@ -104,7 +104,10 @@
 		{
 			x: -4.4380952380952365d
 			y: -4.1142857142857d
-			dependencies: ["76BCFD007CD24A2D"]
+			dependencies: [
+				"76BCFD007CD24A2D"
+				"1052314208B10E60"
+			]
 			id: "0D020E56B890C829"
 			tasks: [{
 				id: "2D8C56DF07CCAB43"
@@ -118,8 +121,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -5.5d
+			x: -4.633928571428584d
+			y: -5.205952380952368d
 			dependencies: ["7420A42913A82A77"]
 			id: "4327020A5E5C3143"
 			tasks: [{
@@ -142,8 +145,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -7.5d
+			x: -4.491071428571445d
+			y: -7.027380952380952d
 			dependencies: ["4F20F8811C910212"]
 			id: "6F582008B2089BF0"
 			tasks: [{
@@ -158,8 +161,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: -4.5d
+			x: -7.026785714285722d
+			y: -4.420238095238091d
 			dependencies: ["7CDE9CF02414A4BB"]
 			id: "00A6E2ADED07ACE0"
 			tasks: [{
@@ -180,8 +183,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -6.5d
+			x: -6.919642857142868d
+			y: -6.527380952380952d
 			dependencies: ["7CDE9CF02414A4BB"]
 			id: "1F76AAF0C9D28E2C"
 			tasks: [{
@@ -279,8 +282,8 @@
 			]
 		}
 		{
-			x: -1.125d
-			y: -7.991666666666667d
+			x: -2.3125000000000213d
+			y: -8.277380952380938d
 			dependencies: ["15832357C3C16F1D"]
 			id: "3DDAFE0AAB003D0D"
 			tasks: [{
@@ -296,8 +299,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -8.5d
+			x: -3.848214285714306d
+			y: -8.134523809523799d
 			dependencies: ["4EF4AB41BFE3D09D"]
 			id: "423E5AE10FF4D9E6"
 			tasks: [{
@@ -312,8 +315,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -5.5d
+			x: -5.526785714285722d
+			y: -5.74166666666666d
 			dependencies: ["7CDE9CF02414A4BB"]
 			id: "7420A42913A82A77"
 			tasks: [{
@@ -329,8 +332,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -4.5d
+			x: -5.848214285714292d
+			y: -4.777380952380945d
 			dependencies: ["7CDE9CF02414A4BB"]
 			id: "1052314208B10E60"
 			tasks: [{
@@ -345,8 +348,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -8.5d
+			x: -5.133928571428591d
+			y: -7.884523809523799d
 			dependencies: ["6F582008B2089BF0"]
 			id: "4EF4AB41BFE3D09D"
 			tasks: [{
@@ -370,8 +373,8 @@
 		}
 		{
 			title: "better Crystal, more power"
-			x: -5.0d
-			y: -11.5d
+			x: -5.276785714285737d
+			y: -10.527380952380945d
 			dependencies: [
 				"641DD095C48CDAE9"
 				"02A9F5A771BDC7AA"
@@ -427,8 +430,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -10.5d
+			x: -4.5d
+			y: -9.5d
 			dependencies: ["423E5AE10FF4D9E6"]
 			id: "02A9F5A771BDC7AA"
 			tasks: [{
@@ -451,7 +454,7 @@
 		}
 		{
 			x: -6.0d
-			y: -10.5d
+			y: -9.5d
 			description: ["Drop 1 Stardust and 1 rock Crystal in a pool of Starlight"]
 			dependencies: ["02A9F5A771BDC7AA"]
 			id: "641DD095C48CDAE9"
@@ -467,8 +470,8 @@
 			}]
 		}
 		{
-			x: -0.3749999999999929d
-			y: -7.170238095238098d
+			x: -1.1339285714285978d
+			y: -7.455952380952368d
 			dependencies: ["15832357C3C16F1D"]
 			id: "1BDDEEAB599038BA"
 			tasks: [{
@@ -483,8 +486,8 @@
 			}]
 		}
 		{
-			x: -0.3392857142857082d
-			y: -6.134523809523806d
+			x: -1.3125000000000284d
+			y: -6.313095238095222d
 			dependencies: ["15832357C3C16F1D"]
 			id: "0D2FD5A9524328AC"
 			tasks: [{
@@ -500,8 +503,8 @@
 		}
 		{
 			title: "Enhanced Collector Crystal"
-			x: -5.0d
-			y: -13.0d
+			x: -5.348214285714306d
+			y: -11.74166666666666d
 			dependencies: ["75CFADB58B270E0B"]
 			optional: true
 			id: "5A4163D5BB2D6B47"
@@ -549,8 +552,8 @@
 			}]
 		}
 		{
-			x: 0.125d
-			y: -8.277380952380952d
+			x: -1.098214285714306d
+			y: -8.670238095238084d
 			dependencies: ["3DDAFE0AAB003D0D"]
 			id: "284CB90479130605"
 			tasks: [{

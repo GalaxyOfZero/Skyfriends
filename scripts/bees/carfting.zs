@@ -7,7 +7,29 @@ craftingTable.removeRecipe(<item:resourcefulbees:t1_beehive>);
 craftingTable.removeRecipe(<item:resourcefulbees:t2_apiary>);
 craftingTable.removeRecipe(<item:resourcefulbees:t3_apiary>);
 craftingTable.removeRecipe(<item:resourcefulbees:t4_apiary>);
+craftingTable.removeRecipe(<item:resourcefulbees:centrifuge_casing>);
+craftingTable.removeRecipe(<item:resourcefulbees:centrifuge>);
+craftingTable.removeRecipe(<item:resourcefulbees:mechanical_centrifuge>);
+#craftingTable.removeRecipe();
+
 <recipetype:cyclic:solidifier>.removeRecipe(<item:minecraft:beehive>);
+
+craftingTable.addShaped("centerfuse-casings",<item:resourcefulbees:centrifuge_casing>*2, [
+	[<tag:items:forge:ingots/steel>, <item:minecraft:redstone>, <tag:items:forge:ingots/steel>],
+	[<item:minecraft:redstone>, <item:silents_mechanisms:bismuth_steel_block>, <item:minecraft:redstone>],
+	[<tag:items:forge:ingots/steel>, <item:minecraft:redstone>, <tag:items:forge:ingots/steel>]
+]);
+craftingTable.addShaped("mechanical-centrifuge", <item:resourcefulbees:mechanical_centrifuge>, [
+	[<item:minecraft:iron_trapdoor>, <item:minecraft:air>, <item:minecraft:air>],
+	[<tag:items:forge:barrels/wooden>, <item:minecraft:lever>, <item:minecraft:air>],
+	[<item:minecraft:iron_trapdoor>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("centerfuse_new", <item:resourcefulbees:centrifuge>, [
+	[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>],
+	[<tag:items:forge:ingots/steel>, <item:resourcefulbees:mechanical_centrifuge>, <tag:items:forge:ingots/steel>],
+	[<item:minecraft:smooth_stone>, <item:minecraft:piston>, <item:minecraft:smooth_stone>]
+]);
 
 #snip side server
 Replacer.forRecipes(craftingTable.getRecipeByName("resourcefulbees:t1_apiary")).replace(<item:minecraft:nether_star>, <item:forbidden_arcanus:dark_nether_star>).suppressWarnings().execute();
@@ -17,24 +39,6 @@ craftingTable.addShaped("t1-beehive", <item:resourcefulbees:t1_beehive>, [
 	[<item:minecraft:seagrass>, <item:minecraft:seagrass>, <item:minecraft:seagrass>],
 	[<item:minecraft:seagrass>, <item:minecraft:beehive>, <item:minecraft:seagrass>],
 	[<item:minecraft:seagrass>, <item:minecraft:seagrass>, <item:minecraft:seagrass>]
-]);
-
-craftingTable.addShaped("t2-apiary-new", <item:resourcefulbees:t2_apiary>, [
-	[<item:resourcefulbees:wax_block>, <item:resourcefulbees:t1_apiary>, <item:resourcefulbees:wax_block>],
-	[<item:resourcefulbees:t1_apiary>, <item:forbidden_arcanus:dark_nether_star>, <item:resourcefulbees:t1_apiary>],
-	[<item:resourcefulbees:wax_block>, <item:resourcefulbees:t1_apiary>, <item:resourcefulbees:wax_block>]
-]);
-
-craftingTable.addShaped("t3-apiary-new", <item:resourcefulbees:t3_apiary>, [
-	[<item:minecraft:honey_block>, <item:resourcefulbees:t2_apiary>, <item:minecraft:honey_block>],
-	[<item:resourcefulbees:t2_apiary>, <item:forbidden_arcanus:dark_nether_star>, <item:resourcefulbees:t2_apiary>],
-	[<item:minecraft:honey_block>, <item:resourcefulbees:t2_apiary>, <item:minecraft:honey_block>]
-]);
-
-craftingTable.addShaped("t4-apiary-new", <item:resourcefulbees:t4_apiary>, [
-	[<item:resourcefulbees:t3_apiary>, <item:forbidden_arcanus:dark_nether_star>, <item:resourcefulbees:t3_apiary>],
-	[<item:forbidden_arcanus:dark_nether_star>, <item:extendedcrafting:ender_star>, <item:forbidden_arcanus:dark_nether_star>],
-	[<item:resourcefulbees:t3_apiary>, <item:forbidden_arcanus:dark_nether_star>, <item:resourcefulbees:t3_apiary>]
 ]);
 
 craftingTable.addShaped("t1-beehive1", <item:resourcefulbees:t1_beehive>, [
@@ -53,6 +57,24 @@ craftingTable.addShaped("t1-apiary-new", <item:resourcefulbees:t1_apiary>, [
 	[<item:minecraft:honeycomb_block>, <item:resourcefulbees:t4_beehive>, <item:minecraft:honeycomb_block>],
 	[<item:resourcefulbees:t4_beehive>, <item:forbidden_arcanus:dark_nether_star>, <item:resourcefulbees:t4_beehive>],
 	[<item:minecraft:honeycomb_block>, <item:resourcefulbees:t4_beehive>, <item:minecraft:honeycomb_block>]
+]);
+
+craftingTable.addShaped("t2-apiary-new", <item:resourcefulbees:t2_apiary>, [
+	[<item:resourcefulbees:wax_block>, <item:resourcefulbees:t1_apiary>, <item:resourcefulbees:wax_block>],
+	[<item:resourcefulbees:t1_apiary>, <item:forbidden_arcanus:dark_nether_star>, <item:resourcefulbees:t1_apiary>],
+	[<item:resourcefulbees:wax_block>, <item:resourcefulbees:t1_apiary>, <item:resourcefulbees:wax_block>]
+]);
+
+craftingTable.addShaped("t3-apiary-new", <item:resourcefulbees:t3_apiary>, [
+	[<item:minecraft:honey_block>, <item:resourcefulbees:t2_apiary>, <item:minecraft:honey_block>],
+	[<item:resourcefulbees:t2_apiary>, <item:forbidden_arcanus:dark_nether_star>, <item:resourcefulbees:t2_apiary>],
+	[<item:minecraft:honey_block>, <item:resourcefulbees:t2_apiary>, <item:minecraft:honey_block>]
+]);
+
+craftingTable.addShaped("t4-apiary-new", <item:resourcefulbees:t4_apiary>, [
+	[<item:resourcefulbees:t3_apiary>, <item:forbidden_arcanus:dark_nether_star>, <item:resourcefulbees:t3_apiary>],
+	[<item:forbidden_arcanus:dark_nether_star>, <item:extendedcrafting:ender_star>, <item:forbidden_arcanus:dark_nether_star>],
+	[<item:resourcefulbees:t3_apiary>, <item:forbidden_arcanus:dark_nether_star>, <item:resourcefulbees:t3_apiary>]
 ]);
 
 <recipetype:cyclic:solidifier>.addJSONRecipe("beehive-new",

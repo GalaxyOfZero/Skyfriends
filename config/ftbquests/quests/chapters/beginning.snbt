@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Time to Punch logs"
 			x: -3.0d
 			y: -2.5d
 			shape: "circle"
@@ -17,7 +18,14 @@
 			tasks: [{
 				id: "2C3D79A007B7C651"
 				type: "item"
-				item: "minecraft:oak_log"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
 				count: 32L
 			}]
 			rewards: [
@@ -41,33 +49,9 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -1.0d
+			x: -2.982142857142854d
+			y: -1.068080357142847d
 			dependencies: ["73DAD5DC6AB2A677"]
-			id: "7F275F60A5828A14"
-			tasks: [{
-				id: "7E1C0D0FC91E51EA"
-				type: "item"
-				item: "minecraft:oak_planks"
-				count: 32L
-			}]
-			rewards: [
-				{
-					id: "0436DAC755532252"
-					type: "item"
-					item: "quark:nether_brick_trapped_chest"
-				}
-				{
-					id: "32C4251A3C482A12"
-					type: "loot"
-					table_id: 7733633901596953089L
-				}
-			]
-		}
-		{
-			x: -3.0d
-			y: 0.0d
-			dependencies: ["7F275F60A5828A14"]
 			id: "2DB058F52077AE1D"
 			tasks: [{
 				id: "38731E9956A94CD3"
@@ -170,8 +154,8 @@
 		}
 		{
 			title: "Water time"
-			x: -1.7857142857142918d
-			y: 3.156249999999993d
+			x: -0.9107142857142918d
+			y: 3.154017857142854d
 			description: [
 				"make water from leaves, saplings"
 				"silkworms and etz"
@@ -198,8 +182,8 @@
 			}]
 		}
 		{
-			x: -0.4910714285714306d
-			y: -0.3035714285714306d
+			x: -2.0892857142857153d
+			y: -0.1037946428571388d
 			dependencies: ["2DB058F52077AE1D"]
 			id: "12EE26A87A240124"
 			tasks: [{
@@ -227,8 +211,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
+			x: -0.4464285714285694d
+			y: -0.1752232142857082d
 			description: ["if your get from Compressed Cobblestone gravel, this is not a bug it is so"]
 			dependencies: ["12EE26A87A240124"]
 			id: "1C19DDE0B15511F3"
@@ -250,8 +234,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 0.5d
+			x: 0.7678571428571459d
+			y: -0.03236607142856229d
 			dependencies: ["1C19DDE0B15511F3"]
 			id: "0B92772BCD5C4DA1"
 			tasks: [{
@@ -261,8 +245,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.5d
+			x: 1.8392857142857153d
+			y: 0.7533482142857224d
 			dependencies: ["0B92772BCD5C4DA1"]
 			id: "16BE89547034FD7D"
 			tasks: [{
@@ -280,28 +264,6 @@
 				id: "40F116052EF4A056"
 				type: "item"
 				item: "exnihilosequentia:dust"
-			}]
-		}
-		{
-			x: -0.7321428571428399d
-			y: 3.375000000000007d
-			dependencies: ["260765E7909F4FAE"]
-			id: "6E5E37BD70AD48E7"
-			tasks: [{
-				id: "1E9CB67160A77641"
-				type: "item"
-				item: {
-					id: "ceramics:clay_bucket"
-					Count: 1b
-					tag: {
-						fluid: "minecraft:water"
-					}
-				}
-			}]
-			rewards: [{
-				id: "7DE479B9DBBDD379"
-				type: "xp"
-				xp: 100
 			}]
 		}
 		{
@@ -346,8 +308,8 @@
 			x: 0.9999999999999858d
 			y: 2.763392857142861d
 			dependencies: [
-				"6E5E37BD70AD48E7"
 				"30AA399D9CADBB20"
+				"260765E7909F4FAE"
 			]
 			id: "4B29C83F6C897D46"
 			tasks: [{
@@ -357,8 +319,8 @@
 			}]
 		}
 		{
-			x: -3.339285714285694d
-			y: 3.125d
+			x: -3.339285714285708d
+			y: 3.3962053571428683d
 			description: ["to make bonemehl in vanilla style. your neet this"]
 			dependencies: ["4B48C47F333A055D"]
 			id: "0D413573FB333D1D"
@@ -384,8 +346,8 @@
 		}
 		{
 			title: "First stap to make lava"
-			x: 1.7142857142857082d
-			y: 3.9776785714285694d
+			x: 2.1607142857142847d
+			y: 4.189732142857139d
 			dependencies: ["7F088A314B5B8E81"]
 			id: "50A0CC7A6B15F8DD"
 			tasks: [{
@@ -407,8 +369,8 @@
 			]
 		}
 		{
-			x: 2.357142857142854d
-			y: 2.9776785714285694d
+			x: 2.5535714285714235d
+			y: 2.904017857142861d
 			dependencies: ["4B29C83F6C897D46"]
 			id: "7F088A314B5B8E81"
 			tasks: [{
@@ -518,9 +480,9 @@
 			}]
 		}
 		{
-			x: -1.7410714285714377d
-			y: -1.2321428571428577d
-			dependencies: ["7F275F60A5828A14"]
+			x: -1.8392857142857153d
+			y: -1.460937499999993d
+			dependencies: ["2DB058F52077AE1D"]
 			id: "700361DD28C0DD30"
 			tasks: [{
 				id: "3A52A020CD5061CE"
@@ -588,6 +550,11 @@
 				type: "item"
 				item: "ironfurnaces:diamond_furnace"
 			}]
+			rewards: [{
+				id: "0837121E1536704E"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 1.5d
@@ -598,6 +565,11 @@
 				id: "73C34C5658ED793E"
 				type: "item"
 				item: "ironfurnaces:emerald_furnace"
+			}]
+			rewards: [{
+				id: "57E763B3E1509035"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -610,6 +582,11 @@
 				type: "item"
 				item: "ironfurnaces:obsidian_furnace"
 			}]
+			rewards: [{
+				id: "34C5BF754E18C751"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -0.5d
@@ -620,6 +597,11 @@
 				id: "279F63049A1A6D3E"
 				type: "item"
 				item: "ironfurnaces:netherite_furnace"
+			}]
+			rewards: [{
+				id: "2DE560D5EAC29640"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -632,12 +614,18 @@
 				"302A5FA87A5603EE"
 				"6BBCB6041940109F"
 				"635A4D1E122C9327"
+				"6A5D5625A82E6235"
 			]
 			id: "02F66A1FCE01CEFB"
 			tasks: [{
 				id: "503DDF96C25A32BB"
 				type: "item"
 				item: "ironfurnaces:million_furnace"
+			}]
+			rewards: [{
+				id: "424D6E716FDFA6F2"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -727,26 +715,19 @@
 			dependencies: ["0D413573FB333D1D"]
 			id: "7129D169C2C29F7E"
 			tasks: [{
-				id: "1DB0B1F7F7C90014"
-				type: "checkmark"
-				title: "Pedestals"
+				id: "392C7F4DE5CD20F7"
+				type: "item"
+				item: "pedestals:linkingtool"
 			}]
-			rewards: [
-				{
-					id: "4E1E9BBDD96B3F82"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "18F1795D2A473CD7"
-					type: "item"
-					item: "pedestals:linkingtool"
-				}
-			]
+			rewards: [{
+				id: "4E1E9BBDD96B3F82"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: -2.3392857142857224d
-			y: 4.3839285714285765d
+			x: -2.1607142857142776d
+			y: 4.324776785714292d
 			dependencies: ["7129D169C2C29F7E"]
 			id: "6776EED7BDB89A27"
 			tasks: [{
@@ -769,8 +750,8 @@
 			]
 		}
 		{
-			x: -2.625000000000014d
-			y: 5.455357142857139d
+			x: -2.017857142857146d
+			y: 5.467633928571431d
 			dependencies: ["7129D169C2C29F7E"]
 			id: "13D91052113921D4"
 			tasks: [{
@@ -792,10 +773,14 @@
 			]
 		}
 		{
-			x: 0.607142857142847d
-			y: 4.40625d
+			x: -0.7678571428571388d
+			y: 5.511160714285722d
 			description: ["The best cobble gen ever, look in JEI what your can all make "]
-			dependencies: ["50A0CC7A6B15F8DD"]
+			dependencies: [
+				"14B10666416D69D1"
+				"1CC42102490782FA"
+				"13D91052113921D4"
+			]
 			id: "7D49CFA55D0ABA7A"
 			tasks: [{
 				id: "62F20E340A0A6426"
@@ -931,8 +916,8 @@
 			}]
 		}
 		{
-			x: -0.1428571428571459d
-			y: 2.2276785714285694d
+			x: -0.017857142857145902d
+			y: 1.939732142857146d
 			description: [
 				"You can convert some organic material or drops into dirt"
 				"Tip: use leave or saw dust to make Dirt"
@@ -985,6 +970,57 @@
 				auto: "enabled"
 				command: "/execute as @p run skyblock manage teams createAndJoin"
 				player_command: false
+			}]
+		}
+		{
+			x: 0.6607142857142847d
+			y: 3.7611607142857153d
+			dependencies: ["4B29C83F6C897D46"]
+			id: "71630D8CEDFF73F9"
+			tasks: [{
+				id: "487F9D76B011FA3F"
+				type: "item"
+				item: "ceramics:unfired_clay_bucket"
+			}]
+		}
+		{
+			x: -0.8392857142857153d
+			y: 4.3683035714285765d
+			dependencies: [
+				"71630D8CEDFF73F9"
+				"260765E7909F4FAE"
+			]
+			id: "1CC42102490782FA"
+			tasks: [{
+				id: "3A16B7390E9691B4"
+				type: "item"
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "minecraft:water"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5892857142857153d
+			y: 5.118303571428584d
+			dependencies: [
+				"71630D8CEDFF73F9"
+				"50A0CC7A6B15F8DD"
+			]
+			id: "14B10666416D69D1"
+			tasks: [{
+				id: "614ABB1EE891FB7C"
+				type: "item"
+				item: {
+					id: "ceramics:cracked_clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "minecraft:lava"
+					}
+				}
 			}]
 		}
 	]

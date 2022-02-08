@@ -152,7 +152,6 @@
 			title: "Tier 1 Machinen"
 			x: 1.4880952380952621d
 			y: -0.2485119047619122d
-			dependencies: ["40860B81DCA013D4"]
 			id: "54739507206C9A18"
 			tasks: [{
 				id: "417F07E6BCDBFEF1"

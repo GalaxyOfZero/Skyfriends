@@ -6,13 +6,17 @@ craftingTable.removeRecipe(<item:create:shaft>);
 craftingTable.removeRecipe(<item:create:cogwheel>);
 craftingTable.removeRecipe(<item:create:whisk>);
 craftingTable.removeRecipe(<item:create:mechanical_press>);
-craftingTable.removeRecipe(<item:create:andesite_casing>);
-craftingTable.removeRecipe(<item:create:brass_casing>);
 craftingTable.removeRecipe(<item:create:large_cogwheel>);
 craftingTable.removeRecipe(<item:create:rotation_speed_controller>);
 craftingTable.removeByName("immersiveengineering:crafting/furnace_heater");
 craftingTable.removeByName("createaddition:crafting/heater_exchange");
 craftingTable.removeByName("immersiveengineering:crafting/blastfurnace_preheater");
+craftingTable.removeRecipe(<item:create:andesite_casing>);
+craftingTable.removeRecipe(<item:create:copper_casing>);
+craftingTable.removeRecipe(<item:create:brass_casing>);
+craftingTable.removeRecipe(<item:create:shadow_steel_casing>);
+craftingTable.removeRecipe(<item:create:refined_radiance_casing>);
+craftingTable.removeRecipe(<item:createaddition:overcharged_casing>);
 
 <recipetype:create:pressing>.removeRecipe(<item:create:brass_sheet>);
 <recipetype:create:pressing>.removeRecipe(<item:create:copper_sheet>);
@@ -27,6 +31,13 @@ craftingTable.removeByName("immersiveengineering:crafting/blastfurnace_preheater
 <recipetype:create:mixing>.removeRecipe(<item:create:brass_ingot>);
 
 craftingTable.addShaped("shaft", <item:create:shaft>*3, [[<item:create:andesite_alloy>], [<item:create:andesite_alloy>]]);
+
+craftingTable.addShaped("andesite-casing", <item:create:andesite_casing>*2, [[<item:forbidden_arcanus:edelwood_log>, <item:create:andesite_alloy>]]);
+craftingTable.addShaped("copper-casing", <item:create:copper_casing>*2, [[<item:forbidden_arcanus:edelwood_log>, <tag:items:forge:plates/copper>]]);
+craftingTable.addShaped("brass-casing", <item:create:brass_casing>*2, [[<item:forbidden_arcanus:edelwood_log>, <tag:items:forge:plates/brass>]]);
+craftingTable.addShaped("shadow-steel-casing", <item:create:shadow_steel_casing>*2, [[<item:minecraft:obsidian>, <item:create:shadow_steel>]]);
+craftingTable.addShaped("refined-radiance-casing", <item:create:refined_radiance_casing>*2, [[<item:forbidden_arcanus:arcane_crystal_block>, <item:create:refined_radiance>]]);
+craftingTable.addShaped("overcharged-casing", <item:createaddition:overcharged_casing>*2, [[<item:minecraft:blue_ice>, <item:createaddition:overcharged_alloy>]]);
 
 craftingTable.addShaped("whisk", <item:create:whisk>, [
 	[<item:immersiveengineering:plate_steel>, <item:create:andesite_alloy>, <item:immersiveengineering:plate_steel>],
@@ -56,18 +67,6 @@ craftingTable.addShaped("lage_cogwheel", <item:create:large_cogwheel>, [
 	[<tag:items:minecraft:wooden_buttons>, <tag:items:minecraft:wooden_slabs>, <tag:items:minecraft:wooden_buttons>],
 	[<tag:items:minecraft:wooden_slabs>, <item:create:shaft>, <tag:items:minecraft:wooden_slabs>],
 	[<tag:items:minecraft:wooden_buttons>, <tag:items:minecraft:wooden_slabs>, <tag:items:minecraft:wooden_buttons>]
-]);
-
-craftingTable.addShaped("andesite_case", <item:create:andesite_casing>*2, [
-  [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
-	[<item:create:andesite_alloy>, <tag:items:minecraft:logs>, <item:create:andesite_alloy>],
-	[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
-]);
-
-craftingTable.addShaped("brass_case", <item:create:brass_casing>*2, [
-  [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
-	[<item:create:brass_sheet>, <tag:items:minecraft:logs>, <item:create:brass_sheet>],
-  [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
 ]);
 
 <recipetype:create:mixing>.addJSONRecipe("andesite_alloy3",
@@ -470,7 +469,7 @@ craftingTable.addShaped("brass_case", <item:create:brass_casing>*2, [
       "item": "contenttweaker:integrated_circuit"
     }
   ],
-  "loops": 3
+  "loops": 2
 });
 
 <recipetype:silents_mechanisms:alloy_smelting>.addJSONRecipe("andesite_alloy4",

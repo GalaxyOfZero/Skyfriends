@@ -155,7 +155,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:redstone"
   },
   "output": {
@@ -171,7 +171,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:redstone"
   },
   "output": {
@@ -187,7 +187,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:diamond"
   },
   "output": {
@@ -203,7 +203,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:refined_obsidian"
   },
   "output": {
@@ -220,7 +220,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:redstone"
   },
   "output": {
@@ -236,7 +236,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:redstone"
   },
   "output": {
@@ -252,7 +252,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:diamond"
   },
   "output": {
@@ -268,7 +268,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:refined_obsidian"
   },
   "output": {
@@ -285,7 +285,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:redstone"
   },
   "output": {
@@ -301,7 +301,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:redstone"
   },
   "output": {
@@ -317,7 +317,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:diamond"
   },
   "output": {
@@ -333,7 +333,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:refined_obsidian"
   },
   "output": {
@@ -350,7 +350,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:redstone"
   },
   "output": {
@@ -366,7 +366,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:redstone"
   },
   "output": {
@@ -382,7 +382,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:diamond"
   },
   "output": {
@@ -398,7 +398,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:refined_obsidian"
   },
   "output": {
@@ -415,7 +415,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:redstone"
   },
   "output": {
@@ -431,7 +431,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:diamond"
   },
   "output": {
@@ -447,7 +447,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
     }
   },
   "infusionInput": {
-    "amount": 250,
+    "amount": 240,
     "tag": "mekanism:refined_obsidian"
   },
   "output": {

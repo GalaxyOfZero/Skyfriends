@@ -53,7 +53,7 @@ craftingTable.addShaped("stone_machine_frame", <item:silents_mechanisms:stone_ma
 	[<item:minecraft:smooth_stone>, <tag:items:forge:glass>, <item:minecraft:smooth_stone>]
 ]);
 
-craftingTable.addShaped("alloy_machine_frame", <item:silents_mechanisms:alloy_machine_frame>, [
+craftingTable.addShaped("alloy_machine_frame", <item:silents_mechanisms:alloy_machine_frame>*2, [
 	[<item:silents_mechanisms:redstone_alloy_block>, <item:immersiveengineering:plate_steel>, <item:silents_mechanisms:redstone_alloy_block>],
 	[<item:immersiveengineering:plate_steel>, <item:silents_mechanisms:stone_machine_frame>, <item:immersiveengineering:plate_steel>],
 	[<item:silents_mechanisms:redstone_alloy_block>, <item:immersiveengineering:plate_steel>, <item:silents_mechanisms:redstone_alloy_block>]

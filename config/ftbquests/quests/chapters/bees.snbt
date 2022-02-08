@@ -75,9 +75,9 @@
 			dependencies: ["02A20E7362C1DE25"]
 			id: "46177A10B31F5D25"
 			tasks: [{
-				id: "7427AB34AED9B565"
+				id: "4F69C9D93CDB5EE7"
 				type: "item"
-				item: "resourcefulbees:t1_hive_upgrade"
+				item: "resourcefulbees:iron_storage_upgrade"
 			}]
 		}
 		{
@@ -86,9 +86,9 @@
 			dependencies: ["46177A10B31F5D25"]
 			id: "326224942CB845A9"
 			tasks: [{
-				id: "218B4F1C06BE898B"
+				id: "2FC7B600D5EB575F"
 				type: "item"
-				item: "resourcefulbees:t2_hive_upgrade"
+				item: "resourcefulbees:gold_storage_upgrade"
 			}]
 		}
 		{
@@ -97,9 +97,9 @@
 			dependencies: ["326224942CB845A9"]
 			id: "68B4165FBAD8AA83"
 			tasks: [{
-				id: "355BE5C643F565A8"
+				id: "580DF9910292266C"
 				type: "item"
-				item: "resourcefulbees:t3_hive_upgrade"
+				item: "resourcefulbees:diamond_storage_upgrade"
 			}]
 		}
 		{
@@ -108,9 +108,9 @@
 			dependencies: ["68B4165FBAD8AA83"]
 			id: "0B9785C9C9A991E6"
 			tasks: [{
-				id: "7FCE157BC1D0E784"
+				id: "399FA036AED9A154"
 				type: "item"
-				item: "resourcefulbees:t4_hive_upgrade"
+				item: "resourcefulbees:emerald_storage_upgrade"
 			}]
 		}
 		{
@@ -1014,6 +1014,36 @@
 					id: "49AFD182D748903E"
 					type: "xp"
 					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.868303571428584d
+			y: -5.187499999999979d
+			description: ["to Upgrade the Bee nest your need the Hive upgrads, brake the nest withe Silk Touch and your have a Tier bee nest"]
+			dependencies: ["11877A5F853D9119"]
+			optional: true
+			id: "5D20244FEBD96E87"
+			tasks: [
+				{
+					id: "2302C773E4245370"
+					type: "item"
+					item: "resourcefulbees:t1_hive_upgrade"
+				}
+				{
+					id: "7E21E20C4A67BA01"
+					type: "item"
+					item: "resourcefulbees:t2_hive_upgrade"
+				}
+				{
+					id: "41FBFC7F1F66191D"
+					type: "item"
+					item: "resourcefulbees:t3_hive_upgrade"
+				}
+				{
+					id: "0CCEF8506CD4476C"
+					type: "item"
+					item: "resourcefulbees:t4_hive_upgrade"
 				}
 			]
 		}

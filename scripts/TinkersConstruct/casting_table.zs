@@ -45,3 +45,6 @@
 <recipetype:tconstruct:casting_table>.removeRecipe(<item:immersiveengineering:wire_lead>);
 <recipetype:tconstruct:casting_table>.removeRecipe(<item:createaddition:gold_wire>);
 <recipetype:tconstruct:casting_table>.removeRecipe(<item:createaddition:iron_wire>);
+
+<recipetype:tconstruct:casting_table>.addItemCastingRecipe("bucket", <item:contenttweaker:bucket_cast>, <fluid:tconstruct:molten_iron> * 864, <item:minecraft:bucket>, 200, false, false);
+<recipetype:tconstruct:casting_table>.addItemCastingRecipe("bucket-cast", <item:ceramics:clay_bucket>, <fluid:tconstruct:molten_gold> * 144, <item:contenttweaker:bucket_cast>, 40, true, false);

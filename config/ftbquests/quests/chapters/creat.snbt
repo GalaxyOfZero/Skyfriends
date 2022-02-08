@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 2.473214285714292d
-			y: 2.985119047619044d
+			x: 1.812500000000007d
+			y: 3.047619047619037d
 			dependencies: ["49DB0EA253DF126B"]
 			id: "46479ADEA1D4899A"
 			tasks: [{
@@ -25,8 +25,8 @@
 			}]
 		}
 		{
-			x: 1.8065476190476204d
-			y: 3.604166666666657d
+			x: 1.8482142857142918d
+			y: 3.9404761904761827d
 			dependencies: ["49DB0EA253DF126B"]
 			id: "0EB4592667384AB0"
 			tasks: [{
@@ -41,8 +41,8 @@
 			}]
 		}
 		{
-			x: -0.002976190476182694d
-			y: 2.794642857142854d
+			x: -0.1874999999999929d
+			y: 3.261904761904752d
 			dependencies: ["49DB0EA253DF126B"]
 			id: "216094867ED99E81"
 			tasks: [{
@@ -65,7 +65,7 @@
 				id: "7268C751DF9D9277"
 				type: "item"
 				item: "create:shaft"
-				count: 32L
+				count: 16L
 			}]
 			rewards: [
 				{
@@ -81,8 +81,8 @@
 			]
 		}
 		{
-			x: -1.3482142857142776d
-			y: 0.4910714285714306d
+			x: -0.8303571428571388d
+			y: 0.2619047619047521d
 			dependencies: ["3CAC0C51ADC9CFBB"]
 			id: "5FCAE5264065BE0D"
 			tasks: [{
@@ -98,12 +98,13 @@
 		}
 		{
 			title: "Welcome to Create"
-			x: 0.235119047619051d
-			y: 4.032738095238088d
+			x: 0.8839285714285765d
+			y: 4.476190476190467d
 			id: "5533D315EF08B177"
 			tasks: [{
-				id: "5640246863FDBC15"
-				type: "checkmark"
+				id: "7CC9F0FAFFA92B01"
+				type: "item"
+				item: "create:andesite_alloy"
 			}]
 			rewards: [
 				{
@@ -147,9 +148,9 @@
 			]
 		}
 		{
-			x: -0.4553571428571388d
-			y: 0.0982142857142847d
-			dependencies: ["0292124CDD868999"]
+			x: 0.3482142857142918d
+			y: 0.04761904761903679d
+			dependencies: ["1EB2F8BACBA3360D"]
 			id: "3CAC0C51ADC9CFBB"
 			tasks: [{
 				id: "6614C19078EA6299"
@@ -184,22 +185,6 @@
 					xp: 100
 				}
 			]
-		}
-		{
-			x: 0.5089285714285765d
-			y: 0.2767857142857153d
-			dependencies: ["1EB2F8BACBA3360D"]
-			id: "0292124CDD868999"
-			tasks: [{
-				id: "4A72001DEC3A921A"
-				type: "item"
-				item: "create:depot"
-			}]
-			rewards: [{
-				id: "702F956AFDD8B176"
-				type: "xp"
-				xp: 100
-			}]
 		}
 		{
 			x: 0.5089285714285694d

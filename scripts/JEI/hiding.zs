@@ -260,9 +260,3 @@ mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_vanilla1>);
 mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_vanilla1_armored>);
 mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_vanilla2_armored>);
 mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_vanilla3_armored>);
-
-mods.jei.JEI.hideItem(<item:simplyjetpacks:armorplating_te5_enderium>);
-mods.jei.JEI.hideItem(<item:simplyjetpacks:armorplating_te5>);
-mods.jei.JEI.hideItem(<item:simplyjetpacks:flux_chestplate>);
-mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_te5_enderium>);
-mods.jei.JEI.hideItem(<item:simplyjetpacks:thruster_te5>);

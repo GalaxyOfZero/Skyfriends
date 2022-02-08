@@ -20,3 +20,15 @@ craftingTable.addShaped("marble", <item:astralsorcery:marble_raw>, [
 	[<item:minecraft:stone>, <item:minecraft:white_dye>, <item:minecraft:stone>],
 	[<item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>]
 ]);
+
+<recipetype:astralsorcery:well>.addJSONRecipe("liquid-starlight-new",
+{
+  "type": "astralsorcery:lightwell",
+  "input": {
+    "item": "resourcefulbees:aquamarien_honeycomb"
+  },
+  "output": "astralsorcery:liquid_starlight",
+  "productionMultiplier": 0.45,
+  "shatterMultiplier": 9.0,
+  "color": -16734209
+});

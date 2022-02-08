@@ -23,5 +23,6 @@
   "block.contenttweaker.neutronium": "Neutronium Block",
   "block.contenttweaker.crystal_matrix": "§eCrystal Matrix Block",
   "fluid.contenttweaker.neutron": "§9Neutronium Fluid",
-  "item.contenttweaker.neutron_bucket": "§9Neutronium Bucket"
+  "item.contenttweaker.neutron_bucket": "§9Neutronium Bucket",
+  "item.contenttweaker.bucket_cast": "Bucket Cast"
 }

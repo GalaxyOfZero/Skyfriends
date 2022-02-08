@@ -18,6 +18,7 @@ craftingTable.removeRecipe(<item:botania:apothecary_default>);
 <recipetype:botania:pure_daisy>.removeRecipe(<blockstate:minecraft:sand>);
 <recipetype:botania:pure_daisy>.removeRecipe(<blockstate:minecraft:packed_ice>);
 <recipetype:botania:pure_daisy>.removeRecipe(<blockstate:minecraft:blue_ice>);
+craftingTable.removeByName("gardenofglass:end_portal_frame");
 Orechid.main.removeOreWeight(<blockstate:mysticalagriculture:prosperity_ore>);
 Orechid.main.removeOreWeight(<blockstate:mysticalagriculture:inferium_ore>);
 craftingTable.removeByName("gardenofglass:pebble_to_cobblestone");
@@ -27,7 +28,6 @@ craftingTable.removeByName("gardenofglass:pebble_to_cobblestone");
 <recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("runealtar", <item:botania:runic_altar>, <item:ars_nouveau:mana_gem>,[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>, <item:botania:mana_diamond>, <item:botania:mana_diamond>, <item:ars_nouveau:bucket_of_mana>, <item:ars_nouveau:bucket_of_mana>]);
 <recipetype:botania:mana_infusion>.addRecipe("mana_diamond", <item:botania:mana_diamond>, <item:ars_nouveau:mana_gem>, 10000);
 <recipetype:botania:mana_infusion>.addRecipe("mana-diamond-block", <item:botania:mana_diamond_block>, <item:ars_nouveau:mana_gem_block>, 90000);
-
 
 <recipetype:botania:mana_infusion>.addRecipe("manasteel_ingot", <item:botania:manasteel_ingot>, <tag:items:forge:ingots/steel>, 3500);
 <recipetype:botania:mana_infusion>.addRecipe("manasteel_block", <item:botania:manasteel_block>, <tag:items:forge:storage_blocks/steel>, 30000);

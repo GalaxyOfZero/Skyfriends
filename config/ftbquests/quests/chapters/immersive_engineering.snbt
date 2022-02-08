@@ -414,6 +414,7 @@
 				type: "item"
 				item: "refinedstorage:quartz_enriched_iron"
 				count: 32L
+				consume_items: false
 			}]
 			rewards: [{
 				id: "7ABD1ADA16A2B71B"
@@ -1141,9 +1142,10 @@
 		{
 			title: "Better Blastfurase"
 			icon: "immersiveengineering:advanced_blast_furnace"
-			x: 2.0d
-			y: 1.0d
+			x: 1.6387648809523725d
+			y: 1.062499999999993d
 			dependencies: ["65913DDAC74717F3"]
+			optional: true
 			id: "16C0F673EEF8E736"
 			tasks: [
 				{

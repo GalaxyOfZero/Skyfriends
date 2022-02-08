@@ -70,3 +70,7 @@ new ItemBuilder()
 new ItemBuilder()
     .withMaxStackSize(64)
     .build("infused_neutron_ingot");
+
+new ItemBuilder()
+    .withMaxStackSize(64)
+    .build("bucket_cast");

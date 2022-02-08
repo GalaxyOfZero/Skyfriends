@@ -9,19 +9,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -1.0d
-			y: -0.5d
-			id: "130CDC79E64AF950"
-			tasks: [{
-				id: "18494750FC36D2D1"
-				type: "item"
-				item: "tconstruct:materials_and_you"
-			}]
-		}
-		{
-			x: 0.5d
-			y: -0.5d
-			dependencies: ["130CDC79E64AF950"]
+			x: 0.9598214285714235d
+			y: -0.5312500000000071d
+			dependencies: [
+				"0592AD8F0212158C"
+				"282F94A883BF03B8"
+			]
 			id: "252069ED7A7860F1"
 			tasks: [
 				{
@@ -48,9 +41,8 @@
 			}]
 		}
 		{
-			x: -0.2678571428571388d
-			y: -1.9107142857142847d
-			dependencies: ["252069ED7A7860F1"]
+			x: 0.4955357142857011d
+			y: 0.2901785714285623d
 			id: "282F94A883BF03B8"
 			tasks: [{
 				id: "650EA98ED0887C07"
@@ -71,9 +63,9 @@
 			}]
 		}
 		{
-			x: 1.1964285714285694d
-			y: -1.875d
-			dependencies: ["252069ED7A7860F1"]
+			x: 0.2455357142857082d
+			y: -1.1383928571428648d
+			description: ["all at ones, the Part Bulder make all parts did your need to make your basic tools "]
 			id: "0592AD8F0212158C"
 			tasks: [{
 				id: "15414269EA18FFCE"
@@ -87,10 +79,9 @@
 				}
 			}]
 			rewards: [{
-				id: "2CE7FAC2AC14267B"
-				type: "item"
-				item: "tconstruct:pattern"
-				count: 10
+				id: "7883FF467ED0EC29"
+				type: "loot"
+				table_id: 7733633901596953089L
 			}]
 		}
 		{
@@ -128,8 +119,8 @@
 			}]
 		}
 		{
-			x: 5.267857142857132d
-			y: -1.9107142857142954d
+			x: 5.53125d
+			y: -1.6026785714285765d
 			dependencies: ["50FDCBDCDCFBE727"]
 			id: "344A2C984020DB54"
 			tasks: [{
@@ -144,14 +135,22 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			title: "Seared Tanks"
+			x: 2.9955357142857153d
+			y: 0.004464285714284699d
 			dependencies: ["50FDCBDCDCFBE727"]
 			id: "4B99FC586E5E80F1"
 			tasks: [{
 				id: "32CD4487BC898FF9"
 				type: "item"
-				item: "tconstruct:seared_fuel_tank"
+				title: "Any #tconstruct:seared_tanks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:seared_tanks"
+					}
+				}
 			}]
 			rewards: [{
 				id: "184F81ECBB48D324"
@@ -160,8 +159,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
+			x: 4.174107142857139d
+			y: 0.4687499999999929d
 			dependencies: ["50FDCBDCDCFBE727"]
 			id: "11097B163C45D66C"
 			tasks: [{
@@ -177,26 +176,9 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.0d
-			description: ["ths is a one use cast"]
-			dependencies: ["252069ED7A7860F1"]
-			id: "7421270D72E0DC89"
-			tasks: [{
-				id: "69A1E875DCF65F66"
-				type: "item"
-				item: "tconstruct:blank_sand_cast"
-			}]
-			rewards: [{
-				id: "7746B82295900776"
-				type: "item"
-				item: "minecraft:sand"
-			}]
-		}
-		{
 			x: 5.5d
 			y: -0.5d
-			dependencies: ["344A2C984020DB54"]
+			dependencies: ["50FDCBDCDCFBE727"]
 			id: "0C93F46543469F5F"
 			tasks: [{
 				id: "7015DE75C2816B71"
@@ -210,9 +192,9 @@
 			}]
 		}
 		{
-			x: 6.482142857142847d
-			y: -1.678571428571427d
-			dependencies: ["344A2C984020DB54"]
+			x: 5.459821428571431d
+			y: 0.5044642857142847d
+			dependencies: ["50FDCBDCDCFBE727"]
 			id: "12DB35569ACF7ADF"
 			tasks: [{
 				id: "652E1E8411C9BAC6"
@@ -231,6 +213,7 @@
 			dependencies: [
 				"0C93F46543469F5F"
 				"12DB35569ACF7ADF"
+				"344A2C984020DB54"
 			]
 			id: "4F341FA640E76C7B"
 			tasks: [{
@@ -241,27 +224,28 @@
 		}
 		{
 			title: "Safe your casts"
-			x: 5.696428571428562d
-			y: 1.2142857142857153d
-			dependencies: ["5E70DBFD3AE022F5"]
+			x: 4.995535714285708d
+			y: -2.495535714285719d
+			description: ["this can Storage all of your cast, also the bucket cast"]
+			dependencies: ["76111CA1D76D3189"]
 			id: "4E3F0D0DB19FC5B2"
 			tasks: [{
 				id: "4D72BE914685E6AC"
 				type: "item"
 				item: "tconstruct:cast_chest"
 			}]
+			rewards: [{
+				id: "40AD643D34A1CCCE"
+				type: "loot"
+				table_id: 7733633901596953089L
+			}]
 		}
 		{
-			x: 6.5d
-			y: 0.5d
-			dependencies: ["4F341FA640E76C7B"]
+			x: 2.888392857142861d
+			y: -2.281250000000007d
+			dependencies: ["4830FECB55118879"]
 			id: "5E70DBFD3AE022F5"
 			tasks: [
-				{
-					id: "6C5CC57C512EC324"
-					type: "item"
-					item: "tconstruct:blank_cast"
-				}
 				{
 					id: "2306FAEA73BE7D94"
 					type: "item"
@@ -296,8 +280,8 @@
 			}]
 		}
 		{
-			x: 7.410714285714278d
-			y: 0.9642857142857082d
+			x: 7.245535714285708d
+			y: 0.5401785714285694d
 			dependencies: ["4F341FA640E76C7B"]
 			id: "1A59BBE18C5DA1F0"
 			tasks: [{
@@ -307,8 +291,8 @@
 			}]
 		}
 		{
-			x: 7.982142857142854d
-			y: 0.2142857142857082d
+			x: 7.924107142857146d
+			y: -1.031250000000007d
 			dependencies: ["4F341FA640E76C7B"]
 			id: "58BB7A319FCDB292"
 			tasks: [{
@@ -318,8 +302,8 @@
 			}]
 		}
 		{
-			x: 8.125000000000007d
-			y: -1.1428571428571423d
+			x: 6.995535714285715d
+			y: -1.5669642857142918d
 			dependencies: ["4F341FA640E76C7B"]
 			id: "6CDB0ADCDE4DA612"
 			tasks: [{
@@ -330,9 +314,9 @@
 			}]
 		}
 		{
-			x: 9.446428571428577d
-			y: -1.2857142857142847d
-			dependencies: ["6CDB0ADCDE4DA612"]
+			x: 5.4598214285714235d
+			y: 1.5401785714285694d
+			dependencies: ["11097B163C45D66C"]
 			id: "5443C1B4E2629F31"
 			tasks: [{
 				id: "26E5FDADA1A33C79"
@@ -344,6 +328,94 @@
 				type: "item"
 				item: "tconstruct:cobalt_ore"
 				count: 3
+			}]
+		}
+		{
+			x: 3.8169642857142847d
+			y: -2.566964285714292d
+			dependencies: ["4830FECB55118879"]
+			id: "76111CA1D76D3189"
+			tasks: [{
+				id: "42417F08F65CFCDF"
+				type: "item"
+				item: "tconstruct:blank_cast"
+			}]
+			rewards: [
+				{
+					id: "1E6B540AE06C8FAD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "67A00BDC4F263685"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "more Bukets"
+			x: 2.9955357142857153d
+			y: -1.2098214285714377d
+			dependencies: ["4830FECB55118879"]
+			id: "76E9238711FA641B"
+			tasks: [{
+				id: "1A004C32FAE6CE93"
+				type: "item"
+				item: "contenttweaker:bucket_cast"
+			}]
+			rewards: [
+				{
+					id: "6907C0C1A721C1F3"
+					type: "item"
+					item: "minecraft:bucket"
+					count: 2
+				}
+				{
+					id: "3C3B38311C984A61"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.9598214285714235d
+			y: -1.531250000000007d
+			dependencies: ["50FDCBDCDCFBE727"]
+			id: "4830FECB55118879"
+			tasks: [{
+				id: "49309569DBE9794C"
+				type: "item"
+				item: "tconstruct:seared_table"
+			}]
+		}
+		{
+			x: 0.8169642857142776d
+			y: -1.924107142857153d
+			dependencies: ["0592AD8F0212158C"]
+			id: "7D0A8AB9E1D64CE0"
+			tasks: [{
+				id: "72E4A8FE7A7FFC10"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+		}
+		{
+			x: -0.4687500000000071d
+			y: -0.3169642857142918d
+			description: ["The Part Chest can Storage all of your parts did your make"]
+			optional: true
+			id: "32BF00D2D02371A0"
+			tasks: [{
+				id: "712A0514C9A71E94"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+			rewards: [{
+				id: "38A786C277F49EBF"
+				type: "loot"
+				table_id: 7733633901596953089L
 			}]
 		}
 	]
