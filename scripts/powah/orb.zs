@@ -84,8 +84,6 @@
   "ingredients": [
 	{"tag": "forge:storage_blocks/iron"},
   {"tag": "forge:storage_blocks/iron"},
-  {"tag": "forge:storage_blocks/iron"},
-  {"tag": "forge:storage_blocks/iron"},
   {"item": "minecraft:redstone_block"},
   {"item": "refinedstorage:processor_binding"}
   ],
@@ -101,8 +99,6 @@
   "ingredients": [
 	{"tag": "forge:storage_blocks/gold"},
   {"tag": "forge:storage_blocks/gold"},
-  {"tag": "forge:storage_blocks/gold"},
-  {"tag": "forge:storage_blocks/gold"},
   {"item": "minecraft:redstone_block"},
   {"item": "refinedstorage:basic_processor"}
   ],
@@ -117,8 +113,6 @@
   "type": "powah:energizing",
   "ingredients": [
 	{"tag": "forge:storage_blocks/mana"},
-  {"tag": "forge:storage_blocks/mana"},
-  {"tag": "forge:storage_blocks/diamond"},
   {"tag": "forge:storage_blocks/diamond"},
   {"item": "minecraft:redstone_block"},
   {"item": "refinedstorage:improved_processor"}

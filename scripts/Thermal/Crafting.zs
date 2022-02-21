@@ -69,22 +69,22 @@ craftingTable.addShaped("link-augment", <item:thermal:machine_speed_augment>, [
 	[<tag:items:forge:plates/electrum>, <item:thermal:lead_gear>, <tag:items:forge:plates/electrum>]
 ]);
 
-craftingTable.addShaped("energy_efficiency_augment",  <item:thermal:machine_efficiency_augment>, [
+craftingTable.addShaped("energy-efficiency_augment",  <item:thermal:machine_efficiency_augment>, [
 	[<tag:items:forge:plates/lumium>, <item:thermal:rf_coil>, <tag:items:forge:plates/lumium>],
 	[<item:thermal:constantan_gear>, <item:silents_mechanisms:energy_efficiency_upgrade>, <item:thermal:constantan_gear>],
 	[<tag:items:forge:plates/lumium>, <item:thermal:rf_coil>, <tag:items:forge:plates/lumium>]
 ]);
 
-craftingTable.addShaped("rf_coil",  <item:thermal:rf_coil>, [
+craftingTable.addShaped("rf-coil",  <item:thermal:rf_coil>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:silents_mechanisms:redstone_alloy_ingot>],
 	[<item:minecraft:air>, <item:minecraft:gold_block>, <item:minecraft:air>],
 	[<item:silents_mechanisms:redstone_alloy_ingot>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
-craftingTable.addShaped("thermal_frame", <item:thermal:machine_frame>, [
-	[<item:thermal:tin_plate>, <item:minecraft:glass>, <item:thermal:tin_plate>],
-	[<item:minecraft:glass>, <item:silents_mechanisms:alloy_machine_frame>, <item:minecraft:glass>],
-	[<item:thermal:tin_plate>, <item:minecraft:glass>, <item:thermal:tin_plate>]
+craftingTable.addShaped("thermal-frame", <item:thermal:machine_frame>, [
+	[<item:thermal:tin_plate>, <tag:items:forge:glass>, <item:thermal:tin_plate>],
+	[<tag:items:forge:glass>, <item:silents_mechanisms:alloy_machine_frame>, <tag:items:forge:glass>],
+	[<item:thermal:tin_plate>, <tag:items:forge:glass>, <item:thermal:tin_plate>]
 ]);
 
 #machinen
@@ -114,7 +114,7 @@ craftingTable.addShaped("industrial-smelter", <item:thermal:machine_smelter>, [
 ]);
 
 craftingTable.addShaped("energy_cell_frame", <item:thermal:energy_cell_frame>, [
-	[<tag:items:forge:plates/lead>, <item:minecraft:glass>, <tag:items:forge:plates/lead>],
-	[<item:minecraft:glass>, <item:silents_mechanisms:battery_box>, <item:minecraft:glass>],
+	[<tag:items:forge:plates/lead>, <tag:items:forge:glass>, <tag:items:forge:plates/lead>],
+	[<item:thermal:obsidian_glass>, <item:silents_mechanisms:battery_box>, <item:thermal:obsidian_glass>],
 	[<tag:items:forge:plates/lead>, <item:thermal:rf_coil>, <tag:items:forge:plates/lead>]
 ]);

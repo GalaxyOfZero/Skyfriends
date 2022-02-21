@@ -477,7 +477,14 @@
 				{
 					id: "7C7FC93BFCCBDBF7"
 					type: "item"
-					item: "mekanism:block_steel"
+					title: "Any #forge:storage_blocks/steel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/steel"
+						}
+					}
 					count: 6L
 				}
 				{

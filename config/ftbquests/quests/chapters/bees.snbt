@@ -989,7 +989,7 @@
 		{
 			x: -5.671875000000021d
 			y: -5.312499999999972d
-			description: ["Your can buy Candlenut from the Marked to craft Honneycombs"]
+			description: ["Your can buy Candlenut or Candleberry from the Marked to craft Honneycombs"]
 			id: "11877A5F853D9119"
 			tasks: [
 				{
@@ -1009,9 +1009,17 @@
 					type: "item"
 					item: "pamhc2trees:candlenut_sapling"
 					count: 2
+					only_one: true
 				}
 				{
-					id: "49AFD182D748903E"
+					id: "1F3AF1498E4E144E"
+					type: "item"
+					item: "pamhc2crops:candleberryseeditem"
+					count: 2
+					only_one: true
+				}
+				{
+					id: "27411176B95171C2"
 					type: "xp"
 					xp: 100
 				}

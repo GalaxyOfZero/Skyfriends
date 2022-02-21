@@ -833,10 +833,9 @@
 				item: "powah:energizing_rod_hardened"
 			}]
 			rewards: [{
-				id: "2506367B8FD26C2A"
-				type: "item"
-				item: "contenttweaker:coin"
-				count: 5
+				id: "348C69833240B4DE"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{

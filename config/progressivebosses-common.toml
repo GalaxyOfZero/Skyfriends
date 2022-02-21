@@ -26,7 +26,7 @@
 		"Bonus Regeneration per Difficulty" = 0.1
 		#Maximum bonus regeneration per second given by "Bonus Regeneration per Difficulty". Set to 0 to disable bonus health regeneration. This doesn't affect the natural regeneration of the Wither (1 Health per Second).
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Maximum Bonus Regeneration" = 2.0
+		"Maximum Bonus Regeneration" = 1.0
 
 	#Handles various small features, such as the explosion
 	[Wither.Misc]
@@ -43,9 +43,9 @@
 		#Range: 0.0 ~ 4.0
 		"Explosion Power Bonus" = 0.5
 		#The Wither will no longer wait 1 full second before breaking blocks when he's hit, instead just 0.5s
-		"Faster Breaking Blocks" = true
+		"Faster Breaking Blocks" = false
 		#The Wither will break even blocks below him when hit.
-		"Bigger Breaking Blocks" = true
+		"Bigger Breaking Blocks" = false
 
 	#Makes the Wither smarter (will no longer try to stand on the player's head ...), attack faster and hit harder
 	[Wither.Attack]

@@ -518,15 +518,5 @@
 				count: 4
 			}]
 		}
-		{
-			x: 0.8482142857142847d
-			y: -1.013392857142854d
-			id: "275F091265A3E1AD"
-			tasks: [{
-				id: "4394D4E047B595BE"
-				type: "item"
-				item: "industrialforegoing:machine_frame_pity"
-			}]
-		}
 	]
 }

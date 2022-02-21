@@ -41,6 +41,15 @@ craftingTable.addShaped("acaciaplanks", <item:minecraft:acacia_planks>, [[<item:
 craftingTable.addShaped("crimsonplanks", <item:minecraft:crimson_planks>, [[<item:minecraft:crimson_stem>]]);
 craftingTable.addShaped("warpedplanks", <item:minecraft:warped_planks>, [[<item:minecraft:warped_stem>]]);
 
+craftingTable.addShaped("stripped-oak-planks", <item:minecraft:oak_planks:>, [[<item:minecraft:stripped_oak_log>]]);
+craftingTable.addShaped("stripped-birch-planks", <item:minecraft:birch_planks>, [[<item:minecraft:stripped_birch_log>]]);
+craftingTable.addShaped("stripped-darkoak-planks", <item:minecraft:dark_oak_planks>, [[<item:minecraft:stripped_dark_oak_log>]]);
+craftingTable.addShaped("stripped-jungle-planks", <item:minecraft:jungle_planks>, [[<item:minecraft:stripped_jungle_log>]]);
+craftingTable.addShaped("stripped-spruce-planks", <item:minecraft:spruce_planks>, [[<item:minecraft:stripped_spruce_log>]]);
+craftingTable.addShaped("stripped-acacia-planks", <item:minecraft:acacia_planks>, [[<item:minecraft:stripped_acacia_log>]]);
+craftingTable.addShaped("stripped-crimson-planks", <item:minecraft:crimson_planks>, [[<item:minecraft:stripped_crimson_stem>]]);
+craftingTable.addShaped("stripped-warped-planks", <item:minecraft:warped_planks>, [[<item:minecraft:stripped_warped_stem>]]);
+
 craftingTable.addShaped("chest-new", <item:minecraft:chest>, [[<tag:items:forge:chests/wooden>]]);
 
 craftingTable.addShaped("gold-bars", <item:createdeco:gold_bars>, [

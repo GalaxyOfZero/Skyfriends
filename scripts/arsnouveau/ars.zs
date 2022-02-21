@@ -5,11 +5,8 @@
 <recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("sapling2", <item:ars_nouveau:purple_archwood_sapling>, <item:minecraft:oak_sapling>, [<item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>]);
 <recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("sapling3", <item:ars_nouveau:red_archwood_sapling>, <item:minecraft:oak_sapling>, [<item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>]);
 <recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("sapling4", <item:ars_nouveau:blue_archwood_sapling>, <item:minecraft:oak_sapling>, [<item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>,<item:minecraft:blue_dye>]);
-craftingTable.addShaped("bood_ars", <item:ars_nouveau:novice_spell_book>.withTag({mode: 0 as int, spells: ",projectile,touch,self,break,harm" as string}),[
-  [<item:minecraft:book>, <item:minecraft:stone_shovel>.withTag({Damage: 0 as int}), <item:minecraft:stone_pickaxe>.withTag({Damage: 0 as int})],
-	[<item:minecraft:stone_axe>.withTag({Damage: 0 as int}), <item:minecraft:stone_sword>.withTag({Damage: 0 as int}), <item:minecraft:air>],
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
-  ]);
+<recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("mana-berry", <item:ars_nouveau:mana_berry>, <item:minecraft:sweet_berries>, [<item:ars_nouveau:mana_gem>, <item:ars_nouveau:mana_gem>, <item:ars_nouveau:mana_gem>, <item:ars_nouveau:mana_gem>, <item:ars_nouveau:mana_gem>, <item:ars_nouveau:mana_gem>, <item:ars_nouveau:mana_gem>, <item:ars_nouveau:mana_gem>]);
+
 <recipetype:ars_nouveau:enchanting_apparatus>.addJSONRecipe("wix-new",
 {
   "type": "ars_nouveau:enchanting_apparatus",
