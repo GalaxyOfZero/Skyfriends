@@ -8,7 +8,7 @@ craftingTable.addShaped("dim-core", <item:dimstorage:dim_core>, [
 	[<tag:items:forge:ingots/steel>, <item:silents_mechanisms:redstone_alloy_ingot>, <tag:items:forge:ingots/steel>]
 ]);
 
-craftingTable.addShaped("dimensional-wall", <item:dimstorage:dim_wall>, [
+craftingTable.addShaped("dimensional-wall", <item:dimstorage:dim_wall>*4, [
 	[<tag:items:forge:ingots/steel>, <item:silents_mechanisms:redstone_alloy_ingot>, <tag:items:forge:ingots/steel>],
 	[<item:silents_mechanisms:redstone_alloy_ingot>, <item:rftoolsbase:infused_enderpearl>, <item:silents_mechanisms:redstone_alloy_ingot>],
 	[<tag:items:forge:ingots/steel>, <item:silents_mechanisms:redstone_alloy_ingot>, <tag:items:forge:ingots/steel>]

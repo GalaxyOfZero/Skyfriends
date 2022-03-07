@@ -183,7 +183,7 @@ craftingTable.addShaped("upgrade_energy", <item:mekanism:upgrade_energy>, [
   "type": "mekanism:metallurgic_infusing",
   "itemInput": {
     "ingredient": {
-      "item": "mekanism:basic_mechanical_pipe"
+      "item": "mekanism:advanced_mechanical_pipe"
     }
   },
   "infusionInput": {

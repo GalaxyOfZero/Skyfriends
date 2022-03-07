@@ -1,5 +1,5 @@
 {
-  "flower": "minecraft:glostone",
+  "flower": "minecraft:glowstone",
   "maxTimeInHive": 1000,
   "hasHoneycomb": true,
   "baseLayerTexture": "pigman/pigman_bee",

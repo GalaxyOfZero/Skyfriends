@@ -3,12 +3,20 @@ import crafttweaker.api.item.IItemStack;
 <recipetype:astralsorcery:block_transmutation>.removeByName("astralsorcery:block_transmutation/craftingtable_altar");
 <recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/wand");
 <recipetype:astralsorcery:block_transmutation>.removeByName("astralsorcery:block_transmutation/iron_starmetal");
+
+<recipetype:astralsorcery:infusion>.removeRecipe(<item:minecraft:iron_ingot>);
+<recipetype:astralsorcery:infusion>.removeRecipe(<item:minecraft:gold_ingot>);
+<recipetype:astralsorcery:infusion>.removeRecipe(<item:minecraft:gold_nugget>);
 <recipetype:astralsorcery:infusion>.removeRecipe(<item:minecraft:diamond>);
+<recipetype:astralsorcery:infusion>.removeRecipe(<item:minecraft:emerald>);
+<recipetype:astralsorcery:infusion>.removeRecipe(<item:minecraft:redstone_block>);
+<recipetype:astralsorcery:infusion>.removeRecipe(<item:minecraft:lapis_block>);
+
 craftingTable.removeRecipe(<item:astralsorcery:wand>);
 
 <recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("conster", <item:astralsorcery:constellation_paper>, <item:ars_nouveau:allow_scroll>, [<item:ars_nouveau:mana_gem>, <item:astralsorcery:aquamarine>, <item:ars_nouveau:mana_gem>, <item:astralsorcery:aquamarine>, <item:astralsorcery:aquamarine>, <item:ars_nouveau:mana_gem>, <item:astralsorcery:aquamarine>, <item:ars_nouveau:mana_gem>]);
 
-<recipetype:astralsorcery:infusion>.addRecipe("infusion_test", <item:astralsorcery:starmetal_ore>, <item:minecraft:iron_ore>, <fluid:astralsorcery:liquid_starlight>, 450, 6, true, true, false);
+<recipetype:astralsorcery:infusion>.addRecipe("starmetal-ore", <item:astralsorcery:starmetal_ore>, <item:minecraft:iron_ore>, <fluid:astralsorcery:liquid_starlight>, 450, 6, true, true, false);
 
 craftingTable.addShaped("wand", <item:astralsorcery:wand>, [
 	[<item:minecraft:air>, <item:astralsorcery:aquamarine>, <item:botania:mana_pearl>],

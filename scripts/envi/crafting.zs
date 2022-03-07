@@ -116,7 +116,7 @@ craftingTable.addShaped("xerothium_solar_cell", <item:enviroenergy:xerothium_sol
 ]);
 
 #new solar ccu
-mods.extendedcrafting.TableCrafting.addShaped("litherite_solar_ccu", 0, <item:enviroenergy:litherite_solar_ccu>, [
+mods.extendedcrafting.TableCrafting.addShaped("litherite_solar_ccu", <item:enviroenergy:litherite_solar_ccu>, [
 	[<item:envirocore:litherite_interconnect>, <item:envirocore:litherite_crystal>, <item:envirocore:litherite_crystal>, <item:envirocore:litherite_crystal>, <item:envirocore:litherite_interconnect>],
 	[<item:envirocore:litherite_crystal>, <item:powah:solar_panel_starter>, <item:enviroenergy:litherite_solar_cell>, <item:powah:solar_panel_starter>, <item:envirocore:litherite_crystal>],
 	[<item:envirocore:litherite_crystal>, <item:enviroenergy:litherite_solar_cell>, <tag:items:envirocore:structure/panels>, <item:enviroenergy:litherite_solar_cell>, <item:envirocore:litherite_crystal>],
@@ -124,7 +124,7 @@ mods.extendedcrafting.TableCrafting.addShaped("litherite_solar_ccu", 0, <item:en
 	[<item:envirocore:litherite_interconnect>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:litherite_interconnect>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("erodium_solar_ccu", 0, <item:enviroenergy:erodium_solar_ccu>, [
+mods.extendedcrafting.TableCrafting.addShaped("erodium_solar_ccu", <item:enviroenergy:erodium_solar_ccu>, [
 	[<item:envirocore:erodium_interconnect>, <item:envirocore:erodium_crystal>, <item:envirocore:erodium_crystal>, <item:envirocore:erodium_crystal>, <item:envirocore:erodium_interconnect>],
 	[<item:envirocore:erodium_crystal>, <item:powah:solar_panel_basic>, <item:enviroenergy:erodium_solar_cell>, <item:powah:solar_panel_basic>, <item:envirocore:erodium_crystal>],
 	[<item:envirocore:erodium_crystal>, <item:enviroenergy:erodium_solar_cell>, <item:enviroenergy:litherite_solar_ccu>, <item:enviroenergy:erodium_solar_cell>, <item:envirocore:erodium_crystal>],
@@ -132,15 +132,15 @@ mods.extendedcrafting.TableCrafting.addShaped("erodium_solar_ccu", 0, <item:envi
 	[<item:envirocore:erodium_interconnect>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:erodium_interconnect>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("kyronite_solar_ccu", 0, <item:enviroenergy:kyronite_solar_ccu>, [
+mods.extendedcrafting.TableCrafting.addShaped("kyronite_solar_ccu", <item:enviroenergy:kyronite_solar_ccu>, [
 	[<item:envirocore:kyronite_interconnect>, <item:envirocore:kyronite_crystal>, <item:envirocore:kyronite_crystal>, <item:envirocore:kyronite_crystal>, <item:envirocore:kyronite_interconnect>],
-	[<item:envirocore:kyronite_crystal>, <item:powah:solar_panel_hardened>, <item:enviroenergy:nanorite_solar_cell>, <item:powah:solar_panel_hardened>, <item:envirocore:kyronite_crystal>],
-	[<item:envirocore:kyronite_crystal>, <item:enviroenergy:nanorite_solar_cell>, <item:enviroenergy:erodium_solar_ccu>, <item:enviroenergy:nanorite_solar_cell>, <item:envirocore:kyronite_crystal>],
-	[<item:envirocore:kyronite_crystal>, <item:powah:solar_panel_hardened>, <item:enviroenergy:nanorite_solar_cell>, <item:powah:solar_panel_hardened>, <item:envirocore:kyronite_crystal>],
+	[<item:envirocore:kyronite_crystal>, <item:powah:solar_panel_hardened>, <item:enviroenergy:kyronite_solar_cell>, <item:powah:solar_panel_hardened>, <item:envirocore:kyronite_crystal>],
+	[<item:envirocore:kyronite_crystal>, <item:enviroenergy:kyronite_solar_cell>, <item:enviroenergy:erodium_solar_ccu>, <item:enviroenergy:kyronite_solar_cell>, <item:envirocore:kyronite_crystal>],
+	[<item:envirocore:kyronite_crystal>, <item:powah:solar_panel_hardened>, <item:enviroenergy:kyronite_solar_cell>, <item:powah:solar_panel_hardened>, <item:envirocore:kyronite_crystal>],
 	[<item:envirocore:kyronite_interconnect>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:kyronite_interconnect>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("pladium_solar_ccu", 0, <item:enviroenergy:pladium_solar_ccu>, [
+mods.extendedcrafting.TableCrafting.addShaped("pladium_solar_ccu", <item:enviroenergy:pladium_solar_ccu>, [
 	[<item:envirocore:pladium_interconnect>, <item:envirocore:pladium_crystal>, <item:envirocore:pladium_crystal>, <item:envirocore:pladium_crystal>, <item:envirocore:pladium_interconnect>],
 	[<item:envirocore:pladium_crystal>, <item:powah:solar_panel_blazing>, <item:enviroenergy:pladium_solar_cell>, <item:powah:solar_panel_blazing>, <item:envirocore:pladium_crystal>],
 	[<item:envirocore:pladium_crystal>, <item:enviroenergy:pladium_solar_cell>, <item:enviroenergy:kyronite_solar_ccu>, <item:enviroenergy:pladium_solar_cell>, <item:envirocore:pladium_crystal>],
@@ -148,7 +148,7 @@ mods.extendedcrafting.TableCrafting.addShaped("pladium_solar_ccu", 0, <item:envi
 	[<item:envirocore:pladium_interconnect>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:pladium_interconnect>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("ionite_solar_ccu", 0, <item:enviroenergy:ionite_solar_ccu>, [
+mods.extendedcrafting.TableCrafting.addShaped("ionite_solar_ccu", <item:enviroenergy:ionite_solar_ccu>, [
 	[<item:envirocore:xerothium_interconnect>, <item:envirocore:ionite_crystal>, <item:envirocore:ionite_crystal>, <item:envirocore:ionite_crystal>, <item:envirocore:xerothium_interconnect>],
 	[<item:envirocore:ionite_crystal>, <item:powah:solar_panel_niotic>, <item:enviroenergy:ionite_solar_cell>, <item:powah:solar_panel_niotic>, <item:envirocore:ionite_crystal>],
 	[<item:envirocore:ionite_crystal>, <item:enviroenergy:ionite_solar_cell>, <item:enviroenergy:pladium_solar_ccu>, <item:enviroenergy:ionite_solar_cell>, <item:envirocore:ionite_crystal>],
@@ -156,7 +156,7 @@ mods.extendedcrafting.TableCrafting.addShaped("ionite_solar_ccu", 0, <item:envir
 	[<item:envirocore:xerothium_interconnect>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:xerothium_interconnect>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("aethium_solar_ccu", 0, <item:enviroenergy:aethium_solar_ccu>, [
+mods.extendedcrafting.TableCrafting.addShaped("aethium_solar_ccu", <item:enviroenergy:aethium_solar_ccu>, [
 	[<item:envirocore:aethium_interconnect>, <item:envirocore:aethium_crystal>, <item:envirocore:aethium_crystal>, <item:envirocore:aethium_crystal>, <item:envirocore:aethium_interconnect>],
 	[<item:envirocore:aethium_crystal>, <item:powah:solar_panel_spirited>, <item:enviroenergy:aethium_solar_cell>, <item:powah:solar_panel_spirited>, <item:envirocore:aethium_crystal>],
 	[<item:envirocore:aethium_crystal>, <item:enviroenergy:aethium_solar_cell>, <item:enviroenergy:ionite_solar_ccu>, <item:enviroenergy:aethium_solar_cell>, <item:envirocore:aethium_crystal>],
@@ -164,7 +164,7 @@ mods.extendedcrafting.TableCrafting.addShaped("aethium_solar_ccu", 0, <item:envi
 	[<item:envirocore:aethium_interconnect>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:aethium_interconnect>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("nanorite_solar_ccu", 0, <item:enviroenergy:nanorite_solar_ccu>, [
+mods.extendedcrafting.TableCrafting.addShaped("nanorite_solar_ccu", <item:enviroenergy:nanorite_solar_ccu>, [
 	[<item:envirocore:nanorite_interconnect>, <item:envirocore:nanorite_crystal>, <item:envirocore:nanorite_crystal>, <item:envirocore:nanorite_crystal>, <item:envirocore:nanorite_interconnect>],
 	[<item:envirocore:nanorite_crystal>, <item:powah:solar_panel_nitro>, <item:enviroenergy:nanorite_solar_cell>, <item:powah:solar_panel_nitro>, <item:envirocore:nanorite_crystal>],
 	[<item:envirocore:nanorite_crystal>, <item:enviroenergy:nanorite_solar_cell>, <item:enviroenergy:aethium_solar_ccu>, <item:enviroenergy:nanorite_solar_cell>, <item:envirocore:nanorite_crystal>],
@@ -172,7 +172,7 @@ mods.extendedcrafting.TableCrafting.addShaped("nanorite_solar_ccu", 0, <item:env
 	[<item:envirocore:nanorite_interconnect>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:nanorite_interconnect>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("xerothium_solar_ccu", 0, <item:enviroenergy:xerothium_solar_ccu>, [
+mods.extendedcrafting.TableCrafting.addShaped("xerothium_solar_ccu", <item:enviroenergy:xerothium_solar_ccu>, [
 	[<item:envirocore:ionite_interconnect>, <item:envirocore:xerothium_crystal>, <item:envirocore:xerothium_crystal>, <item:envirocore:xerothium_crystal>, <item:envirocore:ionite_interconnect>],
 	[<item:envirocore:xerothium_crystal>, <item:powah:solar_panel_nitro>, <item:enviroenergy:xerothium_solar_cell>, <item:powah:solar_panel_nitro>, <item:envirocore:xerothium_crystal>],
 	[<item:envirocore:xerothium_crystal>, <item:enviroenergy:xerothium_solar_cell>, <item:enviroenergy:nanorite_solar_ccu>, <item:enviroenergy:xerothium_solar_cell>, <item:envirocore:xerothium_crystal>],
@@ -180,7 +180,7 @@ mods.extendedcrafting.TableCrafting.addShaped("xerothium_solar_ccu", 0, <item:en
 	[<item:envirocore:ionite_interconnect>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:laser_diode>, <item:envirocore:ionite_interconnect>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("assembler", 0, <item:envirocore:assembler>, [
+mods.extendedcrafting.TableCrafting.addShaped("assembler", <item:envirocore:assembler>, [
 	[<item:extradisks:advanced_machine_casing>, <item:envirocore:obsidian_plate>, <item:envirocore:cpu>, <item:envirocore:cpu>, <item:envirocore:cpu>, <item:envirocore:obsidian_plate>, <item:extradisks:advanced_machine_casing>],
 	[<item:envirocore:obsidian_plate>, <item:extradisks:withering_processor>, <item:extrastorage:neural_processor>, <item:extendedcrafting:crystaltine_catalyst>, <item:extrastorage:neural_processor>, <item:extradisks:withering_processor>, <item:envirocore:obsidian_plate>],
 	[<item:extendedcrafting:black_iron_ingot>, <item:extrastorage:neural_processor>, <item:minecraft:piston>, <item:draconicevolution:awakened_crafting_injector>, <item:minecraft:piston>, <item:extrastorage:neural_processor>, <item:extendedcrafting:black_iron_ingot>],
@@ -190,7 +190,7 @@ mods.extendedcrafting.TableCrafting.addShaped("assembler", 0, <item:envirocore:a
 	[<item:extradisks:advanced_machine_casing>, <item:envirocore:obsidian_plate>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:envirocore:obsidian_plate>, <item:extradisks:advanced_machine_casing>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("lens_grinder", 0, <item:envirocore:lens_grinder>, [
+mods.extendedcrafting.TableCrafting.addShaped("lens_grinder", <item:envirocore:lens_grinder>, [
 	[<item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>],
 	[<item:extendedcrafting:crystaltine_ingot>, <item:envirocore:obsidian_plate>, <item:minecraft:piston>, <item:envirocore:obsidian_plate>, <item:extendedcrafting:crystaltine_ingot>],
 	[<item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:frame>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:black_iron_ingot>],
@@ -198,7 +198,7 @@ mods.extendedcrafting.TableCrafting.addShaped("lens_grinder", 0, <item:envirocor
 	[<item:extendedcrafting:black_iron_ingot>, <item:envirocore:cpu>, <item:envirocore:cpu>, <item:envirocore:cpu>, <item:extendedcrafting:black_iron_ingot>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped("memory_programmer", 0, <item:envirocore:memory_programmer>, [
+mods.extendedcrafting.TableCrafting.addShaped("memory_programmer", <item:envirocore:memory_programmer>, [
 	[<item:envirocore:obsidian_plate>, <item:envirocore:cpu>, <item:envirocore:cpu>, <item:envirocore:cpu>, <item:envirocore:obsidian_plate>],
 	[<item:extendedcrafting:black_iron_ingot>, <tag:items:envirocore:structure/panels>, <tag:items:envirocore:structure/panels>, <tag:items:envirocore:structure/panels>, <item:extendedcrafting:black_iron_ingot>],
 	[<item:extendedcrafting:black_iron_ingot>, <tag:items:envirocore:structure/panels>, <item:extendedcrafting:frame>, <tag:items:envirocore:structure/panels>, <item:extendedcrafting:black_iron_ingot>],
