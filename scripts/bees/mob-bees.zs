@@ -64,4 +64,4 @@
 });
 
 #lifeessens bees
-<recipetype:bloodmagic:altar>.addRecipe("blood-bee", <item:resourcefulbees:lifeessens_bee_spawn_egg>, <item:minecraft:bee_spawn_egg>, 5, 100000, 1000, 1000);
+<recipetype:bloodmagic:altar>.addRecipe("blood-bee", <item:resourcefulbees:lifeessens_bee_spawn_egg>, <item:resourcefulbees:wither_bee_spawn_egg>, 4, 100000, 1000, 1000);

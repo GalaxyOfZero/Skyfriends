@@ -100,11 +100,12 @@
 			title: "Welcome to Create"
 			x: 0.8839285714285765d
 			y: 4.476190476190467d
+			dependencies: ["56151D58294F4607"]
 			id: "5533D315EF08B177"
 			tasks: [{
-				id: "7CC9F0FAFFA92B01"
-				type: "item"
-				item: "create:andesite_alloy"
+				id: "7461BEDBDE93EBD3"
+				type: "checkmark"
+				title: "welcome"
 			}]
 			rewards: [
 				{

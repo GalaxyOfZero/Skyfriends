@@ -12,6 +12,7 @@
 			title: "the new magic"
 			x: 0.0d
 			y: 1.0d
+			dependencies: ["1A0501F277DCEE89"]
 			id: "4362D5520ED22394"
 			tasks: [{
 				id: "63BF1F34F014D4D3"
@@ -50,8 +51,8 @@
 			]
 		}
 		{
-			x: -0.8660714285714448d
-			y: -1.3214285714285765d
+			x: -1.1532738095238173d
+			y: -0.5654761904761827d
 			dependencies: ["2D0641F7FC5AE80C"]
 			id: "68360DD6A901121C"
 			tasks: [{
@@ -67,8 +68,8 @@
 		}
 		{
 			title: "Mana Production"
-			x: -1.6517857142857295d
-			y: -2.142857142857146d
+			x: -2.0580357142857224d
+			y: -0.8511904761904674d
 			description: [
 				"there are 2 methods to produce mana, via corps and via heat."
 				"Place the mana condenser over a mana jar near a crop field and it will produce mana."
@@ -286,6 +287,389 @@
 				type: "item"
 				item: "botania:rune_mana"
 				count: 5
+			}]
+		}
+		{
+			x: -2.004464285714292d
+			y: -7.5071428571428385d
+			dependencies: ["4F88B3034BA77232"]
+			id: "7AD1E8023175AD8C"
+			tasks: [{
+				id: "0747267EF948AA99"
+				type: "item"
+				item: "ars_nouveau:amulet_of_mana_regen"
+			}]
+			rewards: [{
+				id: "6B74013D16DE0C79"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.8973214285714377d
+			y: -7.257142857142831d
+			dependencies: ["4F88B3034BA77232"]
+			id: "78B49B790DAD1E99"
+			tasks: [{
+				id: "5B175827701E4A53"
+				type: "item"
+				item: "ars_nouveau:amulet_of_mana_boost"
+			}]
+			rewards: [{
+				id: "61919F0DD5BB5F0D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Mana Armor tier 3"
+			x: -5.5d
+			y: -2.5d
+			dependencies: ["4BFEFAEF245F11DD"]
+			id: "5EC41D40AECBAC4F"
+			tasks: [
+				{
+					id: "7417C4A0A168C545"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F18D83C33039FFE"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "535608EB64580B65"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1059C586D1637EB7"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6C6768325D57C3EF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.218750000000007d
+			y: -3.685714285714262d
+			dependencies: ["1396CD074F7ACE57"]
+			id: "2E1A0E1B92650EB5"
+			tasks: [{
+				id: "2DFF52E1329C6320"
+				type: "item"
+				item: "ars_nouveau:mana_bloom_crop"
+			}]
+			rewards: [{
+				id: "14C82EB316B12CFE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			dependencies: ["2E1A0E1B92650EB5"]
+			id: "781E8CCD18F94E02"
+			tasks: [{
+				id: "5ADA2F7CE7757761"
+				type: "item"
+				item: "ars_nouveau:mana_bloom"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			dependencies: ["781E8CCD18F94E02"]
+			id: "1897E73DEA317C30"
+			tasks: [{
+				id: "6FD4747375D18060"
+				type: "item"
+				item: "ars_nouveau:mana_fiber"
+			}]
+			rewards: [{
+				id: "6E6544899903B9B6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["1897E73DEA317C30"]
+			id: "3527E5879A6FFD92"
+			tasks: [{
+				id: "31094CCDB155814F"
+				type: "item"
+				item: "ars_nouveau:blaze_fiber"
+			}]
+			rewards: [{
+				id: "6AD1D42CE228C3D2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["3527E5879A6FFD92"]
+			id: "4BFEFAEF245F11DD"
+			tasks: [{
+				id: "249BC73FE5575338"
+				type: "item"
+				item: "ars_nouveau:end_fiber"
+			}]
+			rewards: [{
+				id: "6186AC097D539EB4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			dependencies: ["3527E5879A6FFD92"]
+			id: "69239767210222BF"
+			tasks: [
+				{
+					id: "5FEB3A5D15625DB3"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33EFCC7DB60368BF"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "558D1DB07864F72D"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B74200FBF94148E"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3D34D10DF5ECA7A3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			dependencies: ["1897E73DEA317C30"]
+			id: "290DCC1BD1120876"
+			tasks: [
+				{
+					id: "1E2C912381296552"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7522ABB2FD899A33"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "09B6AF990579EC74"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0579DFD99FE947AE"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "67134B97D0B7D041"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.111607142857153d
+			y: -4.971428571428547d
+			dependencies: ["1396CD074F7ACE57"]
+			id: "0A27AADFA9D4F72C"
+			tasks: [{
+				id: "75CBA63B21E5F00C"
+				type: "item"
+				item: "ars_nouveau:mana_berry"
+			}]
+			rewards: [{
+				id: "06CAE8DA8B793DBB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["63BF1F34F014D4D3"]
+			id: "75E47D3C74C0BC00"
+			tasks: [{
+				id: "57177E894A3138D9"
+				type: "item"
+				item: "ars_nouveau:ring_of_potential"
+			}]
+			rewards: [{
+				id: "28C257CBE06211A3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.6473214285714306d
+			y: -6.578571428571404d
+			dependencies: ["63BF1F34F014D4D3"]
+			id: "4F88B3034BA77232"
+			tasks: [{
+				id: "066E4E813FE65D77"
+				type: "item"
+				item: "ars_nouveau:dull_trinket"
+			}]
+			rewards: [{
+				id: "3B798114238C5D19"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			dependencies: ["75E47D3C74C0BC00"]
+			id: "0127B863E402B144"
+			tasks: [{
+				id: "1EC429F4AF4AA121"
+				type: "item"
+				item: "ars_nouveau:ring_of_lesser_discount"
+			}]
+			rewards: [{
+				id: "07359C8E4D7FF688"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.825892857142861d
+			y: -6.328571428571404d
+			dependencies: ["0127B863E402B144"]
+			id: "5663929AAC42A5E4"
+			tasks: [{
+				id: "12CBCF21EAE8FC00"
+				type: "item"
+				item: "ars_nouveau:ring_of_greater_discount"
+			}]
+			rewards: [{
+				id: "77CC5875C9E2A37A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "The Best Mana food"
+			x: -3.325892857142861d
+			y: -4.828571428571401d
+			dependencies: ["0A27AADFA9D4F72C"]
+			id: "095FEE1B4E2A63BC"
+			tasks: [
+				{
+					id: "3F123AA6D750251E"
+					type: "item"
+					item: "ars_nouveau:source_berry_pie"
+				}
+				{
+					id: "56E89AC65D15BEB9"
+					type: "item"
+					item: "ars_nouveau:source_berry_roll"
+				}
+			]
+			rewards: [{
+				id: "0B357C20B6EB1BEB"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

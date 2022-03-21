@@ -370,5 +370,41 @@
 				count: 10
 			}]
 		}
+		{
+			x: -1.5491071428571317d
+			y: -0.6372767857142811d
+			description: [
+				"Feed the cocoon of caprice with 20 Emerald and Wait, it will spawn a baby Villager "
+				"wait 20 min and then hit the villager with The Engraved Thunder from Cyclic to get your first Chat"
+			]
+			dependencies: [
+				"1B8E2618F78AEE27"
+				"5D6707FE67A8B48C"
+			]
+			id: "4CA3B4D3AC659E82"
+			tasks: [
+				{
+					id: "3699FA438B2F3A1C"
+					type: "item"
+					item: "botania:cocoon"
+				}
+				{
+					id: "25FEE4CF0C66C2F5"
+					type: "item"
+					item: {
+						id: "cyclic:lightning_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "38129E91F58DC21B"
+				type: "item"
+				item: "minecraft:villager_spawn_egg"
+			}]
+		}
 	]
 }

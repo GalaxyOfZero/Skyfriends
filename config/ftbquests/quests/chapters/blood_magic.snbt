@@ -260,12 +260,6 @@
 				type: "item"
 				item: "bloodmagic:blankrune"
 			}]
-			rewards: [{
-				id: "5E0DDD9CB9B3A58C"
-				type: "item"
-				item: "contenttweaker:coin"
-				count: 5
-			}]
 		}
 		{
 			x: 1.7714285714284799d
@@ -343,12 +337,6 @@
 				id: "0B7A1EC09DF8647C"
 				type: "item"
 				item: "bloodmagic:orbcapacityrune"
-			}]
-			rewards: [{
-				id: "427936349E5CB653"
-				type: "item"
-				item: "contenttweaker:coin"
-				count: 5
 			}]
 		}
 		{
@@ -744,6 +732,7 @@
 		{
 			x: 7.0d
 			y: -3.5d
+			dependencies: ["411A359D2CC968AE"]
 			id: "5714227EDFE52C7F"
 			tasks: [{
 				id: "5532E7358CDD9E6C"
@@ -759,6 +748,7 @@
 		{
 			x: 6.160714285714178d
 			y: -4.152380952380909d
+			dependencies: ["411A359D2CC968AE"]
 			id: "539BF1F5BC0453DC"
 			tasks: [{
 				id: "58DF9BC2CE869791"
@@ -774,6 +764,7 @@
 		{
 			x: 5.232142857142755d
 			y: -4.75952380952377d
+			dependencies: ["411A359D2CC968AE"]
 			id: "4506AADAEA0320C0"
 			tasks: [{
 				id: "36C92F4718412E81"
@@ -789,6 +780,7 @@
 		{
 			x: 4.5d
 			y: -5.5d
+			dependencies: ["411A359D2CC968AE"]
 			id: "689FE7AA9F03D3BA"
 			tasks: [{
 				id: "2B6D6050914872AC"
@@ -901,6 +893,7 @@
 		{
 			x: 7.874999999999893d
 			y: -2.9023809523809163d
+			dependencies: ["411A359D2CC968AE"]
 			id: "7A8EBA9E3AC55A80"
 			tasks: [{
 				id: "46FAA057908E8E32"
