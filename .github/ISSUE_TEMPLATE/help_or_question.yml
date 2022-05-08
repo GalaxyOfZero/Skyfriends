@@ -1,0 +1,35 @@
+name: Help request or question
+description: Request for help or to ask a question
+title: "[QUESTION]:"
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this help request!
+  - type: textarea
+    id: description
+    attributes:
+      label: With what do you need help?
+      description: A clear and concise description of what you need help with or the question you got
+    validations:
+      required: true
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Minecraft Version
+      description: The version of Minecraft that you are using.
+      placeholder: "1.18.2"
+    validations:
+      required: false
+  - type: input
+    id: mod-name
+    attributes:
+      label: Mod Name
+      description: The name of the mod that is related to your problem.
+    validations:
+      required: false
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Any additional information that you would like to share.
